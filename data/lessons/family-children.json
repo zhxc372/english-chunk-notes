@@ -1,0 +1,530 @@
+{
+  "lesson_id": "family-children",
+  "title": "Family, Children and Upbringing",
+  "title_cn": "家庭、儿童与成长",
+  "category": "General English",
+  "level": "B1-B2",
+  "theme_tags": [
+    "family",
+    "children",
+    "upbringing",
+    "society"
+  ],
+  "exam_tags": [
+    "IELTS",
+    "TOEFL",
+    "CET4",
+    "CET6",
+    "Postgraduate English"
+  ],
+  "article": {
+    "text": "The concept of family has evolved significantly in modern society. While the nuclear family remains common in many Western countries, the extended family continues to be the norm in various parts of Asia, Africa, and Latin America. Each family structure offers unique advantages for child development and upbringing. In nuclear families, parents often bear the full responsibility for domestic responsibilities and child-rearing, which can make work-life balance a significant challenge. The rise of single-parent families has added another layer of complexity, as many single parents must juggle earning a living with providing emotional support and guidance for their children. Parenting styles also vary widely. Some families emphasize strict discipline and academic achievement, while others prioritize creativity and independence. Research increasingly suggests that a nurturing environment, where children feel loved and supported, is more important than any specific parenting approach. Family values, including respect, honesty, and compassion, are typically instilled through daily interactions and the examples set by parents who serve as role models. The generational gap can create tension, especially when children adopt values that differ from those of their parents. However, spending quality time together can strengthen family bonds and bridge these differences. Access to early childhood education has become a priority for many families, as it provides children with a strong foundation for future learning. Ultimately, child welfare depends on the collective effort of families, communities, and governments working together to create the best possible conditions for the next generation.",
+    "text_cn": "家庭的概念在现代社会中发生了显著变化。虽然核心家庭在许多西方国家仍然普遍，但大家庭在亚洲、非洲和拉丁美洲的许多地区仍然是常态。每种家庭结构都为儿童发展和成长提供了独特的优势。在核心家庭中，父母通常承担家庭责任和抚养孩子的全部责任，这可能使工作与生活平衡成为一个重大挑战。单亲家庭的兴起增加了另一层复杂性，因为许多单亲父母必须兼顾谋生和为孩子提供情感支持与指导。育儿方式也各不相同。有些家庭强调严格的纪律和学业成绩，而另一些家庭则优先考虑创造力和独立性。越来越多的研究表明，一个充满爱和被支持感觉的培育环境比任何特定的育儿方式都更重要。家庭价值观，包括尊重、诚实和同情心，通常通过日常互动和作为榜样的父母来灌输。代沟可能造成紧张关系，尤其是当孩子采纳与父母不同的价值观时。然而，一起度过高质量的时光可以加强家庭纽带并弥合这些差异。获得幼儿教育已成为许多家庭的首要任务，因为它为孩子的未来学习奠定了坚实的基础。归根结底，儿童福利取决于家庭、社区和政府的共同努力，为下一代创造最佳条件。",
+    "audio": "/audio/family-children/article.mp3"
+  },
+  "model_paragraph": {
+    "text": "The evolving concept of family reflects broader social changes, and regardless of family structure, a nurturing environment with strong family bonds remains essential for healthy child development.",
+    "text_cn": "家庭概念的演变反映了更广泛的社会变化，无论家庭结构如何，一个有强大家庭纽带的培育环境对于儿童健康发展仍然是至关重要的。"
+  },
+  "chunks": [
+    {
+      "id": "family-children-001",
+      "chunk": "nuclear family",
+      "meaning_cn": "核心家庭",
+      "collocations": [
+        "nuclear family",
+        "traditional nuclear family",
+        "typical nuclear family"
+      ],
+      "sentence": "The nuclear family has become the most common household structure in urban areas.",
+      "sentence_cn": "核心家庭已成为城市地区最常见的家庭结构。",
+      "exam_sentence": "The shift from extended to nuclear family structures has weakened traditional support systems for child-rearing in many societies.",
+      "audio": "/audio/family-children/chunk-001.mp3",
+      "rewrite_prompt_cn": "核心家庭已成为城市地区最常见的家庭结构。",
+      "retelling_prompt": "What is a nuclear family?",
+      "tags": [
+        "family",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "family-children-002",
+      "chunk": "extended family",
+      "meaning_cn": "大家庭",
+      "collocations": [
+        "extended family",
+        "live with extended family",
+        "extended family support"
+      ],
+      "sentence": "In many cultures, the extended family plays a vital role in raising children.",
+      "sentence_cn": "在许多文化中，大家庭在抚养孩子方面发挥着至关重要的作用。",
+      "exam_sentence": "Children who grow up in extended family households often develop stronger social skills and a greater sense of belonging.",
+      "audio": "/audio/family-children/chunk-002.mp3",
+      "rewrite_prompt_cn": "在许多文化中，大家庭在抚养孩子方面发挥着至关重要的作用。",
+      "retelling_prompt": "What role does the extended family play?",
+      "tags": [
+        "family",
+        "culture"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "family-children-003",
+      "chunk": "child development",
+      "meaning_cn": "儿童发展",
+      "collocations": [
+        "child development",
+        "early child development",
+        "promote child development"
+      ],
+      "sentence": "Good nutrition and a loving environment are essential for healthy child development.",
+      "sentence_cn": "良好的营养和充满爱的环境对儿童健康发展至关重要。",
+      "exam_sentence": "Research has shown that early childhood experiences have a profound impact on long-term cognitive development and emotional well-being.",
+      "audio": "/audio/family-children/chunk-003.mp3",
+      "rewrite_prompt_cn": "良好的营养和充满爱的环境对儿童健康发展至关重要。",
+      "retelling_prompt": "What factors are important for child development?",
+      "tags": [
+        "family",
+        "education"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "family-children-004",
+      "chunk": "parenting styles",
+      "meaning_cn": "育儿方式",
+      "collocations": [
+        "parenting styles",
+        "different parenting styles",
+        "parenting styles influence"
+      ],
+      "sentence": "Parenting styles vary significantly across different cultures and generations.",
+      "sentence_cn": "育儿方式在不同的文化和世代之间差异很大。",
+      "exam_sentence": "Studies suggest that authoritative parenting styles, which balance warmth with clear boundaries, tend to produce the best outcomes for children.",
+      "audio": "/audio/family-children/chunk-004.mp3",
+      "rewrite_prompt_cn": "育儿方式在不同的文化和世代之间差异很大。",
+      "retelling_prompt": "How do parenting styles differ?",
+      "tags": [
+        "family",
+        "education"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "family-children-005",
+      "chunk": "work-life balance",
+      "meaning_cn": "工作与生活平衡",
+      "collocations": [
+        "achieve work-life balance",
+        "improve work-life balance",
+        "maintain work-life balance"
+      ],
+      "sentence": "Many parents struggle to achieve a healthy work-life balance.",
+      "sentence_cn": "许多父母努力实现健康的工作与生活平衡。",
+      "exam_sentence": "Employers who offer flexible working arrangements help parents achieve better work-life balance, which ultimately benefits both families and businesses.",
+      "audio": "/audio/family-children/chunk-005.mp3",
+      "rewrite_prompt_cn": "许多父母努力实现健康的工作与生活平衡。",
+      "retelling_prompt": "Why is work-life balance important for parents?",
+      "tags": [
+        "work",
+        "family"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "family-children-006",
+      "chunk": "single-parent families",
+      "meaning_cn": "单亲家庭",
+      "collocations": [
+        "single-parent families",
+        "children from single-parent families",
+        "rise in single-parent families"
+      ],
+      "sentence": "The number of single-parent families has increased significantly in recent decades.",
+      "sentence_cn": "近几十年来单亲家庭的数量显著增加。",
+      "exam_sentence": "Children from single-parent families may face financial challenges, but many thrive with strong community support and engaged parenting.",
+      "audio": "/audio/family-children/chunk-006.mp3",
+      "rewrite_prompt_cn": "近几十年来单亲家庭的数量显著增加。",
+      "retelling_prompt": "What challenges do single-parent families face?",
+      "tags": [
+        "family",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "family-children-007",
+      "chunk": "gender roles",
+      "meaning_cn": "性别角色",
+      "collocations": [
+        "traditional gender roles",
+        "challenge gender roles",
+        "gender roles in the family"
+      ],
+      "sentence": "Traditional gender roles are slowly changing in many modern societies.",
+      "sentence_cn": "传统性别角色在许多现代社会中正在缓慢变化。",
+      "exam_sentence": "Breaking down rigid gender roles in the family allows both parents to contribute equally to household responsibilities and career development.",
+      "audio": "/audio/family-children/chunk-007.mp3",
+      "rewrite_prompt_cn": "传统性别角色在许多现代社会中正在缓慢变化。",
+      "retelling_prompt": "How are gender roles changing in families?",
+      "tags": [
+        "family",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "family-children-008",
+      "chunk": "family values",
+      "meaning_cn": "家庭价值观",
+      "collocations": [
+        "family values",
+        "traditional family values",
+        "instill family values"
+      ],
+      "sentence": "Family values are passed from parents to children through daily interactions.",
+      "sentence_cn": "家庭价值观通过日常互动从父母传递给孩子。",
+      "exam_sentence": "While family values vary across cultures, shared principles such as respect, honesty, and compassion are universally important.",
+      "audio": "/audio/family-children/chunk-008.mp3",
+      "rewrite_prompt_cn": "家庭价值观通过日常互动从父母传递给孩子。",
+      "retelling_prompt": "How are family values transmitted to children?",
+      "tags": [
+        "family",
+        "values"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "family-children-009",
+      "chunk": "child welfare",
+      "meaning_cn": "儿童福利",
+      "collocations": [
+        "child welfare",
+        "child welfare system",
+        "protect child welfare"
+      ],
+      "sentence": "Governments have a responsibility to protect child welfare through legislation and social programs.",
+      "sentence_cn": "政府有责任通过立法和社会项目保护儿童福利。",
+      "exam_sentence": "Investing in child welfare programs yields long-term benefits for society by reducing crime rates and improving educational outcomes.",
+      "audio": "/audio/family-children/chunk-009.mp3",
+      "rewrite_prompt_cn": "政府有责任通过立法和社会项目保护儿童福利。",
+      "retelling_prompt": "Why is child welfare important for society?",
+      "tags": [
+        "family",
+        "social policy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "family-children-010",
+      "chunk": "domestic responsibilities",
+      "meaning_cn": "家庭责任",
+      "collocations": [
+        "share domestic responsibilities",
+        "domestic responsibilities",
+        "household domestic responsibilities"
+      ],
+      "sentence": "Sharing domestic responsibilities fairly is key to a harmonious family life.",
+      "sentence_cn": "公平分担家庭责任是和谐家庭生活的关键。",
+      "exam_sentence": "When both partners share domestic responsibilities equally, it reduces stress and promotes healthier relationships within the family.",
+      "audio": "/audio/family-children/chunk-010.mp3",
+      "rewrite_prompt_cn": "公平分担家庭责任是和谐家庭生活的关键。",
+      "retelling_prompt": "Why is sharing domestic responsibilities important?",
+      "tags": [
+        "family",
+        "daily life"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "family-children-011",
+      "chunk": "early childhood education",
+      "meaning_cn": "幼儿教育",
+      "collocations": [
+        "early childhood education",
+        "invest in early childhood education",
+        "access to early childhood education"
+      ],
+      "sentence": "Early childhood education gives children a strong foundation for future learning.",
+      "sentence_cn": "幼儿教育为孩子的未来学习打下坚实基础。",
+      "exam_sentence": "Access to quality early childhood education can help narrow the achievement gap between children from different socioeconomic backgrounds.",
+      "audio": "/audio/family-children/chunk-011.mp3",
+      "rewrite_prompt_cn": "幼儿教育为孩子的未来学习打下坚实基础。",
+      "retelling_prompt": "Why is early childhood education important?",
+      "tags": [
+        "education",
+        "family"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "family-children-012",
+      "chunk": "family bonds",
+      "meaning_cn": "家庭纽带",
+      "collocations": [
+        "strengthen family bonds",
+        "close family bonds",
+        "maintain family bonds"
+      ],
+      "sentence": "Spending quality time together helps strengthen family bonds.",
+      "sentence_cn": "一起度过高质量的时间有助于加强家庭纽带。",
+      "exam_sentence": "Strong family bonds provide emotional support that helps individuals cope with stress and adversity throughout their lives.",
+      "audio": "/audio/family-children/chunk-012.mp3",
+      "rewrite_prompt_cn": "一起度过高质量的时间有助于加强家庭纽带。",
+      "retelling_prompt": "How can families strengthen their bonds?",
+      "tags": [
+        "family",
+        "relationships"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "family-children-013",
+      "chunk": "upbringing",
+      "meaning_cn": "成长教养",
+      "collocations": [
+        "upbringing",
+        "good upbringing",
+        "responsible upbringing"
+      ],
+      "sentence": "A child's upbringing has a lasting impact on their character and behavior.",
+      "sentence_cn": "孩子的成长教养对其性格和行为有持久的影响。",
+      "exam_sentence": "Research indicates that a nurturing upbringing during the early years is more influential than genetic factors in shaping personality.",
+      "audio": "/audio/family-children/chunk-013.mp3",
+      "rewrite_prompt_cn": "孩子的成长教养对其性格和行为有持久的影响。",
+      "retelling_prompt": "How does upbringing affect a child's future?",
+      "tags": [
+        "family",
+        "education"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "family-children-014",
+      "chunk": "child-rearing",
+      "meaning_cn": "抚养孩子",
+      "collocations": [
+        "child-rearing practices",
+        "child-rearing responsibilities",
+        "approach to child-rearing"
+      ],
+      "sentence": "Child-rearing practices differ greatly from one culture to another.",
+      "sentence_cn": "抚养孩子的方式在不同文化之间差异很大。",
+      "exam_sentence": "Modern child-rearing approaches increasingly emphasize emotional intelligence and creativity over strict discipline and obedience.",
+      "audio": "/audio/family-children/chunk-014.mp3",
+      "rewrite_prompt_cn": "抚养孩子的方式在不同文化之间差异很大。",
+      "retelling_prompt": "How do child-rearing practices vary across cultures?",
+      "tags": [
+        "family",
+        "education"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "family-children-015",
+      "chunk": "quality time",
+      "meaning_cn": "高质量时光",
+      "collocations": [
+        "spend quality time",
+        "quality time with family",
+        "quality time together"
+      ],
+      "sentence": "Parents should try to spend quality time with their children every day.",
+      "sentence_cn": "父母应该尽量每天都和孩子度过高质量时光。",
+      "exam_sentence": "Spending quality time with family members has been linked to improved mental health and stronger interpersonal relationships.",
+      "audio": "/audio/family-children/chunk-015.mp3",
+      "rewrite_prompt_cn": "父母应该尽量每天都和孩子度过高质量时光。",
+      "retelling_prompt": "Why is quality time important for families?",
+      "tags": [
+        "family",
+        "daily life"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "family-children-016",
+      "chunk": "role model",
+      "meaning_cn": "榜样",
+      "collocations": [
+        "serve as a role model",
+        "positive role model",
+        "be a role model for"
+      ],
+      "sentence": "Parents naturally serve as the first role models for their children.",
+      "sentence_cn": "父母自然成为孩子的第一个榜样。",
+      "exam_sentence": "Children who grow up with positive role models are more likely to develop confidence and a strong sense of moral responsibility.",
+      "audio": "/audio/family-children/chunk-016.mp3",
+      "rewrite_prompt_cn": "父母自然成为孩子的第一个榜样。",
+      "retelling_prompt": "Why are parents important role models?",
+      "tags": [
+        "family",
+        "education"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "family-children-017",
+      "chunk": "emotional support",
+      "meaning_cn": "情感支持",
+      "collocations": [
+        "provide emotional support",
+        "emotional support from family",
+        "lack of emotional support"
+      ],
+      "sentence": "A loving family provides essential emotional support during difficult times.",
+      "sentence_cn": "充满爱的家庭在困难时期提供必要的情感支持。",
+      "exam_sentence": "Children who receive consistent emotional support from their families are better equipped to handle challenges in adulthood.",
+      "audio": "/audio/family-children/chunk-017.mp3",
+      "rewrite_prompt_cn": "充满爱的家庭在困难时期提供必要的情感支持。",
+      "retelling_prompt": "How does emotional support from family help children?",
+      "tags": [
+        "family",
+        "psychology"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "family-children-018",
+      "chunk": "generational gap",
+      "meaning_cn": "代沟",
+      "collocations": [
+        "generational gap",
+        "bridge the generational gap",
+        "widen the generational gap"
+      ],
+      "sentence": "The generational gap between parents and teenagers can sometimes lead to conflicts.",
+      "sentence_cn": "父母与青少年之间的代沟有时会导致冲突。",
+      "exam_sentence": "Open communication and mutual respect are effective ways to bridge the generational gap within families.",
+      "audio": "/audio/family-children/chunk-018.mp3",
+      "rewrite_prompt_cn": "父母与青少年之间的代沟有时会导致冲突。",
+      "retelling_prompt": "What causes the generational gap?",
+      "tags": [
+        "family",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "family-children-019",
+      "chunk": "household",
+      "meaning_cn": "家庭；户",
+      "collocations": [
+        "single-person household",
+        "multi-generational household",
+        "household income"
+      ],
+      "sentence": "The structure of the average household has changed dramatically over the past century.",
+      "sentence_cn": "过去一个世纪，普通家庭的结构发生了巨大变化。",
+      "exam_sentence": "Changes in household composition, including the rise of single-person and multi-generational households, reflect broader social and economic shifts.",
+      "audio": "/audio/family-children/chunk-019.mp3",
+      "rewrite_prompt_cn": "过去一个世纪，普通家庭的结构发生了巨大变化。",
+      "retelling_prompt": "How have household structures changed?",
+      "tags": [
+        "family",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "family-children-020",
+      "chunk": "nurturing environment",
+      "meaning_cn": "培育环境",
+      "collocations": [
+        "nurturing environment",
+        "provide a nurturing environment",
+        "create a nurturing environment"
+      ],
+      "sentence": "Children thrive when they grow up in a nurturing environment.",
+      "sentence_cn": "孩子在培育环境中成长时能够茁壮发展。",
+      "exam_sentence": "Creating a nurturing environment at home is one of the most effective ways to support a child's cognitive and emotional development.",
+      "audio": "/audio/family-children/chunk-020.mp3",
+      "rewrite_prompt_cn": "孩子在培育环境中成长时能够茁壮发展。",
+      "retelling_prompt": "What does a nurturing environment mean for children?",
+      "tags": [
+        "family",
+        "education"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    }
+  ]
+}

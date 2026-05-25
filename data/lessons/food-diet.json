@@ -1,0 +1,510 @@
+{
+  "lesson_id": "food-diet",
+  "title": "Food & Diet",
+  "title_cn": "食物与饮食",
+  "category": "General English",
+  "level": "B1-B2",
+  "theme_tags": [
+    "food",
+    "diet",
+    "health",
+    "agriculture"
+  ],
+  "exam_tags": [
+    "IELTS",
+    "TOEFL",
+    "CET6",
+    "Postgraduate English"
+  ],
+  "article": {
+    "text": "Food is one of the most fundamental aspects of human life, yet the global food system faces a range of serious challenges that demand urgent attention. Food security remains a critical concern, with nearly a billion people worldwide lacking reliable access to sufficient, nutritious food. At the same time, food waste has reached alarming levels, with roughly one-third of all food produced globally being discarded every year.\n\nDietary habits have shifted dramatically in recent decades, driven by the expansion of fast food culture and the aggressive marketing of processed foods. This nutritional transition has contributed to rising rates of obesity, diabetes, and other diet-related diseases in both developed and developing countries. Malnutrition, paradoxically, exists in two forms: undernutrition, which continues to afflict millions in poorer regions, and overnutrition, which is becoming increasingly prevalent in wealthier societies.\n\nThe debate over genetically modified food remains polarised. Proponents argue that GM crops can increase yields, reduce pesticide use, and improve nutritional content, while opponents raise concerns about environmental risks and long-term health effects. Organic food has gained popularity as consumers seek alternatives that are perceived as healthier and more environmentally sustainable, though the scientific evidence on its benefits remains mixed.\n\nThe food industry also faces scrutiny over the use of food additives, the safety of food supply chains, and the environmental impact of industrial agriculture. Sustainable agriculture practices, including crop rotation, reduced chemical inputs, and local food systems, are being promoted as ways to reduce the environmental footprint of food production while ensuring food safety and quality. Meanwhile, traditional cuisine and culinary heritage are increasingly recognised as valuable cultural assets that deserve preservation alongside efforts to modernise and improve food systems.",
+    "text_cn": "食物是人类生活最基本的方面之一，但全球粮食系统面临一系列需要紧急关注的严重挑战。粮食安全仍然是一个关键问题，全球近十亿人缺乏可靠获取充足、营养食物的途径。与此同时，食物浪费已达到令人担忧的水平，全球生产的食物中约有三分之一每年被丢弃。\n\n近几十年来，饮食习惯发生了巨大变化，这主要是由快餐文化的扩张和加工食品的激进营销所推动的。这种营养转型导致了发达和发展中国家肥胖、糖尿病和其他与饮食相关疾病的发病率上升。矛盾的是，营养不良以两种形式存在：营养不足继续困扰着较贫困地区的数百万人，而营养过剩在较富裕的社会中正变得越来越普遍。\n\n关于转基因食品的辩论仍然两极分化。支持者认为转基因作物可以提高产量、减少农药使用并改善营养成分，而反对者则对环境风险和长期健康影响提出担忧。有机食品越来越受欢迎，消费者寻求被认为更健康、更环保的替代品，尽管关于其益处的科学证据仍然褒贬不一。\n\n食品行业还因食品添加剂的使用、食品供应链的安全性以及工业化农业对环境的影响而受到审视。可持续农业实践，包括作物轮作、减少化学投入和地方食品系统，正被推广为减少食品生产环境足迹同时确保食品安全和质量的方法。与此同时，传统菜肴和烹饪遗产越来越被承认为值得保护的有价值的文化资产，与现代化和改善食品系统的努力并行。",
+    "audio": "/audio/food-diet/article.mp3"
+  },
+  "model_paragraph": {
+    "text": "The global food system faces the dual challenge of ensuring food security while reducing food waste and environmental impact. The rise of fast food culture and processed foods has contributed to a growing epidemic of diet-related diseases. Governments should promote balanced diets, support sustainable agriculture, and invest in food safety to protect public health and preserve traditional culinary heritage for future generations.",
+    "text_cn": "全球粮食系统面临着确保粮食安全同时减少食物浪费和环境影响的双重挑战。快餐文化和加工食品的兴起加剧了与饮食相关疾病的流行。政府应促进均衡饮食，支持可持续农业，并投资食品安全，以保护公众健康并为后代保存传统烹饪遗产。"
+  },
+  "chunks": [
+    {
+      "id": "food-diet-001",
+      "chunk": "food security",
+      "meaning_cn": "粮食安全",
+      "collocations": [
+        "ensure food security",
+        "a threat to food security",
+        "global food security"
+      ],
+      "sentence": "Climate change poses a serious threat to global food security in many developing regions.",
+      "sentence_cn": "气候变化对许多发展中地区的全球粮食安全构成严重威胁。",
+      "exam_sentence": "Achieving food security requires coordinated international efforts to improve agricultural productivity and reduce food waste.",
+      "audio": "/audio/food-diet/chunk-001.mp3",
+      "rewrite_prompt_cn": "气候变化对许多发展中地区的全球粮食安全构成严重威胁。",
+      "retelling_prompt": "How does climate change affect food security?",
+      "tags": [
+        "food",
+        "environment"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "food-diet-002",
+      "chunk": "balanced diet",
+      "meaning_cn": "均衡饮食",
+      "collocations": [
+        "maintain a balanced diet",
+        "the importance of a balanced diet",
+        "a healthy and balanced diet"
+      ],
+      "sentence": "A balanced diet rich in fruits, vegetables, and whole grains is essential for long-term health.",
+      "sentence_cn": "富含水果、蔬菜和全谷物的均衡饮食对长期健康至关重要。",
+      "exam_sentence": "Public health campaigns should emphasise the importance of a balanced diet in preventing chronic diseases such as diabetes and heart disease.",
+      "audio": "/audio/food-diet/chunk-002.mp3",
+      "rewrite_prompt_cn": "富含水果、蔬菜和全谷物的均衡饮食对长期健康至关重要。",
+      "retelling_prompt": "What does a balanced diet include?",
+      "tags": [
+        "food",
+        "health"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "food-diet-003",
+      "chunk": "organic food",
+      "meaning_cn": "有机食品",
+      "collocations": [
+        "the demand for organic food",
+        "organic food production",
+        "the benefits of organic food"
+      ],
+      "sentence": "The demand for organic food has grown significantly as consumers become more health-conscious.",
+      "sentence_cn": "随着消费者越来越注重健康，对有机食品的需求显著增长。",
+      "exam_sentence": "While organic food is often perceived as healthier, its higher price limits accessibility for lower-income households.",
+      "audio": "/audio/food-diet/chunk-003.mp3",
+      "rewrite_prompt_cn": "随着消费者越来越注重健康，对有机食品的需求显著增长。",
+      "retelling_prompt": "Why has demand for organic food grown?",
+      "tags": [
+        "food",
+        "health"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "food-diet-004",
+      "chunk": "food industry",
+      "meaning_cn": "食品工业",
+      "collocations": [
+        "the food industry has",
+        "regulate the food industry",
+        "the global food industry"
+      ],
+      "sentence": "The food industry has been criticised for prioritising profit over nutritional quality and safety.",
+      "sentence_cn": "食品工业因将利润置于营养品质和安全之上而受到批评。",
+      "exam_sentence": "Stricter regulation of the food industry is necessary to reduce the prevalence of unhealthy additives and misleading labelling practices.",
+      "audio": "/audio/food-diet/chunk-004.mp3",
+      "rewrite_prompt_cn": "食品工业因将利润置于营养品质和安全之上而受到批评。",
+      "retelling_prompt": "What criticisms has the food industry faced?",
+      "tags": [
+        "food",
+        "industry"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "food-diet-005",
+      "chunk": "fast food culture",
+      "meaning_cn": "快餐文化",
+      "collocations": [
+        "the rise of fast food culture",
+        "the impact of fast food culture",
+        "promote fast food culture"
+      ],
+      "sentence": "The rise of fast food culture has contributed significantly to global increases in obesity rates.",
+      "sentence_cn": "快餐文化的兴起显著加剧了全球肥胖率的上升。",
+      "exam_sentence": "The spread of fast food culture to developing countries has accelerated the transition away from traditional dietary habits.",
+      "audio": "/audio/food-diet/chunk-005.mp3",
+      "rewrite_prompt_cn": "快餐文化的兴起显著加剧了全球肥胖率的上升。",
+      "retelling_prompt": "How has fast food culture affected global health?",
+      "tags": [
+        "food",
+        "culture"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "food-diet-006",
+      "chunk": "malnutrition",
+      "meaning_cn": "营养不良",
+      "collocations": [
+        "suffer from malnutrition",
+        "the prevalence of malnutrition",
+        "combat malnutrition"
+      ],
+      "sentence": "Millions of children in developing countries still suffer from malnutrition despite global economic progress.",
+      "sentence_cn": "尽管全球经济取得进展，发展中国家仍有数百万儿童遭受营养不良。",
+      "exam_sentence": "Malnutrition, in both its undernutrition and overnutrition forms, represents one of the greatest public health challenges of the twenty-first century.",
+      "audio": "/audio/food-diet/chunk-006.mp3",
+      "rewrite_prompt_cn": "尽管全球经济取得进展，发展中国家仍有数百万儿童遭受营养不良。",
+      "retelling_prompt": "Who is most affected by malnutrition?",
+      "tags": [
+        "food",
+        "health"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "food-diet-007",
+      "chunk": "genetically modified food",
+      "meaning_cn": "转基因食品",
+      "collocations": [
+        "the debate over genetically modified food",
+        "genetically modified food crops",
+        "safety of genetically modified food"
+      ],
+      "sentence": "Genetically modified food remains a controversial topic among scientists, policymakers, and the general public.",
+      "sentence_cn": "转基因食品在科学家、决策者和公众中仍然是一个有争议的话题。",
+      "exam_sentence": "While genetically modified food has the potential to address food shortages, its long-term environmental and health impacts require further study.",
+      "audio": "/audio/food-diet/chunk-007.mp3",
+      "rewrite_prompt_cn": "转基因食品在科学家、决策者和公众中仍然是一个有争议的话题。",
+      "retelling_prompt": "Why is genetically modified food controversial?",
+      "tags": [
+        "food",
+        "science"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "food-diet-008",
+      "chunk": "food waste",
+      "meaning_cn": "食物浪费",
+      "collocations": [
+        "reduce food waste",
+        "the problem of food waste",
+        "food waste at household level"
+      ],
+      "sentence": "Roughly one-third of all food produced globally is wasted, representing a massive loss of resources.",
+      "sentence_cn": "全球生产的食物中约有三分之一被浪费，代表着巨大的资源损失。",
+      "exam_sentence": "Tackling food waste requires action at every level, from government policy and corporate practice to individual consumer behaviour.",
+      "audio": "/audio/food-diet/chunk-008.mp3",
+      "rewrite_prompt_cn": "全球生产的食物中约有三分之一被浪费，代表着巨大的资源损失。",
+      "retelling_prompt": "How much food is wasted globally?",
+      "tags": [
+        "food",
+        "environment"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "food-diet-009",
+      "chunk": "dietary habits",
+      "meaning_cn": "饮食习惯",
+      "collocations": [
+        "change dietary habits",
+        "healthy dietary habits",
+        "the shift in dietary habits"
+      ],
+      "sentence": "Dietary habits have shifted towards more processed foods and less fresh produce in many countries.",
+      "sentence_cn": "在许多国家，饮食习惯已转向更多加工食品和更少新鲜农产品。",
+      "exam_sentence": "Improving dietary habits through education and public awareness campaigns is a cost-effective strategy for reducing the burden of chronic diseases.",
+      "audio": "/audio/food-diet/chunk-009.mp3",
+      "rewrite_prompt_cn": "在许多国家，饮食习惯已转向更多加工食品和更少新鲜农产品。",
+      "retelling_prompt": "How have dietary habits changed in recent decades?",
+      "tags": [
+        "food",
+        "health"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "food-diet-010",
+      "chunk": "sustainable agriculture",
+      "meaning_cn": "可持续农业",
+      "collocations": [
+        "promote sustainable agriculture",
+        "practices of sustainable agriculture",
+        "transition to sustainable agriculture"
+      ],
+      "sentence": "Sustainable agriculture aims to produce food without depleting natural resources for future generations.",
+      "sentence_cn": "可持续农业旨在在不耗尽子孙后代自然资源的情况下生产食物。",
+      "exam_sentence": "The transition to sustainable agriculture is essential for ensuring long-term food security while minimising environmental damage.",
+      "audio": "/audio/food-diet/chunk-010.mp3",
+      "rewrite_prompt_cn": "可持续农业旨在在不耗尽子孙后代自然资源的情况下生产食物。",
+      "retelling_prompt": "What is the goal of sustainable agriculture?",
+      "tags": [
+        "food",
+        "environment"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "food-diet-011",
+      "chunk": "food additives",
+      "meaning_cn": "食品添加剂",
+      "collocations": [
+        "artificial food additives",
+        "the safety of food additives",
+        "restrict food additives"
+      ],
+      "sentence": "Some consumers are concerned about the potential health effects of artificial food additives.",
+      "sentence_cn": "一些消费者对人工食品添加剂的潜在健康影响表示担忧。",
+      "exam_sentence": "Governments should establish stricter guidelines on the use of food additives to protect consumer health and ensure transparency in food labelling.",
+      "audio": "/audio/food-diet/chunk-011.mp3",
+      "rewrite_prompt_cn": "一些消费者对人工食品添加剂的潜在健康影响表示担忧。",
+      "retelling_prompt": "What concerns do consumers have about food additives?",
+      "tags": [
+        "food",
+        "health"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "food-diet-012",
+      "chunk": "traditional cuisine",
+      "meaning_cn": "传统美食",
+      "collocations": [
+        "preserve traditional cuisine",
+        "the richness of traditional cuisine",
+        "traditional cuisine and culture"
+      ],
+      "sentence": "Traditional cuisine reflects the history, geography, and cultural identity of a region.",
+      "sentence_cn": "传统美食反映了一个地区的历史、地理和文化身份。",
+      "exam_sentence": "Efforts to preserve traditional cuisine should be integrated into broader cultural heritage protection and tourism development strategies.",
+      "audio": "/audio/food-diet/chunk-012.mp3",
+      "rewrite_prompt_cn": "传统美食反映了一个地区的历史、地理和文化身份。",
+      "retelling_prompt": "What does traditional cuisine reflect about a region?",
+      "tags": [
+        "food",
+        "culture"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "food-diet-013",
+      "chunk": "food safety",
+      "meaning_cn": "食品安全",
+      "collocations": [
+        "ensure food safety",
+        "food safety regulations",
+        "compromise food safety"
+      ],
+      "sentence": "Food safety regulations are essential for protecting consumers from contaminated or harmful products.",
+      "sentence_cn": "食品安全法规对于保护消费者免受受污染或有害产品的伤害至关重要。",
+      "exam_sentence": "Improving food safety standards across international supply chains requires greater cooperation between governments and food producers.",
+      "audio": "/audio/food-diet/chunk-013.mp3",
+      "rewrite_prompt_cn": "食品安全法规对于保护消费者免受受污染或有害产品的伤害至关重要。",
+      "retelling_prompt": "Why are food safety regulations important?",
+      "tags": [
+        "food",
+        "policy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "food-diet-014",
+      "chunk": "processed foods",
+      "meaning_cn": "加工食品",
+      "collocations": [
+        "the consumption of processed foods",
+        "heavily processed foods",
+        "reduce processed foods"
+      ],
+      "sentence": "A diet high in processed foods is linked to an increased risk of obesity and heart disease.",
+      "sentence_cn": "高加工食品的饮食与肥胖和心脏病风险增加有关。",
+      "exam_sentence": "Public health experts recommend reducing the consumption of processed foods in favour of fresh, whole foods to improve population health outcomes.",
+      "audio": "/audio/food-diet/chunk-014.mp3",
+      "rewrite_prompt_cn": "高加工食品的饮食与肥胖和心脏病风险增加有关。",
+      "retelling_prompt": "What health risks are associated with processed foods?",
+      "tags": [
+        "food",
+        "health"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "food-diet-015",
+      "chunk": "obesity rates",
+      "meaning_cn": "肥胖率",
+      "collocations": [
+        "rising obesity rates",
+        "reduce obesity rates",
+        "obesity rates among children"
+      ],
+      "sentence": "Rising obesity rates have become a major public health concern in both developed and developing nations.",
+      "sentence_cn": "不断上升的肥胖率已成为发达和发展中国家的一项重大公共卫生问题。",
+      "exam_sentence": "The rapid increase in obesity rates, particularly among young people, demands urgent public health interventions at both national and community levels.",
+      "audio": "/audio/food-diet/chunk-015.mp3",
+      "rewrite_prompt_cn": "不断上升的肥胖率已成为发达和发展中国家的一项重大公共卫生问题。",
+      "retelling_prompt": "Why are rising obesity rates a concern?",
+      "tags": [
+        "food",
+        "health"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "food-diet-016",
+      "chunk": "nutritious food",
+      "meaning_cn": "营养食物",
+      "collocations": [
+        "access to nutritious food",
+        "affordable nutritious food",
+        "provide nutritious food"
+      ],
+      "sentence": "Ensuring access to affordable nutritious food is a fundamental responsibility of any government.",
+      "sentence_cn": "确保获得可负担的营养食物是任何政府的基本责任。",
+      "exam_sentence": "Food deserts, areas with limited access to nutritious food, contribute to health disparities and must be addressed through targeted policy measures.",
+      "audio": "/audio/food-diet/chunk-016.mp3",
+      "rewrite_prompt_cn": "确保获得可负担的营养食物是任何政府的基本责任。",
+      "retelling_prompt": "Why is access to nutritious food important?",
+      "tags": [
+        "food",
+        "health"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "food-diet-017",
+      "chunk": "culinary heritage",
+      "meaning_cn": "烹饪遗产",
+      "collocations": [
+        "preserve culinary heritage",
+        "rich culinary heritage",
+        "culinary heritage as cultural identity"
+      ],
+      "sentence": "Preserving culinary heritage is an important part of maintaining cultural diversity in a globalised world.",
+      "sentence_cn": "在全球化世界中，保护烹饪遗产是维护文化多样性的重要组成部分。",
+      "exam_sentence": "The recognition of culinary heritage as an intangible cultural asset highlights the deep connection between food, identity, and community.",
+      "audio": "/audio/food-diet/chunk-017.mp3",
+      "rewrite_prompt_cn": "在全球化世界中，保护烹饪遗产是维护文化多样性的重要组成部分。",
+      "retelling_prompt": "How does culinary heritage relate to cultural diversity?",
+      "tags": [
+        "food",
+        "culture"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "food-diet-018",
+      "chunk": "food supply chain",
+      "meaning_cn": "食品供应链",
+      "collocations": [
+        "disrupt the food supply chain",
+        "improve the food supply chain",
+        "a resilient food supply chain"
+      ],
+      "sentence": "The COVID-19 pandemic exposed significant vulnerabilities in global food supply chains.",
+      "sentence_cn": "新冠疫情暴露了全球食品供应链的显著脆弱性。",
+      "exam_sentence": "Building a more resilient food supply chain requires diversifying sources, reducing reliance on long-distance transport, and investing in local production.",
+      "audio": "/audio/food-diet/chunk-018.mp3",
+      "rewrite_prompt_cn": "新冠疫情暴露了全球食品供应链的显著脆弱性。",
+      "retelling_prompt": "What did the pandemic reveal about food supply chains?",
+      "tags": [
+        "food",
+        "economy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "food-diet-019",
+      "chunk": "diet-related diseases",
+      "meaning_cn": "与饮食相关的疾病",
+      "collocations": [
+        "the rise of diet-related diseases",
+        "prevent diet-related diseases",
+        "diet-related diseases such as diabetes"
+      ],
+      "sentence": "The rise of diet-related diseases has placed enormous strain on healthcare systems worldwide.",
+      "sentence_cn": "与饮食相关疾病的增加给全球医疗系统带来了巨大压力。",
+      "exam_sentence": "Investing in nutrition education and preventive healthcare is more cost-effective than treating diet-related diseases after they develop.",
+      "audio": "/audio/food-diet/chunk-019.mp3",
+      "rewrite_prompt_cn": "与饮食相关疾病的增加给全球医疗系统带来了巨大压力。",
+      "retelling_prompt": "How do diet-related diseases affect healthcare systems?",
+      "tags": [
+        "food",
+        "health"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "food-diet-020",
+      "chunk": "agricultural practices",
+      "meaning_cn": "农业实践",
+      "collocations": [
+        "sustainable agricultural practices",
+        "improve agricultural practices",
+        "modern agricultural practices"
+      ],
+      "sentence": "Adopting sustainable agricultural practices can help reduce the environmental impact of food production.",
+      "sentence_cn": "采用可持续农业实践有助于减少食品生产对环境的影响。",
+      "exam_sentence": "Encouraging farmers to adopt sustainable agricultural practices through subsidies and training programmes is essential for long-term environmental stewardship.",
+      "audio": "/audio/food-diet/chunk-020.mp3",
+      "rewrite_prompt_cn": "采用可持续农业实践有助于减少食品生产对环境的影响。",
+      "retelling_prompt": "How can agricultural practices be made more sustainable?",
+      "tags": [
+        "food",
+        "environment"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    }
+  ]
+}

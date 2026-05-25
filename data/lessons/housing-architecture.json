@@ -1,0 +1,513 @@
+{
+  "lesson_id": "housing-architecture",
+  "title": "Housing & Architecture",
+  "title_cn": "住房与建筑",
+  "category": "General English",
+  "level": "B1-B2",
+  "theme_tags": [
+    "housing",
+    "architecture",
+    "real estate",
+    "urban development"
+  ],
+  "exam_tags": [
+    "IELTS",
+    "TOEFL",
+    "CET6",
+    "Postgraduate English"
+  ],
+  "article": {
+    "text": "Housing affordability has become one of the most critical issues facing modern cities. As property prices continue to soar, many young people and low-income families find it increasingly difficult to enter the real estate market. The housing shortage in major metropolitan areas has led to a sharp rise in rental costs, putting additional financial strain on households. In response, some governments have introduced policies to promote affordable housing, including subsidies for first-time buyers and incentives for developers to build more residential units. Urban renewal projects aim to revitalize deteriorating neighborhoods by replacing old structures with modern residential buildings and community facilities. Meanwhile, the concept of green building has gained momentum, with architects incorporating sustainable materials, energy-efficient systems, and natural ventilation into their designs. Suburban development offers an alternative for those seeking more space at a lower cost, though it often comes at the expense of longer commutes. Homelessness remains a pressing social issue that reflects the broader failures of the housing system. Addressing these challenges requires coordinated efforts from governments, developers, and communities to ensure that everyone has access to safe, affordable, and adequate housing. Access to safe and affordable housing is widely recognized as a fundamental human right, yet millions around the world still lack adequate shelter. Effective policy coordination between national and local governments is essential to make meaningful progress on this issue.",
+    "text_cn": "住房负担能力已成为现代城市面临的最关键问题之一。随着房价持续飙升，许多年轻人和低收入家庭发现越来越难以进入房地产市场。大都市地区的住房短缺导致租金大幅上涨，给家庭带来了额外的经济压力。作为回应，一些政府出台了促进经济适用房的政策，包括为首次购房者提供补贴和激励开发商建造更多住宅单元。城市更新项目旨在通过用现代住宅建筑和社区设施取代老旧建筑来振兴衰退的社区。与此同时，绿色建筑的概念日益受到重视，建筑师在其设计中采用了可持续材料、节能系统和自然通风。郊区发展为那些寻求更多空间且成本更低的人提供了替代方案，尽管这通常以更长的通勤时间为代价。无家可归仍然是一个紧迫的社会问题，反映了住房系统更广泛的失败。应对这些挑战需要政府、开发商和社区的协调努力，确保每个人都能获得安全、负担得起且充足的住房。 获得安全且负担得起的住房被广泛认为是基本人权，但全球仍有数百万人缺乏充足的住所。国家和地方政府之间的有效政策协调是在这方面取得实质性进展的关键。",
+    "audio": "/audio/housing-architecture/article.mp3"
+  },
+  "model_paragraph": {
+    "text": "Tackling the housing crisis requires a multifaceted approach that combines government intervention, innovative architectural design, and sustainable development practices. Only through coordinated action can we ensure that affordable, quality housing is accessible to all segments of society.",
+    "text_cn": "解决住房危机需要采取多管齐下的方法，结合政府干预、创新建筑设计以及可持续发展实践。只有通过协调行动，我们才能确保所有社会阶层都能获得负担得起的高质量住房。"
+  },
+  "chunks": [
+    {
+      "id": "housing-architecture-001",
+      "chunk": "housing affordability",
+      "meaning_cn": "住房负担能力",
+      "collocations": [
+        "housing affordability crisis",
+        "improve housing affordability",
+        "declining housing affordability"
+      ],
+      "sentence": "The housing affordability crisis is forcing many young professionals to delay buying their first home.",
+      "sentence_cn": "住房负担能力危机迫使许多年轻专业人士推迟购买首套住房。",
+      "exam_sentence": "The declining housing affordability in major cities has become a serious concern for policymakers worldwide.",
+      "audio": "/audio/housing-architecture/chunk-001.mp3",
+      "rewrite_prompt_cn": "住房负担能力危机迫使许多年轻专业人士推迟购买首套住房。",
+      "retelling_prompt": "What is the housing affordability crisis?",
+      "tags": [
+        "housing",
+        "social issues"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "housing-architecture-002",
+      "chunk": "real estate market",
+      "meaning_cn": "房地产市场",
+      "collocations": [
+        "enter the real estate market",
+        "overheated real estate market",
+        "real estate market trends"
+      ],
+      "sentence": "Entering the real estate market has become increasingly difficult for first-time buyers.",
+      "sentence_cn": "进入房地产市场对首次购房者来说变得越来越困难。",
+      "exam_sentence": "The overheated real estate market in many metropolitan areas has raised concerns about a potential housing bubble.",
+      "audio": "/audio/housing-architecture/chunk-002.mp3",
+      "rewrite_prompt_cn": "进入房地产市场对首次购房者来说变得越来越困难。",
+      "retelling_prompt": "Why is it hard to enter the real estate market?",
+      "tags": [
+        "housing",
+        "economics"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "housing-architecture-003",
+      "chunk": "residential area",
+      "meaning_cn": "居住区",
+      "collocations": [
+        "quiet residential area",
+        "new residential areas",
+        "residential area development"
+      ],
+      "sentence": "The new residential area offers a range of amenities including parks, schools, and shopping centers.",
+      "sentence_cn": "新的居住区提供各种便利设施，包括公园、学校和购物中心。",
+      "exam_sentence": "Careful planning of residential areas is essential to ensure a high quality of life for urban residents.",
+      "audio": "/audio/housing-architecture/chunk-003.mp3",
+      "rewrite_prompt_cn": "新的居住区提供各种便利设施，包括公园、学校和购物中心。",
+      "retelling_prompt": "What facilities should a good residential area have?",
+      "tags": [
+        "housing",
+        "urban planning"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "housing-architecture-004",
+      "chunk": "urban renewal",
+      "meaning_cn": "城市更新",
+      "collocations": [
+        "urban renewal projects",
+        "urban renewal program",
+        "large-scale urban renewal"
+      ],
+      "sentence": "Urban renewal projects have transformed many abandoned industrial districts into vibrant neighborhoods.",
+      "sentence_cn": "城市更新项目已将许多废弃工业区转变为充满活力的社区。",
+      "exam_sentence": "While urban renewal can breathe new life into declining neighborhoods, it must be carried out with sensitivity to existing communities.",
+      "audio": "/audio/housing-architecture/chunk-004.mp3",
+      "rewrite_prompt_cn": "城市更新项目已将许多废弃工业区转变为充满活力的社区。",
+      "retelling_prompt": "What is urban renewal and what does it achieve?",
+      "tags": [
+        "urban development",
+        "architecture"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "housing-architecture-005",
+      "chunk": "affordable housing",
+      "meaning_cn": "经济适用房",
+      "collocations": [
+        "provide affordable housing",
+        "affordable housing schemes",
+        "shortage of affordable housing"
+      ],
+      "sentence": "The government has launched new schemes to provide affordable housing for low-income families.",
+      "sentence_cn": "政府推出了新计划，为低收入家庭提供经济适用房。",
+      "exam_sentence": "A comprehensive strategy to address the shortage of affordable housing is urgently needed in most developed nations.",
+      "audio": "/audio/housing-architecture/chunk-005.mp3",
+      "rewrite_prompt_cn": "政府推出了新计划，为低收入家庭提供经济适用房。",
+      "retelling_prompt": "How can governments provide affordable housing?",
+      "tags": [
+        "housing",
+        "social policy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "housing-architecture-006",
+      "chunk": "property prices",
+      "meaning_cn": "房价",
+      "collocations": [
+        "soaring property prices",
+        "property prices continue to rise",
+        "stabilize property prices"
+      ],
+      "sentence": "Soaring property prices in capital cities have pushed home ownership beyond the reach of many ordinary workers.",
+      "sentence_cn": "首都城市飙升的房价已使普通工人无法负担购房。",
+      "exam_sentence": "The rapid increase in property prices has widened the wealth gap between homeowners and renters.",
+      "audio": "/audio/housing-architecture/chunk-006.mp3",
+      "rewrite_prompt_cn": "首都城市飙升的房价已使普通工人无法负担购房。",
+      "retelling_prompt": "How do rising property prices affect society?",
+      "tags": [
+        "housing",
+        "economics"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "housing-architecture-007",
+      "chunk": "homelessness",
+      "meaning_cn": "无家可归",
+      "collocations": [
+        "tackle homelessness",
+        "rising homelessness",
+        "the issue of homelessness"
+      ],
+      "sentence": "Rising homelessness is a visible sign of growing inequality in many wealthy nations.",
+      "sentence_cn": "无家可归人数的增加是许多富裕国家不平等现象加剧的明显标志。",
+      "exam_sentence": "Tackling homelessness requires not just providing shelter, but also addressing the underlying causes such as poverty and mental health issues.",
+      "audio": "/audio/housing-architecture/chunk-007.mp3",
+      "rewrite_prompt_cn": "无家可归人数的增加是许多富裕国家不平等现象加剧的明显标志。",
+      "retelling_prompt": "What are the root causes of homelessness?",
+      "tags": [
+        "social issues",
+        "housing"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "housing-architecture-008",
+      "chunk": "rental market",
+      "meaning_cn": "租赁市场",
+      "collocations": [
+        "competitive rental market",
+        "rental market prices",
+        "tighten the rental market"
+      ],
+      "sentence": "The competitive rental market in major cities has led to significant rent increases over the past five years.",
+      "sentence_cn": "大城市竞争激烈的租赁市场在过去五年中导致了显著的租金上涨。",
+      "exam_sentence": "Reforming the rental market is essential to protect tenants from unreasonable rent hikes and eviction.",
+      "audio": "/audio/housing-architecture/chunk-008.mp3",
+      "rewrite_prompt_cn": "大城市竞争激烈的租赁市场在过去五年中导致了显著的租金上涨。",
+      "retelling_prompt": "What problems exist in the rental market?",
+      "tags": [
+        "housing",
+        "economics"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "housing-architecture-009",
+      "chunk": "architectural design",
+      "meaning_cn": "建筑设计",
+      "collocations": [
+        "innovative architectural design",
+        "modern architectural design",
+        "principles of architectural design"
+      ],
+      "sentence": "Innovative architectural design can enhance both the functionality and aesthetics of a building.",
+      "sentence_cn": "创新的建筑设计可以提升建筑的功能性和美观性。",
+      "exam_sentence": "Good architectural design should balance aesthetic appeal with practical considerations such as energy efficiency and accessibility.",
+      "audio": "/audio/housing-architecture/chunk-009.mp3",
+      "rewrite_prompt_cn": "创新的建筑设计可以提升建筑的功能性和美观性。",
+      "retelling_prompt": "Why is good architectural design important?",
+      "tags": [
+        "architecture",
+        "design"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "housing-architecture-010",
+      "chunk": "green building",
+      "meaning_cn": "绿色建筑",
+      "collocations": [
+        "green building standards",
+        "green building certification",
+        "promote green building"
+      ],
+      "sentence": "Green building practices help reduce the environmental impact of construction and lower long-term operating costs.",
+      "sentence_cn": "绿色建筑实践有助于减少建设对环境的影响并降低长期运营成本。",
+      "exam_sentence": "Adopting green building standards should be a mandatory requirement for all new construction projects.",
+      "audio": "/audio/housing-architecture/chunk-010.mp3",
+      "rewrite_prompt_cn": "绿色建筑实践有助于减少建设对环境的影响并降低长期运营成本。",
+      "retelling_prompt": "What are the benefits of green buildings?",
+      "tags": [
+        "architecture",
+        "sustainability"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "housing-architecture-011",
+      "chunk": "housing shortage",
+      "meaning_cn": "住房短缺",
+      "collocations": [
+        "severe housing shortage",
+        "address the housing shortage",
+        "housing shortage crisis"
+      ],
+      "sentence": "The severe housing shortage in the capital has forced many people to live in overcrowded conditions.",
+      "sentence_cn": "首都严重的住房短缺迫使许多人在拥挤的环境中生活。",
+      "exam_sentence": "The housing shortage in many fast-growing cities demands urgent policy intervention to increase the supply of residential units.",
+      "audio": "/audio/housing-architecture/chunk-011.mp3",
+      "rewrite_prompt_cn": "首都严重的住房短缺迫使许多人在拥挤的环境中生活。",
+      "retelling_prompt": "What causes housing shortages in cities?",
+      "tags": [
+        "housing",
+        "social issues"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "housing-architecture-012",
+      "chunk": "suburban development",
+      "meaning_cn": "郊区发展",
+      "collocations": [
+        "suburban development projects",
+        "encourage suburban development",
+        "rapid suburban development"
+      ],
+      "sentence": "Rapid suburban development has changed the landscape of many rural communities on the outskirts of major cities.",
+      "sentence_cn": "快速郊区发展改变了许多大城市边缘农村社区的面貌。",
+      "exam_sentence": "While suburban development provides more affordable housing options, it often increases dependency on private vehicles.",
+      "audio": "/audio/housing-architecture/chunk-012.mp3",
+      "rewrite_prompt_cn": "快速郊区发展改变了许多大城市边缘农村社区的面貌。",
+      "retelling_prompt": "What are the pros and cons of suburban development?",
+      "tags": [
+        "housing",
+        "urban development"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "housing-architecture-013",
+      "chunk": "first-time buyers",
+      "meaning_cn": "首次购房者",
+      "collocations": [
+        "help first-time buyers",
+        "subsidies for first-time buyers",
+        "first-time buyers struggle"
+      ],
+      "sentence": "Many governments offer tax incentives and subsidies to help first-time buyers get on the property ladder.",
+      "sentence_cn": "许多政府提供税收优惠和补贴来帮助首次购房者登上购房阶梯。",
+      "exam_sentence": "Without targeted support for first-time buyers, an entire generation risks being locked out of home ownership.",
+      "audio": "/audio/housing-architecture/chunk-013.mp3",
+      "rewrite_prompt_cn": "许多政府提供税收优惠和补贴来帮助首次购房者登上购房阶梯。",
+      "retelling_prompt": "What support is available for first-time buyers?",
+      "tags": [
+        "housing",
+        "policy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "housing-architecture-014",
+      "chunk": "revitalize neighborhoods",
+      "meaning_cn": "振兴社区",
+      "collocations": [
+        "revitalize declining neighborhoods",
+        "efforts to revitalize neighborhoods",
+        "revitalize neighborhoods through investment"
+      ],
+      "sentence": "The city has invested millions to revitalize neighborhoods that have suffered from years of economic decline.",
+      "sentence_cn": "该市已投资数百万元来振兴那些多年经济衰退的社区。",
+      "exam_sentence": "Urban renewal programs aimed at revitalizing neighborhoods should prioritize the needs of existing residents.",
+      "audio": "/audio/housing-architecture/chunk-014.mp3",
+      "rewrite_prompt_cn": "该市已投资数百万元来振兴那些多年经济衰退的社区。",
+      "retelling_prompt": "How can declining neighborhoods be revitalized?",
+      "tags": [
+        "urban development",
+        "community"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "housing-architecture-015",
+      "chunk": "energy-efficient systems",
+      "meaning_cn": "节能系统",
+      "collocations": [
+        "install energy-efficient systems",
+        "energy-efficient heating systems",
+        "upgrade to energy-efficient systems"
+      ],
+      "sentence": "New apartment buildings are required to install energy-efficient systems such as solar panels and smart thermostats.",
+      "sentence_cn": "新建公寓楼被要求安装太阳能电池板和智能恒温器等节能系统。",
+      "exam_sentence": "Building regulations should mandate the installation of energy-efficient systems to reduce the carbon footprint of the housing sector.",
+      "audio": "/audio/housing-architecture/chunk-015.mp3",
+      "rewrite_prompt_cn": "新建公寓楼被要求安装太阳能电池板和智能恒温器等节能系统。",
+      "retelling_prompt": "What energy-efficient systems are used in modern buildings?",
+      "tags": [
+        "architecture",
+        "sustainability"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "housing-architecture-016",
+      "chunk": "sustainable materials",
+      "meaning_cn": "可持续材料",
+      "collocations": [
+        "use sustainable materials",
+        "construction with sustainable materials",
+        "source sustainable materials"
+      ],
+      "sentence": "More architects are choosing to use sustainable materials such as bamboo and recycled steel in their projects.",
+      "sentence_cn": "越来越多的建筑师选择在项目中使用竹子和回收钢材等可持续材料。",
+      "exam_sentence": "The construction industry must shift toward using sustainable materials to minimize environmental degradation.",
+      "audio": "/audio/housing-architecture/chunk-016.mp3",
+      "rewrite_prompt_cn": "越来越多的建筑师选择在项目中使用竹子和回收钢材等可持续材料。",
+      "retelling_prompt": "What sustainable materials are used in construction?",
+      "tags": [
+        "architecture",
+        "sustainability"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "housing-architecture-017",
+      "chunk": "natural ventilation",
+      "meaning_cn": "自然通风",
+      "collocations": [
+        "design for natural ventilation",
+        "improve natural ventilation",
+        "benefit from natural ventilation"
+      ],
+      "sentence": "Buildings designed with natural ventilation can reduce their reliance on air conditioning systems.",
+      "sentence_cn": "采用自然通风设计的建筑可以减少对空调系统的依赖。",
+      "exam_sentence": "Incorporating natural ventilation into building design not only lowers energy costs but also creates healthier indoor environments.",
+      "audio": "/audio/housing-architecture/chunk-017.mp3",
+      "rewrite_prompt_cn": "采用自然通风设计的建筑可以减少对空调系统的依赖。",
+      "retelling_prompt": "What are the benefits of natural ventilation in buildings?",
+      "tags": [
+        "architecture",
+        "design"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "housing-architecture-018",
+      "chunk": "residential buildings",
+      "meaning_cn": "住宅建筑",
+      "collocations": [
+        "modern residential buildings",
+        "construct residential buildings",
+        "high-rise residential buildings"
+      ],
+      "sentence": "The demand for modern residential buildings has increased as more people move to urban centers.",
+      "sentence_cn": "随着越来越多的人搬到城市中心，对现代住宅建筑的需求增加了。",
+      "exam_sentence": "Urban planners must ensure that new residential buildings are designed to meet the needs of diverse populations.",
+      "audio": "/audio/housing-architecture/chunk-018.mp3",
+      "rewrite_prompt_cn": "随着越来越多的人搬到城市中心，对现代住宅建筑的需求增加了。",
+      "retelling_prompt": "Why is there growing demand for residential buildings?",
+      "tags": [
+        "housing",
+        "architecture"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "housing-architecture-019",
+      "chunk": "financial strain",
+      "meaning_cn": "经济压力",
+      "collocations": [
+        "put financial strain on",
+        "ease financial strain",
+        "place financial strain on households"
+      ],
+      "sentence": "Rising rents have placed considerable financial strain on low-income households in major cities.",
+      "sentence_cn": "不断上涨的租金给大城市的低收入家庭带来了相当大的经济压力。",
+      "exam_sentence": "The financial strain of high housing costs forces many families to compromise on other essential needs such as food and healthcare.",
+      "audio": "/audio/housing-architecture/chunk-019.mp3",
+      "rewrite_prompt_cn": "不断上涨的租金给大城市的低收入家庭带来了相当大的经济压力。",
+      "retelling_prompt": "How do housing costs create financial strain?",
+      "tags": [
+        "economics",
+        "social issues"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "housing-architecture-020",
+      "chunk": "adequate housing",
+      "meaning_cn": "充足的住房",
+      "collocations": [
+        "access to adequate housing",
+        "provide adequate housing",
+        "the right to adequate housing"
+      ],
+      "sentence": "Ensuring access to adequate housing is a fundamental responsibility of any government.",
+      "sentence_cn": "确保获得充足的住房是任何政府的根本责任。",
+      "exam_sentence": "The United Nations recognizes access to adequate housing as a basic human right that must be protected and promoted.",
+      "audio": "/audio/housing-architecture/chunk-020.mp3",
+      "rewrite_prompt_cn": "确保获得充足的住房是任何政府的根本责任。",
+      "retelling_prompt": "Why is adequate housing considered a fundamental right?",
+      "tags": [
+        "housing",
+        "social policy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    }
+  ]
+}

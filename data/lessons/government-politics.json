@@ -1,0 +1,524 @@
+{
+  "lesson_id": "government-politics",
+  "title": "Government & Politics",
+  "title_cn": "政府与政治",
+  "category": "General English",
+  "level": "B1-B2",
+  "theme_tags": [
+    "government",
+    "politics",
+    "policy",
+    "society"
+  ],
+  "exam_tags": [
+    "IELTS",
+    "TOEFL",
+    "CET4",
+    "CET6",
+    "Postgraduate English"
+  ],
+  "article": {
+    "text": "The role of government in modern society remains one of the most debated topics in political discourse. On one hand, advocates of limited government argue that excessive regulation stifles economic growth and infringes upon individual freedoms. They believe that tax revenue should be minimized and that the private sector is better equipped to deliver public services efficiently.\n\nOn the other hand, supporters of a welfare state maintain that government intervention is necessary to address inequality and protect vulnerable populations. Through social welfare programs, progressive taxation, and public healthcare, governments can ensure that basic needs are met for all citizens, regardless of their economic background.\n\nPolitical stability is essential for economic development, and strong governance frameworks help maintain this stability. Transparency in government operations, along with accountability mechanisms, allows citizens to hold their leaders responsible. The democratic process, including free elections and civic participation, provides a legitimate channel for public opinion to shape policy making.\n\nHowever, corruption remains a significant challenge in many countries. When public funds are mismanaged or diverted for personal gain, trust in government erodes rapidly. Strengthening law enforcement and promoting diplomatic relations built on mutual respect are critical steps toward building a more just and equitable world.",
+    "text_cn": "政府在现代社会中的角色仍然是政治讨论中最具争议的话题之一。一方面，有限政府的倡导者认为过度监管扼杀经济增长，侵犯个人自由。他们认为应该尽量减少税收收入，私营部门更有能力高效提供公共服务。\n\n另一方面，福利国家的支持者认为政府干预对于解决不平等和保护弱势群体是必要的。通过社会福利项目、累进税制和公共医疗，政府可以确保所有公民的基本需求得到满足，无论其经济背景如何。\n\n政治稳定对经济发展至关重要，健全的治理框架有助于维持这种稳定。政府运作的透明度以及问责机制允许公民追究领导人的责任。包括自由选举和公民参与在内的民主进程为公众意见影响政策制定提供了合法渠道。\n\n然而，腐败在许多国家仍然是重大挑战。当公共资金被滥用或挪用于个人利益时，公众对政府的信任会迅速瓦解。加强执法和促进建立在相互尊重基础上的外交关系，是建设一个更加公正和公平世界的关键步骤。",
+    "audio": "/audio/government-politics/article.mp3"
+  },
+  "model_paragraph": {
+    "text": "While advocates of limited government emphasize economic freedom, I believe that government intervention plays a crucial role in reducing inequality. Through transparent governance and accountable use of public funds, governments can build trust and ensure that social welfare programs effectively serve those in need.",
+    "text_cn": "虽然有限政府的倡导者强调经济自由，但我认为政府干预在减少不平等方面发挥着关键作用。通过透明的治理和对公共资金的负责任使用，政府可以建立信任并确保社会福利项目有效服务于需要帮助的人。"
+  },
+  "chunks": [
+    {
+      "id": "government-politics-001",
+      "chunk": "government intervention",
+      "meaning_cn": "政府干预",
+      "collocations": [
+        "government intervention in the economy",
+        "oppose government intervention",
+        "justify government intervention"
+      ],
+      "sentence": "Government intervention can help stabilize markets during economic crises.",
+      "sentence_cn": "政府干预可以帮助在经济危机期间稳定市场。",
+      "exam_sentence": "While some argue that government intervention distorts free markets, others believe it is essential for protecting vulnerable populations.",
+      "audio": "/audio/government-politics/chunk-001.mp3",
+      "rewrite_prompt_cn": "政府干预可以帮助在经济危机期间稳定市场。",
+      "retelling_prompt": "What role does government intervention play in the economy?",
+      "tags": [
+        "government",
+        "policy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Postgraduate English"
+      ]
+    },
+    {
+      "id": "government-politics-002",
+      "chunk": "public funds",
+      "meaning_cn": "公共资金",
+      "collocations": [
+        "misuse of public funds",
+        "allocate public funds",
+        "public funds management"
+      ],
+      "sentence": "The misuse of public funds undermines public trust in government institutions.",
+      "sentence_cn": "滥用公共资金损害了公众对政府机构的信任。",
+      "exam_sentence": "Governments must ensure that public funds are allocated transparently and used to benefit society as a whole.",
+      "audio": "/audio/government-politics/chunk-002.mp3",
+      "rewrite_prompt_cn": "滥用公共资金损害了公众对政府机构的信任。",
+      "retelling_prompt": "Why is the proper use of public funds important for public trust?",
+      "tags": [
+        "government",
+        "finance"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "CET6",
+        "Postgraduate English"
+      ]
+    },
+    {
+      "id": "government-politics-003",
+      "chunk": "tax revenue",
+      "meaning_cn": "税收收入",
+      "collocations": [
+        "generate tax revenue",
+        "tax revenue collection",
+        "increase tax revenue"
+      ],
+      "sentence": "Tax revenue is the primary source of funding for public services.",
+      "sentence_cn": "税收收入是公共服务的主要资金来源。",
+      "exam_sentence": "A fair tax system generates sufficient tax revenue to support social welfare programs without overburdening citizens.",
+      "audio": "/audio/government-politics/chunk-003.mp3",
+      "rewrite_prompt_cn": "税收收入是公共服务的主要资金来源。",
+      "retelling_prompt": "How do governments use tax revenue to fund services?",
+      "tags": [
+        "government",
+        "economics"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "government-politics-004",
+      "chunk": "policy making",
+      "meaning_cn": "政策制定",
+      "collocations": [
+        "participate in policy making",
+        "evidence-based policy making",
+        "policy making process"
+      ],
+      "sentence": "Citizens should have a voice in the policy making process.",
+      "sentence_cn": "公民应该在政策制定过程中有发言权。",
+      "exam_sentence": "Effective policy making requires input from diverse stakeholders, including community representatives and subject-matter experts.",
+      "audio": "/audio/government-politics/chunk-004.mp3",
+      "rewrite_prompt_cn": "公民应该在政策制定过程中有发言权。",
+      "retelling_prompt": "Why is public participation important in policy making?",
+      "tags": [
+        "government",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Postgraduate English"
+      ]
+    },
+    {
+      "id": "government-politics-005",
+      "chunk": "social welfare",
+      "meaning_cn": "社会福利",
+      "collocations": [
+        "social welfare programs",
+        "social welfare system",
+        "invest in social welfare"
+      ],
+      "sentence": "Social welfare programs aim to reduce poverty and improve living standards.",
+      "sentence_cn": "社会福利项目旨在减少贫困并提高生活水平。",
+      "exam_sentence": "Although social welfare programs require significant investment, they are essential for creating a more equitable society.",
+      "audio": "/audio/government-politics/chunk-005.mp3",
+      "rewrite_prompt_cn": "社会福利项目旨在减少贫困并提高生活水平。",
+      "retelling_prompt": "What are the goals of social welfare programs?",
+      "tags": [
+        "government",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "CET6",
+        "Postgraduate English"
+      ]
+    },
+    {
+      "id": "government-politics-006",
+      "chunk": "political stability",
+      "meaning_cn": "政治稳定",
+      "collocations": [
+        "maintain political stability",
+        "threaten political stability",
+        "political stability and growth"
+      ],
+      "sentence": "Political stability is a prerequisite for sustainable economic development.",
+      "sentence_cn": "政治稳定是可持续经济发展的先决条件。",
+      "exam_sentence": "Countries with strong political stability tend to attract more foreign investment and achieve faster economic growth.",
+      "audio": "/audio/government-politics/chunk-006.mp3",
+      "rewrite_prompt_cn": "政治稳定是可持续经济发展的先决条件。",
+      "retelling_prompt": "How does political stability affect economic development?",
+      "tags": [
+        "politics",
+        "economics"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Postgraduate English"
+      ]
+    },
+    {
+      "id": "government-politics-007",
+      "chunk": "root out corruption",
+      "meaning_cn": "根除腐败",
+      "collocations": [
+        "root out corruption",
+        "corruption scandals",
+        "anti-corruption measures"
+      ],
+      "sentence": "Governments must take decisive action to root out corruption.",
+      "sentence_cn": "政府必须采取果断行动根除腐败。",
+      "exam_sentence": "Combating corruption requires strong legal frameworks and transparent institutions that can hold officials accountable.",
+      "audio": "/audio/government-politics/chunk-007.mp3",
+      "rewrite_prompt_cn": "政府必须采取果断行动根除腐败。",
+      "retelling_prompt": "What measures can help fight corruption?",
+      "tags": [
+        "politics",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "CET6",
+        "Postgraduate English"
+      ]
+    },
+    {
+      "id": "government-politics-008",
+      "chunk": "democratic process",
+      "meaning_cn": "民主进程",
+      "collocations": [
+        "strengthen the democratic process",
+        "undermine the democratic process",
+        "democratic process and accountability"
+      ],
+      "sentence": "Free and fair elections are fundamental to the democratic process.",
+      "sentence_cn": "自由公正的选举是民主进程的基础。",
+      "exam_sentence": "A healthy democratic process depends on an informed electorate, freedom of the press, and transparent electoral systems.",
+      "audio": "/audio/government-politics/chunk-008.mp3",
+      "rewrite_prompt_cn": "自由公正的选举是民主进程的基础。",
+      "retelling_prompt": "What are the key elements of a democratic process?",
+      "tags": [
+        "politics",
+        "democracy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "government-politics-009",
+      "chunk": "law enforcement",
+      "meaning_cn": "执法",
+      "collocations": [
+        "strengthen law enforcement",
+        "law enforcement agencies",
+        "law enforcement officers"
+      ],
+      "sentence": "Strong law enforcement is essential for maintaining social order.",
+      "sentence_cn": "强有力的执法对于维护社会秩序至关重要。",
+      "exam_sentence": "Effective law enforcement must balance public safety with the protection of individual rights and freedoms.",
+      "audio": "/audio/government-politics/chunk-009.mp3",
+      "rewrite_prompt_cn": "强有力的执法对于维护社会秩序至关重要。",
+      "retelling_prompt": "What challenges does law enforcement face today?",
+      "tags": [
+        "government",
+        "law"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "CET6"
+      ]
+    },
+    {
+      "id": "government-politics-010",
+      "chunk": "transparency",
+      "meaning_cn": "透明度",
+      "collocations": [
+        "government transparency",
+        "promote transparency",
+        "transparency and accountability"
+      ],
+      "sentence": "Transparency in government operations helps prevent corruption.",
+      "sentence_cn": "政府运作的透明度有助于防止腐败。",
+      "exam_sentence": "Greater transparency in policy making enables citizens to make informed decisions and hold their representatives accountable.",
+      "audio": "/audio/government-politics/chunk-010.mp3",
+      "rewrite_prompt_cn": "政府运作的透明度有助于防止腐败。",
+      "retelling_prompt": "Why is transparency important in government?",
+      "tags": [
+        "government",
+        "accountability"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "government-politics-011",
+      "chunk": "public opinion",
+      "meaning_cn": "公众舆论",
+      "collocations": [
+        "shape public opinion",
+        "public opinion polls",
+        "influence public opinion"
+      ],
+      "sentence": "Public opinion plays a significant role in shaping government policy.",
+      "sentence_cn": "公众舆论在塑造政府政策方面发挥着重要作用。",
+      "exam_sentence": "In a democratic society, policymakers should consider public opinion while also relying on expert evidence when making decisions.",
+      "audio": "/audio/government-politics/chunk-011.mp3",
+      "rewrite_prompt_cn": "公众舆论在塑造政府政策方面发挥着重要作用。",
+      "retelling_prompt": "How does public opinion influence government decisions?",
+      "tags": [
+        "politics",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "government-politics-012",
+      "chunk": "civic duty",
+      "meaning_cn": "公民义务",
+      "collocations": [
+        "fulfill one's civic duty",
+        "sense of civic duty",
+        "civic duty and responsibility"
+      ],
+      "sentence": "Voting is one of the most important civic duties in a democracy.",
+      "sentence_cn": "投票是民主社会最重要的公民义务之一。",
+      "exam_sentence": "Encouraging citizens to fulfill their civic duty, such as voting and community service, strengthens democratic institutions.",
+      "audio": "/audio/government-politics/chunk-012.mp3",
+      "rewrite_prompt_cn": "投票是民主社会最重要的公民义务之一。",
+      "retelling_prompt": "What qualifies as a civic duty?",
+      "tags": [
+        "politics",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "CET4"
+      ]
+    },
+    {
+      "id": "government-politics-013",
+      "chunk": "welfare state",
+      "meaning_cn": "福利国家",
+      "collocations": [
+        "welfare state model",
+        "build a welfare state",
+        "welfare state policies"
+      ],
+      "sentence": "The welfare state provides a safety net for the most vulnerable citizens.",
+      "sentence_cn": "福利国家为最脆弱的公民提供了安全网。",
+      "exam_sentence": "While the welfare state places a burden on taxpayers, it plays a vital role in reducing social inequality.",
+      "audio": "/audio/government-politics/chunk-013.mp3",
+      "rewrite_prompt_cn": "福利国家为最脆弱的公民提供了安全网。",
+      "retelling_prompt": "What are the arguments for and against the welfare state?",
+      "tags": [
+        "government",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "CET6",
+        "Postgraduate English"
+      ]
+    },
+    {
+      "id": "government-politics-014",
+      "chunk": "diplomatic relations",
+      "meaning_cn": "外交关系",
+      "collocations": [
+        "establish diplomatic relations",
+        "diplomatic relations between",
+        "strengthen diplomatic relations"
+      ],
+      "sentence": "Strong diplomatic relations promote international cooperation and peace.",
+      "sentence_cn": "强大的外交关系促进国际合作与和平。",
+      "exam_sentence": "Maintaining strong diplomatic relations is crucial for addressing global challenges such as climate change and terrorism.",
+      "audio": "/audio/government-politics/chunk-014.mp3",
+      "rewrite_prompt_cn": "强大的外交关系促进国际合作与和平。",
+      "retelling_prompt": "Why are diplomatic relations important in the modern world?",
+      "tags": [
+        "politics",
+        "international"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "government-politics-015",
+      "chunk": "progressive taxation",
+      "meaning_cn": "累进税制",
+      "collocations": [
+        "implement progressive taxation",
+        "progressive taxation system",
+        "progressive taxation and equality"
+      ],
+      "sentence": "Progressive taxation ensures that wealthy individuals contribute more to society.",
+      "sentence_cn": "累进税制确保富裕个人对社会做出更大贡献。",
+      "exam_sentence": "Progressive taxation is an effective tool for redistributing wealth and reducing economic disparities in society.",
+      "audio": "/audio/government-politics/chunk-015.mp3",
+      "rewrite_prompt_cn": "累进税制确保富裕个人对社会做出更大贡献。",
+      "retelling_prompt": "How does progressive taxation work to reduce inequality?",
+      "tags": [
+        "government",
+        "economics"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "Postgraduate English"
+      ]
+    },
+    {
+      "id": "government-politics-016",
+      "chunk": "accountability",
+      "meaning_cn": "问责制",
+      "collocations": [
+        "hold leaders accountable",
+        "accountability mechanisms",
+        "government accountability"
+      ],
+      "sentence": "Accountability mechanisms allow citizens to hold their leaders responsible for their actions.",
+      "sentence_cn": "问责机制允许公民追究领导人的行为责任。",
+      "exam_sentence": "Without effective accountability mechanisms, those in power may abuse their authority and act against the public interest.",
+      "audio": "/audio/government-politics/chunk-016.mp3",
+      "rewrite_prompt_cn": "问责机制允许公民追究领导人的行为责任。",
+      "retelling_prompt": "What mechanisms can ensure government accountability?",
+      "tags": [
+        "government",
+        "law"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "government-politics-017",
+      "chunk": "governance",
+      "meaning_cn": "治理；管治",
+      "collocations": [
+        "good governance",
+        "corporate governance",
+        "governance framework"
+      ],
+      "sentence": "Good governance requires transparency, accountability, and the rule of law.",
+      "sentence_cn": "良好的治理需要透明度、问责制和法治。",
+      "exam_sentence": "Countries with strong governance frameworks tend to experience higher levels of economic development and social stability.",
+      "audio": "/audio/government-politics/chunk-017.mp3",
+      "rewrite_prompt_cn": "良好的治理需要透明度、问责制和法治。",
+      "retelling_prompt": "What are the key principles of good governance?",
+      "tags": [
+        "government",
+        "policy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "CET6",
+        "Postgraduate English"
+      ]
+    },
+    {
+      "id": "government-politics-018",
+      "chunk": "legislation",
+      "meaning_cn": "立法",
+      "collocations": [
+        "pass legislation",
+        "new legislation on",
+        "environmental legislation"
+      ],
+      "sentence": "The government passed new legislation to protect consumers from fraud.",
+      "sentence_cn": "政府通过了新的立法来保护消费者免受欺诈。",
+      "exam_sentence": "Effective legislation must be regularly reviewed and updated to address emerging challenges in a rapidly changing society.",
+      "audio": "/audio/government-politics/chunk-018.mp3",
+      "rewrite_prompt_cn": "政府通过了新的立法来保护消费者免受欺诈。",
+      "retelling_prompt": "How does legislation protect citizens' rights?",
+      "tags": [
+        "government",
+        "law"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "CET4",
+        "CET6"
+      ]
+    },
+    {
+      "id": "government-politics-019",
+      "chunk": "individual freedoms",
+      "meaning_cn": "个人自由",
+      "collocations": [
+        "protect individual freedoms",
+        "balance individual freedoms",
+        "restrict individual freedoms"
+      ],
+      "sentence": "Government policies should balance individual freedoms with collective well-being.",
+      "sentence_cn": "政府政策应该在个人自由和集体福祉之间取得平衡。",
+      "exam_sentence": "One of the greatest challenges in modern governance is protecting individual freedoms while ensuring public safety and security.",
+      "audio": "/audio/government-politics/chunk-019.mp3",
+      "rewrite_prompt_cn": "政府政策应该在个人自由和集体福祉之间取得平衡。",
+      "retelling_prompt": "How should governments balance freedom and security?",
+      "tags": [
+        "politics",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "government-politics-020",
+      "chunk": "political discourse",
+      "meaning_cn": "政治话语",
+      "collocations": [
+        "shape political discourse",
+        "political discourse in society",
+        "elevate political discourse"
+      ],
+      "sentence": "Social media has dramatically transformed political discourse around the world.",
+      "sentence_cn": "社交媒体极大地改变了世界各地的政治话语。",
+      "exam_sentence": "The quality of political discourse in a society reflects the health of its democratic institutions and civic culture.",
+      "audio": "/audio/government-politics/chunk-020.mp3",
+      "rewrite_prompt_cn": "社交媒体极大地改变了世界各地的政治话语。",
+      "retelling_prompt": "How has technology changed political discourse?",
+      "tags": [
+        "politics",
+        "media"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Postgraduate English"
+      ]
+    }
+  ]
+}

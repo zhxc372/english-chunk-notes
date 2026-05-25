@@ -1,0 +1,529 @@
+{
+  "lesson_id": "globalization-trade",
+  "title": "Globalization and International Trade",
+  "title_cn": "全球化与国际贸易",
+  "category": "General English",
+  "level": "B1-B2",
+  "theme_tags": [
+    "globalization",
+    "trade",
+    "economics",
+    "international"
+  ],
+  "exam_tags": [
+    "IELTS",
+    "TOEFL",
+    "CET4",
+    "CET6",
+    "Postgraduate English"
+  ],
+  "article": {
+    "text": "Globalization has transformed the world economy over the past few decades, creating an interconnected marketplace where goods, services, and capital flow across borders with remarkable ease. Multinational corporations now operate in dozens of countries, leveraging global supply chains to reduce costs and increase efficiency. However, this economic interdependence has also sparked intense debate. Supporters argue that free trade lifts millions out of poverty by opening new markets and creating jobs in developing nations. Foreign direct investment has brought modern infrastructure and technology to regions that previously lacked access. On the other hand, critics point out that not everyone benefits equally. Manufacturing workers in developed countries often face job losses as factories relocate to areas with lower labor costs. Trade deficits in some nations have widened, fueling calls for protectionism and stricter trade barriers. Despite these challenges, economic integration continues to deepen. International cooperation through organizations like the World Trade Organization helps resolve disputes and establish common rules. The global marketplace offers enormous opportunities, but it also demands that nations adapt their policies to ensure that the benefits of trade are shared more broadly. Finding the right balance between open markets and domestic protection remains one of the most pressing economic challenges of our time.",
+    "text_cn": "过去几十年，全球化改变了世界经济，创造了一个相互关联的市场，商品、服务和资本以前所未有的便利穿越国界。跨国公司如今在数十个国家运营，利用全球供应链降低成本、提高效率。然而，这种经济相互依存也引发了激烈的争论。支持者认为，自由贸易通过开辟新市场和在发展中国家创造就业，使数百万人摆脱贫困。外国直接投资为以前无法获得现代基础设施和技术的地区带来了这些资源。另一方面，批评者指出并非所有人都能平等受益。发达国家的制造业工人经常面临失业，因为工厂迁往劳动力成本更低的地区。一些国家的贸易逆差不断扩大，加剧了对保护主义和更严格贸易壁垒的呼声。尽管面临这些挑战，经济一体化仍在不断深化。通过世界贸易组织等机构的国际合作有助于解决争端并制定共同规则。全球市场提供了巨大的机遇，但也要求各国调整政策，确保贸易利益得到更广泛的分享。在开放市场和国内保护之间找到适当的平衡，仍然是我们时代最紧迫的经济挑战之一。",
+    "audio": "/audio/globalization-trade/article.mp3"
+  },
+  "model_paragraph": {
+    "text": "Globalization has created an interconnected world economy where free trade and foreign investment offer tremendous opportunities, but the benefits are not always distributed equally across nations and social groups.",
+    "text_cn": "全球化创造了一个相互关联的世界经济，自由贸易和外国投资提供了巨大的机遇，但这些利益并非总是在各国和社会群体之间平等分配。"
+  },
+  "chunks": [
+    {
+      "id": "globalization-trade-001",
+      "chunk": "transform the world economy",
+      "meaning_cn": "改变世界经济格局",
+      "collocations": [
+        "transform the world economy",
+        "fundamentally transform",
+        "transform the landscape"
+      ],
+      "sentence": "Globalization has transformed the world economy over the past few decades.",
+      "sentence_cn": "过去几十年，全球化改变了世界经济格局。",
+      "exam_sentence": "Technological innovation has transformed the global economy, creating both opportunities and challenges for developing nations.",
+      "audio": "/audio/globalization-trade/chunk-001.mp3",
+      "rewrite_prompt_cn": "过去几十年，全球化改变了世界经济格局。",
+      "retelling_prompt": "How has globalization changed the world economy?",
+      "tags": [
+        "globalization",
+        "economics"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "globalization-trade-002",
+      "chunk": "interconnected marketplace",
+      "meaning_cn": "相互关联的市场",
+      "collocations": [
+        "interconnected marketplace",
+        "interconnected world",
+        "interconnected global economy"
+      ],
+      "sentence": "The internet has created an interconnected marketplace for businesses of all sizes.",
+      "sentence_cn": "互联网为各种规模的企业创造了一个相互关联的市场。",
+      "exam_sentence": "In today's interconnected marketplace, a crisis in one region can quickly affect economies worldwide.",
+      "audio": "/audio/globalization-trade/chunk-002.mp3",
+      "rewrite_prompt_cn": "互联网为各种规模的企业创造了一个相互关联的市场。",
+      "retelling_prompt": "What kind of marketplace has globalization created?",
+      "tags": [
+        "globalization",
+        "business"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "globalization-trade-003",
+      "chunk": "multinational corporations",
+      "meaning_cn": "跨国公司",
+      "collocations": [
+        "multinational corporations",
+        "large multinational",
+        "leading multinational corporations"
+      ],
+      "sentence": "Multinational corporations play a dominant role in the global economy.",
+      "sentence_cn": "跨国公司在全球经济中发挥着主导作用。",
+      "exam_sentence": "Multinational corporations are often criticized for exploiting cheap labor in developing countries while maximizing profits.",
+      "audio": "/audio/globalization-trade/chunk-003.mp3",
+      "rewrite_prompt_cn": "跨国公司在全球经济中发挥着主导作用。",
+      "retelling_prompt": "What role do multinational corporations play in globalization?",
+      "tags": [
+        "business",
+        "globalization"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "globalization-trade-004",
+      "chunk": "global supply chains",
+      "meaning_cn": "全球供应链",
+      "collocations": [
+        "global supply chains",
+        "disrupt global supply chains",
+        "complex global supply chains"
+      ],
+      "sentence": "Many companies rely on global supply chains to source materials efficiently.",
+      "sentence_cn": "许多公司依赖全球供应链高效地采购原材料。",
+      "exam_sentence": "The pandemic exposed the fragility of global supply chains and highlighted the need for greater resilience.",
+      "audio": "/audio/globalization-trade/chunk-004.mp3",
+      "rewrite_prompt_cn": "许多公司依赖全球供应链高效地采购原材料。",
+      "retelling_prompt": "Why do companies use global supply chains?",
+      "tags": [
+        "business",
+        "logistics"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "globalization-trade-005",
+      "chunk": "economic interdependence",
+      "meaning_cn": "经济相互依存",
+      "collocations": [
+        "economic interdependence",
+        "growing economic interdependence",
+        "deep economic interdependence"
+      ],
+      "sentence": "Economic interdependence means that no country can isolate itself from global trends.",
+      "sentence_cn": "经济相互依存意味着任何国家都无法将自己与全球趋势隔绝。",
+      "exam_sentence": "Deep economic interdependence among nations makes it difficult for any single country to pursue independent trade policies.",
+      "audio": "/audio/globalization-trade/chunk-005.mp3",
+      "rewrite_prompt_cn": "经济相互依存意味着任何国家都无法将自己与全球趋势隔绝。",
+      "retelling_prompt": "What does economic interdependence mean?",
+      "tags": [
+        "economics",
+        "globalization"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "globalization-trade-006",
+      "chunk": "free trade",
+      "meaning_cn": "自由贸易",
+      "collocations": [
+        "free trade agreement",
+        "promote free trade",
+        "free trade zone"
+      ],
+      "sentence": "Free trade allows countries to specialize in producing goods they are best at.",
+      "sentence_cn": "自由贸易使各国能够专注于生产自己最擅长的商品。",
+      "exam_sentence": "While free trade can stimulate economic growth, it may also widen the gap between rich and poor nations.",
+      "audio": "/audio/globalization-trade/chunk-006.mp3",
+      "rewrite_prompt_cn": "自由贸易使各国能够专注于生产自己最擅长的商品。",
+      "retelling_prompt": "What are the advantages of free trade?",
+      "tags": [
+        "trade",
+        "economics"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "globalization-trade-007",
+      "chunk": "lift millions out of poverty",
+      "meaning_cn": "使数百万人摆脱贫困",
+      "collocations": [
+        "lift millions out of poverty",
+        "lift people out of poverty",
+        "lift out of poverty"
+      ],
+      "sentence": "Economic reforms have lifted millions out of poverty in Southeast Asia.",
+      "sentence_cn": "经济改革已使东南亚数百万人摆脱了贫困。",
+      "exam_sentence": "Proponents of globalization argue that international trade has lifted millions out of poverty in developing regions.",
+      "audio": "/audio/globalization-trade/chunk-007.mp3",
+      "rewrite_prompt_cn": "经济改革已使东南亚数百万人摆脱了贫困。",
+      "retelling_prompt": "How has globalization affected poverty?",
+      "tags": [
+        "economics",
+        "social"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "globalization-trade-008",
+      "chunk": "foreign direct investment",
+      "meaning_cn": "外国直接投资",
+      "collocations": [
+        "foreign direct investment",
+        "attract foreign direct investment",
+        "inflows of foreign direct investment"
+      ],
+      "sentence": "The country is trying to attract more foreign direct investment to boost its economy.",
+      "sentence_cn": "该国正试图吸引更多外国直接投资来促进经济发展。",
+      "exam_sentence": "Foreign direct investment has been a key driver of economic growth in many developing countries.",
+      "audio": "/audio/globalization-trade/chunk-008.mp3",
+      "rewrite_prompt_cn": "该国正试图吸引更多外国直接投资来促进经济发展。",
+      "retelling_prompt": "Why do countries seek foreign direct investment?",
+      "tags": [
+        "economics",
+        "investment"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "globalization-trade-009",
+      "chunk": "trade barriers",
+      "meaning_cn": "贸易壁垒",
+      "collocations": [
+        "remove trade barriers",
+        "erect trade barriers",
+        "reduce trade barriers"
+      ],
+      "sentence": "The government decided to remove trade barriers to encourage imports.",
+      "sentence_cn": "政府决定取消贸易壁垒以鼓励进口。",
+      "exam_sentence": "Although trade barriers may protect domestic industries in the short term, they often lead to higher prices for consumers.",
+      "audio": "/audio/globalization-trade/chunk-009.mp3",
+      "rewrite_prompt_cn": "政府决定取消贸易壁垒以鼓励进口。",
+      "retelling_prompt": "What effect do trade barriers have on trade?",
+      "tags": [
+        "trade",
+        "policy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "globalization-trade-010",
+      "chunk": "trade deficit",
+      "meaning_cn": "贸易逆差",
+      "collocations": [
+        "widen the trade deficit",
+        "narrow the trade deficit",
+        "reduce the trade deficit"
+      ],
+      "sentence": "The country's trade deficit has widened due to increasing imports of consumer goods.",
+      "sentence_cn": "由于消费品进口不断增加，该国的贸易逆差已经扩大。",
+      "exam_sentence": "A persistent trade deficit can weaken a country's currency and increase its reliance on foreign borrowing.",
+      "audio": "/audio/globalization-trade/chunk-010.mp3",
+      "rewrite_prompt_cn": "由于消费品进口不断增加，该国的贸易逆差已经扩大。",
+      "retelling_prompt": "What causes a trade deficit to widen?",
+      "tags": [
+        "trade",
+        "economics"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "globalization-trade-011",
+      "chunk": "protectionism",
+      "meaning_cn": "保护主义",
+      "collocations": [
+        "rise of protectionism",
+        "trade protectionism",
+        "economic protectionism"
+      ],
+      "sentence": "Protectionism may protect local industries but often leads to trade wars.",
+      "sentence_cn": "保护主义可能保护本地产业，但往往导致贸易战。",
+      "exam_sentence": "The rise of protectionism in recent years has threatened to undermine decades of progress in international trade liberalization.",
+      "audio": "/audio/globalization-trade/chunk-011.mp3",
+      "rewrite_prompt_cn": "保护主义可能保护本地产业，但往往导致贸易战。",
+      "retelling_prompt": "What are the risks of protectionism?",
+      "tags": [
+        "trade",
+        "policy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "globalization-trade-012",
+      "chunk": "economic integration",
+      "meaning_cn": "经济一体化",
+      "collocations": [
+        "economic integration",
+        "regional economic integration",
+        "deepen economic integration"
+      ],
+      "sentence": "The European Union is the most advanced example of economic integration.",
+      "sentence_cn": "欧盟是经济一体化最先进的例子。",
+      "exam_sentence": "Regional economic integration has accelerated cross-border investment and facilitated the movement of skilled labor.",
+      "audio": "/audio/globalization-trade/chunk-012.mp3",
+      "rewrite_prompt_cn": "欧盟是经济一体化最先进的例子。",
+      "retelling_prompt": "Can you give an example of economic integration?",
+      "tags": [
+        "economics",
+        "policy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "globalization-trade-013",
+      "chunk": "international cooperation",
+      "meaning_cn": "国际合作",
+      "collocations": [
+        "international cooperation",
+        "promote international cooperation",
+        "strengthen international cooperation"
+      ],
+      "sentence": "International cooperation is essential for tackling global challenges like climate change.",
+      "sentence_cn": "国际合作对于应对气候变化等全球挑战至关重要。",
+      "exam_sentence": "Effective international cooperation is crucial for addressing transnational issues such as pandemics and environmental degradation.",
+      "audio": "/audio/globalization-trade/chunk-013.mp3",
+      "rewrite_prompt_cn": "国际合作对于应对气候变化等全球挑战至关重要。",
+      "retelling_prompt": "Why is international cooperation important?",
+      "tags": [
+        "international",
+        "policy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "globalization-trade-014",
+      "chunk": "global marketplace",
+      "meaning_cn": "全球市场",
+      "collocations": [
+        "global marketplace",
+        "compete in the global marketplace",
+        "thrive in the global marketplace"
+      ],
+      "sentence": "Small businesses now have access to the global marketplace through e-commerce platforms.",
+      "sentence_cn": "小企业现在通过电子商务平台可以进入全球市场。",
+      "exam_sentence": "In an increasingly competitive global marketplace, innovation and adaptability are key factors for business success.",
+      "audio": "/audio/globalization-trade/chunk-014.mp3",
+      "rewrite_prompt_cn": "小企业现在通过电子商务平台可以进入全球市场。",
+      "retelling_prompt": "How has e-commerce changed access to the global marketplace?",
+      "tags": [
+        "business",
+        "e-commerce"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "globalization-trade-015",
+      "chunk": "relocate factories",
+      "meaning_cn": "迁移工厂",
+      "collocations": [
+        "relocate factories overseas",
+        "relocate production",
+        "relocate manufacturing"
+      ],
+      "sentence": "Many companies have relocated their factories to countries with lower labor costs.",
+      "sentence_cn": "许多公司已将工厂迁至劳动力成本较低的国家。",
+      "exam_sentence": "When corporations relocate factories to developing countries, they often leave behind communities with high unemployment rates.",
+      "audio": "/audio/globalization-trade/chunk-015.mp3",
+      "rewrite_prompt_cn": "许多公司已将工厂迁至劳动力成本较低的国家。",
+      "retelling_prompt": "Why do companies relocate their factories?",
+      "tags": [
+        "business",
+        "manufacturing"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "globalization-trade-016",
+      "chunk": "cultural exchange",
+      "meaning_cn": "文化交流",
+      "collocations": [
+        "cultural exchange",
+        "promote cultural exchange",
+        "international cultural exchange"
+      ],
+      "sentence": "Study abroad programs are an excellent way to promote cultural exchange.",
+      "sentence_cn": "留学项目是促进文化交流的绝佳方式。",
+      "exam_sentence": "Cultural exchange programs foster mutual understanding and help break down stereotypes between nations.",
+      "audio": "/audio/globalization-trade/chunk-016.mp3",
+      "rewrite_prompt_cn": "留学项目是促进文化交流的绝佳方式。",
+      "retelling_prompt": "How can cultural exchange benefit international relations?",
+      "tags": [
+        "culture",
+        "international"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "globalization-trade-017",
+      "chunk": "lower labor costs",
+      "meaning_cn": "更低的劳动力成本",
+      "collocations": [
+        "lower labor costs",
+        "cheap labor costs",
+        "competitive labor costs"
+      ],
+      "sentence": "Lower labor costs in Asia have attracted many manufacturing companies.",
+      "sentence_cn": "亚洲更低的劳动力成本吸引了许多制造企业。",
+      "exam_sentence": "While lower labor costs attract foreign investment, they can also lead to the exploitation of workers in developing countries.",
+      "audio": "/audio/globalization-trade/chunk-017.mp3",
+      "rewrite_prompt_cn": "亚洲更低的劳动力成本吸引了许多制造企业。",
+      "retelling_prompt": "What attracts manufacturing companies to developing countries?",
+      "tags": [
+        "economics",
+        "business"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "globalization-trade-018",
+      "chunk": "international aid",
+      "meaning_cn": "国际援助",
+      "collocations": [
+        "international aid",
+        "provide international aid",
+        "international aid programs"
+      ],
+      "sentence": "International aid has helped rebuild infrastructure after natural disasters.",
+      "sentence_cn": "国际援助帮助在自然灾害后重建基础设施。",
+      "exam_sentence": "Some critics argue that international aid often fails to reach those who need it most due to corruption and inefficiency.",
+      "audio": "/audio/globalization-trade/chunk-018.mp3",
+      "rewrite_prompt_cn": "国际援助帮助在自然灾害后重建基础设施。",
+      "retelling_prompt": "What role does international aid play in developing countries?",
+      "tags": [
+        "international",
+        "social"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "globalization-trade-019",
+      "chunk": "developing nations",
+      "meaning_cn": "发展中国家",
+      "collocations": [
+        "developing nations",
+        "developing countries",
+        "least developed nations"
+      ],
+      "sentence": "Globalization has brought both benefits and challenges to developing nations.",
+      "sentence_cn": "全球化给发展中国家带来了利益和挑战。",
+      "exam_sentence": "Developing nations must balance the need for foreign investment with the protection of local industries and workers' rights.",
+      "audio": "/audio/globalization-trade/chunk-019.mp3",
+      "rewrite_prompt_cn": "全球化给发展中国家带来了利益和挑战。",
+      "retelling_prompt": "What are the pros and cons of globalization for developing nations?",
+      "tags": [
+        "economics",
+        "globalization"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "globalization-trade-020",
+      "chunk": "common rules",
+      "meaning_cn": "共同规则",
+      "collocations": [
+        "establish common rules",
+        "common rules and standards",
+        "follow common rules"
+      ],
+      "sentence": "Countries need to establish common rules to ensure fair competition in trade.",
+      "sentence_cn": "各国需要建立共同规则以确保贸易中的公平竞争。",
+      "exam_sentence": "The establishment of common rules and standards is essential for maintaining stability in the international trading system.",
+      "audio": "/audio/globalization-trade/chunk-020.mp3",
+      "rewrite_prompt_cn": "各国需要建立共同规则以确保贸易中的公平竞争。",
+      "retelling_prompt": "Why are common rules important in international trade?",
+      "tags": [
+        "trade",
+        "policy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    }
+  ]
+}

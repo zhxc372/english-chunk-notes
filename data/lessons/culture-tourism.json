@@ -1,0 +1,526 @@
+{
+  "lesson_id": "culture-tourism",
+  "title": "Culture, Heritage and Tourism",
+  "title_cn": "文化、遗产与旅游",
+  "category": "General English",
+  "level": "B1-B2",
+  "theme_tags": [
+    "culture",
+    "tourism",
+    "heritage",
+    "travel"
+  ],
+  "exam_tags": [
+    "IELTS",
+    "TOEFL",
+    "CET4",
+    "CET6",
+    "Postgraduate English"
+  ],
+  "article": {
+    "text": "Tourism has become one of the largest industries in the world, generating billions of dollars in revenue each year. For many countries, cultural heritage is the primary attraction that draws international visitors. From ancient temples in Southeast Asia to medieval castles in Europe, these sites offer travelers a chance to connect with history and experience traditions that have been passed down through generations. However, the rapid growth of the tourism industry has raised serious concerns about cultural preservation. Popular destinations often struggle to balance economic benefits with the need to protect their cultural identity. Mass tourism can lead to the commercialization of traditional customs, where authentic cultural practices are simplified or altered to suit tourist expectations. In some cases, cultural assimilation occurs as local communities gradually adopt foreign lifestyles in response to constant interaction with visitors. On the positive side, tourism revenue can fund conservation efforts and support community development. UNESCO World Heritage sites, for instance, often receive significant funding to maintain their historical significance. Sustainable tourism initiatives, including homestay programs and cultural exchange programs, allow visitors to experience local life in a more respectful and authentic way. Cross-cultural communication between tourists and hosts can foster mutual understanding and appreciation. The challenge for the future is ensuring that tourism grows in a way that celebrates cultural diversity rather than diminishing it.",
+    "text_cn": "旅游业已成为世界上最大的产业之一，每年产生数十亿美元的财政收入。对于许多国家来说，文化遗产是吸引国际游客的主要资源。从东南亚的古老寺庙到欧洲的中世纪城堡，这些遗址让旅行者有机会与历史建立联系，体验代代相传的传统。然而，旅游业的快速增长引发了关于文化保护的严重担忧。热门目的地往往难以在经济利益和保护文化认同的需要之间取得平衡。大众旅游可能导致传统习俗的商业化，真正的文化实践被简化或改变以迎合游客的期望。在某些情况下，由于当地社区在与游客不断互动中逐渐采纳外国生活方式，文化同化现象随之发生。积极的一面是，旅游收入可以资助保护工作并支持社区发展。例如，联合国教科文组织世界遗产地通常获得大量资金来维护其历史意义。可持续旅游举措，包括民宿项目和文化交流项目，使游客能够以更尊重和真实的方式体验当地生活。游客与东道主之间的跨文化交流可以增进相互理解和欣赏。未来的挑战是确保旅游业以庆祝而非削弱文化多样性的方式发展。",
+    "audio": "/audio/culture-tourism/article.mp3"
+  },
+  "model_paragraph": {
+    "text": "While tourism generates significant revenue and funds cultural preservation, it also poses risks to cultural identity through commercialization and assimilation, making sustainable tourism practices essential.",
+    "text_cn": "虽然旅游业产生了可观的收入并资助了文化保护，但它也通过商业化和同化对文化认同构成了威胁，因此可持续旅游实践至关重要。"
+  },
+  "chunks": [
+    {
+      "id": "culture-tourism-001",
+      "chunk": "cultural heritage",
+      "meaning_cn": "文化遗产",
+      "collocations": [
+        "preserve cultural heritage",
+        "rich cultural heritage",
+        "protect cultural heritage"
+      ],
+      "sentence": "Preserving cultural heritage is essential for maintaining a nation's identity.",
+      "sentence_cn": "保护文化遗产对于维护一个国家的认同至关重要。",
+      "exam_sentence": "Governments should invest in preserving cultural heritage sites before they are lost to urban development.",
+      "audio": "/audio/culture-tourism/chunk-001.mp3",
+      "rewrite_prompt_cn": "保护文化遗产对于维护一个国家的认同至关重要。",
+      "retelling_prompt": "Why is cultural heritage important?",
+      "tags": [
+        "culture",
+        "heritage"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "culture-tourism-002",
+      "chunk": "cultural diversity",
+      "meaning_cn": "文化多样性",
+      "collocations": [
+        "promote cultural diversity",
+        "respect cultural diversity",
+        "celebrate cultural diversity"
+      ],
+      "sentence": "Cultural diversity makes our world more interesting and vibrant.",
+      "sentence_cn": "文化多样性使我们的世界更加有趣和充满活力。",
+      "exam_sentence": "Cultural diversity enriches societies by bringing together different perspectives, traditions, and forms of artistic expression.",
+      "audio": "/audio/culture-tourism/chunk-002.mp3",
+      "rewrite_prompt_cn": "文化多样性使我们的世界更加有趣和充满活力。",
+      "retelling_prompt": "Why should we value cultural diversity?",
+      "tags": [
+        "culture",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "culture-tourism-003",
+      "chunk": "tourism industry",
+      "meaning_cn": "旅游业",
+      "collocations": [
+        "boost the tourism industry",
+        "tourism industry growth",
+        "develop the tourism industry"
+      ],
+      "sentence": "The tourism industry is a major source of employment in many coastal cities.",
+      "sentence_cn": "旅游业是许多沿海城市的主要就业来源。",
+      "exam_sentence": "The rapid expansion of the tourism industry has created millions of jobs but also placed pressure on local infrastructure.",
+      "audio": "/audio/culture-tourism/chunk-003.mp3",
+      "rewrite_prompt_cn": "旅游业是许多沿海城市的主要就业来源。",
+      "retelling_prompt": "What role does the tourism industry play in employment?",
+      "tags": [
+        "tourism",
+        "business"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "culture-tourism-004",
+      "chunk": "cultural assimilation",
+      "meaning_cn": "文化同化",
+      "collocations": [
+        "cultural assimilation",
+        "resist cultural assimilation",
+        "process of cultural assimilation"
+      ],
+      "sentence": "Cultural assimilation can cause traditional practices to disappear over time.",
+      "sentence_cn": "文化同化可能导致传统习俗随时间消失。",
+      "exam_sentence": "While cultural assimilation can promote social cohesion, it often comes at the cost of losing unique traditions and languages.",
+      "audio": "/audio/culture-tourism/chunk-004.mp3",
+      "rewrite_prompt_cn": "文化同化可能导致传统习俗随时间消失。",
+      "retelling_prompt": "What are the negative effects of cultural assimilation?",
+      "tags": [
+        "culture",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "culture-tourism-005",
+      "chunk": "cross-cultural communication",
+      "meaning_cn": "跨文化交流",
+      "collocations": [
+        "cross-cultural communication",
+        "improve cross-cultural communication",
+        "effective cross-cultural communication"
+      ],
+      "sentence": "Cross-cultural communication skills are valuable in today's globalized workplace.",
+      "sentence_cn": "跨文化交流技能在当今全球化的职场中很有价值。",
+      "exam_sentence": "Effective cross-cultural communication reduces misunderstandings and builds stronger relationships between people from different backgrounds.",
+      "audio": "/audio/culture-tourism/chunk-005.mp3",
+      "rewrite_prompt_cn": "跨文化交流技能在当今全球化的职场中很有价值。",
+      "retelling_prompt": "Why are cross-cultural communication skills important?",
+      "tags": [
+        "culture",
+        "communication"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "culture-tourism-006",
+      "chunk": "cultural identity",
+      "meaning_cn": "文化认同",
+      "collocations": [
+        "preserve cultural identity",
+        "strengthen cultural identity",
+        "lose cultural identity"
+      ],
+      "sentence": "Many communities are working hard to preserve their cultural identity.",
+      "sentence_cn": "许多社区正在努力保护其文化认同。",
+      "exam_sentence": "Globalization threatens cultural identity by promoting a homogenized consumer culture that erodes local traditions.",
+      "audio": "/audio/culture-tourism/chunk-006.mp3",
+      "rewrite_prompt_cn": "许多社区正在努力保护其文化认同。",
+      "retelling_prompt": "What threatens cultural identity?",
+      "tags": [
+        "culture",
+        "identity"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "culture-tourism-007",
+      "chunk": "traditional customs",
+      "meaning_cn": "传统习俗",
+      "collocations": [
+        "traditional customs and practices",
+        "preserve traditional customs",
+        "observe traditional customs"
+      ],
+      "sentence": "Traditional customs are an important part of a community's cultural heritage.",
+      "sentence_cn": "传统习俗是社区文化遗产的重要组成部分。",
+      "exam_sentence": "Efforts to document and preserve traditional customs are crucial before they fade from living memory.",
+      "audio": "/audio/culture-tourism/chunk-007.mp3",
+      "rewrite_prompt_cn": "传统习俗是社区文化遗产的重要组成部分。",
+      "retelling_prompt": "Why should we preserve traditional customs?",
+      "tags": [
+        "culture",
+        "tradition"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "culture-tourism-008",
+      "chunk": "tourism revenue",
+      "meaning_cn": "旅游收入",
+      "collocations": [
+        "generate tourism revenue",
+        "tourism revenue growth",
+        "increase tourism revenue"
+      ],
+      "sentence": "Tourism revenue helps fund public services in many small island nations.",
+      "sentence_cn": "旅游收入帮助许多小岛国资助公共服务。",
+      "exam_sentence": "While tourism revenue can significantly boost local economies, over-reliance on this income source makes destinations vulnerable to global disruptions.",
+      "audio": "/audio/culture-tourism/chunk-008.mp3",
+      "rewrite_prompt_cn": "旅游收入帮助许多小岛国资助公共服务。",
+      "retelling_prompt": "How does tourism revenue benefit local communities?",
+      "tags": [
+        "tourism",
+        "economics"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "culture-tourism-009",
+      "chunk": "cultural preservation",
+      "meaning_cn": "文化保护",
+      "collocations": [
+        "cultural preservation efforts",
+        "prioritize cultural preservation",
+        "support cultural preservation"
+      ],
+      "sentence": "Cultural preservation requires both government funding and community participation.",
+      "sentence_cn": "文化保护需要政府资金和社区参与。",
+      "exam_sentence": "Cultural preservation should be a priority for governments, as the loss of heritage is irreversible.",
+      "audio": "/audio/culture-tourism/chunk-009.mp3",
+      "rewrite_prompt_cn": "文化保护需要政府资金和社区参与。",
+      "retelling_prompt": "What is needed for effective cultural preservation?",
+      "tags": [
+        "culture",
+        "heritage"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "culture-tourism-010",
+      "chunk": "UNESCO World Heritage",
+      "meaning_cn": "联合国教科文组织世界遗产",
+      "collocations": [
+        "UNESCO World Heritage site",
+        "UNESCO World Heritage list",
+        "UNESCO World Heritage status"
+      ],
+      "sentence": "The Great Wall is a famous UNESCO World Heritage site in China.",
+      "sentence_cn": "长城是中国著名的联合国教科文组织世界遗产。",
+      "exam_sentence": "UNESCO World Heritage designation brings international attention and funding, which can support long-term conservation efforts.",
+      "audio": "/audio/culture-tourism/chunk-010.mp3",
+      "rewrite_prompt_cn": "长城是中国著名的联合国教科文组织世界遗产。",
+      "retelling_prompt": "What is the significance of UNESCO World Heritage status?",
+      "tags": [
+        "heritage",
+        "travel"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "culture-tourism-011",
+      "chunk": "sustainable tourism",
+      "meaning_cn": "可持续旅游",
+      "collocations": [
+        "promote sustainable tourism",
+        "sustainable tourism practices",
+        "develop sustainable tourism"
+      ],
+      "sentence": "Sustainable tourism aims to minimize environmental impact while benefiting local communities.",
+      "sentence_cn": "可持续旅游旨在最小化环境影响，同时造福当地社区。",
+      "exam_sentence": "Sustainable tourism practices are essential to ensure that future generations can enjoy the world's natural and cultural treasures.",
+      "audio": "/audio/culture-tourism/chunk-011.mp3",
+      "rewrite_prompt_cn": "可持续旅游旨在最小化环境影响，同时造福当地社区。",
+      "retelling_prompt": "What are the goals of sustainable tourism?",
+      "tags": [
+        "tourism",
+        "environment"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "culture-tourism-012",
+      "chunk": "homestay programs",
+      "meaning_cn": "民宿项目",
+      "collocations": [
+        "homestay programs",
+        "participate in homestay programs",
+        "offer homestay experiences"
+      ],
+      "sentence": "Homestay programs allow travelers to experience local culture firsthand.",
+      "sentence_cn": "民宿项目让旅行者亲身体验当地文化。",
+      "exam_sentence": "Homestay programs provide authentic cultural experiences while distributing tourism income directly to host families.",
+      "audio": "/audio/culture-tourism/chunk-012.mp3",
+      "rewrite_prompt_cn": "民宿项目让旅行者亲身体验当地文化。",
+      "retelling_prompt": "What are the benefits of homestay programs?",
+      "tags": [
+        "tourism",
+        "culture"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "culture-tourism-013",
+      "chunk": "cultural exchange programs",
+      "meaning_cn": "文化交流项目",
+      "collocations": [
+        "cultural exchange programs",
+        "participate in cultural exchange programs",
+        "organize cultural exchange programs"
+      ],
+      "sentence": "Cultural exchange programs help students develop a global perspective.",
+      "sentence_cn": "文化交流项目帮助学生培养全球视野。",
+      "exam_sentence": "Cultural exchange programs not only broaden individual horizons but also strengthen diplomatic ties between nations.",
+      "audio": "/audio/culture-tourism/chunk-013.mp3",
+      "rewrite_prompt_cn": "文化交流项目帮助学生培养全球视野。",
+      "retelling_prompt": "How do cultural exchange programs benefit students?",
+      "tags": [
+        "culture",
+        "education"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "culture-tourism-014",
+      "chunk": "mass tourism",
+      "meaning_cn": "大众旅游",
+      "collocations": [
+        "mass tourism",
+        "negative effects of mass tourism",
+        "manage mass tourism"
+      ],
+      "sentence": "Mass tourism can cause environmental damage to popular destinations.",
+      "sentence_cn": "大众旅游可能对热门目的地造成环境破坏。",
+      "exam_sentence": "The negative effects of mass tourism include overcrowding, pollution, and the degradation of local cultural sites.",
+      "audio": "/audio/culture-tourism/chunk-014.mp3",
+      "rewrite_prompt_cn": "大众旅游可能对热门目的地造成环境破坏。",
+      "retelling_prompt": "What problems does mass tourism cause?",
+      "tags": [
+        "tourism",
+        "environment"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "culture-tourism-015",
+      "chunk": "commercialization of culture",
+      "meaning_cn": "文化商业化",
+      "collocations": [
+        "commercialization of culture",
+        "prevent commercialization",
+        "excessive commercialization"
+      ],
+      "sentence": "The commercialization of cultural festivals has changed their original meaning.",
+      "sentence_cn": "文化节的商业化改变了它们原有的意义。",
+      "exam_sentence": "The excessive commercialization of traditional festivals risks turning meaningful cultural celebrations into superficial tourist attractions.",
+      "audio": "/audio/culture-tourism/chunk-015.mp3",
+      "rewrite_prompt_cn": "文化节的商业化改变了它们原有的意义。",
+      "retelling_prompt": "How does commercialization affect cultural traditions?",
+      "tags": [
+        "culture",
+        "tourism"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "culture-tourism-016",
+      "chunk": "mutual understanding",
+      "meaning_cn": "相互理解",
+      "collocations": [
+        "foster mutual understanding",
+        "promote mutual understanding",
+        "build mutual understanding"
+      ],
+      "sentence": "Travel can foster mutual understanding between people from different backgrounds.",
+      "sentence_cn": "旅行可以促进不同背景人们之间的相互理解。",
+      "exam_sentence": "Promoting mutual understanding between cultures is one of the most valuable outcomes of international educational programs.",
+      "audio": "/audio/culture-tourism/chunk-016.mp3",
+      "rewrite_prompt_cn": "旅行可以促进不同背景人们之间的相互理解。",
+      "retelling_prompt": "How does travel promote mutual understanding?",
+      "tags": [
+        "culture",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "culture-tourism-017",
+      "chunk": "authentic cultural experiences",
+      "meaning_cn": "真实的文化体验",
+      "collocations": [
+        "authentic cultural experiences",
+        "provide authentic experiences",
+        "seek authentic experiences"
+      ],
+      "sentence": "Many tourists today seek authentic cultural experiences rather than standard tourist attractions.",
+      "sentence_cn": "如今许多游客寻求真实的文化体验，而非标准的旅游景点。",
+      "exam_sentence": "Providing authentic cultural experiences requires careful planning to avoid turning local traditions into mere performances.",
+      "audio": "/audio/culture-tourism/chunk-017.mp3",
+      "rewrite_prompt_cn": "如今许多游客寻求真实的文化体验，而非标准的旅游景点。",
+      "retelling_prompt": "Why do tourists seek authentic cultural experiences?",
+      "tags": [
+        "tourism",
+        "culture"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "culture-tourism-018",
+      "chunk": "community development",
+      "meaning_cn": "社区发展",
+      "collocations": [
+        "support community development",
+        "promote community development",
+        "community development projects"
+      ],
+      "sentence": "Tourism can play a significant role in supporting community development in rural areas.",
+      "sentence_cn": "旅游在支持农村社区发展方面可以发挥重要作用。",
+      "exam_sentence": "When managed responsibly, tourism can contribute to community development by creating jobs and funding local infrastructure.",
+      "audio": "/audio/culture-tourism/chunk-018.mp3",
+      "rewrite_prompt_cn": "旅游在支持农村社区发展方面可以发挥重要作用。",
+      "retelling_prompt": "How can tourism support community development?",
+      "tags": [
+        "tourism",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "culture-tourism-019",
+      "chunk": "passed down through generations",
+      "meaning_cn": "代代相传",
+      "collocations": [
+        "passed down through generations",
+        "traditions passed down",
+        "knowledge passed down"
+      ],
+      "sentence": "Many traditional crafts have been passed down through generations of artisans.",
+      "sentence_cn": "许多传统工艺已经在工匠中代代相传。",
+      "exam_sentence": "Traditions passed down through generations represent an irreplaceable cultural legacy that modernization should not erase.",
+      "audio": "/audio/culture-tourism/chunk-019.mp3",
+      "rewrite_prompt_cn": "许多传统工艺已经在工匠中代代相传。",
+      "retelling_prompt": "Why is it important to preserve traditions passed down through generations?",
+      "tags": [
+        "culture",
+        "tradition"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "culture-tourism-020",
+      "chunk": "conservation efforts",
+      "meaning_cn": "保护努力",
+      "collocations": [
+        "conservation efforts",
+        "support conservation efforts",
+        "fund conservation efforts"
+      ],
+      "sentence": "Conservation efforts have saved several endangered heritage sites from destruction.",
+      "sentence_cn": "保护努力已拯救了几个濒危遗产地免遭破坏。",
+      "exam_sentence": "Increased conservation efforts are urgently needed to protect cultural and natural heritage sites that face threats from climate change and urbanization.",
+      "audio": "/audio/culture-tourism/chunk-020.mp3",
+      "rewrite_prompt_cn": "保护努力已拯救了几个濒危遗产地免遭破坏。",
+      "retelling_prompt": "What do conservation efforts aim to protect?",
+      "tags": [
+        "heritage",
+        "environment"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    }
+  ]
+}

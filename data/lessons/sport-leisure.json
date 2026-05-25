@@ -1,0 +1,513 @@
+{
+  "lesson_id": "sport-leisure",
+  "title": "Sport & Leisure",
+  "title_cn": "体育与休闲",
+  "category": "General English",
+  "level": "B1-B2",
+  "theme_tags": [
+    "sport",
+    "leisure",
+    "fitness",
+    "competition"
+  ],
+  "exam_tags": [
+    "IELTS",
+    "TOEFL",
+    "CET6",
+    "Postgraduate English"
+  ],
+  "article": {
+    "text": "Professional sports have evolved into a multibillion-dollar industry that captivates billions of fans worldwide. From the Olympic Games to local football leagues, competitive sports play a significant role in shaping culture and community identity. The benefits of regular physical activity are well documented, with studies consistently showing that sports and exercise improve both physical fitness and mental well-being. Governments and health organizations promote sports facilities and recreational activities as part of public health strategies, encouraging people of all ages to lead more active lifestyles. Youth sports programs help children develop important life skills such as teamwork, discipline, and resilience. Sportsmanship, the spirit of fair play and respect for opponents, is a core value that extends beyond the playing field into everyday life. Team spirit fosters a sense of belonging and cooperation among players, which can translate into stronger social bonds in communities. The sports industry also drives economic growth through job creation, tourism, and infrastructure investment. However, concerns about athletic performance and the use of performance-enhancing substances continue to challenge the integrity of professional competition. Despite these challenges, sport remains one of the most powerful tools for bringing people together across cultural and national boundaries. Research consistently demonstrates that communities with strong sporting cultures experience lower rates of chronic disease and higher levels of civic engagement.",
+    "text_cn": "职业体育已发展成为一个价值数千亿美元的产业，吸引了全球数十亿球迷。从奥运会到地方足球联赛，竞技体育在塑造文化和社区认同方面发挥着重要作用。定期体育锻炼的好处已得到充分证实，研究一致表明运动和锻炼能改善身体健康和心理健康。政府和卫生组织将体育设施和休闲活动作为公共卫生战略的一部分加以推广，鼓励各个年龄段的人过更积极的生活方式。青少年体育项目帮助儿童培养团队合作、纪律性和韧性等重要的人生技能。体育精神——公平竞争和尊重对手的精神——是一项超越赛场、融入日常生活的核心价值观。团队精神培养了运动员之间的归属感和合作意识，这可以转化为社区中更强的社会纽带。体育产业还通过创造就业、促进旅游和基础设施投资来推动经济增长。然而，关于运动表现和兴奋剂使用的担忧继续挑战着职业比赛的公正性。尽管存在这些挑战，体育仍然是跨越文化和国家界限将人们团结在一起的最强大工具之一。 研究一致表明，拥有强大体育文化的社区慢性病发病率更低，公民参与度更高。",
+    "audio": "/audio/sport-leisure/article.mp3"
+  },
+  "model_paragraph": {
+    "text": "Engaging in regular sports and recreational activities not only improves physical fitness but also fosters social connections and mental resilience. Communities that invest in accessible sports facilities reap long-term benefits in public health and social cohesion.",
+    "text_cn": "定期参与体育和休闲活动不仅能改善身体健康，还能促进社交联系和心理韧性。投资于便利体育设施的社区在公共健康和社会凝聚力方面获得长期收益。"
+  },
+  "chunks": [
+    {
+      "id": "sport-leisure-001",
+      "chunk": "professional sports",
+      "meaning_cn": "职业体育",
+      "collocations": [
+        "professional sports industry",
+        "career in professional sports",
+        "the world of professional sports"
+      ],
+      "sentence": "Professional sports generate billions of dollars in revenue each year through broadcasting rights and sponsorships.",
+      "sentence_cn": "职业体育每年通过转播权和赞助产生数十亿美元的收入。",
+      "exam_sentence": "The professional sports industry has become a significant driver of economic growth in many countries.",
+      "audio": "/audio/sport-leisure/chunk-001.mp3",
+      "rewrite_prompt_cn": "职业体育每年通过转播权和赞助产生数十亿美元的收入。",
+      "retelling_prompt": "How big is the professional sports industry?",
+      "tags": [
+        "sport",
+        "industry"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "sport-leisure-002",
+      "chunk": "sports facilities",
+      "meaning_cn": "体育设施",
+      "collocations": [
+        "invest in sports facilities",
+        "modern sports facilities",
+        "community sports facilities"
+      ],
+      "sentence": "The government is investing in modern sports facilities to encourage more people to participate in physical activities.",
+      "sentence_cn": "政府正在投资建设现代化体育设施以鼓励更多人参与体育活动。",
+      "exam_sentence": "Access to well-maintained sports facilities is essential for promoting public health and community engagement.",
+      "audio": "/audio/sport-leisure/chunk-002.mp3",
+      "rewrite_prompt_cn": "政府正在投资建设现代化体育设施以鼓励更多人参与体育活动。",
+      "retelling_prompt": "Why should governments invest in sports facilities?",
+      "tags": [
+        "sport",
+        "infrastructure"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "sport-leisure-003",
+      "chunk": "physical fitness",
+      "meaning_cn": "身体健康",
+      "collocations": [
+        "improve physical fitness",
+        "physical fitness levels",
+        "maintain physical fitness"
+      ],
+      "sentence": "Regular exercise is the most effective way to improve and maintain physical fitness throughout life.",
+      "sentence_cn": "定期锻炼是终生改善和保持身体健康的最佳方式。",
+      "exam_sentence": "Schools should place greater emphasis on physical education to help students develop lifelong physical fitness habits.",
+      "audio": "/audio/sport-leisure/chunk-003.mp3",
+      "rewrite_prompt_cn": "定期锻炼是终生改善和保持身体健康的最佳方式。",
+      "retelling_prompt": "How can people maintain physical fitness?",
+      "tags": [
+        "health",
+        "sport"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "sport-leisure-004",
+      "chunk": "competitive sports",
+      "meaning_cn": "竞技体育",
+      "collocations": [
+        "participate in competitive sports",
+        "the world of competitive sports",
+        "benefits of competitive sports"
+      ],
+      "sentence": "Competitive sports teach valuable lessons about perseverance, discipline, and handling both victory and defeat.",
+      "sentence_cn": "竞技体育教授关于坚持、纪律以及面对胜负的宝贵经验。",
+      "exam_sentence": "While competitive sports offer numerous benefits, excessive pressure on young athletes can lead to burnout and psychological stress.",
+      "audio": "/audio/sport-leisure/chunk-004.mp3",
+      "rewrite_prompt_cn": "竞技体育教授关于坚持、纪律以及面对胜负的宝贵经验。",
+      "retelling_prompt": "What life lessons do competitive sports teach?",
+      "tags": [
+        "sport",
+        "competition"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "sport-leisure-005",
+      "chunk": "leisure activities",
+      "meaning_cn": "休闲活动",
+      "collocations": [
+        "a range of leisure activities",
+        "popular leisure activities",
+        "engage in leisure activities"
+      ],
+      "sentence": "People who regularly engage in leisure activities report higher levels of life satisfaction and lower stress.",
+      "sentence_cn": "定期参与休闲活动的人报告的生活满意度更高，压力更低。",
+      "exam_sentence": "Access to diverse leisure activities is an important factor in determining the overall quality of life in a community.",
+      "audio": "/audio/sport-leisure/chunk-005.mp3",
+      "rewrite_prompt_cn": "定期参与休闲活动的人报告的生活满意度更高，压力更低。",
+      "retelling_prompt": "How do leisure activities affect well-being?",
+      "tags": [
+        "leisure",
+        "well-being"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "sport-leisure-006",
+      "chunk": "sportsmanship",
+      "meaning_cn": "体育精神",
+      "collocations": [
+        "demonstrate good sportsmanship",
+        "the spirit of sportsmanship",
+        "teach sportsmanship"
+      ],
+      "sentence": "Good sportsmanship means respecting your opponents and playing fair, regardless of the outcome.",
+      "sentence_cn": "良好的体育精神意味着尊重对手、公平竞争，无论结果如何。",
+      "exam_sentence": "Teaching sportsmanship in schools is just as important as developing athletic skills, as it shapes character and ethical behavior.",
+      "audio": "/audio/sport-leisure/chunk-006.mp3",
+      "rewrite_prompt_cn": "良好的体育精神意味着尊重对手、公平竞争，无论结果如何。",
+      "retelling_prompt": "What does sportsmanship mean?",
+      "tags": [
+        "sport",
+        "values"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "sport-leisure-007",
+      "chunk": "team spirit",
+      "meaning_cn": "团队精神",
+      "collocations": [
+        "foster team spirit",
+        "strong team spirit",
+        "build team spirit"
+      ],
+      "sentence": "Strong team spirit can make the difference between a group of talented individuals and a championship-winning team.",
+      "sentence_cn": "强大的团队精神可以区分一群有天赋的个人和一支冠军球队。",
+      "exam_sentence": "Team spirit cultivated through sports can translate into better collaboration and communication in professional environments.",
+      "audio": "/audio/sport-leisure/chunk-007.mp3",
+      "rewrite_prompt_cn": "强大的团队精神可以区分一群有天赋的个人和一支冠军球队。",
+      "retelling_prompt": "Why is team spirit important?",
+      "tags": [
+        "sport",
+        "cooperation"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "sport-leisure-008",
+      "chunk": "Olympic Games",
+      "meaning_cn": "奥运会",
+      "collocations": [
+        "host the Olympic Games",
+        "compete in the Olympic Games",
+        "the spirit of the Olympic Games"
+      ],
+      "sentence": "Hosting the Olympic Games requires enormous investment in infrastructure and sports venues.",
+      "sentence_cn": "举办奥运会需要在基础设施和体育场馆方面投入巨资。",
+      "exam_sentence": "The Olympic Games promote international cooperation and cultural exchange, bringing nations together through the universal language of sport.",
+      "audio": "/audio/sport-leisure/chunk-008.mp3",
+      "rewrite_prompt_cn": "举办奥运会需要在基础设施和体育场馆方面投入巨资。",
+      "retelling_prompt": "What does hosting the Olympic Games involve?",
+      "tags": [
+        "sport",
+        "international"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "sport-leisure-009",
+      "chunk": "sports industry",
+      "meaning_cn": "体育产业",
+      "collocations": [
+        "the global sports industry",
+        "sports industry revenue",
+        "grow the sports industry"
+      ],
+      "sentence": "The global sports industry continues to grow, driven by increasing media rights deals and sponsorship revenues.",
+      "sentence_cn": "全球体育产业持续增长，受不断增加的媒体转播权和赞助收入的推动。",
+      "exam_sentence": "The sports industry contributes significantly to job creation and economic development, particularly through major sporting events.",
+      "audio": "/audio/sport-leisure/chunk-009.mp3",
+      "rewrite_prompt_cn": "全球体育产业持续增长，受不断增加的媒体转播权和赞助收入的推动。",
+      "retelling_prompt": "What drives the growth of the sports industry?",
+      "tags": [
+        "sport",
+        "economics"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "sport-leisure-010",
+      "chunk": "recreational activities",
+      "meaning_cn": "娱乐活动",
+      "collocations": [
+        "a variety of recreational activities",
+        "outdoor recreational activities",
+        "access to recreational activities"
+      ],
+      "sentence": "Outdoor recreational activities such as hiking and cycling have become increasingly popular among urban residents.",
+      "sentence_cn": "徒步和骑行等户外娱乐活动在城市居民中变得越来越受欢迎。",
+      "exam_sentence": "Providing affordable recreational activities for all age groups should be a priority for local governments.",
+      "audio": "/audio/sport-leisure/chunk-010.mp3",
+      "rewrite_prompt_cn": "徒步和骑行等户外娱乐活动在城市居民中变得越来越受欢迎。",
+      "retelling_prompt": "What recreational activities are popular in cities?",
+      "tags": [
+        "leisure",
+        "lifestyle"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "sport-leisure-011",
+      "chunk": "youth sports",
+      "meaning_cn": "青少年体育",
+      "collocations": [
+        "participate in youth sports",
+        "youth sports programs",
+        "benefits of youth sports"
+      ],
+      "sentence": "Youth sports programs help children develop physical coordination and social skills from an early age.",
+      "sentence_cn": "青少年体育项目帮助儿童从小培养身体协调能力和社交技能。",
+      "exam_sentence": "Participation in youth sports has been linked to better academic performance and improved social development among adolescents.",
+      "audio": "/audio/sport-leisure/chunk-011.mp3",
+      "rewrite_prompt_cn": "青少年体育项目帮助儿童从小培养身体协调能力和社交技能。",
+      "retelling_prompt": "What benefits do youth sports offer?",
+      "tags": [
+        "sport",
+        "youth"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "sport-leisure-012",
+      "chunk": "athletic performance",
+      "meaning_cn": "运动表现",
+      "collocations": [
+        "improve athletic performance",
+        "peak athletic performance",
+        "athletic performance enhancement"
+      ],
+      "sentence": "Advances in sports science and nutrition have helped athletes achieve remarkable levels of athletic performance.",
+      "sentence_cn": "体育科学和营养学的进步帮助运动员达到了惊人的运动表现水平。",
+      "exam_sentence": "While science can help improve athletic performance, the use of performance-enhancing drugs undermines the fairness of competition.",
+      "audio": "/audio/sport-leisure/chunk-012.mp3",
+      "rewrite_prompt_cn": "体育科学和营养学的进步帮助运动员达到了惊人的运动表现水平。",
+      "retelling_prompt": "How has science improved athletic performance?",
+      "tags": [
+        "sport",
+        "science"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "sport-leisure-013",
+      "chunk": "fair play",
+      "meaning_cn": "公平竞争",
+      "collocations": [
+        "the principle of fair play",
+        "promote fair play",
+        "spirit of fair play"
+      ],
+      "sentence": "The principle of fair play is fundamental to the integrity of all competitive sports.",
+      "sentence_cn": "公平竞争原则对所有竞技体育的公正性至关重要。",
+      "exam_sentence": "Ensuring fair play in professional sports requires strict enforcement of rules and effective anti-doping measures.",
+      "audio": "/audio/sport-leisure/chunk-013.mp3",
+      "rewrite_prompt_cn": "公平竞争原则对所有竞技体育的公正性至关重要。",
+      "retelling_prompt": "Why is fair play important in sports?",
+      "tags": [
+        "sport",
+        "ethics"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "sport-leisure-014",
+      "chunk": "physical activity",
+      "meaning_cn": "体育锻炼",
+      "collocations": [
+        "regular physical activity",
+        "benefits of physical activity",
+        "levels of physical activity"
+      ],
+      "sentence": "Health experts recommend at least 150 minutes of moderate physical activity per week for adults.",
+      "sentence_cn": "健康专家建议成年人每周至少进行150分钟的中等强度体育锻炼。",
+      "exam_sentence": "A sedentary lifestyle with insufficient physical activity has been identified as a major risk factor for chronic diseases.",
+      "audio": "/audio/sport-leisure/chunk-014.mp3",
+      "rewrite_prompt_cn": "健康专家建议成年人每周至少进行150分钟的中等强度体育锻炼。",
+      "retelling_prompt": "How much physical activity do adults need?",
+      "tags": [
+        "health",
+        "sport"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "sport-leisure-015",
+      "chunk": "mental well-being",
+      "meaning_cn": "心理健康",
+      "collocations": [
+        "improve mental well-being",
+        "benefit mental well-being",
+        "impact on mental well-being"
+      ],
+      "sentence": "Regular participation in sports has been shown to significantly improve mental well-being and reduce anxiety.",
+      "sentence_cn": "定期参与体育活动已被证明能显著改善心理健康并减少焦虑。",
+      "exam_sentence": "The positive impact of sports on mental well-being should be given greater attention in public health campaigns.",
+      "audio": "/audio/sport-leisure/chunk-015.mp3",
+      "rewrite_prompt_cn": "定期参与体育活动已被证明能显著改善心理健康并减少焦虑。",
+      "retelling_prompt": "How does sport affect mental well-being?",
+      "tags": [
+        "health",
+        "psychology"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "sport-leisure-016",
+      "chunk": "active lifestyle",
+      "meaning_cn": "积极的生活方式",
+      "collocations": [
+        "lead an active lifestyle",
+        "promote an active lifestyle",
+        "benefits of an active lifestyle"
+      ],
+      "sentence": "Schools and communities play a crucial role in encouraging young people to adopt an active lifestyle.",
+      "sentence_cn": "学校和社区在鼓励年轻人采取积极的生活方式方面发挥着关键作用。",
+      "exam_sentence": "Governments should implement policies that make it easier for citizens to lead an active lifestyle, such as improving walkability and cycling infrastructure.",
+      "audio": "/audio/sport-leisure/chunk-016.mp3",
+      "rewrite_prompt_cn": "学校和社区在鼓励年轻人采取积极的生活方式方面发挥着关键作用。",
+      "retelling_prompt": "How can society encourage an active lifestyle?",
+      "tags": [
+        "health",
+        "lifestyle"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "sport-leisure-017",
+      "chunk": "teamwork and discipline",
+      "meaning_cn": "团队合作与纪律",
+      "collocations": [
+        "develop teamwork and discipline",
+        "teach teamwork and discipline",
+        "importance of teamwork and discipline"
+      ],
+      "sentence": "Sports are an excellent way for children to develop teamwork and discipline that will serve them throughout their lives.",
+      "sentence_cn": "体育是儿童培养终身受益的团队合作精神和纪律性的绝佳方式。",
+      "exam_sentence": "The teamwork and discipline learned through sports are transferable skills that benefit individuals in their academic and professional lives.",
+      "audio": "/audio/sport-leisure/chunk-017.mp3",
+      "rewrite_prompt_cn": "体育是儿童培养终身受益的团队合作精神和纪律性的绝佳方式。",
+      "retelling_prompt": "What skills do children learn through sports?",
+      "tags": [
+        "sport",
+        "education"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "sport-leisure-018",
+      "chunk": "sense of belonging",
+      "meaning_cn": "归属感",
+      "collocations": [
+        "create a sense of belonging",
+        "foster a sense of belonging",
+        "strong sense of belonging"
+      ],
+      "sentence": "Being part of a sports team can give young people a strong sense of belonging and community connection.",
+      "sentence_cn": "成为运动队的一员可以让年轻人产生强烈的归属感和社区联系。",
+      "exam_sentence": "Community sports clubs play a vital role in fostering a sense of belonging and social cohesion, particularly in multicultural societies.",
+      "audio": "/audio/sport-leisure/chunk-018.mp3",
+      "rewrite_prompt_cn": "成为运动队的一员可以让年轻人产生强烈的归属感和社区联系。",
+      "retelling_prompt": "How do sports create a sense of belonging?",
+      "tags": [
+        "social",
+        "community"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "sport-leisure-019",
+      "chunk": "performance-enhancing substances",
+      "meaning_cn": "兴奋剂",
+      "collocations": [
+        "ban performance-enhancing substances",
+        "use of performance-enhancing substances",
+        "detect performance-enhancing substances"
+      ],
+      "sentence": "The use of performance-enhancing substances is strictly prohibited in all professional and amateur sports.",
+      "sentence_cn": "在所有职业和业余体育中，严禁使用兴奋剂。",
+      "exam_sentence": "Sports governing bodies must continue to invest in anti-doping measures to combat the use of performance-enhancing substances and protect the integrity of competition.",
+      "audio": "/audio/sport-leisure/chunk-019.mp3",
+      "rewrite_prompt_cn": "在所有职业和业余体育中，严禁使用兴奋剂。",
+      "retelling_prompt": "What is being done about performance-enhancing substances in sports?",
+      "tags": [
+        "sport",
+        "ethics"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "sport-leisure-020",
+      "chunk": "bringing people together",
+      "meaning_cn": "团结人们",
+      "collocations": [
+        "sport has a unique power of bringing people together",
+        "bringing people together across cultures",
+        "a tool for bringing people together"
+      ],
+      "sentence": "Sport has a unique power of bringing people together across cultural and national boundaries.",
+      "sentence_cn": "体育具有跨越文化和国家界限团结人们的独特力量。",
+      "exam_sentence": "Major sporting events serve as a powerful platform for bringing people together and promoting mutual understanding between nations.",
+      "audio": "/audio/sport-leisure/chunk-020.mp3",
+      "rewrite_prompt_cn": "体育具有跨越文化和国家界限团结人们的独特力量。",
+      "retelling_prompt": "How does sport unite people?",
+      "tags": [
+        "sport",
+        "culture"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    }
+  ]
+}

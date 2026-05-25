@@ -1,0 +1,521 @@
+{
+  "lesson_id": "crime-punishment",
+  "title": "Crime & Punishment",
+  "title_cn": "犯罪与惩罚",
+  "category": "General English",
+  "level": "B1-B2",
+  "theme_tags": [
+    "crime",
+    "law",
+    "justice",
+    "society"
+  ],
+  "exam_tags": [
+    "IELTS",
+    "TOEFL",
+    "CET4",
+    "CET6",
+    "Postgraduate English"
+  ],
+  "article": {
+    "text": "The debate over how societies should respond to criminal behavior is one of the most complex issues in modern jurisprudence. At the heart of this debate lies a fundamental question: should the criminal justice system prioritize deterrence or rehabilitation?\n\nProponents of harsher penalties, including capital punishment and mandatory sentencing, argue that strong deterrence is necessary to maintain social order. They believe that severe consequences discourage potential offenders and protect law-abiding citizens from harm. However, critics point out that recidivism rates remain high even in countries with strict laws, suggesting that punishment alone is not an effective solution.\n\nAdvocates of rehabilitation emphasize the importance of addressing the root causes of crime, such as poverty, lack of education, and mental health issues. They argue that community service programs and restorative justice approaches can help offenders reintegrate into society, reducing the likelihood of reoffending. This is particularly relevant for juvenile delinquency, where early intervention can prevent a lifetime of criminal behavior.\n\nThe rise of cybercrime and white-collar crime has added new dimensions to this debate. Unlike traditional street crime, these offenses often involve sophisticated methods and cause widespread financial damage, yet they may receive lighter sentences. Many argue that the criminal justice system must adapt to these evolving threats through updated legislation and specialized law enforcement units.\n\nUltimately, a balanced approach that combines appropriate punishment with effective crime prevention strategies may offer the best path forward for creating safer communities.",
+    "text_cn": "关于社会应如何回应犯罪行为的争论是现代法理学中最复杂的问题之一。这场辩论的核心是一个根本性问题：刑事司法系统应该优先考虑威慑还是改造？\n\n更严厉处罚的支持者，包括死刑和强制量刑，认为强有力的威慑是维持社会秩序所必需的。他们认为严重的后果能阻止潜在的犯罪者，保护守法的公民免受伤害。然而，批评者指出，即使在法律严格的国家，再犯率仍然很高，这表明单靠惩罚并不是有效的解决方案。\n\n改造的倡导者强调解决犯罪根本原因的重要性，如贫困、缺乏教育和心理健康问题。他们认为社区服务项目和恢复性司法方法可以帮助犯罪者重新融入社会，减少再次犯罪的可能性。这对青少年犯罪尤其重要，早期干预可以防止终身的犯罪行为。\n\n网络犯罪和白领犯罪的兴起为这场辩论增添了新的维度。与传统街头犯罪不同，这些犯罪通常涉及复杂的方法并造成广泛的财务损失，但它们可能受到较轻的判决。许多人认为刑事司法系统必须通过更新的立法和专门的执法单位来适应这些不断演变的威胁。\n\n最终，将适当的惩罚与有效的犯罪预防策略相结合的平衡方法，可能是创建更安全社区的最佳途径。",
+    "audio": "/audio/crime-punishment/article.mp3"
+  },
+  "model_paragraph": {
+    "text": "While deterrence plays a role in discouraging criminal behavior, I believe that rehabilitation programs offer a more sustainable solution to crime. By addressing root causes such as poverty and lack of education, and by implementing restorative justice approaches, society can reduce recidivism and help offenders become productive citizens.",
+    "text_cn": "虽然威慑在阻止犯罪行为方面发挥一定作用，但我认为改造项目为解决犯罪问题提供了更可持续的方案。通过解决贫困和缺乏教育等根本原因，并实施恢复性司法方法，社会可以降低再犯率，帮助犯罪者成为有生产力的公民。"
+  },
+  "chunks": [
+    {
+      "id": "crime-punishment-001",
+      "chunk": "deterrence",
+      "meaning_cn": "威慑；遏制",
+      "collocations": [
+        "act as a deterrence",
+        "deterrence effect",
+        "deterrence strategy"
+      ],
+      "sentence": "The death penalty is often cited as a form of deterrence against serious crimes.",
+      "sentence_cn": "死刑通常被视为对严重犯罪的一种威慑形式。",
+      "exam_sentence": "While capital punishment may serve as a deterrence, research suggests that rehabilitation programs are more effective at reducing recidivism.",
+      "audio": "/audio/crime-punishment/chunk-001.mp3",
+      "rewrite_prompt_cn": "死刑通常被视为对严重犯罪的一种威慑形式。",
+      "retelling_prompt": "What is the theory behind deterrence as a crime prevention strategy?",
+      "tags": [
+        "crime",
+        "law"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "crime-punishment-002",
+      "chunk": "rehabilitation programs",
+      "meaning_cn": "改造项目",
+      "collocations": [
+        "rehabilitation programs in prisons",
+        "fund rehabilitation programs",
+        "effective rehabilitation programs"
+      ],
+      "sentence": "Rehabilitation programs help prisoners develop skills needed for life after release.",
+      "sentence_cn": "改造项目帮助囚犯发展释放后生活所需的技能。",
+      "exam_sentence": "Investing in rehabilitation programs is not only more humane but also more cost-effective than long-term imprisonment.",
+      "audio": "/audio/crime-punishment/chunk-002.mp3",
+      "rewrite_prompt_cn": "改造项目帮助囚犯发展释放后生活所需的技能。",
+      "retelling_prompt": "Why is rehabilitation considered important in the criminal justice system?",
+      "tags": [
+        "crime",
+        "justice"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "crime-punishment-003",
+      "chunk": "juvenile delinquency",
+      "meaning_cn": "青少年犯罪",
+      "collocations": [
+        "rise in juvenile delinquency",
+        "juvenile delinquency rates",
+        "prevent juvenile delinquency"
+      ],
+      "sentence": "Rising juvenile delinquency rates have become a serious social concern.",
+      "sentence_cn": "不断上升的青少年犯罪率已成为一个严重的社会问题。",
+      "exam_sentence": "To address juvenile delinquency effectively, society must invest in early intervention programs and provide at-risk youth with educational and emotional support.",
+      "audio": "/audio/crime-punishment/chunk-003.mp3",
+      "rewrite_prompt_cn": "不断上升的青少年犯罪率已成为一个严重的社会问题。",
+      "retelling_prompt": "What factors contribute to juvenile delinquency?",
+      "tags": [
+        "crime",
+        "youth"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "CET6",
+        "Postgraduate English"
+      ]
+    },
+    {
+      "id": "crime-punishment-004",
+      "chunk": "cybercrime",
+      "meaning_cn": "网络犯罪",
+      "collocations": [
+        "combat cybercrime",
+        "cybercrime legislation",
+        "cybercrime prevention"
+      ],
+      "sentence": "Cybercrime is one of the fastest-growing types of criminal activity worldwide.",
+      "sentence_cn": "网络犯罪是全球增长最快的犯罪类型之一。",
+      "exam_sentence": "As cybercrime becomes increasingly sophisticated, governments must invest in specialized law enforcement units to combat digital threats effectively.",
+      "audio": "/audio/crime-punishment/chunk-004.mp3",
+      "rewrite_prompt_cn": "网络犯罪是全球增长最快的犯罪类型之一。",
+      "retelling_prompt": "Why is cybercrime difficult to combat?",
+      "tags": [
+        "crime",
+        "technology"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "crime-punishment-005",
+      "chunk": "capital punishment",
+      "meaning_cn": "死刑",
+      "collocations": [
+        "abolish capital punishment",
+        "capital punishment debate",
+        "support capital punishment"
+      ],
+      "sentence": "Many countries have abolished capital punishment on human rights grounds.",
+      "sentence_cn": "许多国家以人权为由废除了死刑。",
+      "exam_sentence": "The debate over capital punishment raises fundamental questions about the balance between justice, human rights, and the state's authority to take a life.",
+      "audio": "/audio/crime-punishment/chunk-005.mp3",
+      "rewrite_prompt_cn": "许多国家以人权为由废除了死刑。",
+      "retelling_prompt": "What are the main arguments for and against capital punishment?",
+      "tags": [
+        "crime",
+        "law"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Postgraduate English"
+      ]
+    },
+    {
+      "id": "crime-punishment-006",
+      "chunk": "recidivism rates",
+      "meaning_cn": "再犯率",
+      "collocations": [
+        "reduce recidivism rates",
+        "high recidivism rates",
+        "recidivism rates and rehabilitation"
+      ],
+      "sentence": "High recidivism rates suggest that the current system fails to reform offenders.",
+      "sentence_cn": "高再犯率表明现有制度未能有效改造犯罪者。",
+      "exam_sentence": "To reduce recidivism rates, prisons should focus on education and vocational training rather than solely on punishment.",
+      "audio": "/audio/crime-punishment/chunk-006.mp3",
+      "rewrite_prompt_cn": "高再犯率表明现有制度未能有效改造犯罪者。",
+      "retelling_prompt": "What does a high recidivism rate indicate about a justice system?",
+      "tags": [
+        "crime",
+        "statistics"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "CET6",
+        "Postgraduate English"
+      ]
+    },
+    {
+      "id": "crime-punishment-007",
+      "chunk": "community service",
+      "meaning_cn": "社区服务",
+      "collocations": [
+        "community service orders",
+        "perform community service",
+        "mandatory community service"
+      ],
+      "sentence": "Courts often order offenders to perform community service as an alternative to imprisonment.",
+      "sentence_cn": "法院经常命令犯罪者进行社区服务作为替代监禁的方式。",
+      "exam_sentence": "Community service sentences allow offenders to give back to society while avoiding the negative effects of incarceration.",
+      "audio": "/audio/crime-punishment/chunk-007.mp3",
+      "rewrite_prompt_cn": "法院经常命令犯罪者进行社区服务作为替代监禁的方式。",
+      "retelling_prompt": "What are the benefits of community service as a sentence?",
+      "tags": [
+        "crime",
+        "justice"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "CET4",
+        "CET6"
+      ]
+    },
+    {
+      "id": "crime-punishment-008",
+      "chunk": "white-collar crime",
+      "meaning_cn": "白领犯罪",
+      "collocations": [
+        "white-collar criminals",
+        "white-collar crime prosecution",
+        "corporate white-collar crime"
+      ],
+      "sentence": "White-collar crime often causes more financial damage than traditional street crime.",
+      "sentence_cn": "白领犯罪通常比传统街头犯罪造成更大的经济损失。",
+      "exam_sentence": "White-collar crime should be punished as severely as violent crime, given the enormous financial and social harm it causes to society.",
+      "audio": "/audio/crime-punishment/chunk-008.mp3",
+      "rewrite_prompt_cn": "白领犯罪通常比传统街头犯罪造成更大的经济损失。",
+      "retelling_prompt": "How does white-collar crime differ from traditional crime?",
+      "tags": [
+        "crime",
+        "business"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "crime-punishment-009",
+      "chunk": "criminal justice system",
+      "meaning_cn": "刑事司法系统",
+      "collocations": [
+        "reform the criminal justice system",
+        "criminal justice system reform",
+        "fair criminal justice system"
+      ],
+      "sentence": "Many people believe the criminal justice system needs fundamental reform.",
+      "sentence_cn": "许多人认为刑事司法系统需要根本性改革。",
+      "exam_sentence": "A fair and efficient criminal justice system is the cornerstone of any functioning democratic society.",
+      "audio": "/audio/crime-punishment/chunk-009.mp3",
+      "rewrite_prompt_cn": "许多人认为刑事司法系统需要根本性改革。",
+      "retelling_prompt": "What are the main criticisms of the criminal justice system?",
+      "tags": [
+        "crime",
+        "law"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "CET6",
+        "Postgraduate English"
+      ]
+    },
+    {
+      "id": "crime-punishment-010",
+      "chunk": "restorative justice",
+      "meaning_cn": "恢复性司法",
+      "collocations": [
+        "restorative justice programs",
+        "restorative justice approach",
+        "implement restorative justice"
+      ],
+      "sentence": "Restorative justice focuses on repairing the harm caused by criminal behavior.",
+      "sentence_cn": "恢复性司法侧重于修复犯罪行为造成的伤害。",
+      "exam_sentence": "Restorative justice programs, which involve dialogue between offenders and victims, have shown promising results in reducing recidivism.",
+      "audio": "/audio/crime-punishment/chunk-010.mp3",
+      "rewrite_prompt_cn": "恢复性司法侧重于修复犯罪行为造成的伤害。",
+      "retelling_prompt": "How does restorative justice differ from traditional punishment?",
+      "tags": [
+        "crime",
+        "justice"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "crime-punishment-011",
+      "chunk": "organized crime",
+      "meaning_cn": "有组织犯罪",
+      "collocations": [
+        "combat organized crime",
+        "organized crime syndicates",
+        "transnational organized crime"
+      ],
+      "sentence": "International cooperation is essential to combat transnational organized crime.",
+      "sentence_cn": "国际合作对于打击跨国有组织犯罪至关重要。",
+      "exam_sentence": "Tackling organized crime requires coordinated efforts between law enforcement agencies across different countries and jurisdictions.",
+      "audio": "/audio/crime-punishment/chunk-011.mp3",
+      "rewrite_prompt_cn": "国际合作对于打击跨国有组织犯罪至关重要。",
+      "retelling_prompt": "Why is organized crime difficult to fight?",
+      "tags": [
+        "crime",
+        "international"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "CET6"
+      ]
+    },
+    {
+      "id": "crime-punishment-012",
+      "chunk": "crime prevention",
+      "meaning_cn": "犯罪预防",
+      "collocations": [
+        "crime prevention strategies",
+        "invest in crime prevention",
+        "effective crime prevention"
+      ],
+      "sentence": "Investing in education is one of the most effective crime prevention strategies.",
+      "sentence_cn": "投资教育是最有效的犯罪预防策略之一。",
+      "exam_sentence": "Rather than spending billions on incarceration, governments should allocate more resources to crime prevention through education and social programs.",
+      "audio": "/audio/crime-punishment/chunk-012.mp3",
+      "rewrite_prompt_cn": "投资教育是最有效的犯罪预防策略之一。",
+      "retelling_prompt": "What are some effective crime prevention methods?",
+      "tags": [
+        "crime",
+        "policy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "crime-punishment-013",
+      "chunk": "mandatory sentencing",
+      "meaning_cn": "强制量刑",
+      "collocations": [
+        "mandatory sentencing laws",
+        "oppose mandatory sentencing",
+        "mandatory sentencing reform"
+      ],
+      "sentence": "Mandatory sentencing laws remove judicial discretion in determining punishments.",
+      "sentence_cn": "强制量刑法律消除了法官在确定刑罚方面的自由裁量权。",
+      "exam_sentence": "While mandatory sentencing aims to ensure consistency, it can lead to disproportionately harsh punishments that fail to consider individual circumstances.",
+      "audio": "/audio/crime-punishment/chunk-013.mp3",
+      "rewrite_prompt_cn": "强制量刑法律消除了法官在确定刑罚方面的自由裁量权。",
+      "retelling_prompt": "What are the pros and cons of mandatory sentencing?",
+      "tags": [
+        "crime",
+        "law"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "Postgraduate English"
+      ]
+    },
+    {
+      "id": "crime-punishment-014",
+      "chunk": "law-abiding citizens",
+      "meaning_cn": "守法公民",
+      "collocations": [
+        "protect law-abiding citizens",
+        "majority of law-abiding citizens",
+        "law-abiding citizens suffer"
+      ],
+      "sentence": "The primary purpose of law enforcement is to protect law-abiding citizens.",
+      "sentence_cn": "执法的主要目的是保护守法公民。",
+      "exam_sentence": "Strict gun control laws help protect law-abiding citizens from gun violence while respecting individual rights.",
+      "audio": "/audio/crime-punishment/chunk-014.mp3",
+      "rewrite_prompt_cn": "执法的主要目的是保护守法公民。",
+      "retelling_prompt": "How does the justice system balance the rights of victims and offenders?",
+      "tags": [
+        "crime",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "CET4"
+      ]
+    },
+    {
+      "id": "crime-punishment-015",
+      "chunk": "root causes",
+      "meaning_cn": "根本原因",
+      "collocations": [
+        "address the root causes",
+        "tackle root causes of crime",
+        "root causes of poverty"
+      ],
+      "sentence": "Addressing the root causes of crime is more effective than simply increasing punishments.",
+      "sentence_cn": "解决犯罪的根本原因比简单增加惩罚更有效。",
+      "exam_sentence": "To achieve lasting reductions in crime, policymakers must address the root causes, including poverty, inequality, and lack of educational opportunities.",
+      "audio": "/audio/crime-punishment/chunk-015.mp3",
+      "rewrite_prompt_cn": "解决犯罪的根本原因比简单增加惩罚更有效。",
+      "retelling_prompt": "What are the root causes of criminal behavior?",
+      "tags": [
+        "crime",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Postgraduate English"
+      ]
+    },
+    {
+      "id": "crime-punishment-016",
+      "chunk": "early intervention",
+      "meaning_cn": "早期干预",
+      "collocations": [
+        "early intervention programs",
+        "early intervention in youth",
+        "benefits of early intervention"
+      ],
+      "sentence": "Early intervention can prevent at-risk youth from entering a life of crime.",
+      "sentence_cn": "早期干预可以防止高风险青年走上犯罪道路。",
+      "exam_sentence": "Research consistently shows that early intervention programs for at-risk children significantly reduce the likelihood of future criminal behavior.",
+      "audio": "/audio/crime-punishment/chunk-016.mp3",
+      "rewrite_prompt_cn": "早期干预可以防止高风险青年走上犯罪道路。",
+      "retelling_prompt": "How can early intervention help prevent crime?",
+      "tags": [
+        "crime",
+        "youth"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "CET6"
+      ]
+    },
+    {
+      "id": "crime-punishment-017",
+      "chunk": "reintegrate into society",
+      "meaning_cn": "重新融入社会",
+      "collocations": [
+        "help offenders reintegrate into society",
+        "reintegrate into society after prison",
+        "difficult to reintegrate"
+      ],
+      "sentence": "Education and job training help former prisoners reintegrate into society.",
+      "sentence_cn": "教育和职业培训帮助前囚犯重新融入社会。",
+      "exam_sentence": "Society should support programs that help former prisoners reintegrate into society, as this reduces recidivism and benefits everyone.",
+      "audio": "/audio/crime-punishment/chunk-017.mp3",
+      "rewrite_prompt_cn": "教育和职业培训帮助前囚犯重新融入社会。",
+      "retelling_prompt": "What challenges do former prisoners face when reentering society?",
+      "tags": [
+        "crime",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "CET6"
+      ]
+    },
+    {
+      "id": "crime-punishment-018",
+      "chunk": "harsher penalties",
+      "meaning_cn": "更严厉的惩罚",
+      "collocations": [
+        "impose harsher penalties",
+        "call for harsher penalties",
+        "harsher penalties for offenders"
+      ],
+      "sentence": "Some people believe that harsher penalties would reduce crime rates.",
+      "sentence_cn": "有些人认为更严厉的惩罚会降低犯罪率。",
+      "exam_sentence": "Although some advocate for harsher penalties, evidence suggests that a balanced approach combining punishment with rehabilitation is more effective.",
+      "audio": "/audio/crime-punishment/chunk-018.mp3",
+      "rewrite_prompt_cn": "有些人认为更严厉的惩罚会降低犯罪率。",
+      "retelling_prompt": "What are the arguments for harsher criminal penalties?",
+      "tags": [
+        "crime",
+        "law"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "crime-punishment-019",
+      "chunk": "judicial discretion",
+      "meaning_cn": "司法自由裁量权",
+      "collocations": [
+        "exercise judicial discretion",
+        "limit judicial discretion",
+        "judicial discretion in sentencing"
+      ],
+      "sentence": "Judges should have sufficient judicial discretion to consider each case individually.",
+      "sentence_cn": "法官应该有足够的司法自由裁量权来逐案考虑。",
+      "exam_sentence": "While judicial discretion allows for case-by-case fairness, it must be balanced with clear sentencing guidelines to prevent inconsistency.",
+      "audio": "/audio/crime-punishment/chunk-019.mp3",
+      "rewrite_prompt_cn": "法官应该有足够的司法自由裁量权来逐案考虑。",
+      "retelling_prompt": "Why is judicial discretion important in sentencing?",
+      "tags": [
+        "crime",
+        "law"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "Postgraduate English"
+      ]
+    },
+    {
+      "id": "crime-punishment-020",
+      "chunk": "social order",
+      "meaning_cn": "社会秩序",
+      "collocations": [
+        "maintain social order",
+        "threaten social order",
+        "social order and stability"
+      ],
+      "sentence": "Effective law enforcement is necessary to maintain social order.",
+      "sentence_cn": "有效的执法对于维护社会秩序是必要的。",
+      "exam_sentence": "The primary responsibility of any government is to maintain social order while protecting the fundamental rights of its citizens.",
+      "audio": "/audio/crime-punishment/chunk-020.mp3",
+      "rewrite_prompt_cn": "有效的执法对于维护社会秩序是必要的。",
+      "retelling_prompt": "How does crime affect social order?",
+      "tags": [
+        "crime",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "CET4",
+        "CET6"
+      ]
+    }
+  ]
+}

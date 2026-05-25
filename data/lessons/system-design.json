@@ -1,0 +1,550 @@
+{
+  "lesson_id": "system-design",
+  "title": "System Design Fundamentals",
+  "title_cn": "系统设计基础",
+  "category": "Technical English",
+  "level": "B1-B2",
+  "theme_tags": [
+    "system design",
+    "scalability",
+    "distributed systems",
+    "architecture"
+  ],
+  "exam_tags": [
+    "IELTS",
+    "TOEFL",
+    "CET6",
+    "Tech English"
+  ],
+  "article": {
+    "text": "System design is the process of defining the architecture, components, and interfaces of a system to meet specific requirements. As user bases grow, scalability becomes a critical concern. Horizontal scaling—adding more machines to a pool—is often preferred over vertical scaling, which involves upgrading a single machine's resources. Load balancers distribute incoming traffic across multiple servers, ensuring no single server becomes a bottleneck. Microservices architecture decomposes a monolithic application into small, independent services, each responsible for a specific business function. This approach improves fault tolerance, as the failure of one service does not bring down the entire system. Database sharding distributes data across multiple database instances, enabling the system to handle larger datasets and higher query volumes. Caching strategies, such as using Redis or Memcached, store frequently accessed data in memory, significantly reducing latency and improving response times. High availability is achieved through redundancy—replicating data and services across multiple availability zones. Message queues like Kafka enable asynchronous communication between services, decoupling producers from consumers and improving system resilience. Containerization with Docker and orchestration with Kubernetes simplify deployment and scaling of microservices, making infrastructure management more efficient and consistent across development, staging, and production environments.",
+    "text_cn": "系统设计是定义系统架构、组件和接口以满足特定需求的过程。随着用户规模的增长，可扩展性成为关键关注点。水平扩展——向池中添加更多机器——通常优于垂直扩展，后者涉及升级单台机器的资源。负载均衡器将传入流量分配到多台服务器，确保没有单台服务器成为瓶颈。微服务架构将单体应用分解为小型的、独立的服务，每个服务负责特定的业务功能。这种方法提高了容错能力，因为一个服务的故障不会导致整个系统崩溃。数据库分片将数据分布到多个数据库实例，使系统能够处理更大的数据集和更高的查询量。缓存策略（如使用Redis或Memcached）将频繁访问的数据存储在内存中，显著降低延迟并提高响应时间。高可用性通过冗余实现——在多个可用区复制数据和服务。像Kafka这样的消息队列实现服务间的异步通信，将生产者与消费者解耦，提升系统韧性。使用Docker的容器化和使用Kubernetes的编排简化了微服务的部署和扩展，使基础设施管理在开发、预发布和生产环境中更加高效和一致。",
+    "audio": "/audio/system-design/article.mp3"
+  },
+  "model_paragraph": {
+    "text": "A well-designed system prioritizes scalability, fault tolerance, and low latency. By adopting microservices, database sharding, and caching strategies, engineers can build systems that handle millions of requests while maintaining high availability and rapid response times.",
+    "text_cn": "一个设计良好的系统优先考虑可扩展性、容错能力和低延迟。通过采用微服务、数据库分片和缓存策略，工程师可以构建能够处理数百万请求同时保持高可用性和快速响应时间的系统。"
+  },
+  "chunks": [
+    {
+      "id": "system-design-001",
+      "chunk": "system design",
+      "meaning_cn": "系统设计",
+      "collocations": [
+        "system design interview",
+        "system design principles",
+        "large-scale system design"
+      ],
+      "sentence": "System design requires balancing performance, reliability, and cost.",
+      "sentence_cn": "系统设计需要在性能、可靠性和成本之间取得平衡。",
+      "exam_sentence": "Designing a complex system teaches us to think critically about trade-offs between competing priorities.",
+      "technical_sentence": "The system design phase determines whether the architecture can support millions of concurrent users.",
+      "audio": "/audio/system-design/chunk-001.mp3",
+      "rewrite_prompt_cn": "系统设计需要在性能、可靠性和成本之间取得平衡。",
+      "retelling_prompt": "What are the key factors to balance in system design?",
+      "tags": [
+        "architecture",
+        "planning"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "system-design-002",
+      "chunk": "horizontal scaling",
+      "meaning_cn": "水平扩展",
+      "collocations": [
+        "horizontal scaling vs vertical scaling",
+        "achieve horizontal scaling",
+        "horizontal scaling strategy"
+      ],
+      "sentence": "Horizontal scaling adds more servers to handle increased traffic.",
+      "sentence_cn": "水平扩展通过添加更多服务器来应对增长的流量。",
+      "exam_sentence": "Organizations that can scale their operations horizontally tend to be more adaptable to change.",
+      "technical_sentence": "Kubernetes enables horizontal scaling by automatically adjusting the number of pod replicas based on CPU utilization.",
+      "audio": "/audio/system-design/chunk-002.mp3",
+      "rewrite_prompt_cn": "水平扩展通过添加更多服务器来应对增长的流量。",
+      "retelling_prompt": "How does horizontal scaling differ from vertical scaling?",
+      "tags": [
+        "scalability",
+        "infrastructure"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "system-design-003",
+      "chunk": "vertical scaling",
+      "meaning_cn": "垂直扩展",
+      "collocations": [
+        "vertical scaling limits",
+        "vertical scaling approach",
+        "vertical scaling vs horizontal scaling"
+      ],
+      "sentence": "Vertical scaling upgrades a single server with more CPU and memory.",
+      "sentence_cn": "垂直扩展通过增加CPU和内存来升级单台服务器。",
+      "exam_sentence": "Relying solely on vertical scaling can be risky because hardware has physical limits.",
+      "technical_sentence": "Vertical scaling has diminishing returns beyond a certain point due to hardware bottlenecks.",
+      "audio": "/audio/system-design/chunk-003.mp3",
+      "rewrite_prompt_cn": "垂直扩展通过增加CPU和内存来升级单台服务器。",
+      "retelling_prompt": "What is the main limitation of vertical scaling?",
+      "tags": [
+        "scalability",
+        "infrastructure"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "system-design-004",
+      "chunk": "load balancing",
+      "meaning_cn": "负载均衡",
+      "collocations": [
+        "load balancing algorithm",
+        "network load balancing",
+        "load balancing layer"
+      ],
+      "sentence": "Load balancing distributes requests evenly across multiple servers.",
+      "sentence_cn": "负载均衡将请求均匀分配到多台服务器上。",
+      "exam_sentence": "Effective resource allocation, similar to load balancing in computing, is essential for team productivity.",
+      "technical_sentence": "Nginx is widely used as a reverse proxy for load balancing HTTP requests across backend services.",
+      "audio": "/audio/system-design/chunk-004.mp3",
+      "rewrite_prompt_cn": "负载均衡将请求均匀分配到多台服务器上。",
+      "retelling_prompt": "Why is load balancing important in distributed systems?",
+      "tags": [
+        "networking",
+        "performance"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "system-design-005",
+      "chunk": "microservices architecture",
+      "meaning_cn": "微服务架构",
+      "collocations": [
+        "adopt microservices architecture",
+        "microservices architecture pattern",
+        "migrate to microservices architecture"
+      ],
+      "sentence": "Microservices architecture splits an application into small, independent services.",
+      "sentence_cn": "微服务架构将应用拆分为小型、独立的服务。",
+      "exam_sentence": "Breaking large organizations into small, autonomous teams follows the same logic as microservices architecture.",
+      "technical_sentence": "Microservices architecture enables each team to deploy updates independently without affecting other services.",
+      "audio": "/audio/system-design/chunk-005.mp3",
+      "rewrite_prompt_cn": "微服务架构将应用拆分为小型、独立的服务。",
+      "retelling_prompt": "What are the benefits of using microservices architecture?",
+      "tags": [
+        "architecture",
+        "design pattern"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "system-design-006",
+      "chunk": "database sharding",
+      "meaning_cn": "数据库分片",
+      "collocations": [
+        "database sharding strategy",
+        "implement database sharding",
+        "horizontal database sharding"
+      ],
+      "sentence": "Database sharding splits a large database into smaller, faster parts.",
+      "sentence_cn": "数据库分片将大型数据库拆分为更小、更快的部分。",
+      "exam_sentence": "Dividing large datasets into manageable segments is a principle that applies beyond technology.",
+      "technical_sentence": "Database sharding by user ID ensures that queries for a specific user always hit the same shard.",
+      "audio": "/audio/system-design/chunk-006.mp3",
+      "rewrite_prompt_cn": "数据库分片将大型数据库拆分为更小、更快的部分。",
+      "retelling_prompt": "How does database sharding improve system performance?",
+      "tags": [
+        "database",
+        "scalability"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "system-design-007",
+      "chunk": "caching strategy",
+      "meaning_cn": "缓存策略",
+      "collocations": [
+        "effective caching strategy",
+        "caching strategy pattern",
+        "implement caching strategy"
+      ],
+      "sentence": "A good caching strategy reduces database load and improves response time.",
+      "sentence_cn": "良好的缓存策略能减少数据库负载并提高响应时间。",
+      "exam_sentence": "Storing frequently used information for quick access is a strategy that works in many fields, not just computing.",
+      "technical_sentence": "A write-through caching strategy ensures data consistency between the cache and the primary database.",
+      "audio": "/audio/system-design/chunk-007.mp3",
+      "rewrite_prompt_cn": "良好的缓存策略能减少数据库负载并提高响应时间。",
+      "retelling_prompt": "What are common caching strategies and when should you use them?",
+      "tags": [
+        "performance",
+        "optimization"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "system-design-008",
+      "chunk": "fault tolerance",
+      "meaning_cn": "容错能力",
+      "collocations": [
+        "fault tolerance mechanism",
+        "improve fault tolerance",
+        "built-in fault tolerance"
+      ],
+      "sentence": "Fault tolerance ensures the system continues operating even when components fail.",
+      "sentence_cn": "容错能力确保系统在组件故障时仍能继续运行。",
+      "exam_sentence": "Building fault tolerance into a system is like creating backup plans for important projects.",
+      "technical_sentence": "Circuit breaker patterns improve fault tolerance by preventing cascading failures across microservices.",
+      "audio": "/audio/system-design/chunk-008.mp3",
+      "rewrite_prompt_cn": "容错能力确保系统在组件故障时仍能继续运行。",
+      "retelling_prompt": "How do systems achieve fault tolerance?",
+      "tags": [
+        "reliability",
+        "resilience"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "system-design-009",
+      "chunk": "high availability",
+      "meaning_cn": "高可用性",
+      "collocations": [
+        "achieve high availability",
+        "high availability system",
+        "high availability architecture"
+      ],
+      "sentence": "High availability means the system is operational almost all the time.",
+      "sentence_cn": "高可用性意味着系统几乎始终处于运行状态。",
+      "exam_sentence": "In today's connected world, high availability of services is no longer optional but expected by users.",
+      "technical_sentence": "A multi-region deployment strategy is essential to achieve high availability with a target of 99.99% uptime.",
+      "audio": "/audio/system-design/chunk-009.mp3",
+      "rewrite_prompt_cn": "高可用性意味着系统几乎始终处于运行状态。",
+      "retelling_prompt": "What techniques help achieve high availability in a system?",
+      "tags": [
+        "reliability",
+        "infrastructure"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "system-design-010",
+      "chunk": "message queue",
+      "meaning_cn": "消息队列",
+      "collocations": [
+        "message queue system",
+        "publish to message queue",
+        "message queue pattern"
+      ],
+      "sentence": "A message queue enables asynchronous communication between different services.",
+      "sentence_cn": "消息队列实现不同服务之间的异步通信。",
+      "exam_sentence": "Using a message queue is similar to leaving a note for someone who is currently busy.",
+      "technical_sentence": "Apache Kafka serves as a distributed message queue capable of processing millions of events per second.",
+      "audio": "/audio/system-design/chunk-010.mp3",
+      "rewrite_prompt_cn": "消息队列实现不同服务之间的异步通信。",
+      "retelling_prompt": "What problem does a message queue solve in distributed systems?",
+      "tags": [
+        "messaging",
+        "architecture"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "system-design-011",
+      "chunk": "distributed systems",
+      "meaning_cn": "分布式系统",
+      "collocations": [
+        "distributed systems design",
+        "build distributed systems",
+        "challenges in distributed systems"
+      ],
+      "sentence": "Distributed systems spread computation across multiple networked machines.",
+      "sentence_cn": "分布式系统将计算分散在多台联网的机器上。",
+      "exam_sentence": "Distributed systems illustrate how collaboration across different locations can achieve what no single entity can alone.",
+      "technical_sentence": "The CAP theorem states that distributed systems can only guarantee two out of consistency, availability, and partition tolerance.",
+      "audio": "/audio/system-design/chunk-011.mp3",
+      "rewrite_prompt_cn": "分布式系统将计算分散在多台联网的机器上。",
+      "retelling_prompt": "What are the main challenges of building distributed systems?",
+      "tags": [
+        "architecture",
+        "networking"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "system-design-012",
+      "chunk": "API design",
+      "meaning_cn": "API设计",
+      "collocations": [
+        "RESTful API design",
+        "good API design principles",
+        "API design best practices"
+      ],
+      "sentence": "Good API design makes it easy for developers to integrate with your service.",
+      "sentence_cn": "良好的API设计使开发者能够轻松地与你的服务集成。",
+      "exam_sentence": "Clear communication standards, like good API design, are crucial for effective collaboration.",
+      "technical_sentence": "RESTful API design follows stateless principles where each request contains all the information needed for processing.",
+      "audio": "/audio/system-design/chunk-012.mp3",
+      "rewrite_prompt_cn": "良好的API设计使开发者能够轻松地与你的服务集成。",
+      "retelling_prompt": "What are the key principles of good API design?",
+      "tags": [
+        "development",
+        "integration"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "system-design-013",
+      "chunk": "system throughput",
+      "meaning_cn": "系统吞吐量",
+      "collocations": [
+        "increase system throughput",
+        "throughput vs latency",
+        "measure system throughput"
+      ],
+      "sentence": "The system's throughput measures how many requests it can handle per second.",
+      "sentence_cn": "系统的吞吐量衡量它每秒能处理多少请求。",
+      "exam_sentence": "Maximizing throughput while maintaining quality is a challenge faced by both manufacturing and technology industries.",
+      "technical_sentence": "Database connection pooling significantly improves throughput by reusing existing connections instead of creating new ones.",
+      "audio": "/audio/system-design/chunk-013.mp3",
+      "rewrite_prompt_cn": "系统的吞吐量衡量它每秒能处理多少请求。",
+      "retelling_prompt": "What is throughput and why does it matter in system design?",
+      "tags": [
+        "performance",
+        "metrics"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "system-design-014",
+      "chunk": "reduce latency",
+      "meaning_cn": "降低延迟",
+      "collocations": [
+        "reduce latency significantly",
+        "low-latency network",
+        "reduce end-to-end latency"
+      ],
+      "sentence": "Using a CDN can reduce latency for users around the world.",
+      "sentence_cn": "使用CDN可以为全球用户降低延迟。",
+      "exam_sentence": "Reducing the time between a request and a response is critical in today's fast-paced digital economy.",
+      "technical_sentence": "Edge computing reduces latency by processing data closer to the user rather than routing it to a central server.",
+      "audio": "/audio/system-design/chunk-014.mp3",
+      "rewrite_prompt_cn": "使用CDN可以为全球用户降低延迟。",
+      "retelling_prompt": "What are common techniques to reduce latency in a system?",
+      "tags": [
+        "performance",
+        "optimization"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "system-design-015",
+      "chunk": "service mesh",
+      "meaning_cn": "服务网格",
+      "collocations": [
+        "service mesh architecture",
+        "deploy a service mesh",
+        "service mesh platform"
+      ],
+      "sentence": "A service mesh manages communication between microservices in a transparent way.",
+      "sentence_cn": "服务网格以透明的方式管理微服务之间的通信。",
+      "exam_sentence": "Service mesh technology reflects the growing complexity of managing interconnected systems in modern organizations.",
+      "technical_sentence": "Istio, a popular service mesh, provides traffic management, security, and observability for microservice deployments.",
+      "audio": "/audio/system-design/chunk-015.mp3",
+      "rewrite_prompt_cn": "服务网格以透明的方式管理微服务之间的通信。",
+      "retelling_prompt": "What role does a service mesh play in microservices architecture?",
+      "tags": [
+        "architecture",
+        "networking"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "system-design-016",
+      "chunk": "containerization",
+      "meaning_cn": "容器化",
+      "collocations": [
+        "containerization technology",
+        "adopt containerization",
+        "containerization benefits"
+      ],
+      "sentence": "Containerization packages applications with their dependencies for consistent deployment.",
+      "sentence_cn": "容器化将应用及其依赖打包以实现一致的部署。",
+      "exam_sentence": "Standardization through containerization is analogous to using standardized shipping containers in global trade.",
+      "technical_sentence": "Docker containerization ensures that applications run identically across development, testing, and production environments.",
+      "audio": "/audio/system-design/chunk-016.mp3",
+      "rewrite_prompt_cn": "容器化将应用及其依赖打包以实现一致的部署。",
+      "retelling_prompt": "What advantages does containerization bring to software deployment?",
+      "tags": [
+        "deployment",
+        "infrastructure"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "system-design-017",
+      "chunk": "container orchestration",
+      "meaning_cn": "容器编排",
+      "collocations": [
+        "container orchestration platform",
+        "Kubernetes container orchestration",
+        "container orchestration tools"
+      ],
+      "sentence": "Container orchestration automates the deployment and management of containers at scale.",
+      "sentence_cn": "容器编排自动化地部署和管理大规模容器。",
+      "exam_sentence": "Automation through orchestration principles can be applied to streamline any complex workflow, not just technology.",
+      "technical_sentence": "Kubernetes handles container orchestration by automatically scheduling pods, scaling replicas, and performing rolling updates.",
+      "audio": "/audio/system-design/chunk-017.mp3",
+      "rewrite_prompt_cn": "容器编排自动化地部署和管理大规模容器。",
+      "retelling_prompt": "Why is container orchestration important for large-scale applications?",
+      "tags": [
+        "deployment",
+        "automation"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "system-design-018",
+      "chunk": "single point of failure",
+      "meaning_cn": "单点故障",
+      "collocations": [
+        "eliminate single point of failure",
+        "single point of failure analysis",
+        "avoid single point of failure"
+      ],
+      "sentence": "Redundancy helps eliminate any single point of failure in the system.",
+      "sentence_cn": "冗余有助于消除系统中的任何单点故障。",
+      "exam_sentence": "Identifying and eliminating single points of failure is a prudent strategy in both engineering and project management.",
+      "technical_sentence": "Deploying databases in a primary-replica configuration removes the single point of failure for data storage.",
+      "audio": "/audio/system-design/chunk-018.mp3",
+      "rewrite_prompt_cn": "冗余有助于消除系统中的任何单点故障。",
+      "retelling_prompt": "How can you prevent single points of failure in a system?",
+      "tags": [
+        "reliability",
+        "architecture"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "system-design-019",
+      "chunk": "rate limiting",
+      "meaning_cn": "限流",
+      "collocations": [
+        "implement rate limiting",
+        "rate limiting policy",
+        "API rate limiting"
+      ],
+      "sentence": "Rate limiting prevents abuse by restricting the number of requests per user.",
+      "sentence_cn": "限流通过限制每个用户的请求数量来防止滥用。",
+      "exam_sentence": "Setting reasonable limits is essential in many areas of life, similar to how rate limiting protects online services.",
+      "technical_sentence": "A token bucket algorithm is commonly used for rate limiting API requests to protect backend services from traffic spikes.",
+      "audio": "/audio/system-design/chunk-019.mp3",
+      "rewrite_prompt_cn": "限流通过限制每个用户的请求数量来防止滥用。",
+      "retelling_prompt": "What is rate limiting and why is it necessary?",
+      "tags": [
+        "security",
+        "performance"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "system-design-020",
+      "chunk": "system bottleneck",
+      "meaning_cn": "系统瓶颈",
+      "collocations": [
+        "identify system bottleneck",
+        "resolve system bottleneck",
+        "performance system bottleneck"
+      ],
+      "sentence": "Profiling tools help engineers identify the system bottleneck during peak loads.",
+      "sentence_cn": "性能分析工具帮助工程师在峰值负载期间识别系统瓶颈。",
+      "exam_sentence": "Identifying bottlenecks is the first step toward improving efficiency in any process, from manufacturing to software.",
+      "technical_sentence": "A slow database query often becomes the system bottleneck when application-layer caching is not properly configured.",
+      "audio": "/audio/system-design/chunk-020.mp3",
+      "rewrite_prompt_cn": "性能分析工具帮助工程师在峰值负载期间识别系统瓶颈。",
+      "retelling_prompt": "How do you identify and resolve a system bottleneck?",
+      "tags": [
+        "performance",
+        "optimization"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    }
+  ]
+}

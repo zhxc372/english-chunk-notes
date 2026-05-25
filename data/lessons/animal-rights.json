@@ -1,0 +1,510 @@
+{
+  "lesson_id": "animal-rights",
+  "title": "Animal Rights",
+  "title_cn": "动物权利",
+  "category": "General English",
+  "level": "B1-B2",
+  "theme_tags": [
+    "animals",
+    "environment",
+    "ethics",
+    "conservation"
+  ],
+  "exam_tags": [
+    "IELTS",
+    "TOEFL",
+    "CET6",
+    "Postgraduate English"
+  ],
+  "article": {
+    "text": "The question of animal rights has become an increasingly prominent issue in public debate. As scientific understanding of animal sentience grows, more people are questioning the ethical treatment of animals across various industries. Factory farming, which prioritises efficiency and profit over animal welfare, has come under particular scrutiny. Billions of animals are confined in overcrowded and often inhumane conditions, raising serious moral concerns about the way society produces its food.\n\nAnimal testing remains another highly controversial practice. While it has contributed to important medical breakthroughs, critics argue that many experiments inflict unnecessary suffering on animals and that viable alternatives, such as computer modelling and cell-based research, are increasingly available.\n\nThe conservation of endangered species and the protection of biodiversity are equally urgent concerns. Habitat destruction caused by deforestation, urban expansion, and industrial agriculture threatens countless species with extinction. Poaching of elephants, rhinos, and tigers for their parts continues to decimate populations that are already under severe pressure. Wildlife conservation efforts, including the establishment of protected areas and breeding programmes, are essential but often underfunded.\n\nZoos and aquariums occupy a complex position in this debate. While some serve as valuable centres for education and species preservation, others have been criticised for keeping animals in inadequate enclosures that fail to meet their physical and psychological needs. Animal shelters, on the other hand, play a crucial role in rescuing abandoned and abused animals, providing them with care and the possibility of adoption. Ultimately, achieving meaningful progress in animal welfare requires a combination of stronger legal protections, greater public awareness, and a willingness to reconsider deeply entrenched practices.",
+    "text_cn": "动物权利问题在公共辩论中日益突出。随着对动物感知能力的科学认识不断加深，越来越多的人开始质疑各个行业中对动物的伦理对待方式。工厂化养殖将效率和利润置于动物福利之上，尤其受到了严格审视。数十亿动物被关在拥挤且往往不人道的条件中，引发了关于社会生产食物方式的严重道德担忧。\n\n动物实验是另一个高度争议的做法。虽然它为重要的医学突破做出了贡献，但批评者认为许多实验给动物造成了不必要的痛苦，而且可行的替代方案，如计算机建模和基于细胞的研究，正变得越来越可用。\n\n濒危物种保护和生物多样性保护同样紧迫。由森林砍伐、城市扩张和工业化农业引起的栖息地破坏威胁着无数物种走向灭绝。为了获取象牙、犀角和虎骨的偷猎行为继续削弱已经承受巨大压力的种群。野生动物保护工作，包括建立保护区和繁育计划，虽然至关重要，但往往资金不足。\n\n动物园和水族馆在这个辩论中占据复杂的位置。虽然一些机构作为教育和物种保存的有价值中心，但其他机构因将动物关在无法满足其身体和心理需求的围栏中而受到批评。另一方面，动物收容所在救援被遗弃和受虐待的动物方面发挥着关键作用，为它们提供照料和被领养的可能性。最终，要在动物福利方面取得有意义的进展，需要更强有力的法律保护、更高的公众意识，以及重新考虑根深蒂固的实践意愿。",
+    "audio": "/audio/animal-rights/article.mp3"
+  },
+  "model_paragraph": {
+    "text": "The ethical treatment of animals has become a central concern in modern society. Factory farming and animal testing practices that prioritise efficiency over welfare demand urgent reform. Meanwhile, habitat destruction and poaching threaten biodiversity and push endangered species closer to extinction. Governments should strengthen legal protections for animals while promoting alternatives to animal testing and supporting wildlife conservation efforts.",
+    "text_cn": "动物的伦理对待已成为现代社会的一个核心关切。优先考虑效率而忽视福利的工厂化养殖和动物实验做法迫切需要改革。与此同时，栖息地破坏和偷猎威胁着生物多样性，将濒危物种推向灭绝的边缘。政府应加强动物的法律保护，同时促进动物实验的替代方案，并支持野生动物保护工作。"
+  },
+  "chunks": [
+    {
+      "id": "animal-rights-001",
+      "chunk": "animal welfare",
+      "meaning_cn": "动物福利",
+      "collocations": [
+        "improve animal welfare",
+        "animal welfare standards",
+        "concerns about animal welfare"
+      ],
+      "sentence": "Many consumers now consider animal welfare when choosing which food products to buy.",
+      "sentence_cn": "许多消费者现在在购买食品时会考虑动物福利。",
+      "exam_sentence": "Raising public awareness about animal welfare is essential for driving meaningful change in the food industry.",
+      "audio": "/audio/animal-rights/chunk-001.mp3",
+      "rewrite_prompt_cn": "许多消费者现在在购买食品时会考虑动物福利。",
+      "retelling_prompt": "How do consumers factor animal welfare into purchasing decisions?",
+      "tags": [
+        "animals",
+        "ethics"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "animal-rights-002",
+      "chunk": "animal testing",
+      "meaning_cn": "动物实验",
+      "collocations": [
+        "ban animal testing",
+        "alternatives to animal testing",
+        "animal testing for cosmetics"
+      ],
+      "sentence": "Many countries have banned animal testing for cosmetics, but it continues in pharmaceutical research.",
+      "sentence_cn": "许多国家已禁止化妆品动物实验，但它在制药研究中仍在继续。",
+      "exam_sentence": "The development of cruelty-free alternatives to animal testing represents a significant step forward in both science and ethics.",
+      "audio": "/audio/animal-rights/chunk-002.mp3",
+      "rewrite_prompt_cn": "许多国家已禁止化妆品动物实验，但它在制药研究中仍在继续。",
+      "retelling_prompt": "What is the current status of animal testing?",
+      "tags": [
+        "animals",
+        "science"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "animal-rights-003",
+      "chunk": "endangered species",
+      "meaning_cn": "濒危物种",
+      "collocations": [
+        "protect endangered species",
+        "a list of endangered species",
+        "efforts to save endangered species"
+      ],
+      "sentence": "Tigers and giant pandas are among the most well-known endangered species in the world.",
+      "sentence_cn": "老虎和大熊猫是世界上最具知名度的濒危物种。",
+      "exam_sentence": "The loss of endangered species disrupts ecosystems and can have cascading effects on food chains and biodiversity.",
+      "audio": "/audio/animal-rights/chunk-003.mp3",
+      "rewrite_prompt_cn": "老虎和大熊猫是世界上最具知名度的濒危物种。",
+      "retelling_prompt": "Can you name some well-known endangered species?",
+      "tags": [
+        "animals",
+        "environment"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "animal-rights-004",
+      "chunk": "wildlife conservation",
+      "meaning_cn": "野生动物保护",
+      "collocations": [
+        "wildlife conservation efforts",
+        "support wildlife conservation",
+        "prioritise wildlife conservation"
+      ],
+      "sentence": "Wildlife conservation programmes have helped increase the population of several species that were on the brink of extinction.",
+      "sentence_cn": "野生动物保护项目帮助增加了几个濒临灭绝物种的数量。",
+      "exam_sentence": "Investing in wildlife conservation is not merely an environmental responsibility but an economic one, given the revenue generated by ecotourism.",
+      "audio": "/audio/animal-rights/chunk-004.mp3",
+      "rewrite_prompt_cn": "野生动物保护项目帮助增加了几个濒临灭绝物种的数量。",
+      "retelling_prompt": "What have wildlife conservation programmes achieved?",
+      "tags": [
+        "animals",
+        "environment"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "animal-rights-005",
+      "chunk": "animal rights",
+      "meaning_cn": "动物权利",
+      "collocations": [
+        "advocate for animal rights",
+        "animal rights organisations",
+        "the animal rights movement"
+      ],
+      "sentence": "Animal rights organisations are campaigning for stricter laws to protect animals from cruelty.",
+      "sentence_cn": "动物权利组织正在推动制定更严格的法律来保护动物免受虐待。",
+      "exam_sentence": "The animal rights movement has gained significant momentum in recent years, prompting legislative changes in several countries.",
+      "audio": "/audio/animal-rights/chunk-005.mp3",
+      "rewrite_prompt_cn": "动物权利组织正在推动制定更严格的法律来保护动物免受虐待。",
+      "retelling_prompt": "What are animal rights organisations campaigning for?",
+      "tags": [
+        "animals",
+        "law"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "animal-rights-006",
+      "chunk": "biodiversity",
+      "meaning_cn": "生物多样性",
+      "collocations": [
+        "protect biodiversity",
+        "loss of biodiversity",
+        "a threat to biodiversity"
+      ],
+      "sentence": "The loss of biodiversity could have devastating consequences for ecosystems and human survival.",
+      "sentence_cn": "生物多样性的丧失可能对生态系统和人类生存产生毁灭性后果。",
+      "exam_sentence": "Biodiversity loss is occurring at an unprecedented rate, driven primarily by human activities such as deforestation and pollution.",
+      "audio": "/audio/animal-rights/chunk-006.mp3",
+      "rewrite_prompt_cn": "生物多样性的丧失可能对生态系统和人类生存产生毁灭性后果。",
+      "retelling_prompt": "Why is biodiversity important for ecosystems?",
+      "tags": [
+        "environment",
+        "science"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "animal-rights-007",
+      "chunk": "habitat destruction",
+      "meaning_cn": "栖息地破坏",
+      "collocations": [
+        "cause habitat destruction",
+        "prevent habitat destruction",
+        "the consequences of habitat destruction"
+      ],
+      "sentence": "Habitat destruction is the leading cause of species extinction worldwide.",
+      "sentence_cn": "栖息地破坏是全球物种灭绝的首要原因。",
+      "exam_sentence": "Rapid urbanisation and agricultural expansion are driving habitat destruction at a scale that threatens the survival of thousands of species.",
+      "audio": "/audio/animal-rights/chunk-007.mp3",
+      "rewrite_prompt_cn": "栖息地破坏是全球物种灭绝的首要原因。",
+      "retelling_prompt": "What is the leading cause of species extinction?",
+      "tags": [
+        "environment",
+        "animals"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "animal-rights-008",
+      "chunk": "poaching",
+      "meaning_cn": "偷猎",
+      "collocations": [
+        "combat poaching",
+        "anti-poaching efforts",
+        "a poaching crisis"
+      ],
+      "sentence": "Poaching of elephants for ivory continues despite international bans on the trade.",
+      "sentence_cn": "尽管有国际禁令，为获取象牙的偷猎行为仍在继续。",
+      "exam_sentence": "Strengthening anti-poaching measures and reducing demand for wildlife products are both essential for protecting endangered species.",
+      "audio": "/audio/animal-rights/chunk-008.mp3",
+      "rewrite_prompt_cn": "尽管有国际禁令，为获取象牙的偷猎行为仍在继续。",
+      "retelling_prompt": "Why does elephant poaching continue despite bans?",
+      "tags": [
+        "animals",
+        "crime"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "animal-rights-009",
+      "chunk": "animal shelters",
+      "meaning_cn": "动物收容所",
+      "collocations": [
+        "support animal shelters",
+        "volunteer at animal shelters",
+        "abandon animals to shelters"
+      ],
+      "sentence": "Animal shelters rescue abandoned pets and work to find them new homes through adoption.",
+      "sentence_cn": "动物收容所救助被遗弃的宠物，并通过领养为它们寻找新家。",
+      "exam_sentence": "Community support for animal shelters is vital, as these organisations rely largely on donations and volunteers to operate.",
+      "audio": "/audio/animal-rights/chunk-009.mp3",
+      "rewrite_prompt_cn": "动物收容所救助被遗弃的宠物，并通过领养为它们寻找新家。",
+      "retelling_prompt": "What role do animal shelters play in the community?",
+      "tags": [
+        "animals",
+        "community"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "animal-rights-010",
+      "chunk": "factory farming",
+      "meaning_cn": "工厂化养殖",
+      "collocations": [
+        "the ethics of factory farming",
+        "ban factory farming",
+        "factory farming practices"
+      ],
+      "sentence": "Factory farming has been criticised for causing immense suffering to animals in the pursuit of profit.",
+      "sentence_cn": "工厂化养殖因在追求利润的过程中给动物造成巨大痛苦而受到批评。",
+      "exam_sentence": "The environmental impact of factory farming, including water pollution and greenhouse gas emissions, has made it a target for reform.",
+      "audio": "/audio/animal-rights/chunk-010.mp3",
+      "rewrite_prompt_cn": "工厂化养殖因在追求利润的过程中给动物造成巨大痛苦而受到批评。",
+      "retelling_prompt": "Why has factory farming been criticised?",
+      "tags": [
+        "animals",
+        "industry"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "animal-rights-011",
+      "chunk": "zoos and aquariums",
+      "meaning_cn": "动物园和水族馆",
+      "collocations": [
+        "the role of zoos and aquariums",
+        "zoos and aquariums as educational centres",
+        "ethics of zoos and aquariums"
+      ],
+      "sentence": "Zoos and aquariums play a controversial role in wildlife conservation and public education.",
+      "sentence_cn": "动物园和水族馆在野生动物保护和公众教育方面扮演着有争议的角色。",
+      "exam_sentence": "While zoos and aquariums can contribute to conservation, they must meet strict welfare standards to justify keeping animals in captivity.",
+      "audio": "/audio/animal-rights/chunk-011.mp3",
+      "rewrite_prompt_cn": "动物园和水族馆在野生动物保护和公众教育方面扮演着有争议的角色。",
+      "retelling_prompt": "What role do zoos and aquariums play?",
+      "tags": [
+        "animals",
+        "education"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "animal-rights-012",
+      "chunk": "ethical treatment",
+      "meaning_cn": "伦理对待",
+      "collocations": [
+        "the ethical treatment of animals",
+        "standards for ethical treatment",
+        "ensure ethical treatment"
+      ],
+      "sentence": "The ethical treatment of animals should be a guiding principle in modern agriculture and research.",
+      "sentence_cn": "对动物的伦理对待应成为现代农业和研究的指导原则。",
+      "exam_sentence": "Debates about the ethical treatment of animals have led to significant changes in food production, cosmetics testing, and entertainment industries.",
+      "audio": "/audio/animal-rights/chunk-012.mp3",
+      "rewrite_prompt_cn": "对动物的伦理对待应成为现代农业和研究的指导原则。",
+      "retelling_prompt": "Where should the ethical treatment of animals apply?",
+      "tags": [
+        "animals",
+        "ethics"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "animal-rights-013",
+      "chunk": "animal sentience",
+      "meaning_cn": "动物感知能力",
+      "collocations": [
+        "recognise animal sentience",
+        "scientific evidence of animal sentience",
+        "the concept of animal sentience"
+      ],
+      "sentence": "Scientific research has confirmed that many animals possess a high degree of sentience and emotional capacity.",
+      "sentence_cn": "科学研究已证实许多动物拥有高度的感知能力和情感能力。",
+      "exam_sentence": "Acknowledging animal sentience has profound implications for how we design laws, agricultural systems, and research protocols.",
+      "audio": "/audio/animal-rights/chunk-013.mp3",
+      "rewrite_prompt_cn": "科学研究已证实许多动物拥有高度的感知能力和情感能力。",
+      "retelling_prompt": "What does science say about animal sentience?",
+      "tags": [
+        "animals",
+        "science"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "animal-rights-014",
+      "chunk": "protected areas",
+      "meaning_cn": "保护区",
+      "collocations": [
+        "establish protected areas",
+        "expand protected areas",
+        "marine protected areas"
+      ],
+      "sentence": "Establishing protected areas is one of the most effective strategies for conserving wildlife habitats.",
+      "sentence_cn": "建立保护区是保护野生动物栖息地最有效的策略之一。",
+      "exam_sentence": "Governments should commit to expanding protected areas to at least thirty percent of land and ocean territories by 2030.",
+      "audio": "/audio/animal-rights/chunk-014.mp3",
+      "rewrite_prompt_cn": "建立保护区是保护野生动物栖息地最有效的策略之一。",
+      "retelling_prompt": "Why are protected areas important for wildlife?",
+      "tags": [
+        "environment",
+        "conservation"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "animal-rights-015",
+      "chunk": "species extinction",
+      "meaning_cn": "物种灭绝",
+      "collocations": [
+        "prevent species extinction",
+        "the rate of species extinction",
+        "driven to species extinction"
+      ],
+      "sentence": "Human activities are accelerating the rate of species extinction to levels not seen for millions of years.",
+      "sentence_cn": "人类活动正在将物种灭绝的速度加速到数百万年来前所未有的水平。",
+      "exam_sentence": "The current rate of species extinction is estimated to be a hundred times faster than the natural background rate, demanding immediate action.",
+      "audio": "/audio/animal-rights/chunk-015.mp3",
+      "rewrite_prompt_cn": "人类活动正在将物种灭绝的速度加速到数百万年来前所未有的水平。",
+      "retelling_prompt": "How fast is species extinction happening now?",
+      "tags": [
+        "environment",
+        "animals"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "animal-rights-016",
+      "chunk": "breeding programmes",
+      "meaning_cn": "繁育计划",
+      "collocations": [
+        "captive breeding programmes",
+        "successful breeding programmes",
+        "run breeding programmes"
+      ],
+      "sentence": "Captive breeding programmes have been instrumental in saving several species from the brink of extinction.",
+      "sentence_cn": "圈养繁育计划在将几个物种从灭绝边缘拯救回来方面发挥了关键作用。",
+      "exam_sentence": "While captive breeding programmes can prevent extinction, they should complement rather than replace efforts to protect natural habitats.",
+      "audio": "/audio/animal-rights/chunk-016.mp3",
+      "rewrite_prompt_cn": "圈养繁育计划在将几个物种从灭绝边缘拯救回来方面发挥了关键作用。",
+      "retelling_prompt": "What role do captive breeding programmes play?",
+      "tags": [
+        "animals",
+        "conservation"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "animal-rights-017",
+      "chunk": "cruelty to animals",
+      "meaning_cn": "虐待动物",
+      "collocations": [
+        "laws against cruelty to animals",
+        "report cruelty to animals",
+        "prevent cruelty to animals"
+      ],
+      "sentence": "Most countries have laws against cruelty to animals, but enforcement remains inconsistent.",
+      "sentence_cn": "大多数国家都有禁止虐待动物的法律，但执法仍然不一致。",
+      "exam_sentence": "Strengthening legislation against cruelty to animals and ensuring its effective enforcement should be a priority for all governments.",
+      "audio": "/audio/animal-rights/chunk-017.mp3",
+      "rewrite_prompt_cn": "大多数国家都有禁止虐待动物的法律，但执法仍然不一致。",
+      "retelling_prompt": "What legal protections exist against animal cruelty?",
+      "tags": [
+        "animals",
+        "law"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "animal-rights-018",
+      "chunk": "ecosystems",
+      "meaning_cn": "生态系统",
+      "collocations": [
+        "protect ecosystems",
+        "healthy ecosystems",
+        "the balance of ecosystems"
+      ],
+      "sentence": "Every species plays a role in maintaining the balance of ecosystems, no matter how small.",
+      "sentence_cn": "每个物种在维护生态系统平衡中都扮演着角色，无论多么微小。",
+      "exam_sentence": "The degradation of ecosystems threatens not only wildlife but also the ecosystem services upon which human civilisation depends.",
+      "audio": "/audio/animal-rights/chunk-018.mp3",
+      "rewrite_prompt_cn": "每个物种在维护生态系统平衡中都扮演着角色，无论多么微小。",
+      "retelling_prompt": "Why is every species important for ecosystems?",
+      "tags": [
+        "environment",
+        "science"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "animal-rights-019",
+      "chunk": "deforestation",
+      "meaning_cn": "森林砍伐",
+      "collocations": [
+        "the impact of deforestation",
+        "combat deforestation",
+        "tropical deforestation"
+      ],
+      "sentence": "Deforestation in tropical regions is destroying the natural habitats of countless animal species.",
+      "sentence_cn": "热带地区的森林砍伐正在摧毁无数动物物种的自然栖息地。",
+      "exam_sentence": "Deforestation accounts for a significant portion of global carbon emissions and is a leading driver of biodiversity loss worldwide.",
+      "audio": "/audio/animal-rights/chunk-019.mp3",
+      "rewrite_prompt_cn": "热带地区的森林砍伐正在摧毁无数动物物种的自然栖息地。",
+      "retelling_prompt": "How does deforestation affect wildlife?",
+      "tags": [
+        "environment",
+        "animals"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "animal-rights-020",
+      "chunk": "legal protections",
+      "meaning_cn": "法律保护",
+      "collocations": [
+        "strengthen legal protections",
+        "adequate legal protections",
+        "extend legal protections to"
+      ],
+      "sentence": "Strengthening legal protections for animals is an important step towards a more compassionate society.",
+      "sentence_cn": "加强动物的法律保护是迈向一个更加有同情心的社会的重要一步。",
+      "exam_sentence": "Extending legal protections to all sentient animals reflects an evolving understanding of our moral responsibilities towards other species.",
+      "audio": "/audio/animal-rights/chunk-020.mp3",
+      "rewrite_prompt_cn": "加强动物的法律保护是迈向一个更加有同情心的社会的重要一步。",
+      "retelling_prompt": "Why should we strengthen legal protections for animals?",
+      "tags": [
+        "animals",
+        "law"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    }
+  ]
+}

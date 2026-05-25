@@ -34,20 +34,40 @@
   </div>
 </div>
 
-<div class="ecn-card" style="opacity: 0.6;">
-  <h3>System Design</h3>
-  <p class="lesson-title-cn">系统设计</p>
+<div class="ecn-card" style="cursor: pointer;" onclick="window.location.href='/themes/project-management.html'">
+  <h3>Project Management</h3>
+  <p class="lesson-title-cn">项目管理</p>
   <p style="font-size: 0.85rem; color: var(--vp-c-text-3); margin: 8px 0 0;">
-    🚧 即将上线
+    敏捷开发、里程碑、利益相关者沟通
   </p>
+  <div style="margin-top: 10px;">
+    <span class="ecn-tag ecn-tag-level">B1-B2</span>
+    <span class="ecn-tag ecn-tag-exam">Tech English</span>
+  </div>
+</div>
+
+<div class="ecn-card" style="cursor: pointer;" onclick="window.location.href='/themes/system-design.html'">
+  <h3>System Design</h3>
+  <p class="lesson-title-cn">系统设计基础</p>
+  <p style="font-size: 0.85rem; color: var(--vp-c-text-3); margin: 8px 0 0;">
+    可扩展性、微服务、分布式系统、负载均衡
+  </p>
+  <div style="margin-top: 10px;">
+    <span class="ecn-tag ecn-tag-level">B1-B2</span>
+    <span class="ecn-tag ecn-tag-exam">Tech English</span>
+  </div>
+</div>
+
+<div class="ecn-card" style="cursor: pointer;" onclick="window.location.href='/themes/ai-automation.html'">
+  <h3>AI & Automation</h3>
+  <p class="lesson-title-cn">AI与自动化</p>
+  <p style="font-size: 0.85rem; color: var(--vp-c-text-3); margin: 8px 0 0;">
+    机器学习、深度学习、NLP、计算机视觉
+  </p>
+  <div style="margin-top: 10px;">
+    <span class="ecn-tag ecn-tag-level">B1-B2</span>
+    <span class="ecn-tag ecn-tag-exam">Tech English</span>
+  </div>
 </div>
 
 </div>
-
-## 计划中的主题
-
-1. AI Coding Workflow ✅
-2. Software Engineering ✅
-3. Project Management ✅
-4. System Design
-5. AI & Automation

@@ -1,0 +1,520 @@
+{
+  "lesson_id": "media-advertising",
+  "title": "Media & Advertising",
+  "title_cn": "媒体与广告",
+  "category": "General English",
+  "level": "B1-B2",
+  "theme_tags": [
+    "media",
+    "advertising",
+    "technology",
+    "society"
+  ],
+  "exam_tags": [
+    "IELTS",
+    "TOEFL",
+    "CET4",
+    "CET6",
+    "Postgraduate English"
+  ],
+  "article": {
+    "text": "The mass media plays a central role in shaping public perception and influencing consumer behavior in the modern world. From television commercials to social media influencers, advertising campaigns have become increasingly sophisticated, using data analytics to deliver targeted advertising that reaches the right audience at the right time.\n\nOne of the most debated issues is the extent of media influence on young people. Studies have shown that constant exposure to advertising can shape children's preferences, values, and even self-image. Celebrity culture, amplified through product placement and sponsored content, often promotes unrealistic lifestyle standards that can lead to dissatisfaction and mental health issues among teenagers.\n\nThe rise of fake news and misinformation has further complicated the media landscape. Social media platforms, designed to maximize engagement, often prioritize sensational content over accuracy. This has raised serious questions about media literacy and whether individuals have the skills to critically evaluate the information they consume.\n\nCensorship and freedom of speech remain contentious topics. While some argue that governments should regulate harmful content, others warn that excessive control threatens democratic values. Investigative journalism, though often underfunded and under attack, continues to serve as a crucial check on power.\n\nAs media continues to evolve, the need for critical thinking and responsible news consumption has never been greater. Governments, educators, and technology companies must work together to promote media literacy and ensure that the information ecosystem serves the public interest.",
+    "text_cn": "大众媒体在现代社会中发挥着塑造公众认知和影响消费者行为的核心作用。从电视广告到社交媒体网红，广告活动变得越来越复杂，利用数据分析在最合适的时间向最合适的受众传递精准广告。\n\n最具争议的问题之一是媒体对年轻人的影响程度。研究表明，持续接触广告可以塑造儿童的偏好、价值观甚至自我形象。通过产品植入和赞助内容放大的名人文化，经常推广不切实际的生活方式标准，这可能导致青少年的不满和心理健康问题。\n\n假新闻和错误信息的兴起进一步复杂化了媒体环境。为最大化参与度而设计的社交媒体平台，往往将耸人听闻的内容置于准确性之上。这引发了关于媒体素养的严肃讨论，以及个人是否具备批判性评估所消费信息的能力。\n\n审查制度和言论自由仍然是有争议的话题。虽然有人认为政府应该监管有害内容，但也有人警告过度控制会威胁民主价值观。尽管经常资金不足且受到攻击，调查性新闻仍然是监督权力的重要手段。\n\n随着媒体持续发展，对批判性思维和负责任新闻消费的需求从未如此迫切。政府、教育工作者和科技公司必须共同努力，推广媒体素养，确保信息生态系统服务于公共利益。",
+    "audio": "/audio/media-advertising/article.mp3"
+  },
+  "model_paragraph": {
+    "text": "While the mass media provides valuable information and entertainment, its influence on public opinion and consumer behavior cannot be underestimated. I believe that promoting media literacy and supporting investigative journalism are essential steps toward ensuring that citizens can make informed decisions in an age of information overload.",
+    "text_cn": "虽然大众媒体提供了有价值的信息和娱乐，但它对公众舆论和消费者行为的影响不容低估。我认为推广媒体素养和支持调查性新闻是确保公民在信息过载时代能够做出明智决定的关键步骤。"
+  },
+  "chunks": [
+    {
+      "id": "media-advertising-001",
+      "chunk": "mass media",
+      "meaning_cn": "大众媒体",
+      "collocations": [
+        "mass media influence",
+        "the role of mass media",
+        "mass media coverage"
+      ],
+      "sentence": "The mass media plays a central role in shaping public perception.",
+      "sentence_cn": "大众媒体在塑造公众认知方面发挥着核心作用。",
+      "exam_sentence": "The mass media has the power to shape public opinion, making it both a valuable tool for education and a potential source of manipulation.",
+      "audio": "/audio/media-advertising/chunk-001.mp3",
+      "rewrite_prompt_cn": "大众媒体在塑造公众认知方面发挥着核心作用。",
+      "retelling_prompt": "How does mass media influence society?",
+      "tags": [
+        "media",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "media-advertising-002",
+      "chunk": "advertising campaigns",
+      "meaning_cn": "广告活动",
+      "collocations": [
+        "launch advertising campaigns",
+        "effective advertising campaigns",
+        "global advertising campaigns"
+      ],
+      "sentence": "Companies invest billions in advertising campaigns to promote their products.",
+      "sentence_cn": "公司投资数十亿美元进行广告活动来推广产品。",
+      "exam_sentence": "Advertising campaigns targeting children should be strictly regulated to prevent the exploitation of vulnerable young consumers.",
+      "audio": "/audio/media-advertising/chunk-002.mp3",
+      "rewrite_prompt_cn": "公司投资数十亿美元进行广告活动来推广产品。",
+      "retelling_prompt": "What makes an advertising campaign effective?",
+      "tags": [
+        "advertising",
+        "business"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "CET4",
+        "CET6"
+      ]
+    },
+    {
+      "id": "media-advertising-003",
+      "chunk": "media influence",
+      "meaning_cn": "媒体影响",
+      "collocations": [
+        "extent of media influence",
+        "media influence on youth",
+        "media influence on behavior"
+      ],
+      "sentence": "The extent of media influence on young people is a growing concern.",
+      "sentence_cn": "媒体对年轻人影响的程度是一个日益引起关注的问题。",
+      "exam_sentence": "Research has demonstrated that media influence can significantly affect young people's self-esteem, body image, and social behavior.",
+      "audio": "/audio/media-advertising/chunk-003.mp3",
+      "rewrite_prompt_cn": "媒体对年轻人影响的程度是一个日益引起关注的问题。",
+      "retelling_prompt": "In what ways does media influence young people?",
+      "tags": [
+        "media",
+        "psychology"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "media-advertising-004",
+      "chunk": "targeted advertising",
+      "meaning_cn": "精准广告",
+      "collocations": [
+        "deliver targeted advertising",
+        "targeted advertising based on data",
+        "online targeted advertising"
+      ],
+      "sentence": "Social media platforms use data analytics to deliver targeted advertising.",
+      "sentence_cn": "社交媒体平台利用数据分析来投放精准广告。",
+      "exam_sentence": "While targeted advertising benefits businesses by improving conversion rates, it raises serious privacy concerns among consumers.",
+      "audio": "/audio/media-advertising/chunk-004.mp3",
+      "rewrite_prompt_cn": "社交媒体平台利用数据分析来投放精准广告。",
+      "retelling_prompt": "How does targeted advertising work, and what are its implications?",
+      "tags": [
+        "advertising",
+        "technology"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "media-advertising-005",
+      "chunk": "social media influencers",
+      "meaning_cn": "社交媒体网红",
+      "collocations": [
+        "social media influencers promote",
+        "follow social media influencers",
+        "impact of social media influencers"
+      ],
+      "sentence": "Social media influencers have become powerful figures in modern marketing.",
+      "sentence_cn": "社交媒体网红已成为现代营销中的 powerful 人物。",
+      "exam_sentence": "Social media influencers often blur the line between authentic content and advertising, which can mislead consumers, especially young audiences.",
+      "audio": "/audio/media-advertising/chunk-005.mp3",
+      "rewrite_prompt_cn": "社交媒体网红已成为现代营销中的 powerful 人物。",
+      "retelling_prompt": "What role do social media influencers play in marketing?",
+      "tags": [
+        "media",
+        "marketing"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "media-advertising-006",
+      "chunk": "freedom of speech",
+      "meaning_cn": "言论自由",
+      "collocations": [
+        "protect freedom of speech",
+        "freedom of speech and expression",
+        "limit freedom of speech"
+      ],
+      "sentence": "Freedom of speech is a fundamental right in democratic societies.",
+      "sentence_cn": "言论自由是民主社会的基本权利。",
+      "exam_sentence": "The challenge of the digital age is to protect freedom of speech while combating the spread of harmful misinformation online.",
+      "audio": "/audio/media-advertising/chunk-006.mp3",
+      "rewrite_prompt_cn": "言论自由是民主社会的基本权利。",
+      "retelling_prompt": "Why is freedom of speech important, and what are its limits?",
+      "tags": [
+        "media",
+        "rights"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Postgraduate English"
+      ]
+    },
+    {
+      "id": "media-advertising-007",
+      "chunk": "media literacy",
+      "meaning_cn": "媒体素养",
+      "collocations": [
+        "promote media literacy",
+        "media literacy education",
+        "lack of media literacy"
+      ],
+      "sentence": "Media literacy helps people critically evaluate the information they consume.",
+      "sentence_cn": "媒体素养帮助人们批判性地评估他们所消费的信息。",
+      "exam_sentence": "Incorporating media literacy into school curricula is essential for equipping young people with the skills to navigate the complex information landscape.",
+      "audio": "/audio/media-advertising/chunk-007.mp3",
+      "rewrite_prompt_cn": "媒体素养帮助人们批判性地评估他们所消费的信息。",
+      "retelling_prompt": "What skills does media literacy provide?",
+      "tags": [
+        "media",
+        "education"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "media-advertising-008",
+      "chunk": "fake news",
+      "meaning_cn": "假新闻",
+      "collocations": [
+        "spread of fake news",
+        "combat fake news",
+        "fake news and misinformation"
+      ],
+      "sentence": "The spread of fake news on social media has become a serious global problem.",
+      "sentence_cn": "社交媒体上假新闻的传播已成为一个严重的全球性问题。",
+      "exam_sentence": "Governments and technology companies must collaborate to combat fake news without infringing upon citizens' freedom of speech.",
+      "audio": "/audio/media-advertising/chunk-008.mp3",
+      "rewrite_prompt_cn": "社交媒体上假新闻的传播已成为一个严重的全球性问题。",
+      "retelling_prompt": "What factors contribute to the spread of fake news?",
+      "tags": [
+        "media",
+        "misinformation"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "media-advertising-009",
+      "chunk": "censorship",
+      "meaning_cn": "审查制度",
+      "collocations": [
+        "government censorship",
+        "internet censorship",
+        "oppose censorship"
+      ],
+      "sentence": "Government censorship of the media is a controversial issue worldwide.",
+      "sentence_cn": "政府对媒体的审查制度是全球范围内的争议问题。",
+      "exam_sentence": "While censorship is sometimes justified on national security grounds, it can easily be abused to suppress dissent and control public opinion.",
+      "audio": "/audio/media-advertising/chunk-009.mp3",
+      "rewrite_prompt_cn": "政府对媒体的审查制度是全球范围内的争议问题。",
+      "retelling_prompt": "What are the arguments for and against censorship?",
+      "tags": [
+        "media",
+        "politics"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Postgraduate English"
+      ]
+    },
+    {
+      "id": "media-advertising-010",
+      "chunk": "news coverage",
+      "meaning_cn": "新闻报道",
+      "collocations": [
+        "extensive news coverage",
+        "bias in news coverage",
+        "news coverage of events"
+      ],
+      "sentence": "The event received extensive news coverage from major media outlets worldwide.",
+      "sentence_cn": "这一事件受到了全球主要媒体的大量新闻报道。",
+      "exam_sentence": "The bias in news coverage can significantly shape public perception of important social and political issues.",
+      "audio": "/audio/media-advertising/chunk-010.mp3",
+      "rewrite_prompt_cn": "这一事件受到了全球主要媒体的大量新闻报道。",
+      "retelling_prompt": "How does news coverage affect public opinion?",
+      "tags": [
+        "media",
+        "journalism"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "CET6"
+      ]
+    },
+    {
+      "id": "media-advertising-011",
+      "chunk": "product placement",
+      "meaning_cn": "产品植入",
+      "collocations": [
+        "subtle product placement",
+        "product placement in movies",
+        "paid product placement"
+      ],
+      "sentence": "Product placement in movies and TV shows is a common advertising technique.",
+      "sentence_cn": "电影和电视节目中的产品植入是一种常见的广告技巧。",
+      "exam_sentence": "Product placement has become so pervasive in entertainment that many consumers are unaware they are being exposed to advertising.",
+      "audio": "/audio/media-advertising/chunk-011.mp3",
+      "rewrite_prompt_cn": "电影和电视节目中的产品植入是一种常见的广告技巧。",
+      "retelling_prompt": "How does product placement work as an advertising strategy?",
+      "tags": [
+        "advertising",
+        "marketing"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "media-advertising-012",
+      "chunk": "celebrity culture",
+      "meaning_cn": "名人文化",
+      "collocations": [
+        "rise of celebrity culture",
+        "celebrity culture and consumerism",
+        "negative effects of celebrity culture"
+      ],
+      "sentence": "Celebrity culture promotes unrealistic lifestyle standards that can harm young people.",
+      "sentence_cn": "名人文化推广不切实际的生活方式标准，可能对年轻人造成伤害。",
+      "exam_sentence": "The pervasive influence of celebrity culture can lead young people to develop unrealistic expectations about beauty, success, and happiness.",
+      "audio": "/audio/media-advertising/chunk-012.mp3",
+      "rewrite_prompt_cn": "名人文化推广不切实际的生活方式标准，可能对年轻人造成伤害。",
+      "retelling_prompt": "What impact does celebrity culture have on society?",
+      "tags": [
+        "media",
+        "culture"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "media-advertising-013",
+      "chunk": "investigative journalism",
+      "meaning_cn": "调查性新闻",
+      "collocations": [
+        "support investigative journalism",
+        "investigative journalism plays",
+        "decline of investigative journalism"
+      ],
+      "sentence": "Investigative journalism serves as a crucial check on corporate and government power.",
+      "sentence_cn": "调查性新闻是监督企业和政府权力的重要手段。",
+      "exam_sentence": "Despite financial pressures, investigative journalism remains essential for uncovering corruption and holding those in power accountable.",
+      "audio": "/audio/media-advertising/chunk-013.mp3",
+      "rewrite_prompt_cn": "调查性新闻是监督企业和政府权力的重要手段。",
+      "retelling_prompt": "Why is investigative journalism important for democracy?",
+      "tags": [
+        "media",
+        "journalism"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "CET6",
+        "Postgraduate English"
+      ]
+    },
+    {
+      "id": "media-advertising-014",
+      "chunk": "propaganda",
+      "meaning_cn": "宣传；煽动性信息",
+      "collocations": [
+        "political propaganda",
+        "spread propaganda",
+        "propaganda and misinformation"
+      ],
+      "sentence": "Governments have historically used propaganda to influence public opinion.",
+      "sentence_cn": "各国政府历史上曾利用宣传来影响公众舆论。",
+      "exam_sentence": "In the digital age, distinguishing between legitimate news and propaganda has become increasingly difficult for the average citizen.",
+      "audio": "/audio/media-advertising/chunk-014.mp3",
+      "rewrite_prompt_cn": "各国政府历史上曾利用宣传来影响公众舆论。",
+      "retelling_prompt": "How does propaganda differ from regular news reporting?",
+      "tags": [
+        "media",
+        "politics"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "Postgraduate English"
+      ]
+    },
+    {
+      "id": "media-advertising-015",
+      "chunk": "consumer behavior",
+      "meaning_cn": "消费者行为",
+      "collocations": [
+        "influence consumer behavior",
+        "consumer behavior patterns",
+        "study consumer behavior"
+      ],
+      "sentence": "Advertising has a profound impact on consumer behavior and purchasing decisions.",
+      "sentence_cn": "广告对消费者行为和购买决策有深远影响。",
+      "exam_sentence": "Understanding consumer behavior is essential for businesses, but manipulative advertising practices can exploit psychological vulnerabilities.",
+      "audio": "/audio/media-advertising/chunk-015.mp3",
+      "rewrite_prompt_cn": "广告对消费者行为和购买决策有深远影响。",
+      "retelling_prompt": "How does advertising influence consumer behavior?",
+      "tags": [
+        "advertising",
+        "business"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "media-advertising-016",
+      "chunk": "sensational content",
+      "meaning_cn": "耸人听闻的内容",
+      "collocations": [
+        "prioritize sensational content",
+        "sensational content in media",
+        "clickbait and sensational content"
+      ],
+      "sentence": "Media platforms often prioritize sensational content to maximize user engagement.",
+      "sentence_cn": "媒体平台经常优先推送耸人听闻的内容以最大化用户参与度。",
+      "exam_sentence": "The tendency of media outlets to prioritize sensational content over accurate reporting contributes to public misperception of important issues.",
+      "audio": "/audio/media-advertising/chunk-016.mp3",
+      "rewrite_prompt_cn": "媒体平台经常优先推送耸人听闻的内容以最大化用户参与度。",
+      "retelling_prompt": "Why do media platforms favor sensational content?",
+      "tags": [
+        "media",
+        "content"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "CET6"
+      ]
+    },
+    {
+      "id": "media-advertising-017",
+      "chunk": "public perception",
+      "meaning_cn": "公众认知",
+      "collocations": [
+        "shape public perception",
+        "influence public perception",
+        "public perception of issues"
+      ],
+      "sentence": "The media has enormous power to shape public perception of current events.",
+      "sentence_cn": "媒体在塑造公众对当前事件的认知方面拥有巨大力量。",
+      "exam_sentence": "The way media frames stories can dramatically alter public perception, making media responsibility a critical concern in democratic societies.",
+      "audio": "/audio/media-advertising/chunk-017.mp3",
+      "rewrite_prompt_cn": "媒体在塑造公众对当前事件的认知方面拥有巨大力量。",
+      "retelling_prompt": "How does media shape public perception?",
+      "tags": [
+        "media",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "media-advertising-018",
+      "chunk": "data analytics",
+      "meaning_cn": "数据分析",
+      "collocations": [
+        "use data analytics",
+        "data analytics in advertising",
+        "advanced data analytics"
+      ],
+      "sentence": "Companies use data analytics to understand consumer preferences and behavior.",
+      "sentence_cn": "公司利用数据分析来了解消费者的偏好和行为。",
+      "exam_sentence": "While data analytics enables more personalized services, it also raises important questions about user privacy and data protection.",
+      "audio": "/audio/media-advertising/chunk-018.mp3",
+      "rewrite_prompt_cn": "公司利用数据分析来了解消费者的偏好和行为。",
+      "retelling_prompt": "How is data analytics used in advertising?",
+      "tags": [
+        "technology",
+        "advertising"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "media-advertising-019",
+      "chunk": "misinformation",
+      "meaning_cn": "错误信息",
+      "collocations": [
+        "spread of misinformation",
+        "combat misinformation",
+        "misinformation online"
+      ],
+      "sentence": "The rapid spread of misinformation online poses a threat to democratic societies.",
+      "sentence_cn": "网上错误信息的快速传播对民主社会构成威胁。",
+      "exam_sentence": "Social media platforms bear a responsibility to combat misinformation while respecting users' right to free expression.",
+      "audio": "/audio/media-advertising/chunk-019.mp3",
+      "rewrite_prompt_cn": "网上错误信息的快速传播对民主社会构成威胁。",
+      "retelling_prompt": "What are the dangers of misinformation in society?",
+      "tags": [
+        "media",
+        "technology"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "media-advertising-020",
+      "chunk": "sponsored content",
+      "meaning_cn": "赞助内容",
+      "collocations": [
+        "label sponsored content",
+        "sponsored content on social media",
+        "transparent sponsored content"
+      ],
+      "sentence": "Many influencers fail to clearly disclose sponsored content to their followers.",
+      "sentence_cn": "许多网红未能向粉丝明确披露赞助内容。",
+      "exam_sentence": "Regulations should require all sponsored content to be clearly labeled, so that consumers can distinguish between genuine recommendations and paid advertisements.",
+      "audio": "/audio/media-advertising/chunk-020.mp3",
+      "rewrite_prompt_cn": "许多网红未能向粉丝明确披露赞助内容。",
+      "retelling_prompt": "Why should sponsored content be clearly labeled?",
+      "tags": [
+        "advertising",
+        "media"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    }
+  ]
+}

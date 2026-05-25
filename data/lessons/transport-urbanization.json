@@ -1,0 +1,514 @@
+{
+  "lesson_id": "transport-urbanization",
+  "title": "Transport & Urbanization",
+  "title_cn": "交通与城市化",
+  "category": "General English",
+  "level": "B1-B2",
+  "theme_tags": [
+    "transport",
+    "urbanization",
+    "infrastructure",
+    "sustainability"
+  ],
+  "exam_tags": [
+    "IELTS",
+    "TOEFL",
+    "CET6",
+    "Postgraduate English"
+  ],
+  "article": {
+    "text": "Urbanization has transformed the way people live and move around cities. As more people migrate to urban areas, the demand for efficient public transportation has grown significantly. Traffic congestion has become a daily struggle for millions of commuters, leading to increased travel times, air pollution, and frustration. Cities that invest in comprehensive public transit systems, including buses, subways, and light rail, tend to have lower carbon emissions and higher quality of life for their residents. Smart cities are emerging as a solution, using data and technology to optimize traffic flow, improve public services, and reduce energy consumption. Infrastructure development plays a crucial role in supporting sustainable urban growth. Pedestrian zones and cycling lanes encourage healthier, more environmentally friendly modes of transport. The concept of urban sprawl, where cities expand outward into previously rural areas, presents additional challenges for transport planning. Effective urban planning must balance the need for mobility with environmental protection, ensuring that future cities remain livable, connected, and sustainable for generations to come. Integrated transport solutions, which combine multiple modes of transit into a seamless network, represent the future of urban mobility. Cities that fail to adapt their transport systems risk falling behind in terms of economic competitiveness and citizen satisfaction.",
+    "text_cn": "城市化彻底改变了人们的生活方式和城市出行方式。随着越来越多的人迁移到城市地区，对高效公共交通的需求显著增长。交通拥堵已成为数百万通勤者日常面临的难题，导致出行时间延长、空气污染加剧和心理压力增加。那些在综合公共交通系统（包括公交、地铁和轻轨）上投入的城市，往往碳排放更低，居民生活质量更高。智慧城市正作为一种解决方案涌现，利用数据和技术优化交通流量、改善公共服务并降低能源消耗。基础设施发展在支持可持续城市增长方面发挥着至关重要的作用。步行区和自行车道鼓励了更健康、更环保的出行方式。城市蔓延——即城市向外扩展到曾经的农村地区——给交通规划带来了额外的挑战。有效的城市规划必须在出行需求与环境保护之间取得平衡，确保未来的城市对子孙后代而言仍然宜居、互联互通且可持续发展。 综合交通解决方案——将多种交通方式融合为无缝网络——代表了城市出行的未来。无法适应交通系统变革的城市将在经济竞争力和市民满意度方面落后。",
+    "audio": "/audio/transport-urbanization/article.mp3"
+  },
+  "model_paragraph": {
+    "text": "Investing in efficient public transit systems and pedestrian-friendly infrastructure is essential for tackling traffic congestion and reducing carbon emissions in rapidly growing cities. Smart urban planning can transform the daily commute experience while promoting sustainable development.",
+    "text_cn": "投资高效的公共交通系统和行人友好的基础设施，对于解决快速增长城市的交通拥堵和减少碳排放至关重要。智慧城市规划可以改变日常通勤体验，同时促进可持续发展。"
+  },
+  "chunks": [
+    {
+      "id": "transport-urbanization-001",
+      "chunk": "public transportation",
+      "meaning_cn": "公共交通",
+      "collocations": [
+        "reliable public transportation",
+        "invest in public transportation",
+        "public transportation network"
+      ],
+      "sentence": "Many cities are investing heavily in public transportation to reduce traffic congestion.",
+      "sentence_cn": "许多城市正在大力投资公共交通以减少交通拥堵。",
+      "exam_sentence": "Governments should allocate more funds to developing efficient public transportation networks to alleviate urban congestion.",
+      "audio": "/audio/transport-urbanization/chunk-001.mp3",
+      "rewrite_prompt_cn": "许多城市正在大力投资公共交通以减少交通拥堵。",
+      "retelling_prompt": "Why should cities invest in public transportation?",
+      "tags": [
+        "transport",
+        "infrastructure"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "transport-urbanization-002",
+      "chunk": "traffic congestion",
+      "meaning_cn": "交通拥堵",
+      "collocations": [
+        "severe traffic congestion",
+        "alleviate traffic congestion",
+        "traffic congestion during rush hour"
+      ],
+      "sentence": "Traffic congestion during rush hour costs the economy billions of dollars each year.",
+      "sentence_cn": "高峰时段的交通拥堵每年给经济造成数十亿美元的损失。",
+      "exam_sentence": "Severe traffic congestion in metropolitan areas not only wastes commuters' time but also contributes significantly to air pollution.",
+      "audio": "/audio/transport-urbanization/chunk-002.mp3",
+      "rewrite_prompt_cn": "高峰时段的交通拥堵每年给经济造成数十亿美元的损失。",
+      "retelling_prompt": "What are the economic impacts of traffic congestion?",
+      "tags": [
+        "transport",
+        "urban problems"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "transport-urbanization-003",
+      "chunk": "rapid urbanization",
+      "meaning_cn": "快速城市化",
+      "collocations": [
+        "driven by rapid urbanization",
+        "cope with rapid urbanization",
+        "rapid urbanization process"
+      ],
+      "sentence": "Rapid urbanization has put enormous pressure on city infrastructure and public services.",
+      "sentence_cn": "快速城市化给城市基础设施和公共服务带来了巨大压力。",
+      "exam_sentence": "Rapid urbanization in developing countries has led to a range of social and environmental challenges that require urgent attention.",
+      "audio": "/audio/transport-urbanization/chunk-003.mp3",
+      "rewrite_prompt_cn": "快速城市化给城市基础设施和公共服务带来了巨大压力。",
+      "retelling_prompt": "What challenges does rapid urbanization bring?",
+      "tags": [
+        "urbanization",
+        "social issues"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "transport-urbanization-004",
+      "chunk": "urban sprawl",
+      "meaning_cn": "城市蔓延",
+      "collocations": [
+        "uncontrolled urban sprawl",
+        "prevent urban sprawl",
+        "urban sprawl and deforestation"
+      ],
+      "sentence": "Uncontrolled urban sprawl threatens farmland and natural ecosystems on the outskirts of cities.",
+      "sentence_cn": "不受控制的城市蔓延威胁着城市边缘的农田和自然生态系统。",
+      "exam_sentence": "Uncontrolled urban sprawl has led to the loss of agricultural land and increased dependence on private vehicles.",
+      "audio": "/audio/transport-urbanization/chunk-004.mp3",
+      "rewrite_prompt_cn": "不受控制的城市蔓延威胁着城市边缘的农田和自然生态系统。",
+      "retelling_prompt": "What problems does urban sprawl cause?",
+      "tags": [
+        "urbanization",
+        "environment"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "transport-urbanization-005",
+      "chunk": "smart cities",
+      "meaning_cn": "智慧城市",
+      "collocations": [
+        "developing smart cities",
+        "smart cities initiative",
+        "the concept of smart cities"
+      ],
+      "sentence": "Smart cities use sensors and data analytics to improve traffic management and energy efficiency.",
+      "sentence_cn": "智慧城市利用传感器和数据分析来改善交通管理和能源效率。",
+      "exam_sentence": "The development of smart cities represents a promising approach to addressing the complex challenges of modern urbanization.",
+      "audio": "/audio/transport-urbanization/chunk-005.mp3",
+      "rewrite_prompt_cn": "智慧城市利用传感器和数据分析来改善交通管理和能源效率。",
+      "retelling_prompt": "How do smart cities improve urban life?",
+      "tags": [
+        "technology",
+        "urbanization"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "transport-urbanization-006",
+      "chunk": "daily commute",
+      "meaning_cn": "日常通勤",
+      "collocations": [
+        "long daily commute",
+        "reduce daily commute time",
+        "average daily commute"
+      ],
+      "sentence": "The average daily commute in major cities has increased by nearly 20 minutes over the past decade.",
+      "sentence_cn": "过去十年间，大城市的平均日常通勤时间增加了近20分钟。",
+      "exam_sentence": "A lengthy daily commute has been linked to higher levels of stress and lower job satisfaction among workers.",
+      "audio": "/audio/transport-urbanization/chunk-006.mp3",
+      "rewrite_prompt_cn": "过去十年间，大城市的平均日常通勤时间增加了近20分钟。",
+      "retelling_prompt": "How has the daily commute changed in recent years?",
+      "tags": [
+        "transport",
+        "lifestyle"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "transport-urbanization-007",
+      "chunk": "infrastructure development",
+      "meaning_cn": "基础设施建设",
+      "collocations": [
+        "infrastructure development projects",
+        "infrastructure development plan",
+        "prioritize infrastructure development"
+      ],
+      "sentence": "Infrastructure development is essential for accommodating population growth in expanding cities.",
+      "sentence_cn": "基础设施建设对于容纳扩张城市中的人口增长至关重要。",
+      "exam_sentence": "Governments must prioritize infrastructure development to support economic growth and improve citizens' quality of life.",
+      "audio": "/audio/transport-urbanization/chunk-007.mp3",
+      "rewrite_prompt_cn": "基础设施建设对于容纳扩张城市中的人口增长至关重要。",
+      "retelling_prompt": "Why is infrastructure development important for cities?",
+      "tags": [
+        "infrastructure",
+        "development"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "transport-urbanization-008",
+      "chunk": "rush hour",
+      "meaning_cn": "高峰时段",
+      "collocations": [
+        "during rush hour",
+        "rush hour traffic",
+        "avoid rush hour"
+      ],
+      "sentence": "Many people try to avoid rush hour by adjusting their working hours or working from home.",
+      "sentence_cn": "许多人通过调整工作时间或在家办公来避开高峰时段。",
+      "exam_sentence": "Rush hour congestion could be significantly reduced if companies adopted more flexible working arrangements.",
+      "audio": "/audio/transport-urbanization/chunk-008.mp3",
+      "rewrite_prompt_cn": "许多人通过调整工作时间或在家办公来避开高峰时段。",
+      "retelling_prompt": "How do people cope with rush hour?",
+      "tags": [
+        "transport",
+        "daily life"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "transport-urbanization-009",
+      "chunk": "carbon emissions",
+      "meaning_cn": "碳排放",
+      "collocations": [
+        "reduce carbon emissions",
+        "carbon emissions from transport",
+        "lower carbon emissions"
+      ],
+      "sentence": "Switching to electric vehicles can significantly reduce carbon emissions from the transport sector.",
+      "sentence_cn": "改用电动汽车可以大幅减少交通部门的碳排放。",
+      "exam_sentence": "Reducing carbon emissions from transport is a critical step toward meeting international climate targets.",
+      "audio": "/audio/transport-urbanization/chunk-009.mp3",
+      "rewrite_prompt_cn": "改用电动汽车可以大幅减少交通部门的碳排放。",
+      "retelling_prompt": "How can carbon emissions from transport be reduced?",
+      "tags": [
+        "environment",
+        "transport"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "transport-urbanization-010",
+      "chunk": "pedestrian zones",
+      "meaning_cn": "步行区",
+      "collocations": [
+        "create pedestrian zones",
+        "car-free pedestrian zones",
+        "pedestrian zones in city centers"
+      ],
+      "sentence": "Several European cities have established pedestrian zones in their historic centers to improve air quality.",
+      "sentence_cn": "几个欧洲城市在历史中心区设立了步行区以改善空气质量。",
+      "exam_sentence": "Creating pedestrian zones in city centers not only reduces air pollution but also boosts local retail businesses.",
+      "audio": "/audio/transport-urbanization/chunk-010.mp3",
+      "rewrite_prompt_cn": "几个欧洲城市在历史中心区设立了步行区以改善空气质量。",
+      "retelling_prompt": "What are the benefits of pedestrian zones?",
+      "tags": [
+        "urban planning",
+        "environment"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "transport-urbanization-011",
+      "chunk": "public transit system",
+      "meaning_cn": "公共交通系统",
+      "collocations": [
+        "expand the public transit system",
+        "efficient public transit system",
+        "integrated public transit system"
+      ],
+      "sentence": "An efficient public transit system reduces the number of private cars on the road.",
+      "sentence_cn": "高效的公共交通系统减少了道路上的私家车数量。",
+      "exam_sentence": "A well-designed public transit system is the backbone of any sustainable urban transport strategy.",
+      "audio": "/audio/transport-urbanization/chunk-011.mp3",
+      "rewrite_prompt_cn": "高效的公共交通系统减少了道路上的私家车数量。",
+      "retelling_prompt": "What role does a public transit system play in a city?",
+      "tags": [
+        "transport",
+        "infrastructure"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "transport-urbanization-012",
+      "chunk": "sustainable urban planning",
+      "meaning_cn": "可持续城市规划",
+      "collocations": [
+        "promote sustainable urban planning",
+        "principles of sustainable urban planning",
+        "sustainable urban planning strategies"
+      ],
+      "sentence": "Sustainable urban planning aims to create cities that are both livable and environmentally responsible.",
+      "sentence_cn": "可持续城市规划旨在打造既宜居又对环境负责的城市。",
+      "exam_sentence": "Sustainable urban planning must take into account factors such as green spaces, energy efficiency, and accessible public transport.",
+      "audio": "/audio/transport-urbanization/chunk-012.mp3",
+      "rewrite_prompt_cn": "可持续城市规划旨在打造既宜居又对环境负责的城市。",
+      "retelling_prompt": "What is the goal of sustainable urban planning?",
+      "tags": [
+        "urbanization",
+        "sustainability"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "transport-urbanization-013",
+      "chunk": "light rail",
+      "meaning_cn": "轻轨",
+      "collocations": [
+        "light rail network",
+        "construct a light rail system",
+        "light rail transit"
+      ],
+      "sentence": "The city plans to construct a new light rail network to connect suburban areas with the downtown core.",
+      "sentence_cn": "该市计划建设新的轻轨网络，将郊区与市中心连接起来。",
+      "exam_sentence": "Light rail systems have proven to be a cost-effective solution for reducing congestion in medium-sized cities.",
+      "audio": "/audio/transport-urbanization/chunk-013.mp3",
+      "rewrite_prompt_cn": "该市计划建设新的轻轨网络，将郊区与市中心连接起来。",
+      "retelling_prompt": "What is light rail and why do cities build it?",
+      "tags": [
+        "transport",
+        "infrastructure"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "transport-urbanization-014",
+      "chunk": "migrate to urban areas",
+      "meaning_cn": "迁移到城市地区",
+      "collocations": [
+        "continue to migrate to urban areas",
+        "rural residents migrate to urban areas",
+        "reasons to migrate to urban areas"
+      ],
+      "sentence": "Millions of people migrate to urban areas each year in search of better job opportunities.",
+      "sentence_cn": "每年有数百万人迁移到城市地区寻找更好的就业机会。",
+      "exam_sentence": "The continued migration of rural populations to urban areas has created both opportunities and challenges for city planners.",
+      "audio": "/audio/transport-urbanization/chunk-014.mp3",
+      "rewrite_prompt_cn": "每年有数百万人迁移到城市地区寻找更好的就业机会。",
+      "retelling_prompt": "Why do people migrate to urban areas?",
+      "tags": [
+        "urbanization",
+        "migration"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "transport-urbanization-015",
+      "chunk": "daily commuters",
+      "meaning_cn": "日常通勤者",
+      "collocations": [
+        "millions of daily commuters",
+        "suburban commuters",
+        "commuters face challenges"
+      ],
+      "sentence": "Many daily commuters spend over two hours each day traveling to and from work.",
+      "sentence_cn": "许多日常通勤者每天花两个多小时往返上班。",
+      "exam_sentence": "Improving public transport options would greatly benefit the millions of daily commuters who face lengthy journeys every day.",
+      "audio": "/audio/transport-urbanization/chunk-015.mp3",
+      "rewrite_prompt_cn": "许多日常通勤者每天花两个多小时往返上班。",
+      "retelling_prompt": "What challenges do daily commuters face?",
+      "tags": [
+        "transport",
+        "daily life"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "transport-urbanization-016",
+      "chunk": "traffic flow",
+      "meaning_cn": "交通流量",
+      "collocations": [
+        "optimize traffic flow",
+        "smooth traffic flow",
+        "disrupt traffic flow"
+      ],
+      "sentence": "Real-time data can help city officials optimize traffic flow during peak hours.",
+      "sentence_cn": "实时数据可以帮助城市官员在高峰时段优化交通流量。",
+      "exam_sentence": "Intelligent traffic management systems can significantly improve traffic flow and reduce average travel times.",
+      "audio": "/audio/transport-urbanization/chunk-016.mp3",
+      "rewrite_prompt_cn": "实时数据可以帮助城市官员在高峰时段优化交通流量。",
+      "retelling_prompt": "How can technology improve traffic flow?",
+      "tags": [
+        "transport",
+        "technology"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "transport-urbanization-017",
+      "chunk": "energy consumption",
+      "meaning_cn": "能源消耗",
+      "collocations": [
+        "reduce energy consumption",
+        "rising energy consumption",
+        "energy consumption in cities"
+      ],
+      "sentence": "Smart building technologies can significantly reduce energy consumption in urban areas.",
+      "sentence_cn": "智能建筑技术可以显著减少城市地区的能源消耗。",
+      "exam_sentence": "Reducing energy consumption in the transport sector is vital for achieving global sustainability targets.",
+      "audio": "/audio/transport-urbanization/chunk-017.mp3",
+      "rewrite_prompt_cn": "智能建筑技术可以显著减少城市地区的能源消耗。",
+      "retelling_prompt": "How can cities reduce energy consumption?",
+      "tags": [
+        "environment",
+        "sustainability"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "transport-urbanization-018",
+      "chunk": "cycling lanes",
+      "meaning_cn": "自行车道",
+      "collocations": [
+        "build cycling lanes",
+        "dedicated cycling lanes",
+        "safe cycling lanes"
+      ],
+      "sentence": "More cities are building dedicated cycling lanes to encourage eco-friendly commuting.",
+      "sentence_cn": "越来越多的城市正在建设专用自行车道以鼓励环保通勤。",
+      "exam_sentence": "The expansion of cycling lanes has encouraged more people to adopt cycling as a regular mode of transport.",
+      "audio": "/audio/transport-urbanization/chunk-018.mp3",
+      "rewrite_prompt_cn": "越来越多的城市正在建设专用自行车道以鼓励环保通勤。",
+      "retelling_prompt": "Why are cycling lanes becoming more common?",
+      "tags": [
+        "transport",
+        "environment"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "transport-urbanization-019",
+      "chunk": "livable cities",
+      "meaning_cn": "宜居城市",
+      "collocations": [
+        "create livable cities",
+        "one of the most livable cities",
+        "principles of livable cities"
+      ],
+      "sentence": "Green spaces and clean air are essential for creating livable cities.",
+      "sentence_cn": "绿地和清洁空气对于建设宜居城市至关重要。",
+      "exam_sentence": "Making cities more livable requires a balanced approach that considers transport, housing, and environmental quality.",
+      "audio": "/audio/transport-urbanization/chunk-019.mp3",
+      "rewrite_prompt_cn": "绿地和清洁空气对于建设宜居城市至关重要。",
+      "retelling_prompt": "What makes a city livable?",
+      "tags": [
+        "urbanization",
+        "quality of life"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "transport-urbanization-020",
+      "chunk": "environmentally friendly",
+      "meaning_cn": "环保的",
+      "collocations": [
+        "environmentally friendly transport",
+        "environmentally friendly alternatives",
+        "more environmentally friendly"
+      ],
+      "sentence": "Electric buses are a more environmentally friendly alternative to traditional diesel vehicles.",
+      "sentence_cn": "电动公交车是比传统柴油车更环保的替代方案。",
+      "exam_sentence": "Governments should incentivize environmentally friendly transport options to reduce urban pollution levels.",
+      "audio": "/audio/transport-urbanization/chunk-020.mp3",
+      "rewrite_prompt_cn": "电动公交车是比传统柴油车更环保的替代方案。",
+      "retelling_prompt": "What are some environmentally friendly transport options?",
+      "tags": [
+        "environment",
+        "transport"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    }
+  ]
+}

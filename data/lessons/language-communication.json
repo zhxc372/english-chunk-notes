@@ -1,0 +1,510 @@
+{
+  "lesson_id": "language-communication",
+  "title": "Language & Communication",
+  "title_cn": "语言与沟通",
+  "category": "General English",
+  "level": "B1-B2",
+  "theme_tags": [
+    "language",
+    "communication",
+    "culture",
+    "education"
+  ],
+  "exam_tags": [
+    "IELTS",
+    "TOEFL",
+    "CET6",
+    "Postgraduate English"
+  ],
+  "article": {
+    "text": "Language is far more than a mere tool for exchanging information; it is the very foundation upon which human culture and identity are built. Every language encodes a unique way of understanding the world, preserving centuries of knowledge, traditions, and social values within its vocabulary and grammar. Unfortunately, linguistic diversity is under serious threat today. It is estimated that nearly half of the world's approximately 7,000 languages could disappear by the end of this century, taking with them irreplaceable cultural heritage. The loss of a language means the loss of an entire worldview. In an increasingly globalised world, bilingual education and multilingualism have become essential skills. Learning a second language not only enhances cognitive abilities such as problem-solving and critical thinking, but also fosters cross-cultural communication and mutual understanding between communities. Research consistently shows that bilingual individuals tend to demonstrate greater mental flexibility and are better equipped to adapt to unfamiliar social situations. However, language acquisition is not without its challenges. Many learners face significant language barriers that can lead to social exclusion and limited career opportunities. Governments and educational institutions must invest in language programmes that support immigrants, refugees, and minority language speakers. At the same time, efforts should be made to document and revitalise endangered languages and dialects before they vanish entirely. Preserving linguistic diversity is not just an academic concern — it is a matter of social justice and human rights.",
+    "text_cn": "语言远不仅仅是交换信息的工具，它是人类文化和身份认同赖以建立的基础。每种语言都编码了一种独特的理解世界的方式，在其词汇和语法中保存着几个世纪的知识、传统和社会价值观。遗憾的是，当今的语言多样性正面临严重威胁。据估计，世界上大约7000种语言中近一半可能在本世纪末消失，带走不可替代的文化遗产。一种语言的消亡意味着一种世界观的丧失。在日益全球化的世界中，双语教育和多语能力已成为必备技能。学习第二语言不仅能增强问题解决和批判性思维等认知能力，还能促进社区间的跨文化沟通和相互理解。研究一致表明，双语个体往往表现出更强的心理灵活性，在适应陌生社交环境方面也更具优势。然而，语言习得并非没有挑战。许多学习者面临着显著的语言障碍，这可能导致社会排斥和职业机会的受限。政府和教育机构必须投资语言项目，支持移民、难民和少数语言使用者。同时，应努力记录和振兴濒危语言和方言，以免它们完全消失。保护语言多样性不仅是一个学术问题，更是社会正义和人权的问题。",
+    "audio": "/audio/language-communication/article.mp3"
+  },
+  "model_paragraph": {
+    "text": "In today's globalised society, multilingualism offers significant advantages. Bilingual education not only improves language proficiency but also enhances cognitive flexibility and cross-cultural understanding. However, the rapid decline of linguistic diversity poses a serious threat to cultural heritage. Governments should implement policies that protect endangered languages while promoting second language learning to break down language barriers and foster social inclusion.",
+    "text_cn": "在当今全球化社会中，多语能力提供了显著优势。双语教育不仅提高了语言能力，还增强了认知灵活性和跨文化理解力。然而，语言多样性的快速下降对文化遗产构成了严重威胁。政府应实施保护濒危语言的政策，同时促进第二语言学习，以消除语言障碍，促进社会包容。"
+  },
+  "chunks": [
+    {
+      "id": "language-communication-001",
+      "chunk": "linguistic diversity",
+      "meaning_cn": "语言多样性",
+      "collocations": [
+        "promote linguistic diversity",
+        "preserve linguistic diversity",
+        "a threat to linguistic diversity"
+      ],
+      "sentence": "Preserving linguistic diversity is essential for maintaining cultural heritage around the world.",
+      "sentence_cn": "保护语言多样性对于维护全球文化遗产至关重要。",
+      "exam_sentence": "The erosion of linguistic diversity represents an irreversible loss of human knowledge and cultural identity.",
+      "audio": "/audio/language-communication/chunk-001.mp3",
+      "rewrite_prompt_cn": "保护语言多样性对于维护全球文化遗产至关重要。",
+      "retelling_prompt": "Why is linguistic diversity important for cultural heritage?",
+      "tags": [
+        "language",
+        "culture"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "language-communication-002",
+      "chunk": "language barrier",
+      "meaning_cn": "语言障碍",
+      "collocations": [
+        "overcome a language barrier",
+        "break down language barriers",
+        "a significant language barrier"
+      ],
+      "sentence": "Many immigrants struggle to find employment due to language barriers in their host countries.",
+      "sentence_cn": "由于东道国的语言障碍，许多移民很难找到工作。",
+      "exam_sentence": "Language barriers remain one of the most significant obstacles to social integration for immigrant communities.",
+      "audio": "/audio/language-communication/chunk-002.mp3",
+      "rewrite_prompt_cn": "由于东道国的语言障碍，许多移民很难找到工作。",
+      "retelling_prompt": "How do language barriers affect immigrants' job prospects?",
+      "tags": [
+        "language",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "language-communication-003",
+      "chunk": "bilingual education",
+      "meaning_cn": "双语教育",
+      "collocations": [
+        "implement bilingual education",
+        "the benefits of bilingual education",
+        "bilingual education programmes"
+      ],
+      "sentence": "Research shows that bilingual education improves cognitive flexibility in young children.",
+      "sentence_cn": "研究表明，双语教育提高了幼儿的认知灵活性。",
+      "exam_sentence": "Implementing bilingual education from an early age can equip students with a competitive advantage in the global job market.",
+      "audio": "/audio/language-communication/chunk-003.mp3",
+      "rewrite_prompt_cn": "研究表明，双语教育提高了幼儿的认知灵活性。",
+      "retelling_prompt": "What cognitive benefits does bilingual education offer?",
+      "tags": [
+        "education",
+        "language"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "language-communication-004",
+      "chunk": "cross-cultural communication",
+      "meaning_cn": "跨文化沟通",
+      "collocations": [
+        "improve cross-cultural communication",
+        "effective cross-cultural communication",
+        "barriers to cross-cultural communication"
+      ],
+      "sentence": "Effective cross-cultural communication requires both language skills and cultural awareness.",
+      "sentence_cn": "有效的跨文化沟通需要语言能力和文化意识。",
+      "exam_sentence": "In multinational workplaces, cross-cultural communication skills are as important as technical expertise.",
+      "audio": "/audio/language-communication/chunk-004.mp3",
+      "rewrite_prompt_cn": "有效的跨文化沟通需要语言能力和文化意识。",
+      "retelling_prompt": "What does effective cross-cultural communication require?",
+      "tags": [
+        "communication",
+        "culture"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "language-communication-005",
+      "chunk": "language acquisition",
+      "meaning_cn": "语言习得",
+      "collocations": [
+        "the process of language acquisition",
+        "second language acquisition",
+        "facilitate language acquisition"
+      ],
+      "sentence": "Children have a natural aptitude for language acquisition that adults often lack.",
+      "sentence_cn": "儿童具有语言习得的天赋，而成年人通常缺乏这种能力。",
+      "exam_sentence": "Understanding the mechanisms of second language acquisition can help educators design more effective teaching programmes.",
+      "audio": "/audio/language-communication/chunk-005.mp3",
+      "rewrite_prompt_cn": "儿童具有语言习得的天赋，而成年人通常缺乏这种能力。",
+      "retelling_prompt": "How does language acquisition differ between children and adults?",
+      "tags": [
+        "language",
+        "education"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "language-communication-006",
+      "chunk": "native language",
+      "meaning_cn": "母语",
+      "collocations": [
+        "in one's native language",
+        "teach in the native language",
+        "lose one's native language"
+      ],
+      "sentence": "Being educated in their native language helps children understand complex concepts more easily.",
+      "sentence_cn": "用母语接受教育有助于儿童更容易地理解复杂概念。",
+      "exam_sentence": "Children who receive early education in their native language generally outperform those thrust into a foreign-language-only environment.",
+      "audio": "/audio/language-communication/chunk-006.mp3",
+      "rewrite_prompt_cn": "用母语接受教育有助于儿童更容易地理解复杂概念。",
+      "retelling_prompt": "Why is native language education important for children?",
+      "tags": [
+        "language",
+        "education"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "language-communication-007",
+      "chunk": "second language",
+      "meaning_cn": "第二语言",
+      "collocations": [
+        "learn a second language",
+        "second language proficiency",
+        "as a second language"
+      ],
+      "sentence": "Learning a second language opens up opportunities for international travel and employment.",
+      "sentence_cn": "学习第二语言为国际旅行和就业打开了大门。",
+      "exam_sentence": "Proficiency in a second language has become an increasingly indispensable requirement in the globalised economy.",
+      "audio": "/audio/language-communication/chunk-007.mp3",
+      "rewrite_prompt_cn": "学习第二语言为国际旅行和就业打开了大门。",
+      "retelling_prompt": "What opportunities does learning a second language create?",
+      "tags": [
+        "language",
+        "career"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "language-communication-008",
+      "chunk": "language proficiency",
+      "meaning_cn": "语言能力",
+      "collocations": [
+        "demonstrate language proficiency",
+        "improve language proficiency",
+        "a high level of language proficiency"
+      ],
+      "sentence": "Employers increasingly require candidates to demonstrate language proficiency in at least two languages.",
+      "sentence_cn": "雇主越来越要求候选人展示至少两种语言的语言能力。",
+      "exam_sentence": "A certificate of language proficiency can significantly strengthen a university application or job candidacy.",
+      "audio": "/audio/language-communication/chunk-008.mp3",
+      "rewrite_prompt_cn": "雇主越来越要求候选人展示至少两种语言的语言能力。",
+      "retelling_prompt": "Why do employers value language proficiency?",
+      "tags": [
+        "language",
+        "employment"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "language-communication-009",
+      "chunk": "language extinction",
+      "meaning_cn": "语言消亡",
+      "collocations": [
+        "prevent language extinction",
+        "the rate of language extinction",
+        "language extinction poses a threat"
+      ],
+      "sentence": "Language extinction is accelerating at an alarming rate in many parts of the world.",
+      "sentence_cn": "在世界许多地区，语言消亡的速度正在令人震惊地加快。",
+      "exam_sentence": "The extinction of minority languages not only erodes cultural identity but also diminishes the collective intellectual heritage of humanity.",
+      "audio": "/audio/language-communication/chunk-009.mp3",
+      "rewrite_prompt_cn": "在世界许多地区，语言消亡的速度正在令人震惊地加快。",
+      "retelling_prompt": "How fast is language extinction progressing globally?",
+      "tags": [
+        "language",
+        "culture"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "language-communication-010",
+      "chunk": "endangered languages",
+      "meaning_cn": "濒危语言",
+      "collocations": [
+        "document endangered languages",
+        "revitalise endangered languages",
+        "efforts to save endangered languages"
+      ],
+      "sentence": "Linguists are working urgently to document endangered languages before they disappear forever.",
+      "sentence_cn": "语言学家正在紧急努力记录濒危语言，以免它们永远消失。",
+      "exam_sentence": "Governments should allocate funding to support the documentation and revitalisation of endangered languages within their borders.",
+      "audio": "/audio/language-communication/chunk-010.mp3",
+      "rewrite_prompt_cn": "语言学家正在紧急努力记录濒危语言，以免它们永远消失。",
+      "retelling_prompt": "What are linguists doing to help endangered languages?",
+      "tags": [
+        "language",
+        "culture"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "language-communication-011",
+      "chunk": "multilingualism",
+      "meaning_cn": "多语能力",
+      "collocations": [
+        "promote multilingualism",
+        "the benefits of multilingualism",
+        "multilingualism in education"
+      ],
+      "sentence": "Multilingualism is common in many African and Asian countries where several languages coexist.",
+      "sentence_cn": "在多种语言共存的许多非洲和亚洲国家，多语能力很常见。",
+      "exam_sentence": "Multilingualism should be celebrated as an asset rather than viewed as a barrier to national unity.",
+      "audio": "/audio/language-communication/chunk-011.mp3",
+      "rewrite_prompt_cn": "在多种语言共存的许多非洲和亚洲国家，多语能力很常见。",
+      "retelling_prompt": "Where is multilingualism most commonly found?",
+      "tags": [
+        "language",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "language-communication-012",
+      "chunk": "language skills",
+      "meaning_cn": "语言技能",
+      "collocations": [
+        "develop language skills",
+        "strong language skills",
+        "improve language skills"
+      ],
+      "sentence": "Strong language skills are a key factor in academic and professional success.",
+      "sentence_cn": "过硬的语言技能是学业和职业成功的关键因素。",
+      "exam_sentence": "Students who develop strong language skills in their early years are better prepared for higher education and global careers.",
+      "audio": "/audio/language-communication/chunk-012.mp3",
+      "rewrite_prompt_cn": "过硬的语言技能是学业和职业成功的关键因素。",
+      "retelling_prompt": "Why are language skills important for success?",
+      "tags": [
+        "language",
+        "education"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "language-communication-013",
+      "chunk": "mutual understanding",
+      "meaning_cn": "相互理解",
+      "collocations": [
+        "foster mutual understanding",
+        "promote mutual understanding",
+        "a foundation of mutual understanding"
+      ],
+      "sentence": "Learning about other cultures fosters mutual understanding and reduces prejudice.",
+      "sentence_cn": "了解其他文化能促进相互理解并减少偏见。",
+      "exam_sentence": "International exchange programmes play a vital role in fostering mutual understanding between students from different backgrounds.",
+      "audio": "/audio/language-communication/chunk-013.mp3",
+      "rewrite_prompt_cn": "了解其他文化能促进相互理解并减少偏见。",
+      "retelling_prompt": "How does cultural learning promote mutual understanding?",
+      "tags": [
+        "communication",
+        "culture"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "language-communication-014",
+      "chunk": "social exclusion",
+      "meaning_cn": "社会排斥",
+      "collocations": [
+        "face social exclusion",
+        "lead to social exclusion",
+        "victims of social exclusion"
+      ],
+      "sentence": "People who cannot speak the dominant language often face social exclusion and isolation.",
+      "sentence_cn": "不会说主流语言的人常常面临社会排斥和孤独。",
+      "exam_sentence": "Language-based social exclusion perpetuates inequality and prevents marginalised communities from accessing essential services.",
+      "audio": "/audio/language-communication/chunk-014.mp3",
+      "rewrite_prompt_cn": "不会说主流语言的人常常面临社会排斥和孤独。",
+      "retelling_prompt": "How does language inability lead to social exclusion?",
+      "tags": [
+        "society",
+        "language"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "language-communication-015",
+      "chunk": "cultural heritage",
+      "meaning_cn": "文化遗产",
+      "collocations": [
+        "preserve cultural heritage",
+        "protect cultural heritage",
+        "rich cultural heritage"
+      ],
+      "sentence": "Each language carries a unique cultural heritage that enriches humanity as a whole.",
+      "sentence_cn": "每种语言都承载着独特的文化遗产，丰富了整个人类。",
+      "exam_sentence": "The preservation of cultural heritage through language is an obligation that extends beyond any single generation.",
+      "audio": "/audio/language-communication/chunk-015.mp3",
+      "rewrite_prompt_cn": "每种语言都承载着独特的文化遗产，丰富了整个人类。",
+      "retelling_prompt": "How are language and cultural heritage connected?",
+      "tags": [
+        "culture",
+        "language"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "language-communication-016",
+      "chunk": "cognitive abilities",
+      "meaning_cn": "认知能力",
+      "collocations": [
+        "enhance cognitive abilities",
+        "impaired cognitive abilities",
+        "develop cognitive abilities"
+      ],
+      "sentence": "Bilingual education has been shown to enhance cognitive abilities such as memory and attention.",
+      "sentence_cn": "双语教育已被证明能增强记忆力和注意力等认知能力。",
+      "exam_sentence": "Studies suggest that bilingual individuals exhibit superior cognitive abilities, including better multitasking and decision-making skills.",
+      "audio": "/audio/language-communication/chunk-016.mp3",
+      "rewrite_prompt_cn": "双语教育已被证明能增强记忆力和注意力等认知能力。",
+      "retelling_prompt": "What cognitive abilities does bilingual education improve?",
+      "tags": [
+        "language",
+        "psychology"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "language-communication-017",
+      "chunk": "verbal communication",
+      "meaning_cn": "口头沟通",
+      "collocations": [
+        "effective verbal communication",
+        "improve verbal communication",
+        "barriers to verbal communication"
+      ],
+      "sentence": "Verbal communication is the most common form of human interaction in daily life.",
+      "sentence_cn": "口头沟通是日常生活中最常见的人类互动形式。",
+      "exam_sentence": "While digital communication has grown rapidly, verbal communication remains indispensable in building trust and resolving conflicts.",
+      "audio": "/audio/language-communication/chunk-017.mp3",
+      "rewrite_prompt_cn": "口头沟通是日常生活中最常见的人类互动形式。",
+      "retelling_prompt": "What role does verbal communication play in daily life?",
+      "tags": [
+        "communication",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "language-communication-018",
+      "chunk": "fluency in",
+      "meaning_cn": "流利使用",
+      "collocations": [
+        "achieve fluency in",
+        "gain fluency in",
+        "fluency in English"
+      ],
+      "sentence": "Gaining fluency in a foreign language requires consistent practice over many years.",
+      "sentence_cn": "获得外语流利度需要多年持续练习。",
+      "exam_sentence": "Achieving fluency in a second language not only broadens personal horizons but also creates professional opportunities across borders.",
+      "audio": "/audio/language-communication/chunk-018.mp3",
+      "rewrite_prompt_cn": "获得外语流利度需要多年持续练习。",
+      "retelling_prompt": "What does it take to gain fluency in a foreign language?",
+      "tags": [
+        "language",
+        "learning"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "language-communication-019",
+      "chunk": "regional dialect",
+      "meaning_cn": "地方方言",
+      "collocations": [
+        "a regional dialect",
+        "speak in a regional dialect",
+        "a dying regional dialect"
+      ],
+      "sentence": "Many regional dialects are dying out as younger generations adopt standardised languages.",
+      "sentence_cn": "随着年轻一代采用标准化语言，许多地方方言正在消失。",
+      "exam_sentence": "The disappearance of local dialects reflects a broader trend of cultural homogenisation that deserves greater public attention.",
+      "audio": "/audio/language-communication/chunk-019.mp3",
+      "rewrite_prompt_cn": "随着年轻一代采用标准化语言，许多地方方言正在消失。",
+      "retelling_prompt": "Why are regional dialects disappearing?",
+      "tags": [
+        "language",
+        "culture"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "language-communication-020",
+      "chunk": "language policy",
+      "meaning_cn": "语言政策",
+      "collocations": [
+        "implement language policy",
+        "national language policy",
+        "language policy in education"
+      ],
+      "sentence": "A well-designed language policy can balance the need for a common language with the protection of minority tongues.",
+      "sentence_cn": "精心设计的语言政策可以在对共同语言的需求与保护少数族裔语言之间取得平衡。",
+      "exam_sentence": "Governments must develop inclusive language policies that promote national languages while safeguarding the rights of linguistic minorities.",
+      "audio": "/audio/language-communication/chunk-020.mp3",
+      "rewrite_prompt_cn": "精心设计的语言政策可以在对共同语言的需求与保护少数族裔语言之间取得平衡。",
+      "retelling_prompt": "What should a good language policy achieve?",
+      "tags": [
+        "language",
+        "policy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    }
+  ]
+}

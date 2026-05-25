@@ -1,0 +1,510 @@
+{
+  "lesson_id": "social-problems",
+  "title": "Social Problems",
+  "title_cn": "社会问题",
+  "category": "General English",
+  "level": "B1-B2",
+  "theme_tags": [
+    "society",
+    "inequality",
+    "poverty",
+    "social justice"
+  ],
+  "exam_tags": [
+    "IELTS",
+    "TOEFL",
+    "CET6",
+    "Postgraduate English"
+  ],
+  "article": {
+    "text": "Social inequality remains one of the most pressing challenges facing modern societies. Despite decades of economic growth, the income gap between the richest and poorest segments of the population has continued to widen in many countries. This growing divide threatens social cohesion and undermines the principle of equal opportunity that lies at the heart of democratic societies. Poverty alleviation has long been a priority for governments and international organisations, yet millions of people around the world still live below the poverty line. Urban poverty, in particular, has intensified as rural populations migrate to cities in search of better opportunities, only to encounter overcrowded housing, limited access to healthcare, and scarce employment prospects. The rural-urban divide remains a stark reality in many developing nations. Marginalised groups, including ethnic minorities, women, people with disabilities, and the long-term unemployed, continue to face systemic discrimination that limits their access to education, healthcare, and decent work. Unemployment, especially among young people, has reached alarming levels in several regions, fuelling social unrest and political instability. Addressing these deep-rooted problems requires comprehensive strategies. A robust social safety net, progressive taxation, and investment in public services such as education and healthcare are essential components of any effective response. Furthermore, policies that promote social mobility, such as affordable higher education, vocational training, and anti-discrimination legislation, can help break the cycle of poverty and create a more equitable society for future generations.",
+    "text_cn": "社会不平等仍然是现代社会面临的最紧迫挑战之一。尽管几十年来经济持续增长，但在许多国家，最富裕和最贫困人群之间的收入差距仍在不断扩大。这种日益加剧的分化威胁着社会凝聚力，并侵蚀了民主社会核心的平等机会原则。扶贫一直是政府和国际组织的优先事项，但全球仍有数百万人生活在贫困线以下。尤其是城市贫困问题日益严重，农村人口涌入城市寻求更好的机会，却只面临拥挤的住房、有限的医疗服务和稀缺的就业前景。城乡差距在许多发展中国家仍然是一个鲜明的现实。被边缘化的群体，包括少数民族、妇女、残疾人和长期失业者，继续面临系统性歧视，限制了他们获得教育、医疗和体面工作的机会。失业问题，特别是青年失业，在多个地区已达到令人担忧的水平，加剧了社会动荡和政治不稳定。解决这些根深蒂固的问题需要综合性的策略。健全的社会保障网、累进税制以及对教育和医疗等公共服务的投资是任何有效应对措施的基本组成部分。此外，促进社会流动性的政策，如可负担的高等教育、职业培训和反歧视立法，可以帮助打破贫困的恶性循环，为后代创造一个更加公平的社会。",
+    "audio": "/audio/social-problems/article.mp3"
+  },
+  "model_paragraph": {
+    "text": "Social inequality continues to widen despite economic growth, with the income gap threatening social cohesion in many countries. Marginalised groups face systemic discrimination in education, healthcare, and employment. To address these challenges, governments must strengthen the social safety net, invest in public services, and implement policies that promote social mobility. Only through comprehensive reform can we build a more equitable society.",
+    "text_cn": "尽管经济增长，社会不平等仍在扩大，收入差距威胁着许多国家的社会凝聚力。被边缘化的群体在教育、医疗和就业方面面临系统性歧视。为应对这些挑战，政府必须加强社会保障网，投资公共服务，并实施促进社会流动性的政策。只有通过综合改革，我们才能建设一个更加公平的社会。"
+  },
+  "chunks": [
+    {
+      "id": "social-problems-001",
+      "chunk": "social inequality",
+      "meaning_cn": "社会不平等",
+      "collocations": [
+        "tackle social inequality",
+        "widen social inequality",
+        "the root causes of social inequality"
+      ],
+      "sentence": "Social inequality persists despite years of government efforts to address the issue.",
+      "sentence_cn": "尽管政府多年努力解决这一问题，社会不平等仍然存在。",
+      "exam_sentence": "Rising social inequality poses a fundamental threat to the stability and prosperity of any modern nation.",
+      "audio": "/audio/social-problems/chunk-001.mp3",
+      "rewrite_prompt_cn": "尽管政府多年努力解决这一问题，社会不平等仍然存在。",
+      "retelling_prompt": "Why does social inequality persist despite government efforts?",
+      "tags": [
+        "society",
+        "inequality"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "social-problems-002",
+      "chunk": "income gap",
+      "meaning_cn": "收入差距",
+      "collocations": [
+        "narrow the income gap",
+        "a widening income gap",
+        "the income gap between"
+      ],
+      "sentence": "The widening income gap between rich and poor is a source of growing public concern.",
+      "sentence_cn": "贫富之间日益扩大的收入差距是公众日益关注的源头。",
+      "exam_sentence": "Failure to narrow the income gap may lead to increased social tension and erode public trust in institutions.",
+      "audio": "/audio/social-problems/chunk-002.mp3",
+      "rewrite_prompt_cn": "贫富之间日益扩大的收入差距是公众日益关注的源头。",
+      "retelling_prompt": "What public concern does the income gap cause?",
+      "tags": [
+        "economy",
+        "inequality"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "social-problems-003",
+      "chunk": "poverty alleviation",
+      "meaning_cn": "扶贫",
+      "collocations": [
+        "poverty alleviation programmes",
+        "poverty alleviation efforts",
+        "achieve poverty alleviation"
+      ],
+      "sentence": "Poverty alleviation programmes have lifted millions out of extreme poverty over the past two decades.",
+      "sentence_cn": "过去二十年来，扶贫项目使数百万人脱离了极端贫困。",
+      "exam_sentence": "Sustainable poverty alleviation requires not only economic growth but also equitable distribution of resources and opportunities.",
+      "audio": "/audio/social-problems/chunk-003.mp3",
+      "rewrite_prompt_cn": "过去二十年来，扶贫项目使数百万人脱离了极端贫困。",
+      "retelling_prompt": "What impact have poverty alleviation programmes had?",
+      "tags": [
+        "society",
+        "policy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "social-problems-004",
+      "chunk": "social mobility",
+      "meaning_cn": "社会流动性",
+      "collocations": [
+        "promote social mobility",
+        "barriers to social mobility",
+        "declining social mobility"
+      ],
+      "sentence": "Access to quality education is one of the most important drivers of social mobility.",
+      "sentence_cn": "获得优质教育是推动社会流动性最重要的因素之一。",
+      "exam_sentence": "When social mobility declines, talented individuals from disadvantaged backgrounds are denied the opportunity to fulfil their potential.",
+      "audio": "/audio/social-problems/chunk-004.mp3",
+      "rewrite_prompt_cn": "获得优质教育是推动社会流动性最重要的因素之一。",
+      "retelling_prompt": "What drives social mobility in a society?",
+      "tags": [
+        "society",
+        "education"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "social-problems-005",
+      "chunk": "social exclusion",
+      "meaning_cn": "社会排斥",
+      "collocations": [
+        "suffer from social exclusion",
+        "combat social exclusion",
+        "victims of social exclusion"
+      ],
+      "sentence": "People with disabilities often experience social exclusion from mainstream activities.",
+      "sentence_cn": "残疾人常常经历被排除在主流活动之外的社会排斥。",
+      "exam_sentence": "Social exclusion perpetuates a cycle of disadvantage that is difficult to break without targeted policy interventions.",
+      "audio": "/audio/social-problems/chunk-005.mp3",
+      "rewrite_prompt_cn": "残疾人常常经历被排除在主流活动之外的社会排斥。",
+      "retelling_prompt": "Who commonly experiences social exclusion?",
+      "tags": [
+        "society",
+        "disability"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "social-problems-006",
+      "chunk": "social cohesion",
+      "meaning_cn": "社会凝聚力",
+      "collocations": [
+        "strengthen social cohesion",
+        "undermine social cohesion",
+        "promote social cohesion"
+      ],
+      "sentence": "High levels of inequality can undermine social cohesion and lead to social unrest.",
+      "sentence_cn": "高水平的不平等会削弱社会凝聚力，并导致社会动荡。",
+      "exam_sentence": "Investing in community programmes is essential for maintaining social cohesion in diverse and rapidly changing societies.",
+      "audio": "/audio/social-problems/chunk-006.mp3",
+      "rewrite_prompt_cn": "高水平的不平等会削弱社会凝聚力，并导致社会动荡。",
+      "retelling_prompt": "How does inequality affect social cohesion?",
+      "tags": [
+        "society",
+        "community"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "social-problems-007",
+      "chunk": "social safety net",
+      "meaning_cn": "社会保障网",
+      "collocations": [
+        "strengthen the social safety net",
+        "a robust social safety net",
+        "rely on the social safety net"
+      ],
+      "sentence": "A robust social safety net is crucial for protecting vulnerable populations during economic downturns.",
+      "sentence_cn": "健全的社会保障网对于在经济衰退期间保护弱势群体至关重要。",
+      "exam_sentence": "Countries with a well-designed social safety net are better able to cushion the impact of economic crises on their citizens.",
+      "audio": "/audio/social-problems/chunk-007.mp3",
+      "rewrite_prompt_cn": "健全的社会保障网对于在经济衰退期间保护弱势群体至关重要。",
+      "retelling_prompt": "Why is a social safety net important during economic downturns?",
+      "tags": [
+        "society",
+        "policy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "social-problems-008",
+      "chunk": "marginalised groups",
+      "meaning_cn": "被边缘化的群体",
+      "collocations": [
+        "support marginalised groups",
+        "empower marginalised groups",
+        "policies for marginalised groups"
+      ],
+      "sentence": "Marginalised groups often lack access to the resources needed to improve their living conditions.",
+      "sentence_cn": "被边缘化的群体通常缺乏改善生活条件所需的资源。",
+      "exam_sentence": "Effective social policy must prioritise the needs of marginalised groups to ensure that economic progress benefits all members of society.",
+      "audio": "/audio/social-problems/chunk-008.mp3",
+      "rewrite_prompt_cn": "被边缘化的群体通常缺乏改善生活条件所需的资源。",
+      "retelling_prompt": "What challenges do marginalised groups face?",
+      "tags": [
+        "society",
+        "inequality"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "social-problems-009",
+      "chunk": "systemic discrimination",
+      "meaning_cn": "系统性歧视",
+      "collocations": [
+        "face systemic discrimination",
+        "combat systemic discrimination",
+        "rooted in systemic discrimination"
+      ],
+      "sentence": "Systemic discrimination in hiring practices continues to limit opportunities for ethnic minorities.",
+      "sentence_cn": "招聘中的系统性歧视继续限制少数民族的机会。",
+      "exam_sentence": "Tackling systemic discrimination requires not only legal reform but also a fundamental shift in societal attitudes and institutional practices.",
+      "audio": "/audio/social-problems/chunk-009.mp3",
+      "rewrite_prompt_cn": "招聘中的系统性歧视继续限制少数民族的机会。",
+      "retelling_prompt": "How does systemic discrimination affect ethnic minorities?",
+      "tags": [
+        "society",
+        "discrimination"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "social-problems-010",
+      "chunk": "urban poverty",
+      "meaning_cn": "城市贫困",
+      "collocations": [
+        "the rise of urban poverty",
+        "tackle urban poverty",
+        "alleviate urban poverty"
+      ],
+      "sentence": "Urban poverty has intensified as more people migrate to cities in search of work.",
+      "sentence_cn": "随着越来越多的人涌入城市寻找工作，城市贫困问题日益严重。",
+      "exam_sentence": "The rapid growth of urban poverty demands innovative policy solutions, including affordable housing and improved public transport.",
+      "audio": "/audio/social-problems/chunk-010.mp3",
+      "rewrite_prompt_cn": "随着越来越多的人涌入城市寻找工作，城市贫困问题日益严重。",
+      "retelling_prompt": "What has caused urban poverty to intensify?",
+      "tags": [
+        "society",
+        "urban"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "social-problems-011",
+      "chunk": "rural-urban divide",
+      "meaning_cn": "城乡差距",
+      "collocations": [
+        "bridge the rural-urban divide",
+        "a growing rural-urban divide",
+        "narrow the rural-urban divide"
+      ],
+      "sentence": "The rural-urban divide in access to healthcare and education remains a major challenge.",
+      "sentence_cn": "在获得医疗和教育方面的城乡差距仍然是一个重大挑战。",
+      "exam_sentence": "Bridging the rural-urban divide requires targeted investment in infrastructure, education, and healthcare for underserved rural communities.",
+      "audio": "/audio/social-problems/chunk-011.mp3",
+      "rewrite_prompt_cn": "在获得医疗和教育方面的城乡差距仍然是一个重大挑战。",
+      "retelling_prompt": "In what areas is the rural-urban divide most visible?",
+      "tags": [
+        "society",
+        "development"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "social-problems-012",
+      "chunk": "unemployment rate",
+      "meaning_cn": "失业率",
+      "collocations": [
+        "the unemployment rate rises",
+        "reduce the unemployment rate",
+        "a high unemployment rate"
+      ],
+      "sentence": "A rising unemployment rate among young people is a growing concern for policymakers.",
+      "sentence_cn": "青年失业率的上升令决策者日益担忧。",
+      "exam_sentence": "Persistently high youth unemployment rates can lead to long-term economic scarring and increased social instability.",
+      "audio": "/audio/social-problems/chunk-012.mp3",
+      "rewrite_prompt_cn": "青年失业率的上升令决策者日益担忧。",
+      "retelling_prompt": "Why is youth unemployment a concern for policymakers?",
+      "tags": [
+        "economy",
+        "employment"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "social-problems-013",
+      "chunk": "social unrest",
+      "meaning_cn": "社会动荡",
+      "collocations": [
+        "trigger social unrest",
+        "lead to social unrest",
+        "widespread social unrest"
+      ],
+      "sentence": "Widespread unemployment and poverty can trigger social unrest and political instability.",
+      "sentence_cn": "广泛的失业和贫困可能引发社会动荡和政治不稳定。",
+      "exam_sentence": "Governments that fail to address the root causes of inequality risk provoking social unrest that threatens national stability.",
+      "audio": "/audio/social-problems/chunk-013.mp3",
+      "rewrite_prompt_cn": "广泛的失业和贫困可能引发社会动荡和政治不稳定。",
+      "retelling_prompt": "What can trigger social unrest?",
+      "tags": [
+        "society",
+        "politics"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "social-problems-014",
+      "chunk": "cycle of poverty",
+      "meaning_cn": "贫困的恶性循环",
+      "collocations": [
+        "break the cycle of poverty",
+        "trapped in a cycle of poverty",
+        "perpetuate the cycle of poverty"
+      ],
+      "sentence": "Education is widely regarded as the most effective way to break the cycle of poverty.",
+      "sentence_cn": "教育被广泛认为是打破贫困恶性循环的最有效途径。",
+      "exam_sentence": "Breaking the cycle of poverty requires sustained investment in education, healthcare, and community development programmes.",
+      "audio": "/audio/social-problems/chunk-014.mp3",
+      "rewrite_prompt_cn": "教育被广泛认为是打破贫困恶性循环的最有效途径。",
+      "retelling_prompt": "How can the cycle of poverty be broken?",
+      "tags": [
+        "society",
+        "economy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "social-problems-015",
+      "chunk": "progressive taxation",
+      "meaning_cn": "累进税制",
+      "collocations": [
+        "implement progressive taxation",
+        "through progressive taxation",
+        "a system of progressive taxation"
+      ],
+      "sentence": "Progressive taxation ensures that wealthier individuals contribute a larger share of their income to public services.",
+      "sentence_cn": "累进税制确保较富裕的人将其收入的更大份额贡献给公共服务。",
+      "exam_sentence": "Progressive taxation is a key mechanism for redistributing wealth and reducing income inequality in modern economies.",
+      "audio": "/audio/social-problems/chunk-015.mp3",
+      "rewrite_prompt_cn": "累进税制确保较富裕的人将其收入的更大份额贡献给公共服务。",
+      "retelling_prompt": "How does progressive taxation work?",
+      "tags": [
+        "policy",
+        "economy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "social-problems-016",
+      "chunk": "vulnerable populations",
+      "meaning_cn": "弱势群体",
+      "collocations": [
+        "protect vulnerable populations",
+        "support vulnerable populations",
+        "programmes for vulnerable populations"
+      ],
+      "sentence": "Governments must prioritise healthcare and housing support for vulnerable populations.",
+      "sentence_cn": "政府必须优先为弱势群体提供医疗和住房支持。",
+      "exam_sentence": "The COVID-19 pandemic exposed the vulnerability of populations lacking access to adequate healthcare and social support systems.",
+      "audio": "/audio/social-problems/chunk-016.mp3",
+      "rewrite_prompt_cn": "政府必须优先为弱势群体提供医疗和住房支持。",
+      "retelling_prompt": "What should governments do for vulnerable populations?",
+      "tags": [
+        "society",
+        "policy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "social-problems-017",
+      "chunk": "equal opportunity",
+      "meaning_cn": "平等机会",
+      "collocations": [
+        "ensure equal opportunity",
+        "promote equal opportunity",
+        "the principle of equal opportunity"
+      ],
+      "sentence": "The principle of equal opportunity is fundamental to a fair and just society.",
+      "sentence_cn": "平等机会的原则是一个公平正义社会的基石。",
+      "exam_sentence": "Ensuring equal opportunity for all citizens, regardless of their socioeconomic background, should be a cornerstone of public policy.",
+      "audio": "/audio/social-problems/chunk-017.mp3",
+      "rewrite_prompt_cn": "平等机会的原则是一个公平正义社会的基石。",
+      "retelling_prompt": "Why is equal opportunity important for society?",
+      "tags": [
+        "society",
+        "justice"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "social-problems-018",
+      "chunk": "affordable housing",
+      "meaning_cn": "经济适用房",
+      "collocations": [
+        "provide affordable housing",
+        "a shortage of affordable housing",
+        "access to affordable housing"
+      ],
+      "sentence": "The shortage of affordable housing has become a critical issue in many major cities.",
+      "sentence_cn": "经济适用房的短缺已成为许多大城市的一个关键问题。",
+      "exam_sentence": "Lack of affordable housing forces low-income families into substandard living conditions, exacerbating social inequality.",
+      "audio": "/audio/social-problems/chunk-018.mp3",
+      "rewrite_prompt_cn": "经济适用房的短缺已成为许多大城市的一个关键问题。",
+      "retelling_prompt": "Why has affordable housing become a critical issue?",
+      "tags": [
+        "society",
+        "urban"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "social-problems-019",
+      "chunk": "anti-discrimination",
+      "meaning_cn": "反歧视",
+      "collocations": [
+        "anti-discrimination laws",
+        "anti-discrimination legislation",
+        "anti-discrimination policies"
+      ],
+      "sentence": "Anti-discrimination legislation is essential for protecting the rights of minority groups.",
+      "sentence_cn": "反歧视立法对于保护少数群体的权利至关重要。",
+      "exam_sentence": "Strengthening anti-discrimination laws in the workplace is necessary to ensure that hiring and promotion decisions are based solely on merit.",
+      "audio": "/audio/social-problems/chunk-019.mp3",
+      "rewrite_prompt_cn": "反歧视立法对于保护少数群体的权利至关重要。",
+      "retelling_prompt": "What role does anti-discrimination legislation play?",
+      "tags": [
+        "society",
+        "law"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "social-problems-020",
+      "chunk": "equitable society",
+      "meaning_cn": "公平社会",
+      "collocations": [
+        "build a more equitable society",
+        "a fair and equitable society",
+        "create an equitable society"
+      ],
+      "sentence": "Building a more equitable society requires sustained effort from both government and citizens.",
+      "sentence_cn": "建设一个更加公平的社会需要政府和公民的持续努力。",
+      "exam_sentence": "The pursuit of a more equitable society demands that we confront the structural barriers that perpetuate disadvantage across generations.",
+      "audio": "/audio/social-problems/chunk-020.mp3",
+      "rewrite_prompt_cn": "建设一个更加公平的社会需要政府和公民的持续努力。",
+      "retelling_prompt": "What does building an equitable society require?",
+      "tags": [
+        "society",
+        "justice"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    }
+  ]
+}

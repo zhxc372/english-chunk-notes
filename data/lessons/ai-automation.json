@@ -1,0 +1,550 @@
+{
+  "lesson_id": "ai-automation",
+  "title": "AI and Automation",
+  "title_cn": "AI与自动化",
+  "category": "Technical English",
+  "level": "B1-B2",
+  "theme_tags": [
+    "artificial intelligence",
+    "automation",
+    "machine learning",
+    "deep learning"
+  ],
+  "exam_tags": [
+    "IELTS",
+    "TOEFL",
+    "CET6",
+    "Tech English"
+  ],
+  "article": {
+    "text": "Artificial intelligence and automation are reshaping industries worldwide. Machine learning, a subset of AI, enables systems to learn from data without being explicitly programmed. Supervised learning uses labeled datasets to train models that can make predictions on new, unseen data. Unsupervised learning, on the other hand, discovers hidden patterns in data without predefined labels. Deep learning, powered by neural networks with multiple layers, has achieved remarkable breakthroughs in fields like natural language processing and computer vision. Feature engineering—the process of selecting and transforming raw data into meaningful inputs—is a critical step in building effective models. A well-designed data pipeline ensures that data flows smoothly from collection through preprocessing, training, and deployment. Model deployment involves serving trained models in production environments where they can make real-time predictions. Transfer learning allows practitioners to leverage pre-trained models and adapt them to new tasks with minimal additional training data, saving both time and computational resources. Predictive analytics uses historical data to forecast future trends, helping businesses make data-driven decisions. As AI models grow larger, edge computing brings inference closer to the data source, reducing latency and bandwidth costs. Reinforcement learning trains agents through trial and error, rewarding desired behaviors and penalizing undesirable ones. Algorithm optimization ensures that models run efficiently, balancing accuracy with computational cost. Together, these technologies form a powerful toolkit that is transforming how organizations operate, innovate, and compete in the digital age.",
+    "text_cn": "人工智能和自动化正在重塑全球各行各业。机器学习作为AI的子集，使系统能够从数据中学习而无需显式编程。监督学习使用带标签的数据集来训练模型，使其能够对新的、未见过的数据进行预测。而无监督学习则在无需预定义标签的情况下发现数据中的隐藏模式。深度学习凭借多层神经网络，在自然语言处理和计算机视觉等领域取得了显著突破。特征工程——从原始数据中选择和转换为有意义输入的过程——是构建有效模型的关键步骤。设计良好的数据管道确保数据从收集、预处理、训练到部署的流畅流动。模型部署涉及在生产环境中提供训练好的模型，使其能够进行实时预测。迁移学习允许从业者利用预训练模型，并以最少的额外训练数据将其适应新任务，节省时间和计算资源。预测分析利用历史数据预测未来趋势，帮助企业做出数据驱动的决策。随着AI模型规模不断增大，边缘计算将推理带到更靠近数据源的位置，降低延迟和带宽成本。强化学习通过试错训练智能体，奖励期望行为并惩罚不良行为。算法优化确保模型高效运行，在准确性和计算成本之间取得平衡。这些技术共同构成了一个强大的工具集，正在改变组织在数字时代的运营、创新和竞争方式。",
+    "audio": "/audio/ai-automation/article.mp3"
+  },
+  "model_paragraph": {
+    "text": "AI and automation are revolutionizing industries through machine learning and deep learning. By building robust data pipelines, leveraging transfer learning, and optimizing algorithms, organizations can deploy intelligent systems that make accurate predictions and drive innovation at scale.",
+    "text_cn": "AI和自动化通过机器学习和深度学习正在彻底改变各行各业。通过构建强大的数据管道、利用迁移学习和优化算法，组织可以部署能够进行准确预测并推动大规模创新的智能系统。"
+  },
+  "chunks": [
+    {
+      "id": "ai-automation-001",
+      "chunk": "machine learning",
+      "meaning_cn": "机器学习",
+      "collocations": [
+        "machine learning algorithm",
+        "machine learning model",
+        "apply machine learning"
+      ],
+      "sentence": "Machine learning algorithms improve their performance as they process more data.",
+      "sentence_cn": "机器学习算法随着处理更多数据而提升性能。",
+      "exam_sentence": "Machine learning is transforming industries from healthcare to finance by enabling data-driven decision making.",
+      "technical_sentence": "Scikit-learn provides a comprehensive suite of machine learning algorithms for classification, regression, and clustering tasks.",
+      "audio": "/audio/ai-automation/chunk-001.mp3",
+      "rewrite_prompt_cn": "机器学习算法随着处理更多数据而提升性能。",
+      "retelling_prompt": "How does machine learning improve over time?",
+      "tags": [
+        "AI fundamentals",
+        "algorithms"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "ai-automation-002",
+      "chunk": "deep learning",
+      "meaning_cn": "深度学习",
+      "collocations": [
+        "deep learning framework",
+        "deep learning model",
+        "deep learning applications"
+      ],
+      "sentence": "Deep learning models can recognize complex patterns in images and text.",
+      "sentence_cn": "深度学习模型能够识别图像和文本中的复杂模式。",
+      "exam_sentence": "Deep learning has opened up possibilities once considered science fiction, from self-driving cars to real-time translation.",
+      "technical_sentence": "PyTorch and TensorFlow are the two most widely used deep learning frameworks for building and training neural networks.",
+      "audio": "/audio/ai-automation/chunk-002.mp3",
+      "rewrite_prompt_cn": "深度学习模型能够识别图像和文本中的复杂模式。",
+      "retelling_prompt": "What makes deep learning different from traditional machine learning?",
+      "tags": [
+        "AI fundamentals",
+        "neural networks"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "ai-automation-003",
+      "chunk": "neural networks",
+      "meaning_cn": "神经网络",
+      "collocations": [
+        "train neural networks",
+        "deep neural networks",
+        "neural network architecture"
+      ],
+      "sentence": "Neural networks are inspired by the structure of the human brain.",
+      "sentence_cn": "神经网络的设计灵感来源于人类大脑的结构。",
+      "exam_sentence": "Neural networks demonstrate how understanding nature's designs can lead to powerful technological innovations.",
+      "technical_sentence": "Convolutional neural networks (CNNs) are particularly effective for image classification tasks.",
+      "audio": "/audio/ai-automation/chunk-003.mp3",
+      "rewrite_prompt_cn": "神经网络的设计灵感来源于人类大脑的结构。",
+      "retelling_prompt": "How are neural networks related to the human brain?",
+      "tags": [
+        "AI fundamentals",
+        "architecture"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "ai-automation-004",
+      "chunk": "natural language processing",
+      "meaning_cn": "自然语言处理",
+      "collocations": [
+        "natural language processing tasks",
+        "natural language processing research",
+        "apply natural language processing"
+      ],
+      "sentence": "Natural language processing enables computers to understand and generate human language.",
+      "sentence_cn": "自然语言处理使计算机能够理解和生成人类语言。",
+      "exam_sentence": "Natural language processing bridges the communication gap between humans and machines in profound ways.",
+      "technical_sentence": "Transformer architecture has revolutionized natural language processing with models like GPT and BERT.",
+      "audio": "/audio/ai-automation/chunk-004.mp3",
+      "rewrite_prompt_cn": "自然语言处理使计算机能够理解和生成人类语言。",
+      "retelling_prompt": "What are the main applications of natural language processing?",
+      "tags": [
+        "AI application",
+        "language"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "ai-automation-005",
+      "chunk": "computer vision",
+      "meaning_cn": "计算机视觉",
+      "collocations": [
+        "computer vision technology",
+        "computer vision system",
+        "computer vision applications"
+      ],
+      "sentence": "Computer vision allows machines to interpret and analyze visual information from the real world.",
+      "sentence_cn": "计算机视觉使机器能够解释和分析来自真实世界的视觉信息。",
+      "exam_sentence": "Computer vision applications range from medical imaging to autonomous vehicles, showing the technology's broad impact.",
+      "technical_sentence": "Object detection models like YOLO achieve real-time computer vision inference on embedded devices.",
+      "audio": "/audio/ai-automation/chunk-005.mp3",
+      "rewrite_prompt_cn": "计算机视觉使机器能够解释和分析来自真实世界的视觉信息。",
+      "retelling_prompt": "What are some practical applications of computer vision?",
+      "tags": [
+        "AI application",
+        "imaging"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "ai-automation-006",
+      "chunk": "supervised learning",
+      "meaning_cn": "监督学习",
+      "collocations": [
+        "supervised learning algorithm",
+        "supervised learning model",
+        "supervised learning approach"
+      ],
+      "sentence": "Supervised learning requires labeled data to train accurate predictive models.",
+      "sentence_cn": "监督学习需要带标签的数据来训练准确的预测模型。",
+      "exam_sentence": "Supervised learning is similar to a student learning with a teacher who provides correct answers for each question.",
+      "technical_sentence": "In supervised learning, the model minimizes a loss function that measures the difference between predicted and actual labels.",
+      "audio": "/audio/ai-automation/chunk-006.mp3",
+      "rewrite_prompt_cn": "监督学习需要带标签的数据来训练准确的预测模型。",
+      "retelling_prompt": "What kind of data does supervised learning require?",
+      "tags": [
+        "ML methods",
+        "training"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "ai-automation-007",
+      "chunk": "unsupervised learning",
+      "meaning_cn": "无监督学习",
+      "collocations": [
+        "unsupervised learning algorithm",
+        "unsupervised learning techniques",
+        "unsupervised learning clustering"
+      ],
+      "sentence": "Unsupervised learning discovers hidden structures in data without labels.",
+      "sentence_cn": "无监督学习在没有标签的数据中发现隐藏结构。",
+      "exam_sentence": "Unsupervised learning can reveal unexpected patterns, much like finding themes in unlabeled photographs.",
+      "technical_sentence": "K-means clustering is a popular unsupervised learning algorithm for customer segmentation tasks.",
+      "audio": "/audio/ai-automation/chunk-007.mp3",
+      "rewrite_prompt_cn": "无监督学习在没有标签的数据中发现隐藏结构。",
+      "retelling_prompt": "How is unsupervised learning different from supervised learning?",
+      "tags": [
+        "ML methods",
+        "training"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "ai-automation-008",
+      "chunk": "model training",
+      "meaning_cn": "模型训练",
+      "collocations": [
+        "model training process",
+        "model training data",
+        "model training phase"
+      ],
+      "sentence": "Model training involves feeding large amounts of data into an algorithm to learn patterns.",
+      "sentence_cn": "模型训练涉及将大量数据输入算法以学习模式。",
+      "exam_sentence": "Training a model is like extensive practice—it improves performance through repetition and feedback.",
+      "technical_sentence": "GPU acceleration dramatically reduces model training time by parallelizing matrix operations across thousands of cores.",
+      "audio": "/audio/ai-automation/chunk-008.mp3",
+      "rewrite_prompt_cn": "模型训练涉及将大量数据输入算法以学习模式。",
+      "retelling_prompt": "What happens during the model training process?",
+      "tags": [
+        "ML workflow",
+        "training"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "ai-automation-009",
+      "chunk": "data pipeline",
+      "meaning_cn": "数据管道",
+      "collocations": [
+        "build a data pipeline",
+        "data pipeline architecture",
+        "data pipeline automation"
+      ],
+      "sentence": "A data pipeline automates the flow of data from collection to analysis.",
+      "sentence_cn": "数据管道自动化了从收集到分析的数据流。",
+      "exam_sentence": "A robust data pipeline ensures smooth information flow, just like a well-organized supply chain improves efficiency.",
+      "technical_sentence": "Apache Airflow is commonly used to orchestrate complex data pipelines with task dependencies and scheduling.",
+      "audio": "/audio/ai-automation/chunk-009.mp3",
+      "rewrite_prompt_cn": "数据管道自动化了从收集到分析的数据流。",
+      "retelling_prompt": "What is the purpose of a data pipeline?",
+      "tags": [
+        "data engineering",
+        "workflow"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "ai-automation-010",
+      "chunk": "feature engineering",
+      "meaning_cn": "特征工程",
+      "collocations": [
+        "feature engineering techniques",
+        "feature engineering process",
+        "feature engineering step"
+      ],
+      "sentence": "Feature engineering transforms raw data into meaningful inputs for machine learning models.",
+      "sentence_cn": "特征工程将原始数据转换为机器学习模型的有意义输入。",
+      "exam_sentence": "Feature engineering requires both domain expertise and creativity, much like crafting the right questions.",
+      "technical_sentence": "One-hot encoding and normalization are common feature engineering techniques for preparing categorical and numerical data.",
+      "audio": "/audio/ai-automation/chunk-010.mp3",
+      "rewrite_prompt_cn": "特征工程将原始数据转换为机器学习模型的有意义输入。",
+      "retelling_prompt": "Why is feature engineering important in machine learning?",
+      "tags": [
+        "data preparation",
+        "ML workflow"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "ai-automation-011",
+      "chunk": "model deployment",
+      "meaning_cn": "模型部署",
+      "collocations": [
+        "model deployment process",
+        "model deployment strategy",
+        "production model deployment"
+      ],
+      "sentence": "Model deployment makes trained models available for real-world use.",
+      "sentence_cn": "模型部署使训练好的模型能在实际场景中使用。",
+      "exam_sentence": "Deploying a solution effectively is just as important as developing it, whether in technology or public policy.",
+      "technical_sentence": "Model deployment using TensorFlow Serving supports gRPC and REST APIs for low-latency inference.",
+      "audio": "/audio/ai-automation/chunk-011.mp3",
+      "rewrite_prompt_cn": "模型部署使训练好的模型能在实际场景中使用。",
+      "retelling_prompt": "What steps are involved in model deployment?",
+      "tags": [
+        "ML workflow",
+        "production"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "ai-automation-012",
+      "chunk": "transfer learning",
+      "meaning_cn": "迁移学习",
+      "collocations": [
+        "apply transfer learning",
+        "transfer learning approach",
+        "transfer learning technique"
+      ],
+      "sentence": "Transfer learning adapts a pre-trained model to a new but related task.",
+      "sentence_cn": "迁移学习将预训练模型适应到一个新的但相关的任务。",
+      "exam_sentence": "Transfer learning demonstrates how prior knowledge in one area can accelerate learning in another.",
+      "technical_sentence": "Transfer learning from ImageNet pre-trained weights reduces training time for custom image classifiers by up to 90%.",
+      "audio": "/audio/ai-automation/chunk-012.mp3",
+      "rewrite_prompt_cn": "迁移学习将预训练模型适应到一个新的但相关的任务。",
+      "retelling_prompt": "Why is transfer learning useful when you have limited training data?",
+      "tags": [
+        "training technique",
+        "efficiency"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "ai-automation-013",
+      "chunk": "reinforcement learning",
+      "meaning_cn": "强化学习",
+      "collocations": [
+        "reinforcement learning algorithm",
+        "reinforcement learning agent",
+        "deep reinforcement learning"
+      ],
+      "sentence": "Reinforcement learning trains agents through trial and error with reward signals.",
+      "sentence_cn": "强化学习通过试错和奖励信号来训练智能体。",
+      "exam_sentence": "Reinforcement learning mirrors how humans learn from experience—by receiving feedback on their actions.",
+      "technical_sentence": "DeepMind used deep reinforcement learning to train AlphaGo, which defeated the world champion in Go.",
+      "audio": "/audio/ai-automation/chunk-013.mp3",
+      "rewrite_prompt_cn": "强化学习通过试错和奖励信号来训练智能体。",
+      "retelling_prompt": "How does reinforcement learning differ from supervised learning?",
+      "tags": [
+        "ML methods",
+        "training"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "ai-automation-014",
+      "chunk": "algorithm optimization",
+      "meaning_cn": "算法优化",
+      "collocations": [
+        "algorithm optimization techniques",
+        "algorithm optimization process",
+        "performance algorithm optimization"
+      ],
+      "sentence": "Algorithm optimization improves model speed without significantly sacrificing accuracy.",
+      "sentence_cn": "算法优化在不显著牺牲准确性的前提下提高模型速度。",
+      "exam_sentence": "Optimization is a universal concept—finding the best solution within given constraints applies to business and engineering alike.",
+      "technical_sentence": "Quantization and pruning are algorithm optimization techniques that reduce model size for deployment on edge devices.",
+      "audio": "/audio/ai-automation/chunk-014.mp3",
+      "rewrite_prompt_cn": "算法优化在不显著牺牲准确性的前提下提高模型速度。",
+      "retelling_prompt": "What are common techniques for algorithm optimization?",
+      "tags": [
+        "optimization",
+        "performance"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "ai-automation-015",
+      "chunk": "data preprocessing",
+      "meaning_cn": "数据预处理",
+      "collocations": [
+        "data preprocessing step",
+        "data preprocessing pipeline",
+        "data preprocessing techniques"
+      ],
+      "sentence": "Data preprocessing cleans and transforms raw data before feeding it into a model.",
+      "sentence_cn": "数据预处理在将原始数据输入模型之前进行清洗和转换。",
+      "exam_sentence": "Proper preparation of materials is essential in any craft, just as data preprocessing is crucial for machine learning.",
+      "technical_sentence": "Handling missing values and outlier removal are essential data preprocessing steps to ensure model quality.",
+      "audio": "/audio/ai-automation/chunk-015.mp3",
+      "rewrite_prompt_cn": "数据预处理在将原始数据输入模型之前进行清洗和转换。",
+      "retelling_prompt": "Why is data preprocessing an important step in machine learning?",
+      "tags": [
+        "data preparation",
+        "ML workflow"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "ai-automation-016",
+      "chunk": "predictive analytics",
+      "meaning_cn": "预测分析",
+      "collocations": [
+        "predictive analytics model",
+        "predictive analytics tools",
+        "predictive analytics platform"
+      ],
+      "sentence": "Predictive analytics uses historical data to forecast future outcomes.",
+      "sentence_cn": "预测分析利用历史数据预测未来结果。",
+      "exam_sentence": "Predictive analytics empowers businesses to anticipate customer needs and make proactive decisions.",
+      "technical_sentence": "Time-series forecasting with ARIMA or LSTM models is a core technique in predictive analytics for demand planning.",
+      "audio": "/audio/ai-automation/chunk-016.mp3",
+      "rewrite_prompt_cn": "预测分析利用历史数据预测未来结果。",
+      "retelling_prompt": "How does predictive analytics benefit businesses?",
+      "tags": [
+        "analytics",
+        "business intelligence"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "ai-automation-017",
+      "chunk": "edge computing",
+      "meaning_cn": "边缘计算",
+      "collocations": [
+        "edge computing devices",
+        "edge computing architecture",
+        "edge computing platform"
+      ],
+      "sentence": "Edge computing processes data closer to where it is generated instead of in a central cloud.",
+      "sentence_cn": "边缘计算在数据产生地附近处理数据，而不是在中心云端。",
+      "exam_sentence": "Edge computing brings computation closer to users, reducing delays much like having local stores reduces delivery times.",
+      "technical_sentence": "Edge computing enables real-time AI inference on IoT devices without sending data back to the cloud.",
+      "audio": "/audio/ai-automation/chunk-017.mp3",
+      "rewrite_prompt_cn": "边缘计算在数据产生地附近处理数据，而不是在中心云端。",
+      "retelling_prompt": "What advantages does edge computing offer over cloud computing?",
+      "tags": [
+        "infrastructure",
+        "performance"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "ai-automation-018",
+      "chunk": "data-driven decisions",
+      "meaning_cn": "数据驱动决策",
+      "collocations": [
+        "make data-driven decisions",
+        "data-driven decisions strategy",
+        "data-driven decisions culture"
+      ],
+      "sentence": "Companies that make data-driven decisions tend to outperform their competitors.",
+      "sentence_cn": "做出数据驱动决策的公司往往优于竞争对手。",
+      "exam_sentence": "In an era of information overload, the ability to make data-driven decisions is a crucial skill for leaders.",
+      "technical_sentence": "A/B testing frameworks enable data-driven decisions by statistically comparing two versions of a feature.",
+      "audio": "/audio/ai-automation/chunk-018.mp3",
+      "rewrite_prompt_cn": "做出数据驱动决策的公司往往优于竞争对手。",
+      "retelling_prompt": "Why are data-driven decisions important for modern businesses?",
+      "tags": [
+        "business",
+        "analytics"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "ai-automation-019",
+      "chunk": "computational resources",
+      "meaning_cn": "计算资源",
+      "collocations": [
+        "allocate computational resources",
+        "computational resources management",
+        "limited computational resources"
+      ],
+      "sentence": "Training large AI models requires significant computational resources.",
+      "sentence_cn": "训练大型AI模型需要大量的计算资源。",
+      "exam_sentence": "The demand for computational resources in AI research highlights the need for sustainable and efficient technology.",
+      "technical_sentence": "Cloud platforms like AWS and GCP provide elastic computational resources for distributed model training.",
+      "audio": "/audio/ai-automation/chunk-019.mp3",
+      "rewrite_prompt_cn": "训练大型AI模型需要大量的计算资源。",
+      "retelling_prompt": "What computational resources are needed for training AI models?",
+      "tags": [
+        "infrastructure",
+        "hardware"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "ai-automation-020",
+      "chunk": "real-time predictions",
+      "meaning_cn": "实时预测",
+      "collocations": [
+        "make real-time predictions",
+        "real-time predictions system",
+        "enable real-time predictions"
+      ],
+      "sentence": "Real-time predictions allow systems to respond to events as they happen.",
+      "sentence_cn": "实时预测使系统能够在事件发生时即时响应。",
+      "exam_sentence": "The ability to make real-time predictions is transforming industries from finance to emergency response.",
+      "technical_sentence": "Model serving frameworks like TensorFlow Serving and TorchServe enable real-time predictions with sub-millisecond latency.",
+      "audio": "/audio/ai-automation/chunk-020.mp3",
+      "rewrite_prompt_cn": "实时预测使系统能够在事件发生时即时响应。",
+      "retelling_prompt": "What are the challenges of making real-time predictions in production?",
+      "tags": [
+        "production",
+        "performance"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    }
+  ]
+}
