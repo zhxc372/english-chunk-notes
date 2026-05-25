@@ -93,7 +93,6 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
 import { getAllExamTags } from '../data/loader'
 import LessonList from './LessonList.vue'
 

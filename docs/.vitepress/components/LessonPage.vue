@@ -32,13 +32,60 @@
 
     <!-- 核心词块 -->
     <section class="lesson-section">
-      <h2>📝 核心词块 ({{ lesson.chunks?.length || 0 }})</h2>
-      <ChunkCard
-        v-for="chunk in lesson.chunks"
-        :key="chunk.id"
-        :chunk="chunk"
-        :lessonId="lesson.lesson_id"
-      />
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+        <h2 style="margin: 0;">📝 核心词块 ({{ lesson.chunks?.length || 0 }})</h2>
+        <button class="ecn-btn ecn-btn-sm" @click="cardMode = cardMode === 'list' ? 'flip' : 'list'">
+          {{ cardMode === 'list' ? '📖 翻页模式' : '📋 列表模式' }}
+        </button>
+      </div>
+
+      <!-- 列表模式 -->
+      <template v-if="cardMode === 'list'">
+        <ChunkCard
+          v-for="chunk in lesson.chunks"
+          :key="chunk.id"
+          :chunk="chunk"
+          :lessonId="lesson.lesson_id"
+        />
+      </template>
+
+      <!-- 翻页模式 -->
+      <template v-else-if="cardMode === 'flip' && currentFlipChunk">
+        <div class="flip-card-container">
+          <div class="flip-card-progress">{{ flipIndex + 1 }} / {{ lesson.chunks.length }}</div>
+          <div class="ecn-progress" style="margin-bottom: 16px;">
+            <div class="ecn-progress-bar" :style="{ width: flipProgressPercent + '%' }"></div>
+          </div>
+          <div class="ecn-flashcard" @click="flipShowBack = !flipShowBack" style="margin-bottom: 16px;">
+            <div class="ecn-flashcard-inner" :class="{ flipped: flipShowBack }">
+              <div class="ecn-flashcard-front">
+                <div class="flash-label">英文词块</div>
+                <div class="flash-main">{{ currentFlipChunk.chunk }}</div>
+                <AudioPlayer v-if="currentFlipChunk.audio" :audioSrc="currentFlipChunk.audio" style="margin-top: 12px;" />
+              </div>
+              <div class="ecn-flashcard-back">
+                <div class="flash-label">中文含义</div>
+                <div class="flash-main">{{ currentFlipChunk.meaning_cn }}</div>
+                <div class="flash-sub">{{ currentFlipChunk.sentence }}</div>
+                <div class="flash-sub">{{ currentFlipChunk.sentence_cn }}</div>
+                <div class="flash-collocations" v-if="currentFlipChunk.collocations?.length">
+                  <span class="flash-label" style="margin-bottom: 6px;">搭配</span>
+                  <span class="flash-sub" v-for="col in currentFlipChunk.collocations" :key="col">• {{ col }}</span>
+                </div>
+                <div class="flash-exam" v-if="currentFlipChunk.exam_sentence">
+                  <span class="flash-label" style="margin-bottom: 4px;">写作句</span>
+                  <span class="flash-sub">{{ currentFlipChunk.exam_sentence }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flip-nav">
+            <button class="ecn-btn ecn-btn-sm" :disabled="flipIndex === 0" @click="flipPrev">← 上一个</button>
+            <span class="flip-hint">点击卡片翻转</span>
+            <button class="ecn-btn ecn-btn-sm" :disabled="flipIndex >= lesson.chunks.length - 1" @click="flipNext">下一个 →</button>
+          </div>
+        </div>
+      </template>
     </section>
 
     <!-- 可套作文段落 -->
@@ -77,7 +124,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
+import { ref, computed } from 'vue'
 import { getLessonById } from '../data/loader'
 import ChunkCard from './ChunkCard.vue'
 import AudioPlayer from './AudioPlayer.vue'
@@ -99,6 +146,35 @@ const articleParagraphsCn = computed(() => {
 const retellingChunks = computed(() => {
   return lesson.value?.chunks?.filter(c => c.retelling_prompt) || []
 })
+
+// 翻页模式状态
+const cardMode = ref<'list' | 'flip'>('list')
+const flipIndex = ref(0)
+const flipShowBack = ref(false)
+
+const currentFlipChunk = computed(() => {
+  return lesson.value?.chunks?.[flipIndex.value] || null
+})
+
+const flipProgressPercent = computed(() => {
+  const total = lesson.value?.chunks?.length || 1
+  return ((flipIndex.value + 1) / total) * 100
+})
+
+function flipPrev() {
+  if (flipIndex.value > 0) {
+    flipIndex.value--
+    flipShowBack.value = false
+  }
+}
+
+function flipNext() {
+  const total = lesson.value?.chunks?.length || 0
+  if (flipIndex.value < total - 1) {
+    flipIndex.value++
+    flipShowBack.value = false
+  }
+}
 </script>
 
 <style scoped>
@@ -206,6 +282,43 @@ const retellingChunks = computed(() => {
   margin: 6px 0 0;
   padding: 6px 10px;
   background: var(--vp-bg-soft);
+  border-radius: 6px;
+}
+
+/* 翻页模式 */
+.flip-card-container {
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.flip-card-progress {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--vp-c-text-3);
+  margin-bottom: 8px;
+}
+
+.flip-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flip-hint {
+  font-size: 0.8rem;
+  color: var(--vp-c-text-3);
+}
+
+.flip-collocations {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.flip-exam {
+  margin-top: 10px;
+  text-align: left;
+  padding: 8px 12px;
+  background: var(--vp-c-brand-soft);
   border-radius: 6px;
 }
 </style>

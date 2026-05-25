@@ -5,7 +5,9 @@
       <h2>❤️ 我的收藏</h2>
       <div class="favorites-actions" v-if="favoriteChunks.length">
         <span class="fav-count">{{ favoriteChunks.length }} 个词块</span>
-        <button class="ecn-btn ecn-btn-sm" @click="handleExport">📥 导出 JSON</button>
+        <button class="ecn-btn ecn-btn-sm" @click="handleExport('anki')">📥 Anki CSV</button>
+        <button class="ecn-btn ecn-btn-sm" @click="handleExport('csv')">📊 纯 CSV</button>
+        <button class="ecn-btn ecn-btn-sm" @click="handleExport('json')">📁 JSON</button>
         <button class="ecn-btn ecn-btn-sm ecn-btn-danger" @click="handleClear">🗑️ 清空</button>
       </div>
     </div>
@@ -29,7 +31,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted, computed } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 import { getFavorites } from '../data/types'
 import { getChunkById } from '../data/loader'
 import type { Chunk, Lesson } from '../data/types'
@@ -54,20 +56,66 @@ function loadFavorites() {
   favoriteChunks.value = chunks
 }
 
-function handleExport() {
-  const json = JSON.stringify(getFavorites(), null, 2)
-  const blob = new Blob([json], { type: 'application/json' })
+function downloadBlob(content: string, filename: string, mimeType: string): void {
+  const blob = new Blob([content], { type: mimeType })
   const url = URL.createObjectURL(blob)
   const a = document.createElement('a')
   a.href = url
-  a.download = 'ecn-favorites.json'
+  a.download = filename
   document.body.appendChild(a)
   a.click()
-  // 延迟释放 URL，确保下载完成
   setTimeout(() => {
     document.body.removeChild(a)
     URL.revokeObjectURL(url)
   }, 100)
+}
+
+function handleExport(format: 'anki' | 'csv' | 'json'): void {
+  const items = favoriteChunks.value
+  if (items.length === 0) return
+
+  if (format === 'json') {
+    const data = items.map(item => ({
+      id: item.chunk.id,
+      chunk: item.chunk.chunk,
+      meaning_cn: item.chunk.meaning_cn,
+      collocations: item.chunk.collocations,
+      sentence: item.chunk.sentence,
+      sentence_cn: item.chunk.sentence_cn,
+      exam_sentence: item.chunk.exam_sentence,
+      tags: item.chunk.tags,
+      exam_tags: item.chunk.exam_tags,
+      source: item.lesson.title
+    }))
+    downloadBlob(JSON.stringify(data, null, 2), 'ecn-favorites.json', 'application/json')
+  } else if (format === 'csv') {
+    const header = 'chunk,meaning_cn,sentence,sentence_cn,exam_sentence,lesson'
+    const rows = items.map(item => {
+      const fields = [
+        item.chunk.chunk,
+        item.chunk.meaning_cn,
+        item.chunk.sentence,
+        item.chunk.sentence_cn,
+        item.chunk.exam_sentence || '',
+        item.lesson.title
+      ]
+      return fields.map(f => `"${(f || '').replace(/"/g, '""')}"`).join(',')
+    })
+    downloadBlob(header + '\n' + rows.join('\n'), 'ecn-favorites.csv', 'text/csv')
+  } else if (format === 'anki') {
+    const header = 'chunk,meaning_cn,sentence,exam_sentence,collocations'
+    const rows = items.map(item => {
+      const fields = [
+        item.chunk.chunk,
+        item.chunk.meaning_cn,
+        item.chunk.sentence,
+        item.chunk.exam_sentence || item.chunk.sentence,
+        item.chunk.collocations.join('<br>')
+      ]
+      return fields.map(f => `"${(f || '').replace(/"/g, '""')}"`).join(',')
+    })
+    downloadBlob(header + '\n' + rows.join('\n'), 'ecn-favorites-anki.csv', 'text/csv')
+  }
 }
 
 function handleClear() {

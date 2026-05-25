@@ -10,10 +10,16 @@
     "validate": "python scripts/validate_lesson_json.py"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@mdit-vue/plugin-toc": "^0.12.0",
+    "@typescript-eslint/parser": "^8.60.0",
+    "eslint": "^10.4.0",
+    "eslint-plugin-vue": "^10.9.1",
     "playwright": "^1.60.0",
     "typescript": "^5.0.0",
+    "typescript-eslint": "^8.60.0",
     "vitepress": "^1.6.4",
-    "vue": "^3.0.0"
+    "vue": "^3.0.0",
+    "vue-eslint-parser": "^10.4.0"
   }
 }

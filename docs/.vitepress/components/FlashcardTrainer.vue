@@ -116,8 +116,22 @@
             <div class="flash-label">音频听写</div>
             <AudioPlayer v-if="currentCard.chunk.audio" :audioSrc="currentCard.chunk.audio" />
             <p v-else style="color: var(--vp-c-text-3); margin: 10px 0;">🔇 音频待生成</p>
-            <div v-if="showAnswer" class="dictation-answer">
-              {{ currentCard.chunk.sentence }}
+            <div class="dictation-input-area" v-if="!showAnswer">
+              <textarea
+                v-model="userInput"
+                class="dictation-textarea"
+                placeholder="听音频后输入你听到的句子..."
+                rows="3"
+                @keydown.enter.ctrl="showAnswer = true"
+              ></textarea>
+              <p class="dictation-hint">Ctrl+Enter 显示答案</p>
+            </div>
+            <div v-if="showAnswer" class="dictation-result">
+              <div class="dictation-correct">{{ currentCard.chunk.sentence }}</div>
+              <div class="dictation-user">你的输入：{{ userInput || '(未输入)' }}</div>
+              <div class="dictation-compare" :class="similarityClass">
+                相似度：{{ similarityScore }}%
+              </div>
             </div>
           </div>
         </template>
@@ -129,7 +143,7 @@
         </div>
         <div v-else class="show-answer-hint">
           <button class="ecn-btn ecn-btn-primary" @click="showAnswer = true">
-            {{ mode === 'fill' || mode === 'dictation' ? '显示答案' : '翻转卡片' }}
+            {{ mode === 'fill' ? '显示答案' : mode === 'dictation' ? '检查答案' : '翻转卡片' }}
           </button>
         </div>
       </div>
@@ -178,6 +192,7 @@ const showAnswer = ref(false)
 const knownCount = ref(0)
 const unknownCount = ref(0)
 const finished = ref(false)
+const userInput = ref('')
 
 const modeLabels: Record<TrainMode, string> = {
   en2cn: '英译中',
@@ -238,6 +253,7 @@ function startMode(m: TrainMode) {
   knownCount.value = 0
   unknownCount.value = 0
   finished.value = false
+  userInput.value = ''
   started.value = true
 }
 
@@ -254,11 +270,45 @@ function mark(known: boolean) {
 
 function nextCard() {
   showAnswer.value = false
+  userInput.value = ''
   currentIndex.value++
   if (currentIndex.value >= cards.value.length) {
     finished.value = true
   }
 }
+
+function normalizeText(text: string): string {
+  return text.toLowerCase().replace(/[^a-z0-9\s]/g, '').replace(/\s+/g, ' ').trim()
+}
+
+function computeSimilarity(a: string, b: string): number {
+  const na = normalizeText(a)
+  const nb = normalizeText(b)
+  if (na === nb) return 100
+  if (!na || !nb) return 0
+  const wordsA = na.split(' ')
+  const wordsB = nb.split(' ')
+  const setA = new Set(wordsA)
+  const setB = new Set(wordsB)
+  let matchCount = 0
+  for (const w of setA) {
+    if (setB.has(w)) matchCount++
+  }
+  const jaccard = matchCount / (setA.size + setB.size - matchCount)
+  return Math.round(jaccard * 100)
+}
+
+const similarityScore = computed(() => {
+  if (!currentCard.value || !showAnswer.value) return 0
+  return computeSimilarity(userInput.value, currentCard.value.chunk.sentence)
+})
+
+const similarityClass = computed(() => {
+  const s = similarityScore.value
+  if (s >= 80) return 'similarity-high'
+  if (s >= 50) return 'similarity-medium'
+  return 'similarity-low'
+})
 
 function restart() {
   startMode(mode.value)
@@ -384,6 +434,66 @@ onMounted(loadFavorites)
   font-size: 1rem;
   color: var(--vp-c-text-1);
 }
+
+.dictation-input-area {
+  margin-top: 16px;
+}
+
+.dictation-textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid var(--vp-c-divider);
+  border-radius: 8px;
+  font-size: 1rem;
+  line-height: 1.6;
+  resize: vertical;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+}
+
+.dictation-textarea:focus {
+  outline: none;
+  border-color: var(--vp-c-brand);
+}
+
+.dictation-hint {
+  font-size: 0.75rem;
+  color: var(--vp-c-text-3);
+  margin-top: 6px;
+  text-align: right;
+}
+
+.dictation-result {
+  margin-top: 16px;
+  text-align: left;
+}
+
+.dictation-correct {
+  padding: 12px 16px;
+  background: var(--vp-c-brand-soft);
+  border-radius: 8px;
+  font-size: 1rem;
+  color: var(--vp-c-text-1);
+}
+
+.dictation-user {
+  padding: 8px 16px;
+  margin-top: 8px;
+  background: rgba(0,0,0,0.03);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: var(--vp-c-text-2);
+}
+
+.dictation-compare {
+  margin-top: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.similarity-high { color: #16a34a; }
+.similarity-medium { color: #d97706; }
+.similarity-low { color: #dc2626; }
 
 .answer-controls {
   display: flex;

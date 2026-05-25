@@ -1,15 +1,5 @@
 #!/usr/bin/env python3
-
-Generate static MP3 files from lesson JSON.
-
-Install:
-    pip install edge-tts
-
-Usage:
-    python scripts/generate_audio_edge_tts.py data/lessons/ai-coding-workflow.json
-
-This script uses edge-tts at content-generation time only.
-The website runtime should only play static MP3 files.
+"""Generate static MP3 files from lesson JSON using Edge TTS."""
 
 import asyncio
 import json
