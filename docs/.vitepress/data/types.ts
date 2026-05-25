@@ -133,7 +133,7 @@ export function getReviewState(): ReviewStore {
 }
 
 export function updateReviewState(id: string, known: boolean): void {
- const store = getReviewState()
+  const store = getReviewState()
   if (!store.items[id]) {
     store.items[id] = { seen: 0, known: 0, unknown: 0, last_seen_at: '' }
   }
@@ -145,4 +145,53 @@ export function updateReviewState(id: string, known: boolean): void {
   }
   store.items[id].last_seen_at = new Date().toISOString()
   localStorage.setItem(REVIEW_STATE_KEY, JSON.stringify(store))
+}
+
+// 进度统计
+export function getProgressStats(): {
+  totalChunks: number
+  reviewedChunks: number
+  knownChunks: number
+  unknownChunks: number
+  masteryPercent: number
+} {
+  const store = getReviewState()
+  const items = Object.values(store.items)
+  const reviewedChunks = items.filter(i => i.seen > 0).length
+  const knownChunks = items.filter(i => i.known > 0 && i.unknown === 0).length
+  const unknownChunks = items.filter(i => i.unknown > 0 && i.known === 0).length
+  return {
+    totalChunks: 460,
+    reviewedChunks,
+    knownChunks,
+    unknownChunks,
+    masteryPercent: Math.round((knownChunks / 460) * 100)
+  }
+}
+
+// 获取需要复习的词块ID列表（简化间隔重复）
+export function getDueForReview(): string[] {
+  const store = getReviewState()
+  const now = Date.now()
+  const DAY = 86400000
+  const due: string[] = []
+  for (const [id, state] of Object.entries(store.items)) {
+    if (!state.last_seen_at || state.seen === 0) continue
+    const lastSeen = new Date(state.last_seen_at).getTime()
+    // 简单间隔：错过的词块1天后复习，记住的3天后复习
+    const interval = state.unknown > state.known ? DAY : DAY * 3
+    if (now - lastSeen >= interval) {
+      due.push(id)
+    }
+  }
+  return due
+}
+
+// 获取错题列表
+export function getWeakChunks(): string[] {
+  const store = getReviewState()
+  return Object.entries(store.items)
+    .filter(([, s]) => s.unknown > s.known)
+    .sort((a, b) => b[1].unknown - a[1].unknown)
+    .map(([id]) => id)
 }

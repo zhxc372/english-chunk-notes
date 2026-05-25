@@ -21,7 +21,7 @@
       <h2>📖 主题文章</h2>
       <div class="ecn-article">
         <div class="ecn-article-en">
-          <p v-for="(para, i) in articleParagraphs" :key="i">{{ para }}</p>
+          <p v-for="(para, i) in articleParagraphs" :key="i" v-html="highlightChunks(para)"></p>
         </div>
         <div class="ecn-article-cn">
           <p v-for="(para, i) in articleParagraphsCn" :key="i">{{ para }}</p>
@@ -146,6 +146,17 @@ const articleParagraphsCn = computed(() => {
 const retellingChunks = computed(() => {
   return lesson.value?.chunks?.filter(c => c.retelling_prompt) || []
 })
+
+function highlightChunks(text: string): string {
+  if (!lesson.value?.chunks) return text
+  let result = text
+  for (const chunk of lesson.value.chunks) {
+    const escaped = chunk.chunk.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+    const regex = new RegExp(`(${escaped})`, 'gi')
+    result = result.replace(regex, '<span class="chunk-highlight">$1</span>')
+  }
+  return result
+}
 
 // 翻页模式状态
 const cardMode = ref<'list' | 'flip'>('list')
@@ -320,5 +331,13 @@ function flipNext() {
   padding: 8px 12px;
   background: var(--vp-c-brand-soft);
   border-radius: 6px;
+}
+
+:deep(.chunk-highlight) {
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  padding: 1px 4px;
+  border-radius: 3px;
+  font-weight: 600;
 }
 </style>

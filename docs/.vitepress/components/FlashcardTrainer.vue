@@ -15,6 +15,12 @@
         <p style="color: var(--vp-c-text-2); margin-bottom: 16px;">
           共 {{ favorites.length }} 个收藏词块，选择训练模式开始：
         </p>
+        <div v-if="weakCount > 0" class="weak-banner">
+          <span>⚠️ 有 {{ weakCount }} 个待加强词块</span>
+          <button class="ecn-btn ecn-btn-sm ecn-btn-danger" @click="startMode('weak')">
+            🔥 错题重练
+          </button>
+        </div>
         <div class="mode-cards">
           <button class="ecn-card mode-card" @click="startMode('en2cn')">
             <div class="mode-icon">🔤</div>
@@ -171,13 +177,13 @@
 
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
-import { getFavorites } from '../data/types'
+import { getFavorites, getWeakChunks } from '../data/types'
 import { getChunkById } from '../data/loader'
 import { updateReviewState } from '../data/types'
 import type { Chunk, Lesson } from '../data/types'
 import AudioPlayer from './AudioPlayer.vue'
 
-type TrainMode = 'en2cn' | 'cn2en' | 'fill' | 'dictation'
+type TrainMode = 'en2cn' | 'cn2en' | 'fill' | 'dictation' | 'weak'
 
 interface Card {
   chunk: Chunk
@@ -193,17 +199,32 @@ const knownCount = ref(0)
 const unknownCount = ref(0)
 const finished = ref(false)
 const userInput = ref('')
+const weakCount = ref(0)
 
 const modeLabels: Record<TrainMode, string> = {
   en2cn: '英译中',
   cn2en: '中译英',
   fill: '句子填空',
-  dictation: '音频听写'
+  dictation: '音频听写',
+  weak: '错题重练'
 }
 
 const modeLabel = computed(() => modeLabels[mode.value])
 
-const cards = computed(() => favorites.value)
+const weakCards = computed(() => {
+  const ids = getWeakChunks()
+  const result: Card[] = []
+  for (const id of ids) {
+    const r = getChunkById(id)
+    if (r) result.push(r)
+  }
+  return result
+})
+
+const cards = computed(() => {
+  if (mode.value === 'weak') return weakCards.value
+  return favorites.value
+})
 const currentCard = computed(() => cards.value[currentIndex.value] || null)
 
 const progressPercent = computed(() => {
@@ -244,6 +265,7 @@ function loadFavorites() {
     }
   }
   favorites.value = cards_
+  weakCount.value = getWeakChunks().length
 }
 
 function startMode(m: TrainMode) {
@@ -255,6 +277,7 @@ function startMode(m: TrainMode) {
   finished.value = false
   userInput.value = ''
   started.value = true
+  if (m === 'weak' && weakCards.value.length === 0) started.value = false
 }
 
 function mark(known: boolean) {
@@ -265,6 +288,7 @@ function mark(known: boolean) {
   } else {
     unknownCount.value++
   }
+  weakCount.value = getWeakChunks().length
   nextCard()
 }
 
@@ -362,6 +386,19 @@ onMounted(loadFavorites)
   font-size: 0.8rem;
   color: var(--vp-c-text-3);
   margin: 0;
+}
+
+.weak-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: rgba(220, 38, 38, 0.08);
+  border: 1px solid rgba(220, 38, 38, 0.2);
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+  color: var(--vp-c-text-1);
 }
 
 .train-header {

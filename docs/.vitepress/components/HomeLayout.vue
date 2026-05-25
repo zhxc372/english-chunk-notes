@@ -10,8 +10,38 @@
       </p>
     </div>
 
+    <!-- 学习进度 -->
+    <div class="ecn-card progress-card">
+      <div class="progress-header">
+        <h3>📊 学习进度</h3>
+        <span class="progress-count">{{ stats.reviewedChunks }} / {{ stats.totalChunks }} 词块</span>
+      </div>
+      <div class="ecn-progress">
+        <div class="ecn-progress-bar" :style="{ width: stats.masteryPercent + '%' }"></div>
+      </div>
+      <div class="progress-stats">
+        <div class="progress-stat">
+          <span class="stat-dot stat-dot-green"></span>
+          <span>已掌握 {{ stats.knownChunks }}</span>
+        </div>
+        <div class="progress-stat">
+          <span class="stat-dot stat-dot-red"></span>
+          <span>待加强 {{ stats.unknownChunks }}</span>
+        </div>
+        <div class="progress-stat">
+          <span class="stat-dot stat-dot-gray"></span>
+          <span>已复习 {{ stats.reviewedChunks }}</span>
+        </div>
+      </div>
+    </div>
+
     <!-- 快捷入口 -->
     <div class="home-shortcuts">
+      <button v-if="randomLesson" class="shortcut-card ecn-card shortcut-random" @click="goToLesson(randomLesson.lesson_id)">
+        <div class="shortcut-icon">🎲</div>
+        <h3>随机开始</h3>
+        <p>{{ randomLesson.title_cn }}</p>
+      </button>
       <a href="/themes/" class="shortcut-card ecn-card">
         <div class="shortcut-icon">📚</div>
         <h3>主题学习</h3>
@@ -33,10 +63,26 @@
         <p>AI、软件工程、系统设计</p>
       </a>
       <a href="/general-english" class="shortcut-card ecn-card">
-        <div class="shortcut-icon">📚</div>
+        <div class="shortcut-icon">🌍</div>
         <h3>通用英语</h3>
         <p>雅思、托福常考话题</p>
       </a>
+    </div>
+
+    <!-- 推荐主题（基于未复习程度） -->
+    <div v-if="dueLessons.length" class="home-section">
+      <h2>🎯 建议复习</h2>
+      <div class="recommend-grid">
+        <div v-for="lesson in dueLessons.slice(0, 3)" :key="lesson.lesson_id"
+          class="ecn-card recommend-card" @click="goToLesson(lesson.lesson_id)">
+          <div class="recommend-title">{{ lesson.title }}</div>
+          <div class="recommend-title-cn">{{ lesson.title_cn }}</div>
+          <div class="recommend-badges">
+            <span class="ecn-tag ecn-tag-level">{{ lesson.level }}</span>
+            <span v-for="tag in lesson.exam_tags" :key="tag" class="ecn-tag ecn-tag-exam">{{ tag }}</span>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- 考试标签入口 -->
@@ -49,12 +95,6 @@
       </div>
     </div>
 
-    <!-- 主题列表 -->
-    <div class="home-section">
-      <h2>📖 学习主题</h2>
-      <LessonList />
-    </div>
-
     <!-- 学习流程 -->
     <div class="home-section">
       <h2>🔄 学习流程</h2>
@@ -63,7 +103,7 @@
           <div class="step-num">1</div>
           <div class="step-content">
             <h4>选择主题</h4>
-            <p>按兴趣选择学习主题</p>
+            <p>按兴趣或推荐选择</p>
           </div>
         </div>
         <div class="flow-step ecn-card">
@@ -93,10 +133,36 @@
 </template>
 
 <script setup lang="ts">
-import { getAllExamTags } from '../data/loader'
-import LessonList from './LessonList.vue'
+import { ref, onMounted } from 'vue'
+import { useRouter } from 'vitepress'
+import { getAllExamTags, getAllLessons } from '../data/loader'
+import { getProgressStats, getDueForReview } from '../data/types'
+import type { Lesson } from '../data/types'
 
+const router = useRouter()
 const examTags = getAllExamTags()
+const stats = ref(getProgressStats())
+const randomLesson = ref<Lesson | null>(null)
+const dueLessons = ref<Lesson[]>([])
+
+function goToLesson(lessonId: string): void {
+  router.go(`/themes/${lessonId}`)
+}
+
+onMounted(() => {
+  const lessons = getAllLessons()
+  // 随机选一个主题
+  if (lessons.length) {
+    randomLesson.value = lessons[Math.floor(Math.random() * lessons.length)]
+  }
+  // 找出有到期复习词块的主题
+  const dueChunkIds = new Set(getDueForReview())
+  if (dueChunkIds.size > 0) {
+    dueLessons.value = lessons.filter(l =>
+      l.chunks?.some(c => dueChunkIds.has(c.id))
+    ).slice(0, 3)
+  }
+})
 </script>
 
 <style scoped>
@@ -106,9 +172,59 @@ const examTags = getAllExamTags()
   padding: 0 20px 60px;
 }
 
+/* 进度卡片 */
+.progress-card {
+  padding: 20px 24px;
+  margin-bottom: 24px;
+}
+
+.progress-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.progress-header h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.progress-count {
+  font-size: 0.85rem;
+  color: var(--vp-c-text-3);
+}
+
+.progress-stats {
+  display: flex;
+  gap: 20px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.progress-stat {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  color: var(--vp-c-text-2);
+}
+
+.stat-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.stat-dot-green { background: #16a34a; }
+.stat-dot-red { background: #dc2626; }
+.stat-dot-gray { background: #9ca3af; }
+
+/* 快捷入口 */
 .home-shortcuts {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 12px;
   margin-bottom: 48px;
 }
@@ -132,6 +248,11 @@ const examTags = getAllExamTags()
   transform: translateY(-2px);
 }
 
+.shortcut-random {
+  border: 2px solid var(--vp-c-brand);
+  background: var(--vp-c-brand-soft);
+}
+
 .shortcut-icon {
   font-size: 2rem;
   margin-bottom: 8px;
@@ -149,6 +270,48 @@ const examTags = getAllExamTags()
   margin: 0;
 }
 
+/* 推荐复习 */
+.recommend-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+@media (max-width: 768px) {
+  .recommend-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.recommend-card {
+  cursor: pointer;
+  padding: 16px;
+  transition: all 0.2s;
+}
+
+.recommend-card:hover {
+  transform: translateY(-2px);
+}
+
+.recommend-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+}
+
+.recommend-title-cn {
+  font-size: 0.82rem;
+  color: var(--vp-c-text-2);
+  margin: 2px 0 8px;
+}
+
+.recommend-badges {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+/* Sections */
 .home-section {
   margin-bottom: 48px;
 }
@@ -173,6 +336,7 @@ const examTags = getAllExamTags()
   cursor: default;
 }
 
+/* Flow steps */
 .flow-steps {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
