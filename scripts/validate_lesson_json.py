@@ -17,6 +17,12 @@ def validate(path: Path) -> int:
         if field not in data:
             errors.append(f"Missing lesson field: {field}")
 
+    chunks = data.get("chunks", [])
+    if not isinstance(chunks, list):
+        errors.append("chunks must be a list")
+    elif len(chunks) == 0:
+        errors.append("chunks is empty")
+
     seen_ids = set()
     for i, chunk in enumerate(data.get("chunks", []), start=1):
         for field in REQUIRED_CHUNK_FIELDS:
