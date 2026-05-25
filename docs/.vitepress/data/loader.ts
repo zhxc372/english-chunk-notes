@@ -9,6 +9,9 @@ import educationLearning from '../../../data/lessons/education-learning.json'
 import workCareer from '../../../data/lessons/work-career.json'
 import softwareEngineering from '../../../data/lessons/software-engineering.json'
 import projectManagement from '../../../data/lessons/project-management.json'
+import environmentClimate from '../../../data/lessons/environment-climate.json'
+import technologySociety from '../../../data/lessons/technology-society.json'
+import healthWellbeing from '../../../data/lessons/health-wellbeing.json'
 
 // Lesson 注册表
 const lessonRegistry: Lesson[] = [
@@ -16,7 +19,10 @@ const lessonRegistry: Lesson[] = [
   educationLearning as Lesson,
   workCareer as Lesson,
   softwareEngineering as Lesson,
-  projectManagement as Lesson
+  projectManagement as Lesson,
+  environmentClimate as Lesson,
+  technologySociety as Lesson,
+  healthWellbeing as Lesson
 ]
 
 // 按 ID 获取 lesson

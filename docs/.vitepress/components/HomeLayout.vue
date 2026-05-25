@@ -32,6 +32,11 @@
         <h3>技术英语</h3>
         <p>AI、软件工程、系统设计</p>
       </a>
+      <a href="/general-english" class="shortcut-card ecn-card">
+        <div class="shortcut-icon">📚</div>
+        <h3>通用英语</h3>
+        <p>雅思、托福常考话题</p>
+      </a>
     </div>
 
     <!-- 考试标签入口 -->

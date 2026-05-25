@@ -1,0 +1,515 @@
+{
+  "lesson_id": "environment-climate",
+  "title": "Environment & Climate",
+  "title_cn": "环境与气候",
+  "category": "General English",
+  "level": "B1-B2",
+  "theme_tags": [
+    "environment",
+    "climate",
+    "sustainability"
+  ],
+  "exam_tags": [
+    "IELTS",
+    "TOEFL",
+    "CET6",
+    "Postgraduate English"
+  ],
+  "article": {
+    "text": "Climate change is one of the most pressing challenges of our time. Rising global temperatures have led to more frequent extreme weather events, including hurricanes, droughts, and floods. The burning of fossil fuels such as coal, oil, and natural gas is the primary driver of greenhouse gas emissions, which trap heat in the atmosphere and accelerate global warming. Deforestation further exacerbates the problem by reducing the planet's ability to absorb carbon dioxide. In response, many countries have committed to reducing their carbon footprint through renewable energy sources like wind and solar power. The transition to a low-carbon economy requires significant investment in clean technology and infrastructure. Individual actions, such as reducing waste, conserving energy, and supporting sustainable practices, also play a crucial role. The concept of a circular economy, where materials are reused and recycled rather than discarded, is gaining traction as a way to minimize environmental impact. Biodiversity loss is another critical concern, as species extinction disrupts ecosystems and threatens food security. International cooperation is essential to address these global challenges, as no single country can solve them alone.",
+    "text_cn": "气候变化是我们这个时代最紧迫的挑战之一。全球气温上升导致了更频繁的极端天气事件，包括飓风、干旱和洪水。煤炭、石油和天然气等化石燃料的燃烧是温室气体排放的主要驱动因素，温室气体在大气中困住热量并加速全球变暖。森林砍伐进一步加剧了这一问题，降低了地球吸收二氧化碳的能力。作为回应，许多国家已承诺通过风能和太阳能等可再生能源来减少碳足迹。向低碳经济转型需要大量投资清洁技术和基础设施。个人行动，如减少废物、节约能源和支持可持续实践，也发挥着至关重要的作用。循环经济的概念正在获得关注，即材料被重复使用和回收而不是被丢弃，这是最大限度减少环境影响的一种方式。生物多样性丧失是另一个关键问题，因为物种灭绝破坏生态系统并威胁粮食安全。国际合作对于应对这些全球挑战至关重要，因为没有任何一个国家能够单独解决这些问题。",
+    "audio": "/audio/environment-climate/article.mp3"
+  },
+  "model_paragraph": {
+    "text": "Addressing climate change requires a combination of government policy, technological innovation, and individual action. While the transition to renewable energy is essential, reducing waste and adopting sustainable practices at the personal level also contribute significantly to lowering our carbon footprint.",
+    "text_cn": "应对气候变化需要政府政策、技术创新和个人行动的结合。虽然向可再生能源转型至关重要，但在个人层面减少废物和采取可持续实践也有助于显著降低我们的碳足迹。"
+  },
+  "chunks": [
+    {
+      "id": "environment-climate-001",
+      "chunk": "pressing challenges",
+      "meaning_cn": "紧迫的挑战",
+      "collocations": [
+        "one of the most pressing challenges",
+        "face pressing challenges",
+        "address pressing challenges"
+      ],
+      "sentence": "Climate change is one of the most pressing challenges of our time.",
+      "sentence_cn": "气候变化是我们这个时代最紧迫的挑战之一。",
+      "exam_sentence": "Climate change and poverty are among the most pressing challenges facing the international community today.",
+      "audio": "/audio/environment-climate/chunk-001.mp3",
+      "rewrite_prompt_cn": "气候变化是我们这个时代最紧迫的挑战之一。",
+      "retelling_prompt": "What are the most pressing challenges of our time?",
+      "tags": [
+        "environment",
+        "global"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "environment-climate-002",
+      "chunk": "extreme weather events",
+      "meaning_cn": "极端天气事件",
+      "collocations": [
+        "more frequent extreme weather events",
+        "extreme weather events such as",
+        "increase in extreme weather events"
+      ],
+      "sentence": "Rising global temperatures have led to more frequent extreme weather events.",
+      "sentence_cn": "全球气温上升导致了更频繁的极端天气事件。",
+      "exam_sentence": "The increase in extreme weather events has caused significant damage to agricultural production worldwide.",
+      "audio": "/audio/environment-climate/chunk-002.mp3",
+      "rewrite_prompt_cn": "全球气温上升导致了更频繁的极端天气事件。",
+      "retelling_prompt": "How does climate change affect weather patterns?",
+      "tags": [
+        "climate",
+        "weather"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "environment-climate-003",
+      "chunk": "fossil fuels",
+      "meaning_cn": "化石燃料",
+      "collocations": [
+        "burning fossil fuels",
+        "dependence on fossil fuels",
+        "phase out fossil fuels"
+      ],
+      "sentence": "The burning of fossil fuels is the primary driver of greenhouse gas emissions.",
+      "sentence_cn": "化石燃料的燃烧是温室气体排放的主要驱动因素。",
+      "exam_sentence": "Many countries are gradually phasing out fossil fuels in favor of renewable energy sources.",
+      "audio": "/audio/environment-climate/chunk-003.mp3",
+      "rewrite_prompt_cn": "化石燃料的燃烧是温室气体排放的主要驱动因素。",
+      "retelling_prompt": "What is the relationship between fossil fuels and climate change?",
+      "tags": [
+        "energy",
+        "pollution"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "environment-climate-004",
+      "chunk": "greenhouse gas emissions",
+      "meaning_cn": "温室气体排放",
+      "collocations": [
+        "reduce greenhouse gas emissions",
+        "greenhouse gas emissions from",
+        "rising greenhouse gas emissions"
+      ],
+      "sentence": "Greenhouse gas emissions trap heat in the atmosphere and accelerate global warming.",
+      "sentence_cn": "温室气体排放在大气中困住热量并加速全球变暖。",
+      "exam_sentence": "Governments worldwide must take immediate action to reduce greenhouse gas emissions before it is too late.",
+      "audio": "/audio/environment-climate/chunk-004.mp3",
+      "rewrite_prompt_cn": "温室气体排放在大气中困住热量并加速全球变暖。",
+      "retelling_prompt": "How do greenhouse gas emissions cause global warming?",
+      "tags": [
+        "climate",
+        "pollution"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "environment-climate-005",
+      "chunk": "global warming",
+      "meaning_cn": "全球变暖",
+      "collocations": [
+        "accelerate global warming",
+        "the impact of global warming",
+        "combat global warming"
+      ],
+      "sentence": "The accumulation of greenhouse gases accelerates global warming at an alarming rate.",
+      "sentence_cn": "温室气体的积累以惊人的速度加速全球变暖。",
+      "exam_sentence": "Global warming poses a serious threat to coastal cities and island nations around the world.",
+      "audio": "/audio/environment-climate/chunk-005.mp3",
+      "rewrite_prompt_cn": "温室气体的积累以惊人的速度加速全球变暖。",
+      "retelling_prompt": "What causes global warming and what are its effects?",
+      "tags": [
+        "climate",
+        "environment"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET4"
+      ]
+    },
+    {
+      "id": "environment-climate-006",
+      "chunk": "deforestation",
+      "meaning_cn": "森林砍伐",
+      "collocations": [
+        "deforestation exacerbates",
+        "prevent deforestation",
+        "tropical deforestation"
+      ],
+      "sentence": "Deforestation reduces the planet's ability to absorb carbon dioxide.",
+      "sentence_cn": "森林砍伐降低了地球吸收二氧化碳的能力。",
+      "exam_sentence": "Deforestation in the Amazon rainforest has reached alarming levels, threatening biodiversity and indigenous communities.",
+      "audio": "/audio/environment-climate/chunk-006.mp3",
+      "rewrite_prompt_cn": "森林砍伐降低了地球吸收二氧化碳的能力。",
+      "retelling_prompt": "How does deforestation contribute to climate change?",
+      "tags": [
+        "environment",
+        "ecology"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "environment-climate-007",
+      "chunk": "carbon footprint",
+      "meaning_cn": "碳足迹",
+      "collocations": [
+        "reduce carbon footprint",
+        "carbon footprint of",
+        "lower carbon footprint"
+      ],
+      "sentence": "Many countries have committed to reducing their carbon footprint.",
+      "sentence_cn": "许多国家已承诺减少碳足迹。",
+      "exam_sentence": "Individuals can reduce their carbon footprint by using public transport and consuming less meat.",
+      "audio": "/audio/environment-climate/chunk-007.mp3",
+      "rewrite_prompt_cn": "许多国家已承诺减少碳足迹。",
+      "retelling_prompt": "What is a carbon footprint and how can it be reduced?",
+      "tags": [
+        "environment",
+        "sustainability"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "environment-climate-008",
+      "chunk": "renewable energy",
+      "meaning_cn": "可再生能源",
+      "collocations": [
+        "transition to renewable energy",
+        "renewable energy sources",
+        "invest in renewable energy"
+      ],
+      "sentence": "Wind and solar power are key renewable energy sources for a sustainable future.",
+      "sentence_cn": "风能和太阳能是可持续未来的关键可再生能源。",
+      "exam_sentence": "The transition to renewable energy is not only environmentally necessary but also economically beneficial in the long term.",
+      "audio": "/audio/environment-climate/chunk-008.mp3",
+      "rewrite_prompt_cn": "风能和太阳能是可持续未来的关键可再生能源。",
+      "retelling_prompt": "Why is renewable energy important for the future?",
+      "tags": [
+        "energy",
+        "sustainability"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "environment-climate-009",
+      "chunk": "low-carbon economy",
+      "meaning_cn": "低碳经济",
+      "collocations": [
+        "transition to a low-carbon economy",
+        "low-carbon economy development",
+        "achieve a low-carbon economy"
+      ],
+      "sentence": "The transition to a low-carbon economy requires significant investment.",
+      "sentence_cn": "向低碳经济转型需要大量投资。",
+      "audio": "/audio/environment-climate/chunk-009.mp3",
+      "rewrite_prompt_cn": "向低碳经济转型需要大量投资。",
+      "retelling_prompt": "What does a low-carbon economy look like?",
+      "tags": [
+        "economy",
+        "sustainability"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Postgraduate English"
+      ]
+    },
+    {
+      "id": "environment-climate-010",
+      "chunk": "clean technology",
+      "meaning_cn": "清洁技术",
+      "collocations": [
+        "investment in clean technology",
+        "clean technology solutions",
+        "develop clean technology"
+      ],
+      "sentence": "Significant investment in clean technology is essential for sustainable development.",
+      "sentence_cn": "大量投资清洁技术对可持续发展至关重要。",
+      "audio": "/audio/environment-climate/chunk-010.mp3",
+      "rewrite_prompt_cn": "大量投资清洁技术对可持续发展至关重要。",
+      "retelling_prompt": "What role does clean technology play in fighting climate change?",
+      "tags": [
+        "technology",
+        "environment"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "environment-climate-011",
+      "chunk": "sustainable practices",
+      "meaning_cn": "可持续实践",
+      "collocations": [
+        "adopt sustainable practices",
+        "promote sustainable practices",
+        "sustainable agricultural practices"
+      ],
+      "sentence": "Supporting sustainable practices also plays a crucial role in protecting the environment.",
+      "sentence_cn": "支持可持续实践在保护环境方面也发挥着至关重要的作用。",
+      "exam_sentence": "Businesses that adopt sustainable practices often enjoy better long-term profitability and public reputation.",
+      "audio": "/audio/environment-climate/chunk-011.mp3",
+      "rewrite_prompt_cn": "支持可持续实践在保护环境方面也发挥着至关重要的作用。",
+      "retelling_prompt": "Give examples of sustainable practices.",
+      "tags": [
+        "sustainability",
+        "environment"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "environment-climate-012",
+      "chunk": "circular economy",
+      "meaning_cn": "循环经济",
+      "collocations": [
+        "concept of a circular economy",
+        "transition to a circular economy",
+        "circular economy model"
+      ],
+      "sentence": "The concept of a circular economy is gaining traction as a way to minimize waste.",
+      "sentence_cn": "循环经济的概念正在获得关注，作为最大限度减少废物的一种方式。",
+      "exam_sentence": "The circular economy model encourages businesses to design products that can be reused, repaired, or recycled.",
+      "audio": "/audio/environment-climate/chunk-012.mp3",
+      "rewrite_prompt_cn": "循环经济的概念正在获得关注，作为最大限度减少废物的一种方式。",
+      "retelling_prompt": "What is a circular economy and how does it differ from a linear economy?",
+      "tags": [
+        "economy",
+        "sustainability"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Postgraduate English"
+      ]
+    },
+    {
+      "id": "environment-climate-013",
+      "chunk": "biodiversity loss",
+      "meaning_cn": "生物多样性丧失",
+      "collocations": [
+        "the rate of biodiversity loss",
+        "combat biodiversity loss",
+        "biodiversity loss threatens"
+      ],
+      "sentence": "Biodiversity loss is a critical concern as species extinction disrupts ecosystems.",
+      "sentence_cn": "生物多样性丧失是一个关键问题，因为物种灭绝破坏生态系统。",
+      "exam_sentence": "Biodiversity loss not only threatens wildlife but also undermines the ecosystem services that humans depend on.",
+      "audio": "/audio/environment-climate/chunk-013.mp3",
+      "rewrite_prompt_cn": "生物多样性丧失是一个关键问题，因为物种灭绝破坏生态系统。",
+      "retelling_prompt": "Why is biodiversity loss a serious problem?",
+      "tags": [
+        "ecology",
+        "environment"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "environment-climate-014",
+      "chunk": "species extinction",
+      "meaning_cn": "物种灭绝",
+      "collocations": [
+        "prevent species extinction",
+        "rate of species extinction",
+        "species extinction threatens"
+      ],
+      "sentence": "Species extinction disrupts food chains and threatens food security.",
+      "sentence_cn": "物种灭绝破坏食物链并威胁粮食安全。",
+      "exam_sentence": "Scientists warn that the current rate of species extinction is unprecedented in human history.",
+      "audio": "/audio/environment-climate/chunk-014.mp3",
+      "rewrite_prompt_cn": "物种灭绝破坏食物链并威胁粮食安全。",
+      "retelling_prompt": "How does species extinction affect ecosystems and human life?",
+      "tags": [
+        "ecology",
+        "environment"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "environment-climate-015",
+      "chunk": "food security",
+      "meaning_cn": "粮食安全",
+      "collocations": [
+        "threaten food security",
+        "ensure food security",
+        "global food security"
+      ],
+      "sentence": "Climate change poses a serious threat to global food security.",
+      "sentence_cn": "气候变化对全球粮食安全构成严重威胁。",
+      "exam_sentence": "Ensuring food security for a growing population is one of the greatest challenges of the 21st century.",
+      "audio": "/audio/environment-climate/chunk-015.mp3",
+      "rewrite_prompt_cn": "气候变化对全球粮食安全构成严重威胁。",
+      "retelling_prompt": "How does climate change affect food security?",
+      "tags": [
+        "environment",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Postgraduate English"
+      ]
+    },
+    {
+      "id": "environment-climate-016",
+      "chunk": "international cooperation",
+      "meaning_cn": "国际合作",
+      "collocations": [
+        "require international cooperation",
+        "strengthen international cooperation",
+        "through international cooperation"
+      ],
+      "sentence": "International cooperation is essential to address global environmental challenges.",
+      "sentence_cn": "国际合作对于应对全球环境挑战至关重要。",
+      "exam_sentence": "No single country can solve climate change alone; international cooperation is therefore essential.",
+      "audio": "/audio/environment-climate/chunk-016.mp3",
+      "rewrite_prompt_cn": "国际合作对于应对全球环境挑战至关重要。",
+      "retelling_prompt": "Why is international cooperation needed to fight climate change?",
+      "tags": [
+        "global",
+        "diplomacy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Postgraduate English"
+      ]
+    },
+    {
+      "id": "environment-climate-017",
+      "chunk": "carbon dioxide",
+      "meaning_cn": "二氧化碳",
+      "collocations": [
+        "absorb carbon dioxide",
+        "carbon dioxide levels",
+        "emit carbon dioxide"
+      ],
+      "sentence": "Forests absorb carbon dioxide and release oxygen through photosynthesis.",
+      "sentence_cn": "森林通过光合作用吸收二氧化碳并释放氧气。",
+      "audio": "/audio/environment-climate/chunk-017.mp3",
+      "rewrite_prompt_cn": "森林通过光合作用吸收二氧化碳并释放氧气。",
+      "retelling_prompt": "What role do forests play in the carbon cycle?",
+      "tags": [
+        "environment",
+        "science"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET4"
+      ]
+    },
+    {
+      "id": "environment-climate-018",
+      "chunk": "ecosystems",
+      "meaning_cn": "生态系统",
+      "collocations": [
+        "disrupt ecosystems",
+        "protect ecosystems",
+        "marine ecosystems"
+      ],
+      "sentence": "Pollution and habitat destruction disrupt ecosystems and threaten countless species.",
+      "sentence_cn": "污染和栖息地破坏破坏生态系统并威胁无数物种。",
+      "exam_sentence": "Healthy ecosystems provide essential services such as clean water, air purification, and pollination.",
+      "audio": "/audio/environment-climate/chunk-018.mp3",
+      "rewrite_prompt_cn": "污染和栖息地破坏破坏生态系统并威胁无数物种。",
+      "retelling_prompt": "Why are ecosystems important and what threatens them?",
+      "tags": [
+        "ecology",
+        "environment"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "environment-climate-019",
+      "chunk": "conserve energy",
+      "meaning_cn": "节约能源",
+      "collocations": [
+        "conserve energy at home",
+        "efforts to conserve energy",
+        "conserve energy and reduce waste"
+      ],
+      "sentence": "Simple actions like turning off lights can help conserve energy.",
+      "sentence_cn": "关灯等简单的行动有助于节约能源。",
+      "exam_sentence": "Governments should encourage citizens to conserve energy through public awareness campaigns and incentives.",
+      "audio": "/audio/environment-climate/chunk-019.mp3",
+      "rewrite_prompt_cn": "关灯等简单的行动有助于节约能源。",
+      "retelling_prompt": "What are some ways individuals can conserve energy?",
+      "tags": [
+        "sustainability",
+        "daily life"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "CET4"
+      ]
+    },
+    {
+      "id": "environment-climate-020",
+      "chunk": "environmental impact",
+      "meaning_cn": "环境影响",
+      "collocations": [
+        "minimize environmental impact",
+        "reduce environmental impact",
+        "assess environmental impact"
+      ],
+      "sentence": "The circular economy model aims to minimize environmental impact.",
+      "sentence_cn": "循环经济模式旨在最大限度减少环境影响。",
+      "exam_sentence": "Before approving large construction projects, governments should thoroughly assess their potential environmental impact.",
+      "audio": "/audio/environment-climate/chunk-020.mp3",
+      "rewrite_prompt_cn": "循环经济模式旨在最大限度减少环境影响。",
+      "retelling_prompt": "How can we minimize environmental impact in daily life?",
+      "tags": [
+        "environment",
+        "sustainability"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,515 @@
+{
+  "lesson_id": "health-wellbeing",
+  "title": "Health & Well-being",
+  "title_cn": "健康与福祉",
+  "category": "General English",
+  "level": "B1-B2",
+  "theme_tags": [
+    "health",
+    "wellbeing",
+    "medicine"
+  ],
+  "exam_tags": [
+    "IELTS",
+    "TOEFL",
+    "CET6",
+    "Postgraduate English"
+  ],
+  "article": {
+    "text": "Health and well-being are fundamental to a fulfilling life, yet millions of people around the world face significant health challenges. The modern lifestyle, characterized by sedentary behavior, poor diet, and high stress levels, has contributed to a global rise in chronic diseases such as diabetes, heart disease, and obesity. The obesity epidemic, in particular, has become one of the most pressing public health issues of our time. Public health systems in many countries are under increasing pressure from aging populations and rising healthcare costs. Mental health is another critical area of concern, as anxiety, depression, and stress-related disorders affect people of all ages. The COVID-19 pandemic highlighted the importance of pandemic preparedness and exposed deep health inequalities between different communities. Access to nutritious food, clean water, and affordable healthcare remains unequal across the world. Preventive care and health education can play a significant role in reducing the burden of disease, but they require sustained investment and government commitment. Promoting work-life balance, regular physical activity, and mental health awareness are essential steps toward building healthier societies.",
+    "text_cn": "健康和福祉是充实生活的基础，然而全球数百万人面临着重大的健康挑战。以久坐行为、不良饮食和高压力水平为特征的现代生活方式，已导致糖尿病、心脏病和肥胖等慢性病的全球上升。肥胖流行病尤其已成为我们这个时代最紧迫的公共健康问题之一。许多国家的公共卫生系统受到老龄化人口和上升的医疗保健成本的越来越大的压力。心理健康是另一个关键的关注领域，焦虑、抑郁和压力相关疾病影响着所有年龄段的人。COVID-19大流行凸显了大流行病防范的重要性，并暴露了不同社区之间深层的健康不平等。获得营养食物、清洁水和负担得起的医疗保健在全球仍然不平等。预防性保健和健康教育可以在减轻疾病负担方面发挥重要作用，但它们需要持续的投资和政府承诺。促进工作与生活平衡、规律的体力活动和心理健康意识是建设更健康社会的必要步骤。",
+    "audio": "/audio/health-wellbeing/article.mp3"
+  },
+  "model_paragraph": {
+    "text": "Addressing global health challenges requires a multifaceted approach that includes preventive care, health education, and equitable access to healthcare. By promoting healthy lifestyles and reducing health inequalities, societies can build more resilient and productive communities.",
+    "text_cn": "应对全球健康挑战需要一种多元化的方法，包括预防性保健、健康教育和匹配的医疗保健可及性。通过促进健康的生活方式和减少健康不平等，社会可以建设更有韧性和生产力的社区。"
+  },
+  "chunks": [
+    {
+      "id": "health-wellbeing-001",
+      "chunk": "public health",
+      "meaning_cn": "公共健康",
+      "collocations": [
+        "public health systems",
+        "public health initiatives",
+        "a threat to public health"
+      ],
+      "sentence": "Investing in public health infrastructure is essential for preventing disease outbreaks.",
+      "sentence_cn": "投资公共卫生基础设施对于预防疾病爆发至关重要。",
+      "exam_sentence": "Governments should allocate more resources to public health to prepare for future pandemics.",
+      "audio": "/audio/health-wellbeing/chunk-001.mp3",
+      "rewrite_prompt_cn": "投资公共卫生基础设施对于预防疾病爆发至关重要。",
+      "retelling_prompt": "Why is public health investment important?",
+      "tags": [
+        "health",
+        "policy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "health-wellbeing-002",
+      "chunk": "mental well-being",
+      "meaning_cn": "心理健康",
+      "collocations": [
+        "improve mental well-being",
+        "mental well-being at work",
+        "protect mental well-being"
+      ],
+      "sentence": "Employers should take steps to protect the mental well-being of their employees.",
+      "sentence_cn": "雇主应该采取措施保护员工的心理健康。",
+      "exam_sentence": "Promoting mental well-being in schools and workplaces should be a national priority.",
+      "audio": "/audio/health-wellbeing/chunk-002.mp3",
+      "rewrite_prompt_cn": "雇主应该采取措施保护员工的心理健康。",
+      "retelling_prompt": "How can organizations support mental well-being?",
+      "tags": [
+        "health",
+        "psychology"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "health-wellbeing-003",
+      "chunk": "sedentary lifestyle",
+      "meaning_cn": "久坐生活方式",
+      "collocations": [
+        "a sedentary lifestyle leads to",
+        "combat sedentary lifestyle",
+        "the dangers of a sedentary lifestyle"
+      ],
+      "sentence": "A sedentary lifestyle increases the risk of obesity and heart disease.",
+      "sentence_cn": "久坐生活方式增加了肥胖和心脏病的风险。",
+      "exam_sentence": "The modern sedentary lifestyle, combined with poor diet, has contributed to a global rise in chronic diseases.",
+      "audio": "/audio/health-wellbeing/chunk-003.mp3",
+      "rewrite_prompt_cn": "久坐生活方式增加了肥胖和心脏病的风险。",
+      "retelling_prompt": "What health problems does a sedentary lifestyle cause?",
+      "tags": [
+        "health",
+        "lifestyle"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "health-wellbeing-004",
+      "chunk": "chronic diseases",
+      "meaning_cn": "慢性病",
+      "collocations": [
+        "the rise of chronic diseases",
+        "prevent chronic diseases",
+        "chronic diseases such as diabetes"
+      ],
+      "sentence": "Chronic diseases such as diabetes and heart disease are among the leading causes of death worldwide.",
+      "sentence_cn": "糖尿病和心脏病等慢性病是全球主要的死亡原因之一。",
+      "exam_sentence": "Preventing chronic diseases requires a combination of healthy diet, regular exercise, and early detection.",
+      "audio": "/audio/health-wellbeing/chunk-004.mp3",
+      "rewrite_prompt_cn": "糖尿病和心脏病等慢性病是全球主要的死亡原因之一。",
+      "retelling_prompt": "What are the most common chronic diseases and how can they be prevented?",
+      "tags": [
+        "health",
+        "medicine"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "health-wellbeing-005",
+      "chunk": "balanced diet",
+      "meaning_cn": "均衡饮食",
+      "collocations": [
+        "maintain a balanced diet",
+        "the importance of a balanced diet",
+        "a balanced diet rich in"
+      ],
+      "sentence": "A balanced diet rich in fruits and vegetables is essential for good health.",
+      "sentence_cn": "富含水果和蔬菜的均衡饮食对健康至关重要。",
+      "exam_sentence": "A balanced diet combined with regular physical activity is the foundation of a healthy lifestyle.",
+      "audio": "/audio/health-wellbeing/chunk-005.mp3",
+      "rewrite_prompt_cn": "富含水果和蔬菜的均衡饮食对健康至关重要。",
+      "retelling_prompt": "What constitutes a balanced diet?",
+      "tags": [
+        "health",
+        "nutrition"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET4"
+      ]
+    },
+    {
+      "id": "health-wellbeing-006",
+      "chunk": "obesity epidemic",
+      "meaning_cn": "肥胖流行病",
+      "collocations": [
+        "the obesity epidemic",
+        "tackle the obesity epidemic",
+        "obesity epidemic in developed countries"
+      ],
+      "sentence": "The obesity epidemic has become one of the most serious public health challenges globally.",
+      "sentence_cn": "肥胖流行病已成为全球最严重的公共卫生挑战之一。",
+      "exam_sentence": "The obesity epidemic in many developed countries calls for urgent government intervention through taxation and education.",
+      "audio": "/audio/health-wellbeing/chunk-006.mp3",
+      "rewrite_prompt_cn": "肥胖流行病已成为全球最严重的公共卫生挑战之一。",
+      "retelling_prompt": "What factors contribute to the obesity epidemic?",
+      "tags": [
+        "health",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "health-wellbeing-007",
+      "chunk": "work-life balance",
+      "meaning_cn": "工作与生活的平衡",
+      "collocations": [
+        "achieve work-life balance",
+        "the importance of work-life balance",
+        "maintain work-life balance"
+      ],
+      "sentence": "Many professionals struggle to maintain a healthy work-life balance.",
+      "sentence_cn": "许多专业人士难以保持健康的工作与生活平衡。",
+      "exam_sentence": "Companies that promote work-life balance tend to have higher employee satisfaction and lower turnover rates.",
+      "audio": "/audio/health-wellbeing/chunk-007.mp3",
+      "rewrite_prompt_cn": "许多专业人士难以保持健康的工作与生活平衡。",
+      "retelling_prompt": "Why is work-life balance important?",
+      "tags": [
+        "work",
+        "wellbeing"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "health-wellbeing-008",
+      "chunk": "stress management",
+      "meaning_cn": "压力管理",
+      "collocations": [
+        "effective stress management",
+        "stress management techniques",
+        "stress management strategies"
+      ],
+      "sentence": "Effective stress management techniques include exercise, meditation, and adequate sleep.",
+      "sentence_cn": "有效的压力管理技巧包括运动、冥想和充足的睡眠。",
+      "exam_sentence": "Learning stress management techniques early in life can help prevent anxiety and depression in adulthood.",
+      "audio": "/audio/health-wellbeing/chunk-008.mp3",
+      "rewrite_prompt_cn": "有效的压力管理技巧包括运动、冥想和充足的睡眠。",
+      "retelling_prompt": "What are some effective stress management techniques?",
+      "tags": [
+        "health",
+        "psychology"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "health-wellbeing-009",
+      "chunk": "healthcare system",
+      "meaning_cn": "医疗保健系统",
+      "collocations": [
+        "the healthcare system",
+        "healthcare system reform",
+        "an overloaded healthcare system"
+      ],
+      "sentence": "An effective healthcare system should be accessible and affordable for all citizens.",
+      "sentence_cn": "一个有效的医疗保健系统应该对所有公民都可及且可负担。",
+      "exam_sentence": "Many countries are facing challenges in reforming their healthcare systems to meet the needs of aging populations.",
+      "audio": "/audio/health-wellbeing/chunk-009.mp3",
+      "rewrite_prompt_cn": "一个有效的医疗保健系统应该对所有公民都可及且可负担。",
+      "retelling_prompt": "What makes a good healthcare system?",
+      "tags": [
+        "health",
+        "policy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Postgraduate English"
+      ]
+    },
+    {
+      "id": "health-wellbeing-010",
+      "chunk": "physical activity",
+      "meaning_cn": "体力活动",
+      "collocations": [
+        "regular physical activity",
+        "benefits of physical activity",
+        "lack of physical activity"
+      ],
+      "sentence": "Regular physical activity reduces the risk of many chronic diseases.",
+      "sentence_cn": "规律的体力活动可以降低许多慢性病的风险。",
+      "exam_sentence": "Health experts recommend at least 30 minutes of moderate physical activity per day for adults.",
+      "audio": "/audio/health-wellbeing/chunk-010.mp3",
+      "rewrite_prompt_cn": "规律的体力活动可以降低许多慢性病的风险。",
+      "retelling_prompt": "How much physical activity do adults need?",
+      "tags": [
+        "health",
+        "fitness"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET4"
+      ]
+    },
+    {
+      "id": "health-wellbeing-011",
+      "chunk": "sleep deprivation",
+      "meaning_cn": "睡眠不足",
+      "collocations": [
+        "the effects of sleep deprivation",
+        "sleep deprivation impairs",
+        "chronic sleep deprivation"
+      ],
+      "sentence": "Chronic sleep deprivation can impair cognitive function and weaken the immune system.",
+      "sentence_cn": "长期睡眠不足会损害认知功能并削弱免疫系统。",
+      "exam_sentence": "Sleep deprivation among students has been shown to negatively affect academic performance and concentration.",
+      "audio": "/audio/health-wellbeing/chunk-011.mp3",
+      "rewrite_prompt_cn": "长期睡眠不足会损害认知功能并削弱免疫系统。",
+      "retelling_prompt": "What are the consequences of sleep deprivation?",
+      "tags": [
+        "health",
+        "lifestyle"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "health-wellbeing-012",
+      "chunk": "preventive care",
+      "meaning_cn": "预防性保健",
+      "collocations": [
+        "preventive care services",
+        "the importance of preventive care",
+        "invest in preventive care"
+      ],
+      "sentence": "Investing in preventive care can reduce long-term healthcare costs significantly.",
+      "sentence_cn": "投资预防性保健可以显著降低长期医疗成本。",
+      "exam_sentence": "Healthcare systems should shift their focus from treatment to preventive care to improve overall population health.",
+      "audio": "/audio/health-wellbeing/chunk-012.mp3",
+      "rewrite_prompt_cn": "投资预防性保健可以显著降低长期医疗成本。",
+      "retelling_prompt": "Why is preventive care important?",
+      "tags": [
+        "health",
+        "medicine"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "health-wellbeing-013",
+      "chunk": "mental health awareness",
+      "meaning_cn": "心理健康意识",
+      "collocations": [
+        "raise mental health awareness",
+        "mental health awareness campaigns",
+        "growing mental health awareness"
+      ],
+      "sentence": "Mental health awareness campaigns have helped reduce the stigma around seeking help.",
+      "sentence_cn": "心理健康意识宣传活动帮助减少了寻求帮助的污名。",
+      "exam_sentence": "Raising mental health awareness in communities can encourage more people to seek professional help when needed.",
+      "audio": "/audio/health-wellbeing/chunk-013.mp3",
+      "rewrite_prompt_cn": "心理健康意识宣传活动帮助减少了寻求帮助的污名。",
+      "retelling_prompt": "Why is mental health awareness important?",
+      "tags": [
+        "health",
+        "psychology"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "health-wellbeing-014",
+      "chunk": "nutritious food",
+      "meaning_cn": "营养食物",
+      "collocations": [
+        "access to nutritious food",
+        "affordable nutritious food",
+        "the importance of nutritious food"
+      ],
+      "sentence": "Access to affordable nutritious food should be a basic right for all people.",
+      "sentence_cn": "获得负担得起的营养食物应该成为所有人的基本权利。",
+      "exam_sentence": "Food deserts, where nutritious food is unavailable, contribute to health inequalities in many communities.",
+      "audio": "/audio/health-wellbeing/chunk-014.mp3",
+      "rewrite_prompt_cn": "获得负担得起的营养食物应该成为所有人的基本权利。",
+      "retelling_prompt": "Why is access to nutritious food important?",
+      "tags": [
+        "health",
+        "nutrition"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "health-wellbeing-015",
+      "chunk": "aging population",
+      "meaning_cn": "老龄化人口",
+      "collocations": [
+        "the challenge of an aging population",
+        "aging population puts pressure on",
+        "society with an aging population"
+      ],
+      "sentence": "The aging population puts increasing pressure on healthcare and pension systems.",
+      "sentence_cn": "老龄化人口给医疗保健和养老金系统带来了越来越大的压力。",
+      "exam_sentence": "Countries with aging populations must reform their healthcare and social security systems to remain sustainable.",
+      "audio": "/audio/health-wellbeing/chunk-015.mp3",
+      "rewrite_prompt_cn": "老龄化人口给医疗保健和养老金系统带来了越来越大的压力。",
+      "retelling_prompt": "What challenges does an aging population create?",
+      "tags": [
+        "health",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Postgraduate English"
+      ]
+    },
+    {
+      "id": "health-wellbeing-016",
+      "chunk": "immune system",
+      "meaning_cn": "免疫系统",
+      "collocations": [
+        "strengthen the immune system",
+        "a weakened immune system",
+        "immune system response"
+      ],
+      "sentence": "A healthy diet and regular exercise can strengthen the immune system.",
+      "sentence_cn": "健康的饮食和规律的锻炼可以增强免疫系统。",
+      "exam_sentence": "Understanding how the immune system works has become even more important in the post-pandemic era.",
+      "audio": "/audio/health-wellbeing/chunk-016.mp3",
+      "rewrite_prompt_cn": "健康的饮食和规律的锻炼可以增强免疫系统。",
+      "retelling_prompt": "How can people strengthen their immune system?",
+      "tags": [
+        "health",
+        "biology"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "health-wellbeing-017",
+      "chunk": "substance abuse",
+      "meaning_cn": "药物滥用",
+      "collocations": [
+        "substance abuse treatment",
+        "the problem of substance abuse",
+        "combat substance abuse"
+      ],
+      "sentence": "Substance abuse remains a major public health issue in many countries.",
+      "sentence_cn": "药物滥用在许多国家仍然是一个重大的公共卫生问题。",
+      "exam_sentence": "Substance abuse among young people requires a combination of education, prevention, and accessible treatment programs.",
+      "audio": "/audio/health-wellbeing/chunk-017.mp3",
+      "rewrite_prompt_cn": "药物滥用在许多国家仍然是一个重大的公共卫生问题。",
+      "retelling_prompt": "What are the causes and consequences of substance abuse?",
+      "tags": [
+        "health",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "health-wellbeing-018",
+      "chunk": "pandemic preparedness",
+      "meaning_cn": "大流行病防范",
+      "collocations": [
+        "pandemic preparedness plans",
+        "invest in pandemic preparedness",
+        "improve pandemic preparedness"
+      ],
+      "sentence": "The COVID-19 pandemic highlighted the need for better pandemic preparedness globally.",
+      "sentence_cn": "COVID-19大流行凸显了全球需要更好地防范大流行病。",
+      "exam_sentence": "Governments should establish robust pandemic preparedness plans to protect their populations from future health crises.",
+      "audio": "/audio/health-wellbeing/chunk-018.mp3",
+      "rewrite_prompt_cn": "COVID-19大流行凸显了全球需要更好地防范大流行病。",
+      "retelling_prompt": "What lessons did the world learn from the COVID-19 pandemic?",
+      "tags": [
+        "health",
+        "policy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "health-wellbeing-019",
+      "chunk": "alternative medicine",
+      "meaning_cn": "替代医学",
+      "collocations": [
+        "the popularity of alternative medicine",
+        "alternative medicine practices",
+        "alternative medicine vs conventional"
+      ],
+      "sentence": "Alternative medicine practices such as acupuncture have gained popularity in Western countries.",
+      "sentence_cn": "针灸等替代医学方法在西方国家越来越受欢迎。",
+      "exam_sentence": "While alternative medicine can complement conventional treatment, it should not replace evidence-based medical care.",
+      "audio": "/audio/health-wellbeing/chunk-019.mp3",
+      "rewrite_prompt_cn": "针灸等替代医学方法在西方国家越来越受欢迎。",
+      "retelling_prompt": "What role does alternative medicine play in modern healthcare?",
+      "tags": [
+        "health",
+        "medicine"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "health-wellbeing-020",
+      "chunk": "health inequalities",
+      "meaning_cn": "健康不平等",
+      "collocations": [
+        "address health inequalities",
+        "health inequalities between",
+        "the root causes of health inequalities"
+      ],
+      "sentence": "Health inequalities between rich and poor communities remain a persistent problem.",
+      "sentence_cn": "贫富社区之间的健康不平等仍然是一个持续存在的问题。",
+      "exam_sentence": "Addressing health inequalities requires tackling the root causes such as poverty, education, and access to healthcare.",
+      "audio": "/audio/health-wellbeing/chunk-020.mp3",
+      "rewrite_prompt_cn": "贫富社区之间的健康不平等仍然是一个持续存在的问题。",
+      "retelling_prompt": "What causes health inequalities and how can they be reduced?",
+      "tags": [
+        "health",
+        "inequality"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Postgraduate English"
+      ]
+    }
+  ]
+}

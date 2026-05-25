@@ -1,0 +1,514 @@
+{
+  "lesson_id": "technology-society",
+  "title": "Technology & Society",
+  "title_cn": "科技与社会",
+  "category": "General English",
+  "level": "B1-B2",
+  "theme_tags": [
+    "technology",
+    "society",
+    "AI"
+  ],
+  "exam_tags": [
+    "IELTS",
+    "TOEFL",
+    "CET6",
+    "Postgraduate English"
+  ],
+  "article": {
+    "text": "Technology has become deeply intertwined with every aspect of modern life. From the smartphones in our pockets to the artificial intelligence systems that power online services, technological innovation continues to reshape how we communicate, work, and learn. Social media platforms have connected billions of people across the globe, enabling instant communication and information sharing. However, this digital revolution has also brought significant challenges. The digital divide remains a pressing issue, as millions of people still lack access to reliable internet and digital tools. Privacy concerns have grown as tech companies collect vast amounts of personal data. The rise of artificial intelligence and automation has sparked fears about job displacement, while online education has expanded access to learning but raised questions about the quality of digital instruction. Information overload and excessive screen time have been linked to mental health problems, particularly among young people. Cybersecurity threats continue to evolve, requiring constant vigilance from individuals and organizations alike. As we navigate this rapidly changing landscape, finding the right balance between embracing technological progress and protecting human well-being is perhaps the most important challenge of our era.",
+    "text_cn": "技术已与现代生活的每个方面深度交织。从口袋里的智能手机到驱动在线服务的人工智能系统，技术创新继续重塑我们交流、工作和学习的方式。社交媒体平台已将全球数十亿人连接起来，实现了即时通信和信息分享。然而，这场数字革命也带来了重大挑战。数字鸿沟仍然是一个紧迫问题，数百万人仍然无法获得可靠的互联网和数字工具。随着科技公司收集大量个人数据，隐私担忧日益增长。人工智能和自动化的兴起引发了对工作被取代的担忧，而在线教育扩大了学习机会但也引发了对数字教学质量的问题。信息过载和过度屏幕时间与心理健康问题有关，尤其是在年轻人中。网络安全威胁不断演变，需要个人和组织持续保持警惕。在应对这个快速变化的格局时，在拥抱技术进步和保护人类福祉之间找到正确的平衡，也许是我们这个时代最重要的挑战。",
+    "audio": "/audio/technology-society/article.mp3"
+  },
+  "model_paragraph": {
+    "text": "While technological innovation has undeniably improved many aspects of modern life, it also presents challenges such as privacy concerns, the digital divide, and job displacement. Society must find a balance between embracing progress and protecting individuals from its negative consequences.",
+    "text_cn": "虽然技术创新无可否认地改善了许多现代生活方面，但它也带来了隐私担忧、数字鸿沟和工作被取代等挑战。社会必须在拥抱进步和保护个人免受其负面后果之间找到平衡。"
+  },
+  "chunks": [
+    {
+      "id": "technology-society-001",
+      "chunk": "rapid technological advancement",
+      "meaning_cn": "快速的技术进步",
+      "collocations": [
+        "rapid technological advancement has",
+        "due to rapid technological advancement"
+      ],
+      "sentence": "Rapid technological advancement has transformed the way we live and work.",
+      "sentence_cn": "快速的技术进步改变了我们的生活和工作方式。",
+      "exam_sentence": "While rapid technological advancement has brought many benefits, it has also raised concerns about privacy and job displacement.",
+      "audio": "/audio/technology-society/chunk-001.mp3",
+      "rewrite_prompt_cn": "快速的技术进步改变了我们的生活和工作方式。",
+      "retelling_prompt": "How has technology changed our daily lives?",
+      "tags": [
+        "technology",
+        "society"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "technology-society-002",
+      "chunk": "digital divide",
+      "meaning_cn": "数字鸿沟",
+      "collocations": [
+        "bridge the digital divide",
+        "widen the digital divide",
+        "the digital divide between"
+      ],
+      "sentence": "The digital divide between urban and rural areas remains a significant challenge.",
+      "sentence_cn": "城乡之间的数字鸿沟仍然是一个重大挑战。",
+      "exam_sentence": "Governments must invest in digital infrastructure to bridge the digital divide and ensure equal access to education.",
+      "audio": "/audio/technology-society/chunk-002.mp3",
+      "rewrite_prompt_cn": "城乡之间的数字鸿沟仍然是一个重大挑战。",
+      "retelling_prompt": "What is the digital divide and why does it matter?",
+      "tags": [
+        "technology",
+        "inequality"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "technology-society-003",
+      "chunk": "social media",
+      "meaning_cn": "社交媒体",
+      "collocations": [
+        "the impact of social media",
+        "social media platforms",
+        "social media has transformed"
+      ],
+      "sentence": "Social media has fundamentally changed how people communicate and share information.",
+      "sentence_cn": "社交媒体从根本上改变了人们交流和分享信息的方式。",
+      "exam_sentence": "Although social media connects people across the globe, it can also spread misinformation and affect mental health.",
+      "audio": "/audio/technology-society/chunk-003.mp3",
+      "rewrite_prompt_cn": "社交媒体从根本上改变了人们交流和分享信息的方式。",
+      "retelling_prompt": "What are the positive and negative effects of social media?",
+      "tags": [
+        "technology",
+        "communication"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET4"
+      ]
+    },
+    {
+      "id": "technology-society-004",
+      "chunk": "artificial intelligence",
+      "meaning_cn": "人工智能",
+      "collocations": [
+        "the rise of artificial intelligence",
+        "artificial intelligence in education",
+        "artificial intelligence raises concerns"
+      ],
+      "sentence": "Artificial intelligence is reshaping industries from healthcare to transportation.",
+      "sentence_cn": "人工智能正在重塑从医疗到交通等各个行业。",
+      "exam_sentence": "The rapid development of artificial intelligence has sparked debates about its impact on employment and ethics.",
+      "audio": "/audio/technology-society/chunk-004.mp3",
+      "rewrite_prompt_cn": "人工智能正在重塑从医疗到交通等各个行业。",
+      "retelling_prompt": "How is artificial intelligence changing different industries?",
+      "tags": [
+        "AI",
+        "technology"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "technology-society-005",
+      "chunk": "privacy concerns",
+      "meaning_cn": "隐私担忧",
+      "collocations": [
+        "raise privacy concerns",
+        "address privacy concerns",
+        "growing privacy concerns"
+      ],
+      "sentence": "The collection of personal data by tech companies has raised serious privacy concerns.",
+      "sentence_cn": "科技公司收集个人数据引发了严重的隐私担忧。",
+      "exam_sentence": "As technology becomes more pervasive, privacy concerns regarding personal data collection have become increasingly urgent.",
+      "audio": "/audio/technology-society/chunk-005.mp3",
+      "rewrite_prompt_cn": "科技公司收集个人数据引发了严重的隐私担忧。",
+      "retelling_prompt": "What privacy concerns have arisen from modern technology?",
+      "tags": [
+        "technology",
+        "ethics"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "technology-society-006",
+      "chunk": "job displacement",
+      "meaning_cn": "工作被取代",
+      "collocations": [
+        "automation leads to job displacement",
+        "prevent job displacement",
+        "the risk of job displacement"
+      ],
+      "sentence": "Automation and AI have increased the risk of job displacement in many sectors.",
+      "sentence_cn": "自动化和人工智能增加了许多行业工作被取代的风险。",
+      "exam_sentence": "To prevent job displacement, workers need to develop new skills that complement rather than compete with technology.",
+      "audio": "/audio/technology-society/chunk-006.mp3",
+      "rewrite_prompt_cn": "自动化和人工智能增加了许多行业工作被取代的风险。",
+      "retelling_prompt": "How is technology affecting employment?",
+      "tags": [
+        "technology",
+        "employment"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "technology-society-007",
+      "chunk": "online education",
+      "meaning_cn": "在线教育",
+      "collocations": [
+        "the rise of online education",
+        "online education platforms",
+        "access to online education"
+      ],
+      "sentence": "Online education has made learning more accessible to people around the world.",
+      "sentence_cn": "在线教育使世界各地的人们更容易获得学习机会。",
+      "exam_sentence": "Online education has expanded access to knowledge, but it cannot fully replace face-to-face interaction in classrooms.",
+      "audio": "/audio/technology-society/chunk-007.mp3",
+      "rewrite_prompt_cn": "在线教育使世界各地的人们更容易获得学习机会。",
+      "retelling_prompt": "What are the advantages and disadvantages of online education?",
+      "tags": [
+        "technology",
+        "education"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "technology-society-008",
+      "chunk": "information overload",
+      "meaning_cn": "信息过载",
+      "collocations": [
+        "suffer from information overload",
+        "lead to information overload",
+        "manage information overload"
+      ],
+      "sentence": "The constant flow of information can lead to information overload and increased stress.",
+      "sentence_cn": "持续的信息流可能导致信息过载和压力增加。",
+      "exam_sentence": "In the digital age, information overload has become a common problem that affects productivity and mental well-being.",
+      "audio": "/audio/technology-society/chunk-008.mp3",
+      "rewrite_prompt_cn": "持续的信息流可能导致信息过载和压力增加。",
+      "retelling_prompt": "What is information overload and how can it be managed?",
+      "tags": [
+        "technology",
+        "psychology"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "technology-society-009",
+      "chunk": "screen time",
+      "meaning_cn": "屏幕时间",
+      "collocations": [
+        "excessive screen time",
+        "reduce screen time",
+        "the impact of screen time"
+      ],
+      "sentence": "Excessive screen time has been linked to sleep problems and reduced physical activity.",
+      "sentence_cn": "过度的屏幕时间与睡眠问题和体力活动减少有关。",
+      "exam_sentence": "Parents should monitor and limit the amount of screen time children have each day.",
+      "audio": "/audio/technology-society/chunk-009.mp3",
+      "rewrite_prompt_cn": "过度的屏幕时间与睡眠问题和体力活动减少有关。",
+      "retelling_prompt": "What are the health effects of too much screen time?",
+      "tags": [
+        "technology",
+        "health"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "technology-society-010",
+      "chunk": "cybersecurity",
+      "meaning_cn": "网络安全",
+      "collocations": [
+        "cybersecurity threats",
+        "improve cybersecurity",
+        "cybersecurity measures"
+      ],
+      "sentence": "As more services move online, cybersecurity has become a critical concern.",
+      "sentence_cn": "随着更多服务转移到线上，网络安全已成为一个关键问题。",
+      "exam_sentence": "Both individuals and organizations must take cybersecurity seriously to protect sensitive data from breaches.",
+      "audio": "/audio/technology-society/chunk-010.mp3",
+      "rewrite_prompt_cn": "随着更多服务转移到线上，网络安全已成为一个关键问题。",
+      "retelling_prompt": "Why is cybersecurity important in the digital age?",
+      "tags": [
+        "technology",
+        "security"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "technology-society-011",
+      "chunk": "remote work",
+      "meaning_cn": "远程工作",
+      "collocations": [
+        "shift to remote work",
+        "benefits of remote work",
+        "remote work arrangements"
+      ],
+      "sentence": "The shift to remote work has changed the traditional office environment.",
+      "sentence_cn": "向远程工作的转变改变了传统的办公环境。",
+      "exam_sentence": "Remote work offers flexibility but can also lead to feelings of isolation and blurred boundaries between work and personal life.",
+      "audio": "/audio/technology-society/chunk-011.mp3",
+      "rewrite_prompt_cn": "向远程工作的转变改变了传统的办公环境。",
+      "retelling_prompt": "What are the pros and cons of remote work?",
+      "tags": [
+        "technology",
+        "work"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "technology-society-012",
+      "chunk": "misinformation",
+      "meaning_cn": "错误信息",
+      "collocations": [
+        "spread misinformation",
+        "combat misinformation",
+        "the spread of misinformation"
+      ],
+      "sentence": "Social media platforms have become channels for the rapid spread of misinformation.",
+      "sentence_cn": "社交媒体平台已成为虚假信息快速传播的渠道。",
+      "exam_sentence": "The spread of misinformation on social media poses a threat to democratic processes and public health.",
+      "audio": "/audio/technology-society/chunk-012.mp3",
+      "rewrite_prompt_cn": "社交媒体平台已成为虚假信息快速传播的渠道。",
+      "retelling_prompt": "How does misinformation spread and what can be done about it?",
+      "tags": [
+        "technology",
+        "media"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "technology-society-013",
+      "chunk": "mental health",
+      "meaning_cn": "心理健康",
+      "collocations": [
+        "impact on mental health",
+        "mental health issues",
+        "raise awareness about mental health"
+      ],
+      "sentence": "Technology can both support and harm mental health depending on how it is used.",
+      "sentence_cn": "技术既能支持也可能损害心理健康，取决于如何使用。",
+      "exam_sentence": "Schools and workplaces should prioritize mental health by providing counseling services and promoting balance.",
+      "audio": "/audio/technology-society/chunk-013.mp3",
+      "rewrite_prompt_cn": "技术既能支持也可能损害心理健康，取决于如何使用。",
+      "retelling_prompt": "How does technology affect mental health?",
+      "tags": [
+        "health",
+        "psychology"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "technology-society-014",
+      "chunk": "self-driving cars",
+      "meaning_cn": "自动驾驶汽车",
+      "collocations": [
+        "the development of self-driving cars",
+        "self-driving cars could",
+        "self-driving car technology"
+      ],
+      "sentence": "Self-driving cars could reduce traffic accidents caused by human error.",
+      "sentence_cn": "自动驾驶汽车可以减少由人为错误造成的交通事故。",
+      "exam_sentence": "While self-driving cars promise safer roads, they also raise ethical and legal questions about liability.",
+      "audio": "/audio/technology-society/chunk-014.mp3",
+      "rewrite_prompt_cn": "自动驾驶汽车可以减少由人为错误造成的交通事故。",
+      "retelling_prompt": "What are the potential benefits and risks of self-driving cars?",
+      "tags": [
+        "technology",
+        "transportation"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "technology-society-015",
+      "chunk": "smartphone addiction",
+      "meaning_cn": "手机成瘾",
+      "collocations": [
+        "smartphone addiction among teenagers",
+        "symptoms of smartphone addiction",
+        "address smartphone addiction"
+      ],
+      "sentence": "Smartphone addiction has become a growing concern, especially among young people.",
+      "sentence_cn": "手机成瘾已成为日益关注的问题，尤其是在年轻人中。",
+      "exam_sentence": "Smartphone addiction among teenagers has been linked to declining academic performance and social skills.",
+      "audio": "/audio/technology-society/chunk-015.mp3",
+      "rewrite_prompt_cn": "手机成瘾已成为日益关注的问题，尤其是在年轻人中。",
+      "retelling_prompt": "What are the signs of smartphone addiction and how can it be addressed?",
+      "tags": [
+        "technology",
+        "health"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "technology-society-016",
+      "chunk": "e-commerce",
+      "meaning_cn": "电子商务",
+      "collocations": [
+        "the growth of e-commerce",
+        "e-commerce platforms",
+        "traditional retail vs e-commerce"
+      ],
+      "sentence": "The growth of e-commerce has transformed consumer behavior worldwide.",
+      "sentence_cn": "电子商务的增长改变了全球消费者的行为。",
+      "exam_sentence": "The rise of e-commerce has created new business opportunities but has also contributed to the decline of traditional retail.",
+      "audio": "/audio/technology-society/chunk-016.mp3",
+      "rewrite_prompt_cn": "电子商务的增长改变了全球消费者的行为。",
+      "retelling_prompt": "How has e-commerce changed the way people shop?",
+      "tags": [
+        "technology",
+        "business"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "technology-society-017",
+      "chunk": "digital literacy",
+      "meaning_cn": "数字素养",
+      "collocations": [
+        "improve digital literacy",
+        "digital literacy skills",
+        "the importance of digital literacy"
+      ],
+      "sentence": "Digital literacy is essential for participating fully in modern society.",
+      "sentence_cn": "数字素养对于充分参与现代社会至关重要。",
+      "exam_sentence": "Improving digital literacy should be a priority in education systems to prepare students for the future workforce.",
+      "audio": "/audio/technology-society/chunk-017.mp3",
+      "rewrite_prompt_cn": "数字素养对于充分参与现代社会至关重要。",
+      "retelling_prompt": "Why is digital literacy important in modern society?",
+      "tags": [
+        "technology",
+        "education"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "technology-society-018",
+      "chunk": "genetic engineering",
+      "meaning_cn": "基因工程",
+      "collocations": [
+        "advances in genetic engineering",
+        "genetic engineering raises ethical questions",
+        "genetic engineering in agriculture"
+      ],
+      "sentence": "Genetic engineering has the potential to cure diseases but raises ethical questions.",
+      "sentence_cn": "基因工程有潜力治愈疾病，但也引发了伦理问题。",
+      "exam_sentence": "Genetic engineering offers promising solutions in medicine and agriculture, but it must be carefully regulated.",
+      "audio": "/audio/technology-society/chunk-018.mp3",
+      "rewrite_prompt_cn": "基因工程有潜力治愈疾病，但也引发了伦理问题。",
+      "retelling_prompt": "What are the potential benefits and risks of genetic engineering?",
+      "tags": [
+        "technology",
+        "science"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "technology-society-019",
+      "chunk": "automation",
+      "meaning_cn": "自动化",
+      "collocations": [
+        "automation in manufacturing",
+        "the impact of automation",
+        "increased automation"
+      ],
+      "sentence": "Increased automation has improved productivity but also eliminated certain types of jobs.",
+      "sentence_cn": "日益增加的自动化提高了生产力，但也消除了某些类型的工作。",
+      "exam_sentence": "While automation has boosted industrial productivity, society must address the need for retraining displaced workers.",
+      "audio": "/audio/technology-society/chunk-019.mp3",
+      "rewrite_prompt_cn": "日益增加的自动化提高了生产力，但也消除了某些类型的工作。",
+      "retelling_prompt": "How is automation changing the job market?",
+      "tags": [
+        "technology",
+        "economy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "technology-society-020",
+      "chunk": "innovation",
+      "meaning_cn": "创新",
+      "collocations": [
+        "technological innovation",
+        "drive innovation",
+        "foster innovation"
+      ],
+      "sentence": "Technological innovation is the key driver of economic growth in the 21st century.",
+      "sentence_cn": "技术创新是21世纪经济增长的关键驱动力。",
+      "exam_sentence": "Governments and businesses should invest in research and development to foster innovation and maintain competitiveness.",
+      "audio": "/audio/technology-society/chunk-020.mp3",
+      "rewrite_prompt_cn": "技术创新是21世纪经济增长的关键驱动力。",
+      "retelling_prompt": "Why is innovation important for economic development?",
+      "tags": [
+        "technology",
+        "economy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Postgraduate English"
+      ]
+    }
+  ]
+}

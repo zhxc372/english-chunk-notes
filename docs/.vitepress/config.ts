@@ -12,6 +12,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '主题', link: '/themes/' },
       { text: '技术英语', link: '/tech-english' },
+      { text: '通用英语', link: '/general-english' },
       { text: '收藏', link: '/favorites' },
       { text: '闪卡', link: '/flashcards' }
     ],
