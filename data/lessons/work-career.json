@@ -1,0 +1,503 @@
+{
+  "lesson_id": "work-career",
+  "title": "Work & Career in the AI Era",
+  "title_cn": "AI时代的职场与职业",
+  "category": "General English",
+  "level": "B1-B2",
+  "theme_tags": [
+    "AI",
+    "career",
+    "workplace",
+    "future"
+  ],
+  "exam_tags": [
+    "IELTS",
+    "TOEFL",
+    "CET4",
+    "CET6",
+    "Postgraduate English"
+  ],
+  "article": {
+    "text": "Artificial intelligence is reshaping the job market in ways that were hard to imagine just a few years ago. A recent survey found that over 40 percent of CEOs plan to reduce entry-level positions in the next one to two years, shifting their workforce toward more experienced roles. At the same time, demand for AI-related skills has grown rapidly, making AI competency a basic requirement for many jobs. The job market now presents what experts call a dual landscape. On one side, AI industry positions are expanding quickly. On the other side, roles that involve repetitive tasks are shrinking. Workers who can combine technical skills with creative problem-solving are the most likely to succeed. Some professionals are already adapting. Freelancers and independent workers are using AI tools to run what some call one-person companies. They handle tasks that previously required entire teams, from content creation to data analysis. However, the shift also raises concerns. Older workers may benefit as companies value experience over entry-level enthusiasm. But younger job seekers face tougher competition. The key takeaway is clear: continuous learning and adaptability are no longer optional. They are essential for survival in the modern workplace.",
+    "text_cn": "人工智能正在以前所未有的方式重塑就业市场。最近的一项调查发现，超过40%的首席执行官计划在未来一到两年内减少初级岗位，将员工结构向更有经验的角色倾斜。与此同时，与AI相关的技能需求快速增长，使AI能力成为许多工作的基本要求。就业市场现在呈现专家所说的“双重格局”。一方面，AI行业职位正在快速扩张。另一方面，涉及重复性任务的岗位正在缩减。能够将技术技能与创造性解决问题相结合的员工最有可能成功。一些专业人士已经开始适应。自由职业者和独立工作者正在使用AI工具运营所谓的“一人公司”。他们处理以前需要整个团队才能完成的任务，从内容创作到数据分析。然而，这种转变也引发了担忧。年长员工可能受益，因为公司更看重经验而非初级岗位的热情。但年轻的求职者面临更激烈的竞争。关键结论很明确：持续学习和适应能力不再是可选项，而是在现代职场中生存的必备条件。",
+    "audio": "/audio/work-career/article.mp3"
+  },
+  "model_paragraph": {
+    "text": "The rise of AI has created a dual landscape in the job market: while some roles are disappearing, new opportunities are emerging for those with the right skills.",
+    "text_cn": "AI的兴起在就业市场创造了双重格局：虽然一些角色正在消失，但对于拥有合适技能的人来说，新的机会正在出现。"
+  },
+  "chunks": [
+    {
+      "id": "work-career-001",
+      "chunk": "reshape the job market",
+      "meaning_cn": "重塑就业市场",
+      "collocations": [
+        "reshape the job market",
+        "fundamentally reshape",
+        "reshape the workforce"
+      ],
+      "sentence": "Artificial intelligence is reshaping the job market in unexpected ways.",
+      "sentence_cn": "人工智能正在以意想不到的方式重塑就业市场。",
+      "audio": "/audio/work-career/chunk-001.mp3",
+      "rewrite_prompt_cn": "人工智能正在以意想不到的方式重塑就业市场。",
+      "retelling_prompt": "How is AI changing the job market?",
+      "tags": [
+        "AI",
+        "career",
+        "workplace"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "work-career-002",
+      "chunk": "entry-level positions",
+      "meaning_cn": "初级岗位；入门职位",
+      "collocations": [
+        "reduce entry-level positions",
+        "entry-level job seekers"
+      ],
+      "sentence": "Many CEOs plan to reduce entry-level positions as AI takes over routine tasks.",
+      "sentence_cn": "随着AI接手日常任务，许多CEO计划减少初级岗位。",
+      "audio": "/audio/work-career/chunk-002.mp3",
+      "rewrite_prompt_cn": "随着AI接手日常任务，许多CEO计划减少初级岗位。",
+      "retelling_prompt": "What is happening to entry-level positions?",
+      "tags": [
+        "career",
+        "workplace"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "work-career-003",
+      "chunk": "AI competency",
+      "meaning_cn": "AI能力；AI素养",
+      "collocations": [
+        "AI competency as a requirement",
+        "develop AI competency",
+        "basic AI competency"
+      ],
+      "sentence": "AI competency has become a basic requirement for many modern jobs.",
+      "sentence_cn": "AI能力已成为许多现代工作的基本要求。",
+      "exam_sentence": "In the modern workplace, AI competency is as important as basic computer literacy.",
+      "audio": "/audio/work-career/chunk-003.mp3",
+      "rewrite_prompt_cn": "AI能力已成为许多现代工作的基本要求。",
+      "retelling_prompt": "Why is AI competency important for job seekers?",
+      "tags": [
+        "AI",
+        "career",
+        "skills"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "work-career-004",
+      "chunk": "dual landscape",
+      "meaning_cn": "双重格局",
+      "collocations": [
+        "present a dual landscape",
+        "a dual landscape of",
+        "face a dual landscape"
+      ],
+      "sentence": "The job market presents a dual landscape of growth and decline.",
+      "sentence_cn": "就业市场呈现出增长与衰退并存的双重格局。",
+      "audio": "/audio/work-career/chunk-004.mp3",
+      "rewrite_prompt_cn": "就业市场呈现出增长与衰退并存的双重格局。",
+      "retelling_prompt": "What does the dual landscape of the job market look like?",
+      "tags": [
+        "career",
+        "economy"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "work-career-005",
+      "chunk": "repetitive tasks",
+      "meaning_cn": "重复性任务",
+      "collocations": [
+        "involve repetitive tasks",
+        "automate repetitive tasks",
+        "replace repetitive tasks"
+      ],
+      "sentence": "Roles that involve repetitive tasks are shrinking as automation increases.",
+      "sentence_cn": "随着自动化程度提高，涉及重复性任务的岗位正在缩减。",
+      "audio": "/audio/work-career/chunk-005.mp3",
+      "rewrite_prompt_cn": "随着自动化程度提高，涉及重复性任务的岗位正在缩减。",
+      "retelling_prompt": "How does automation affect jobs with repetitive tasks?",
+      "tags": [
+        "AI",
+        "workplace",
+        "automation"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET4"
+      ]
+    },
+    {
+      "id": "work-career-006",
+      "chunk": "creative problem-solving",
+      "meaning_cn": "创造性解决问题",
+      "collocations": [
+        "combine with creative problem-solving",
+        "creative problem-solving skills"
+      ],
+      "sentence": "Workers who combine technical skills with creative problem-solving will succeed.",
+      "sentence_cn": "将技术技能与创造性解决问题相结合的员工将会成功。",
+      "exam_sentence": "Employers increasingly value creative problem-solving over routine technical abilities.",
+      "audio": "/audio/work-career/chunk-006.mp3",
+      "rewrite_prompt_cn": "将技术技能与创造性解决问题相结合的员工将会成功。",
+      "retelling_prompt": "What skills do successful workers need in the AI era?",
+      "tags": [
+        "career",
+        "skills"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "work-career-007",
+      "chunk": "one-person companies",
+      "meaning_cn": "一人公司",
+      "collocations": [
+        "run one-person companies",
+        "operate as one-person companies"
+      ],
+      "sentence": "Freelancers are using AI tools to run one-person companies that compete with larger firms.",
+      "sentence_cn": "自由职业者正在使用AI工具运营一人公司，与更大的公司竞争。",
+      "audio": "/audio/work-career/chunk-007.mp3",
+      "rewrite_prompt_cn": "自由职业者正在使用AI工具运营一人公司，与更大的公司竞争。",
+      "retelling_prompt": "How are freelancers changing the nature of work?",
+      "tags": [
+        "career",
+        "AI",
+        "business"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "work-career-008",
+      "chunk": "continuous learning",
+      "meaning_cn": "持续学习；终身学习",
+      "collocations": [
+        "commit to continuous learning",
+        "continuous learning is essential"
+      ],
+      "sentence": "Continuous learning has become essential for survival in the modern workplace.",
+      "sentence_cn": "持续学习已成为在现代职场中生存的必备条件。",
+      "audio": "/audio/work-career/chunk-008.mp3",
+      "rewrite_prompt_cn": "持续学习已成为在现代职场中生存的必备条件。",
+      "retelling_prompt": "Why is continuous learning important in the AI era?",
+      "tags": [
+        "career",
+        "learning"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET4",
+        "CET6"
+      ]
+    },
+    {
+      "id": "work-career-009",
+      "chunk": "adaptability",
+      "meaning_cn": "适应能力；灵活性",
+      "collocations": [
+        "demonstrate adaptability",
+        "value adaptability"
+      ],
+      "sentence": "Adaptability is no longer optional for workers facing rapid technological change.",
+      "sentence_cn": "对于面对快速技术变革的员工来说，适应能力不再是可选项。",
+      "audio": "/audio/work-career/chunk-009.mp3",
+      "rewrite_prompt_cn": "对于面对快速技术变革的员工来说，适应能力不再是可选项。",
+      "retelling_prompt": "Why has adaptability become crucial for workers?",
+      "tags": [
+        "career",
+        "skills"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "work-career-010",
+      "chunk": "no longer optional",
+      "meaning_cn": "不再是可选项",
+      "collocations": [
+        "is no longer optional",
+        "no longer a luxury"
+      ],
+      "sentence": "In the AI era, upskilling is no longer optional. It is a survival necessity.",
+      "sentence_cn": "在AI时代，技能提升不再是可选项，而是生存的必需品。",
+      "audio": "/audio/work-career/chunk-010.mp3",
+      "rewrite_prompt_cn": "在AI时代，技能提升不再是可选项，而是生存的必需品。",
+      "retelling_prompt": "What has changed from optional to essential in the modern workplace?",
+      "tags": [
+        "expression",
+        "career"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "work-career-011",
+      "chunk": "shift workforce",
+      "meaning_cn": "调整员工结构",
+      "collocations": [
+        "shift workforce toward",
+        "shift their workforce"
+      ],
+      "sentence": "Companies are shifting their workforce toward more experienced and specialized roles.",
+      "sentence_cn": "企业正在将员工结构向更有经验和更专业的角色调整。",
+      "audio": "/audio/work-career/chunk-011.mp3",
+      "rewrite_prompt_cn": "企业正在将员工结构向更有经验和更专业的角色调整。",
+      "retelling_prompt": "How are companies changing their workforce structure?",
+      "tags": [
+        "career",
+        "business"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "work-career-012",
+      "chunk": "tougher competition",
+      "meaning_cn": "更激烈的竞争",
+      "collocations": [
+        "face tougher competition",
+        "lead to tougher competition"
+      ],
+      "sentence": "Young job seekers face tougher competition as entry-level positions decline.",
+      "sentence_cn": "随着初级岗位减少，年轻求职者面临更激烈的竞争。",
+      "audio": "/audio/work-career/chunk-012.mp3",
+      "rewrite_prompt_cn": "随着初级岗位减少，年轻求职者面临更激烈的竞争。",
+      "retelling_prompt": "Why is competition getting tougher for young job seekers?",
+      "tags": [
+        "career",
+        "competition"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET4"
+      ]
+    },
+    {
+      "id": "work-career-013",
+      "chunk": "key takeaway",
+      "meaning_cn": "关键结论；核心要点",
+      "collocations": [
+        "the key takeaway is",
+        "key takeaways from"
+      ],
+      "sentence": "The key takeaway is that workers must invest in skills that AI cannot easily replace.",
+      "sentence_cn": "关键结论是，员工必须投资于AI难以替代的技能。",
+      "audio": "/audio/work-career/chunk-013.mp3",
+      "rewrite_prompt_cn": "关键结论是，员工必须投资于AI难以替代的技能。",
+      "retelling_prompt": "What is the main lesson about working in the AI era?",
+      "tags": [
+        "expression",
+        "analysis"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "work-career-014",
+      "chunk": "content creation",
+      "meaning_cn": "内容创作",
+      "collocations": [
+        "AI-powered content creation",
+        "content creation tools"
+      ],
+      "sentence": "AI has made content creation faster, but human creativity remains essential for quality.",
+      "sentence_cn": "AI使内容创作更快，但人类的创造力对质量仍然至关重要。",
+      "exam_sentence": "While AI accelerates content creation, original thinking cannot be automated.",
+      "audio": "/audio/work-career/chunk-014.mp3",
+      "rewrite_prompt_cn": "AI使内容创作更快，但人类的创造力对质量仍然至关重要。",
+      "retelling_prompt": "How has AI changed content creation?",
+      "tags": [
+        "AI",
+        "workplace",
+        "creativity"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "work-career-015",
+      "chunk": "data analysis",
+      "meaning_cn": "数据分析",
+      "collocations": [
+        "perform data analysis",
+        "AI-assisted data analysis",
+        "data analysis skills"
+      ],
+      "sentence": "Data analysis skills are increasingly valuable across all industries.",
+      "sentence_cn": "数据分析技能在所有行业中越来越有价值。",
+      "exam_sentence": "Professionals with data analysis skills have a significant advantage in the job market.",
+      "audio": "/audio/work-career/chunk-015.mp3",
+      "rewrite_prompt_cn": "数据分析技能在所有行业中越来越有价值。",
+      "retelling_prompt": "Why is data analysis important in the modern workplace?",
+      "tags": [
+        "career",
+        "technology",
+        "skills"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    },
+    {
+      "id": "work-career-016",
+      "chunk": "value experience",
+      "meaning_cn": "看重经验",
+      "collocations": [
+        "companies value experience",
+        "value experience over enthusiasm"
+      ],
+      "sentence": "Employers increasingly value experience and judgment over raw technical skills.",
+      "sentence_cn": "雇主越来越看重经验和判断力，而非纯粹的技术技能。",
+      "audio": "/audio/work-career/chunk-016.mp3",
+      "rewrite_prompt_cn": "雇主越来越看重经验和判断力，而非纯粹的技术技能。",
+      "retelling_prompt": "What do employers value in the AI era?",
+      "tags": [
+        "career",
+        "workplace"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "work-career-017",
+      "chunk": "raises concerns",
+      "meaning_cn": "引发担忧",
+      "collocations": [
+        "raise concerns about",
+        "raises public concerns",
+        "raise serious concerns"
+      ],
+      "sentence": "The rapid adoption of AI in the workplace raises concerns about job security.",
+      "sentence_cn": "AI在工作场所的快速采用引发了对工作保障的担忧。",
+      "audio": "/audio/work-career/chunk-017.mp3",
+      "rewrite_prompt_cn": "AI在工作场所的快速采用引发了对工作保障的担忧。",
+      "retelling_prompt": "What concerns does AI raise for workers?",
+      "tags": [
+        "expression",
+        "workplace"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET4"
+      ]
+    },
+    {
+      "id": "work-career-018",
+      "chunk": "survival necessity",
+      "meaning_cn": "生存必需品",
+      "collocations": [
+        "a survival necessity",
+        "become a necessity",
+        "an absolute necessity"
+      ],
+      "sentence": "In a competitive job market, continuous learning is a survival necessity.",
+      "sentence_cn": "在竞争激烈的就业市场中，持续学习是生存必需品。",
+      "audio": "/audio/work-career/chunk-018.mp3",
+      "rewrite_prompt_cn": "在竞争激烈的就业市场中，持续学习是生存必需品。",
+      "retelling_prompt": "Why has continuous learning become a necessity rather than a choice?",
+      "tags": [
+        "expression",
+        "career"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "work-career-019",
+      "chunk": "freelancers and independent workers",
+      "meaning_cn": "自由职业者和独立工作者",
+      "collocations": [
+        "freelancers and independent workers",
+        "growing freelance workforce",
+        "independent professionals"
+      ],
+      "sentence": "Freelancers and independent workers are using AI to expand their service offerings.",
+      "sentence_cn": "自由职业者和独立工作者正在使用AI扩展他们的服务范围。",
+      "audio": "/audio/work-career/chunk-019.mp3",
+      "rewrite_prompt_cn": "自由职业者和独立工作者正在使用AI扩展他们的服务范围。",
+      "retelling_prompt": "How are freelancers benefiting from AI tools?",
+      "tags": [
+        "career",
+        "AI",
+        "workplace"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "work-career-020",
+      "chunk": "rapid technological change",
+      "meaning_cn": "快速的技术变革",
+      "collocations": [
+        "face rapid technological change",
+        "adapt to rapid technological change",
+        "keep pace with rapid technological change"
+      ],
+      "sentence": "Workers must adapt to rapid technological change to remain competitive.",
+      "sentence_cn": "员工必须适应快速的技术变革才能保持竞争力。",
+      "audio": "/audio/work-career/chunk-020.mp3",
+      "rewrite_prompt_cn": "员工必须适应快速的技术变革才能保持竞争力。",
+      "retelling_prompt": "How should workers respond to rapid technological change?",
+      "tags": [
+        "technology",
+        "career"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "CET6"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+/* 全局样式 - 清爽浅色主题 */
+
+:root {
+  /* 主色调 */
+  --vp-c-brand-1: #3b82f6;
+  --vp-c-brand-2: #60a5fa;
+  --vp-c-brand-3: #93c5fd;
+  --vp-c-brand-soft: rgba(59, 130, 246, 0.14);
+
+  /* 背景色 */
+  --vp-bg: #ffffff;
+  --vp-bg-alt: #f8fafc;
+  --vp-bg-soft: #f1f5f9;
+
+  /* 文字色 */
+  --vp-c-text-1: #1e293b;
+  --vp-c-text-2: #475569;
+  --vp-c-text-3: #94a3b8;
+
+  /* 边框 */
+  --vp-c-border: #e2e8f0;
+  --vp-c-divider: #e2e8f0;
+
+  /* 卡片阴影 */
+  --card-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+  --card-shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --card-radius: 12px;
+  --card-padding: 20px;
+}
+
+/* 全局字体 */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans SC', sans-serif;
+  color: var(--vp-c-text-1);
+  background: var(--vp-bg);
+}
+
+/* 卡片通用样式 */
+.ecn-card {
+  background: var(--vp-bg);
+  border: 1px solid var(--vp-c-border);
+  border-radius: var(--card-radius);
+  padding: var(--card-padding);
+  box-shadow: var(--card-shadow);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.ecn-card:hover {
+  box-shadow: var(--card-shadow-hover);
+}
+
+/* 标签样式 */
+.ecn-tag {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin: 2px 4px 2px 0;
+}
+
+.ecn-tag-exam {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.ecn-tag-theme {
+  background: #f1f5f9;
+  color: #475569;
+}
+
+.ecn-tag-level {
+  background: #dcfce7;
+  color: #16a34a;
+}
+
+/* 按钮 */
+.ecn-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--vp-c-border);
+  background: var(--vp-bg);
+  color: var(--vp-c-text-1);
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.ecn-btn:hover {
+  background: var(--vp-bg-soft);
+  border-color: var(--vp-c-brand-2);
+}
+
+.ecn-btn-primary {
+  background: var(--vp-c-brand-1);
+  color: white;
+  border-color: var(--vp-c-brand-1);
+}
+
+.ecn-btn-primary:hover {
+  background: var(--vp-c-brand-2);
+}
+
+.ecn-btn-danger {
+  color: #dc2626;
+  border-color: #fecaca;
+}
+
+.ecn-btn-danger:hover {
+  background: #fef2f2;
+}
+
+.ecn-btn-sm {
+  padding: 4px 10px;
+  font-size: 0.8rem;
+}
+
+.ecn-btn-active {
+  background: var(--vp-c-brand-soft);
+  border-color: var(--vp-c-brand-2);
+  color: var(--vp-c-brand-1);
+}
+
+/* 收藏按钮 */
+.ecn-fav-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--vp-c-border);
+  background: var(--vp-bg);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 1.1rem;
+}
+
+.ecn-fav-btn:hover {
+  border-color: #f87171;
+  background: #fef2f2;
+}
+
+.ecn-fav-btn.active {
+  border-color: #f87171;
+  background: #fef2f2;
+  color: #dc2626;
+}
+
+/* 音频播放器 */
+.ecn-audio {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 8px;
+  background: var(--vp-bg-soft);
+  font-size: 0.85rem;
+  color: var(--vp-c-text-2);
+}
+
+.ecn-audio audio {
+  height: 32px;
+  width: 180px;
+}
+
+/* 网格布局 */
+.ecn-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.ecn-grid-2 {
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+
+.ecn-grid-3 {
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+/* 首页 Hero */
+.ecn-hero {
+  text-align: center;
+  padding: 60px 20px 40px;
+}
+
+.ecn-hero h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--vp-c-text-1);
+  margin-bottom: 12px;
+}
+
+.ecn-hero p {
+  font-size: 1.1rem;
+  color: var(--vp-c-text-2);
+  max-width: 520px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* 文章展示 */
+.ecn-article {
+  padding: 24px;
+  background: var(--vp-bg-alt);
+  border-radius: var(--card-radius);
+  line-height: 1.8;
+  margin-bottom: 24px;
+}
+
+.ecn-article-en {
+  font-size: 1rem;
+  color: var(--vp-c-text-1);
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px dashed var(--vp-c-border);
+}
+
+.ecn-article-cn {
+  font-size: 0.95rem;
+  color: var(--vp-c-text-2);
+  line-height: 1.8;
+}
+
+/* 闪卡 */
+.ecn-flashcard {
+  perspective: 1000px;
+  width: 100%;
+  min-height: 280px;
+  cursor: pointer;
+}
+
+.ecn-flashcard-inner {
+  position: relative;
+  width: 100%;
+  min-height: 280px;
+  transition: transform 0.5s ease;
+  transform-style: preserve-3d;
+}
+
+.ecn-flashcard-inner.flipped {
+  transform: rotateY(180deg);
+}
+
+.ecn-flashcard-front,
+.ecn-flashcard-back {
+  position: absolute;
+  width: 100%;
+  min-height: 280px;
+  backface-visibility: hidden;
+  border-radius: var(--card-radius);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  text-align: center;
+}
+
+.ecn-flashcard-front {
+  background: linear-gradient(135deg, #eff6ff, #f8fafc);
+  border: 2px solid #dbeafe;
+}
+
+.ecn-flashcard-back {
+  background: linear-gradient(135deg, #f0fdf4, #f8fafc);
+  border: 2px solid #bbf7d0;
+  transform: rotateY(180deg);
+}
+
+/* 填空题 */
+.ecn-blank {
+  display: inline-block;
+  min-width: 80px;
+  border-bottom: 2px solid var(--vp-c-brand-2);
+  margin: 0 4px;
+  color: transparent;
+  background: rgba(59, 130, 246, 0.08);
+  padding: 0 4px;
+}
+
+.ecn-blank.revealed {
+  color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+  font-weight: 600;
+}
+
+/* 进度条 */
+.ecn-progress {
+  width: 100%;
+  height: 4px;
+  background: var(--vp-bg-soft);
+  border-radius: 2px;
+  overflow: hidden;
+  margin: 16px 0;
+}
+
+.ecn-progress-bar {
+  height: 100%;
+  background: var(--vp-c-brand-2);
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+/* 模式选择标签 */
+.ecn-mode-tabs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+/* 空状态 */
+.ecn-empty {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--vp-c-text-3);
+}
+
+.ecn-empty-icon {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+  .ecn-hero h1 {
+    font-size: 1.6rem;
+  }
+  .ecn-grid-2, .ecn-grid-3 {
+    grid-template-columns: 1fr;
+  }
+  .ecn-card {
+    padding: 16px;
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "lesson_id": "ai-coding-workflow",
+  "title": "AI Coding Workflow",
+  "title_cn": "AI 编程工作流",
+  "category": "Technical English",
+  "level": "B1-B2",
+  "theme_tags": [
+    "AI",
+    "software",
+    "workflow"
+  ],
+  "exam_tags": [
+    "IELTS",
+    "TOEFL",
+    "PETS",
+    "Tech English"
+  ],
+  "article": {
+    "text": "In the AI coding era, code generation has become much faster. A developer can ask an AI tool to create a feature, fix a bug, or write tests in a few minutes. However, faster output also creates a new problem. Human review has become the bottleneck. A useful workflow should keep changes small and reviewable. Each task should have a clear scope, a simple acceptance criterion, and a safe recovery path. If a new version fails, the team should be able to roll back changes quickly. AI can improve productivity, but it does not remove the need for engineering judgment. Developers still need to verify the result, test edge cases, and reduce security risks.",
+    "text_cn": "在 AI 编程时代，代码生成变得更快。开发者可以让 AI 工具在几分钟内创建功能、修复 bug 或编写测试。然而，更快的输出也带来了新的问题：人工审查变成了瓶颈。一个有用的工作流应该让修改保持小而可审查。每个任务都应该有清晰范围、简单验收标准和安全恢复路径。如果新版本失败，团队应该能够快速回滚修改。AI 可以提高生产力，但不能取代工程判断。开发者仍然需要验证结果、测试边界情况并降低安全风险。",
+    "audio": "/audio/ai-coding-workflow/article.mp3"
+  },
+  "model_paragraph": {
+    "text": "The core issue is that AI can generate code faster than humans can review it. One practical solution is to split work into small, reviewable tasks. Each task should have a clear scope, a testable acceptance criterion, and a safe recovery path.",
+    "text_cn": "核心问题在于，AI 生成代码的速度比人类审查代码的速度更快。一个实际解决办法是把工作拆成小而可审查的任务。每个任务都应该有清晰范围、可测试的验收标准和安全恢复路径。"
+  },
+  "chunks": [
+    {
+      "id": "ai-coding-workflow-001",
+      "chunk": "code generation",
+      "meaning_cn": "代码生成",
+      "plain_explanation_cn": "指通过工具或 AI 自动产生代码的过程。",
+      "collocations": [
+        "accelerate code generation",
+        "AI-assisted code generation",
+        "code generation tools"
+      ],
+      "sentence": "AI has accelerated code generation in modern software development.",
+      "sentence_cn": "AI 加快了现代软件开发中的代码生成。",
+      "technical_sentence": "Code generation should be followed by testing and human review.",
+      "exam_sentence": "AI can improve efficiency by accelerating code generation.",
+      "audio": "/audio/ai-coding-workflow/chunk-001.mp3",
+      "rewrite_prompt_cn": "AI 加快了现代软件开发中的代码生成。",
+      "retelling_prompt": "Explain how AI changes code generation.",
+      "tags": [
+        "AI",
+        "software"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "ai-coding-workflow-002",
+      "chunk": "human review",
+      "meaning_cn": "人工审查；人类审查",
+      "plain_explanation_cn": "指由人检查 AI 或系统生成的结果是否正确、安全、可维护。",
+      "collocations": [
+        "require human review",
+        "go through human review",
+        "human review process"
+      ],
+      "sentence": "AI-generated code should still go through human review.",
+      "sentence_cn": "AI 生成的代码仍然应该经过人工审查。",
+      "technical_sentence": "All AI-generated changes should go through human review before deployment.",
+      "exam_sentence": "AI can improve efficiency, but it still requires human review to reduce risks.",
+      "audio": "/audio/ai-coding-workflow/chunk-002.mp3",
+      "rewrite_prompt_cn": "AI 生成的代码仍然应该经过人工审查。",
+      "retelling_prompt": "Explain why human review is important in AI coding.",
+      "tags": [
+        "AI",
+        "review",
+        "risk"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "PETS",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "ai-coding-workflow-003",
+      "chunk": "review bottleneck",
+      "meaning_cn": "审查瓶颈",
+      "plain_explanation_cn": "指生成或生产速度很快，但审查速度跟不上，导致流程卡住。",
+      "collocations": [
+        "create a review bottleneck",
+        "remove the review bottleneck",
+        "become the bottleneck"
+      ],
+      "sentence": "Fast code generation can create a review bottleneck.",
+      "sentence_cn": "快速代码生成可能造成审查瓶颈。",
+      "technical_sentence": "Large AI-generated pull requests often create a review bottleneck.",
+      "exam_sentence": "New technology may improve speed, but it can also create a new bottleneck.",
+      "audio": "/audio/ai-coding-workflow/chunk-003.mp3",
+      "rewrite_prompt_cn": "快速代码生成可能造成审查瓶颈。",
+      "retelling_prompt": "Explain what a review bottleneck means.",
+      "tags": [
+        "review",
+        "workflow"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "ai-coding-workflow-004",
+      "chunk": "clear scope",
+      "meaning_cn": "清晰范围",
+      "plain_explanation_cn": "指任务边界明确，知道要做什么、不要做什么。",
+      "collocations": [
+        "define a clear scope",
+        "keep the scope small",
+        "within the scope"
+      ],
+      "sentence": "Each task should have a clear scope.",
+      "sentence_cn": "每个任务都应该有清晰范围。",
+      "technical_sentence": "A clear scope makes the pull request easier to review.",
+      "exam_sentence": "A clear scope helps people solve problems more effectively.",
+      "audio": "/audio/ai-coding-workflow/chunk-004.mp3",
+      "rewrite_prompt_cn": "每个任务都应该有清晰范围。",
+      "retelling_prompt": "Explain why a clear scope makes work easier.",
+      "tags": [
+        "project",
+        "workflow"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "PETS",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "ai-coding-workflow-005",
+      "chunk": "roll back changes",
+      "meaning_cn": "回滚修改",
+      "plain_explanation_cn": "指出错后把系统或代码恢复到之前的安全状态。",
+      "collocations": [
+        "roll back changes",
+        "support rollback",
+        "rollback mechanism",
+        "revert to a previous version"
+      ],
+      "sentence": "The team should be able to roll back changes quickly.",
+      "sentence_cn": "团队应该能够快速回滚修改。",
+      "technical_sentence": "The deployment pipeline should support rollback if the new version fails.",
+      "exam_sentence": "A reliable system should have a recovery path when things go wrong.",
+      "audio": "/audio/ai-coding-workflow/chunk-005.mp3",
+      "rewrite_prompt_cn": "团队应该能够快速回滚修改。",
+      "retelling_prompt": "Explain why rollback matters in software development.",
+      "tags": [
+        "software",
+        "risk",
+        "workflow"
+      ],
+      "exam_tags": [
+        "TOEFL",
+        "Tech English"
+      ]
+    }
+  ]
+}
