@@ -67,19 +67,35 @@ export interface ReviewStore {
 const FAVORITES_KEY = 'ecn:favorites'
 const REVIEW_STATE_KEY = 'ecn:reviewState'
 
-export function getFavorites(): FavoriteStore {
+// 缓存避免反复 JSON.parse
+let _favCache: FavoriteStore | null = null
+let _favCacheRaw: string | null = null
+
+function _getFavoritesRaw(): FavoriteStore {
+  const raw = localStorage.getItem(FAVORITES_KEY)
+  if (raw === _favCacheRaw && _favCache) return _favCache
+  _favCacheRaw = raw
+  if (!raw) return (_favCache = { version: 1, items: [] })
   try {
-    const raw = localStorage.getItem(FAVORITES_KEY)
-    if (!raw) return { version: 1, items: [] }
     const data = JSON.parse(raw)
-    return data.version ? data : { version: 1, items: data.items || [] }
+    _favCache = data.version ? data : { version: 1, items: data.items || [] }
   } catch {
-    return { version: 1, items: [] }
+    _favCache = { version: 1, items: [] }
   }
+  return _favCache
+}
+
+function _invalidateFavCache() {
+  _favCache = null
+  _favCacheRaw = null
+}
+
+export function getFavorites(): FavoriteStore {
+  return _getFavoritesRaw()
 }
 
 export function addFavorite(id: string, sourceLessonId: string): void {
-  const store = getFavorites()
+  const store = _getFavoritesRaw()
   if (store.items.some(item => item.id === id)) return
   store.items.push({
     id,
@@ -88,20 +104,22 @@ export function addFavorite(id: string, sourceLessonId: string): void {
     created_at: new Date().toISOString()
   })
   localStorage.setItem(FAVORITES_KEY, JSON.stringify(store))
+  _invalidateFavCache()
 }
 
 export function removeFavorite(id: string): void {
-  const store = getFavorites()
+  const store = _getFavoritesRaw()
   store.items = store.items.filter(item => item.id !== id)
   localStorage.setItem(FAVORITES_KEY, JSON.stringify(store))
+  _invalidateFavCache()
 }
 
 export function isFavorite(id: string): boolean {
-  return getFavorites().items.some(item => item.id === id)
+  return _getFavoritesRaw().items.some(item => item.id === id)
 }
 
 export function exportFavorites(): string {
-  return JSON.stringify(getFavorites(), null, 2)
+  return JSON.stringify(_getFavoritesRaw(), null, 2)
 }
 
 export function getReviewState(): ReviewStore {
@@ -115,7 +133,7 @@ export function getReviewState(): ReviewStore {
 }
 
 export function updateReviewState(id: string, known: boolean): void {
-  const store = getReviewState()
+ const store = getReviewState()
   if (!store.items[id]) {
     store.items[id] = { seen: 0, known: 0, unknown: 0, last_seen_at: '' }
   }

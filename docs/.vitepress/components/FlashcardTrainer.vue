@@ -156,7 +156,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted, watch } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import { getFavorites } from '../data/types'
 import { getChunkById } from '../data/loader'
 import { updateReviewState } from '../data/types'
@@ -201,23 +201,22 @@ const fillParts = computed(() => {
   if (!currentCard.value) return []
   const sentence = currentCard.value.chunk.sentence
   const chunk = currentCard.value.chunk.chunk
-  const regex = new RegExp(`(${chunk.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi')
+  const escaped = chunk.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  const regex = new RegExp(`(${escaped})`, 'gi')
   const parts: { text: string; isBlank: boolean }[] = []
   let lastIndex = 0
-  const match = sentence.match(regex)
-  if (match) {
-    const idx = sentence.toLowerCase().indexOf(chunk.toLowerCase())
-    if (idx >= 0) {
-      parts.push({ text: sentence.slice(0, idx), isBlank: false })
-      parts.push({ text: chunk, isBlank: true })
-      parts.push({ text: sentence.slice(idx + chunk.length), isBlank: false })
-    } else {
-      parts.push({ text: sentence, isBlank: false })
+  let match: RegExpExecArray | null
+  while ((match = regex.exec(sentence)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push({ text: sentence.slice(lastIndex, match.index), isBlank: false })
     }
-  } else {
-    parts.push({ text: sentence, isBlank: false })
+    parts.push({ text: match[1], isBlank: true })
+    lastIndex = regex.lastIndex
   }
-  return parts
+  if (lastIndex < sentence.length) {
+    parts.push({ text: sentence.slice(lastIndex), isBlank: false })
+  }
+  return parts.length > 1 ? parts : [{ text: sentence, isBlank: false }]
 })
 
 function loadFavorites() {

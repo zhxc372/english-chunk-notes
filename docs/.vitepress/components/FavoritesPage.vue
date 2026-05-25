@@ -29,7 +29,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, computed } from 'vue'
+import { ref, onMounted, onUnmounted, computed } from 'vue'
 import { getFavorites } from '../data/types'
 import { getChunkById } from '../data/loader'
 import type { Chunk, Lesson } from '../data/types'
@@ -61,8 +61,13 @@ function handleExport() {
   const a = document.createElement('a')
   a.href = url
   a.download = 'ecn-favorites.json'
+  document.body.appendChild(a)
   a.click()
-  URL.revokeObjectURL(url)
+  // 延迟释放 URL，确保下载完成
+  setTimeout(() => {
+    document.body.removeChild(a)
+    URL.revokeObjectURL(url)
+  }, 100)
 }
 
 function handleClear() {
@@ -72,10 +77,17 @@ function handleClear() {
   }
 }
 
+function onStorageChange() {
+  loadFavorites()
+}
+
 onMounted(() => {
   loadFavorites()
-  // 监听 localStorage 变化
-  window.addEventListener('storage', loadFavorites)
+  window.addEventListener('storage', onStorageChange)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('storage', onStorageChange)
 })
 </script>
 

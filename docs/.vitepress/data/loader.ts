@@ -39,11 +39,14 @@ export function getLessonsByExamTag(tag: string): Lesson[] {
   return lessonRegistry.filter(l => l.exam_tags?.includes(tag))
 }
 
-// 获取所有唯一的考试标签
+// 获取所有唯一的考试标签（含 chunk 级别）
 export function getAllExamTags(): string[] {
   const tags = new Set<string>()
   lessonRegistry.forEach(l => {
     l.exam_tags?.forEach(t => tags.add(t))
+    l.chunks?.forEach(c => {
+      c.exam_tags?.forEach(t => tags.add(t))
+    })
   })
   return Array.from(tags).sort()
 }

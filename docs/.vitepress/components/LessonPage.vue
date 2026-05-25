@@ -93,7 +93,7 @@ const articleParagraphs = computed(() => {
 })
 
 const articleParagraphsCn = computed(() => {
-  return lesson.value?.article?.text_cn?.split('\n') || []
+  return lesson.value?.article?.text_cn?.split('\n\n') || []
 })
 
 const retellingChunks = computed(() => {
