@@ -7,12 +7,16 @@ import type { Lesson, Chunk } from './types'
 import aiCodingWorkflow from '../../../data/lessons/ai-coding-workflow.json'
 import educationLearning from '../../../data/lessons/education-learning.json'
 import workCareer from '../../../data/lessons/work-career.json'
+import softwareEngineering from '../../../data/lessons/software-engineering.json'
+import projectManagement from '../../../data/lessons/project-management.json'
 
 // Lesson 注册表
 const lessonRegistry: Lesson[] = [
   aiCodingWorkflow as Lesson,
   educationLearning as Lesson,
-  workCareer as Lesson
+  workCareer as Lesson,
+  softwareEngineering as Lesson,
+  projectManagement as Lesson
 ]
 
 // 按 ID 获取 lesson

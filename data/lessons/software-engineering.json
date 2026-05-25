@@ -1,0 +1,499 @@
+{
+  "lesson_id": "software-engineering",
+  "title": "Software Engineering",
+  "title_cn": "软件工程",
+  "category": "Technical English",
+  "level": "B1-B2",
+  "theme_tags": [
+    "software",
+    "engineering",
+    "development"
+  ],
+  "exam_tags": [
+    "IELTS",
+    "TOEFL",
+    "CET6",
+    "Tech English"
+  ],
+  "article": {
+    "text": "Software engineering is the discipline of designing, building, and maintaining reliable software systems. Unlike simple coding, it involves careful planning, systematic testing, and ongoing maintenance. One of the core principles is separation of concerns: breaking a complex system into smaller, manageable modules. Each module should have a single, well-defined responsibility. This approach makes the code easier to test, debug, and extend over time. Version control systems like Git allow teams to track changes, collaborate on the same codebase, and revert to previous versions when something goes wrong. Code reviews serve as a quality gate where experienced developers examine new code before it is merged. Automated testing, including unit tests and integration tests, ensures that changes do not introduce unexpected bugs. Documentation is another critical but often overlooked aspect. Well-written documentation helps new team members understand the system and reduces the time spent on onboarding. In modern software engineering, continuous integration and continuous deployment (CI/CD) automate the process of building, testing, and releasing software, enabling teams to deliver updates faster and with greater confidence.",
+    "text_cn": "软件工程是设计、构建和维护可靠软件系统的学科。与简单编码不同，它涉及仔细的规划、系统化的测试和持续的维护。其核心原则之一是关注点分离：将复杂系统拆分为更小、可管理的模块。每个模块应该有单一的、明确的职责。这种方法使代码更容易测试、调试和扩展。像Git这样的版本控制系统允许团队跟踪更改、在同一个代码库上协作，并在出错时回滚到之前的版本。代码审查作为质量关卡，由有经验的开发者在合并新代码之前进行检查。自动化测试，包括单元测试和集成测试，确保更改不会引入意外的bug。文档是另一个关键但常被忽视的方面。编写良好的文档帮助新团队成员理解系统，减少入职时间。在现代软件工程中，持续集成和持续部署自动化了构建、测试和发布软件的过程，使团队能够更快、更有信心地交付更新。",
+    "audio": "/audio/software-engineering/article.mp3"
+  },
+  "model_paragraph": {
+    "text": "Modern software engineering emphasizes modularity, automation, and collaboration. By breaking systems into well-defined modules and using CI/CD pipelines, teams can deliver high-quality software with greater speed and reliability.",
+    "text_cn": "现代软件工程强调模块化、自动化和协作。通过将系统拆分为定义良好的模块并使用CI/CD流水线，团队可以以更快的速度和更高的可靠性交付高质量软件。"
+  },
+  "chunks": [
+    {
+      "id": "software-engineering-001",
+      "chunk": "separation of concerns",
+      "meaning_cn": "关注点分离",
+      "collocations": [
+        "separation of concerns",
+        "apply separation of concerns",
+        "principle of separation"
+      ],
+      "sentence": "Separation of concerns means breaking a complex system into smaller, focused modules.",
+      "sentence_cn": "关注点分离意味着将复杂系统拆分为更小、聚焦的模块。",
+      "technical_sentence": "Separation of concerns is a fundamental principle in microservice architecture.",
+      "exam_sentence": "Breaking a complex problem into smaller parts is a useful strategy in both engineering and daily life.",
+      "audio": "/audio/software-engineering/chunk-001.mp3",
+      "rewrite_prompt_cn": "关注点分离意味着将复杂系统拆分为更小、聚焦的模块。",
+      "retelling_prompt": "What is separation of concerns?",
+      "tags": [
+        "architecture",
+        "design"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "software-engineering-002",
+      "chunk": "well-defined responsibility",
+      "meaning_cn": "明确的职责",
+      "collocations": [
+        "a well-defined responsibility",
+        "single responsibility",
+        "clearly defined roles"
+      ],
+      "sentence": "Each module should have a single, well-defined responsibility.",
+      "sentence_cn": "每个模块应该有单一的、明确的职责。",
+      "audio": "/audio/software-engineering/chunk-002.mp3",
+      "rewrite_prompt_cn": "每个模块应该有单一的、明确的职责。",
+      "retelling_prompt": "Why should each module have a single responsibility?",
+      "tags": [
+        "design",
+        "architecture"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "software-engineering-003",
+      "chunk": "version control",
+      "meaning_cn": "版本控制",
+      "collocations": [
+        "version control system",
+        "use version control",
+        "version control history"
+      ],
+      "sentence": "Version control systems allow teams to track changes and collaborate effectively.",
+      "sentence_cn": "版本控制系统允许团队跟踪更改并有效协作。",
+      "audio": "/audio/software-engineering/chunk-003.mp3",
+      "rewrite_prompt_cn": "版本控制系统允许团队跟踪更改并有效协作。",
+      "retelling_prompt": "Why is version control important for teams?",
+      "tags": [
+        "tools",
+        "collaboration"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "software-engineering-004",
+      "chunk": "codebase",
+      "meaning_cn": "代码库",
+      "collocations": [
+        "the same codebase",
+        "large codebase",
+        "maintain a codebase"
+      ],
+      "sentence": "Multiple developers can work on the same codebase simultaneously.",
+      "sentence_cn": "多个开发者可以同时处理同一个代码库。",
+      "audio": "/audio/software-engineering/chunk-004.mp3",
+      "rewrite_prompt_cn": "多个开发者可以同时处理同一个代码库。",
+      "retelling_prompt": "How do teams collaborate on a codebase?",
+      "tags": [
+        "tools",
+        "collaboration"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "software-engineering-005",
+      "chunk": "revert to a previous version",
+      "meaning_cn": "回滚到之前的版本",
+      "collocations": [
+        "revert to a previous version",
+        "revert the changes",
+        "version rollback"
+      ],
+      "sentence": "When something goes wrong, teams can revert to a previous version.",
+      "sentence_cn": "当出问题时，团队可以回滚到之前的版本。",
+      "audio": "/audio/software-engineering/chunk-005.mp3",
+      "rewrite_prompt_cn": "当出问题时，团队可以回滚到之前的版本。",
+      "retelling_prompt": "Why is the ability to revert important?",
+      "tags": [
+        "tools",
+        "risk"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "software-engineering-006",
+      "chunk": "quality gate",
+      "meaning_cn": "质量关卡",
+      "collocations": [
+        "serve as a quality gate",
+        "pass the quality gate",
+        "quality gate process"
+      ],
+      "sentence": "Code reviews serve as a quality gate before new code is merged.",
+      "sentence_cn": "代码审查在新代码合并前作为质量关卡。",
+      "audio": "/audio/software-engineering/chunk-006.mp3",
+      "rewrite_prompt_cn": "代码审查在新代码合并前作为质量关卡。",
+      "retelling_prompt": "What role do quality gates play in software development?",
+      "tags": [
+        "quality",
+        "process"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "software-engineering-007",
+      "chunk": "unit tests",
+      "meaning_cn": "单元测试",
+      "collocations": [
+        "write unit tests",
+        "unit test coverage",
+        "run unit tests"
+      ],
+      "sentence": "Unit tests verify that individual components work correctly in isolation.",
+      "sentence_cn": "单元测试验证各个组件在隔离状态下正确工作。",
+      "audio": "/audio/software-engineering/chunk-007.mp3",
+      "rewrite_prompt_cn": "单元测试验证各个组件在隔离状态下正确工作。",
+      "retelling_prompt": "What is the purpose of unit tests?",
+      "tags": [
+        "testing",
+        "quality"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "software-engineering-008",
+      "chunk": "integration tests",
+      "meaning_cn": "集成测试",
+      "collocations": [
+        "integration test suite",
+        "run integration tests",
+        "integration testing"
+      ],
+      "sentence": "Integration tests check that different modules work together correctly.",
+      "sentence_cn": "集成测试检查不同模块是否能正确协同工作。",
+      "audio": "/audio/software-engineering/chunk-008.mp3",
+      "rewrite_prompt_cn": "集成测试检查不同模块是否能正确协同工作。",
+      "retelling_prompt": "How are integration tests different from unit tests?",
+      "tags": [
+        "testing",
+        "quality"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "software-engineering-009",
+      "chunk": "unexpected bugs",
+      "meaning_cn": "意外的bug",
+      "collocations": [
+        "introduce unexpected bugs",
+        "catch unexpected bugs",
+        "prevent unexpected bugs"
+      ],
+      "sentence": "Automated testing ensures that changes do not introduce unexpected bugs.",
+      "sentence_cn": "自动化测试确保更改不会引入意外的bug。",
+      "audio": "/audio/software-engineering/chunk-009.mp3",
+      "rewrite_prompt_cn": "自动化测试确保更改不会引入意外的bug。",
+      "retelling_prompt": "How does automated testing prevent bugs?",
+      "tags": [
+        "testing",
+        "quality"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "software-engineering-010",
+      "chunk": "well-written documentation",
+      "meaning_cn": "编写良好的文档",
+      "collocations": [
+        "well-written documentation",
+        "maintain documentation",
+        "documentation practices"
+      ],
+      "sentence": "Well-written documentation helps new team members understand the system.",
+      "sentence_cn": "编写良好的文档帮助新团队成员理解系统。",
+      "exam_sentence": "Clear documentation is essential for the long-term success of any project.",
+      "audio": "/audio/software-engineering/chunk-010.mp3",
+      "rewrite_prompt_cn": "编写良好的文档帮助新团队成员理解系统。",
+      "retelling_prompt": "Why is documentation important in software engineering?",
+      "tags": [
+        "documentation",
+        "teamwork"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "software-engineering-011",
+      "chunk": "onboarding",
+      "meaning_cn": "入职培训",
+      "collocations": [
+        "onboarding process",
+        "speed up onboarding",
+        "onboarding new members"
+      ],
+      "sentence": "Good documentation reduces the time spent on onboarding new developers.",
+      "sentence_cn": "良好的文档减少了新开发者入职培训的时间。",
+      "audio": "/audio/software-engineering/chunk-011.mp3",
+      "rewrite_prompt_cn": "良好的文档减少了新开发者入职培训的时间。",
+      "retelling_prompt": "How does documentation help with onboarding?",
+      "tags": [
+        "teamwork",
+        "process"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "software-engineering-012",
+      "chunk": "continuous integration",
+      "meaning_cn": "持续集成",
+      "collocations": [
+        "continuous integration pipeline",
+        "set up continuous integration",
+        "CI/CD practices"
+      ],
+      "sentence": "Continuous integration automates the process of building and testing software.",
+      "sentence_cn": "持续集成自动化了软件构建和测试的过程。",
+      "audio": "/audio/software-engineering/chunk-012.mp3",
+      "rewrite_prompt_cn": "持续集成自动化了软件构建和测试的过程。",
+      "retelling_prompt": "What is continuous integration?",
+      "tags": [
+        "automation",
+        "workflow"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "software-engineering-013",
+      "chunk": "continuous deployment",
+      "meaning_cn": "持续部署",
+      "collocations": [
+        "continuous deployment pipeline",
+        "enable continuous deployment",
+        "CI/CD pipeline"
+      ],
+      "sentence": "Continuous deployment enables teams to release updates faster and with confidence.",
+      "sentence_cn": "持续部署使团队能够更有信心地更快发布更新。",
+      "audio": "/audio/software-engineering/chunk-013.mp3",
+      "rewrite_prompt_cn": "持续部署使团队能够更有信心地更快发布更新。",
+      "retelling_prompt": "What is continuous deployment?",
+      "tags": [
+        "automation",
+        "deployment"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "software-engineering-014",
+      "chunk": "deliver updates",
+      "meaning_cn": "交付更新",
+      "collocations": [
+        "deliver updates faster",
+        "deliver reliable updates",
+        "update delivery cycle"
+      ],
+      "sentence": "CI/CD pipelines help teams deliver updates faster and more reliably.",
+      "sentence_cn": "CI/CD流水线帮助团队更快、更可靠地交付更新。",
+      "audio": "/audio/software-engineering/chunk-014.mp3",
+      "rewrite_prompt_cn": "CI/CD流水线帮助团队更快、更可靠地交付更新。",
+      "retelling_prompt": "How do CI/CD pipelines improve software delivery?",
+      "tags": [
+        "automation",
+        "deployment"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "software-engineering-015",
+      "chunk": "debug",
+      "meaning_cn": "调试",
+      "collocations": [
+        "debug the code",
+        "debugging process",
+        "easier to debug"
+      ],
+      "sentence": "Modular code is easier to debug and maintain.",
+      "sentence_cn": "模块化代码更容易调试和维护。",
+      "audio": "/audio/software-engineering/chunk-015.mp3",
+      "rewrite_prompt_cn": "模块化代码更容易调试和维护。",
+      "retelling_prompt": "What makes code easier to debug?",
+      "tags": [
+        "development",
+        "quality"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "Tech English"
+      ]
+    },
+    {
+      "id": "software-engineering-016",
+      "chunk": "extend over time",
+      "meaning_cn": "随时间扩展",
+      "collocations": [
+        "extend the system over time",
+        "code that extends easily",
+        "scalable over time"
+      ],
+      "sentence": "Good architecture allows the system to extend over time without major rewrites.",
+      "sentence_cn": "良好的架构允许系统随时间扩展而无需大规模重写。",
+      "audio": "/audio/software-engineering/chunk-016.mp3",
+      "rewrite_prompt_cn": "良好的架构允许系统随时间扩展而无需大规模重写。",
+      "retelling_prompt": "Why is extensibility important in software design?",
+      "tags": [
+        "architecture",
+        "design"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "software-engineering-017",
+      "chunk": "manageable modules",
+      "meaning_cn": "可管理的模块",
+      "collocations": [
+        "break into manageable modules",
+        "manageable module size",
+        "module management"
+      ],
+      "sentence": "Complex systems should be broken into manageable modules.",
+      "sentence_cn": "复杂系统应该被拆分为可管理的模块。",
+      "audio": "/audio/software-engineering/chunk-017.mp3",
+      "rewrite_prompt_cn": "复杂系统应该被拆分为可管理的模块。",
+      "retelling_prompt": "Why should complex systems be broken into modules?",
+      "tags": [
+        "architecture",
+        "design"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "software-engineering-018",
+      "chunk": "ongoing maintenance",
+      "meaning_cn": "持续维护",
+      "collocations": [
+        "require ongoing maintenance",
+        "ongoing maintenance costs",
+        "maintenance overhead"
+      ],
+      "sentence": "Software requires ongoing maintenance to remain secure and functional.",
+      "sentence_cn": "软件需要持续维护以保持安全和功能正常。",
+      "audio": "/audio/software-engineering/chunk-018.mp3",
+      "rewrite_prompt_cn": "软件需要持续维护以保持安全和功能正常。",
+      "retelling_prompt": "Why is ongoing maintenance necessary?",
+      "tags": [
+        "process",
+        "quality"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "software-engineering-019",
+      "chunk": "often overlooked",
+      "meaning_cn": "常被忽视",
+      "collocations": [
+        "an often overlooked aspect",
+        "often overlooked but critical",
+        "easily overlooked"
+      ],
+      "sentence": "Documentation is a critical but often overlooked aspect of software engineering.",
+      "sentence_cn": "文档是软件工程中关键但常被忽视的方面。",
+      "audio": "/audio/software-engineering/chunk-019.mp3",
+      "rewrite_prompt_cn": "文档是软件工程中关键但常被忽视的方面。",
+      "retelling_prompt": "What aspects of software engineering are often overlooked?",
+      "tags": [
+        "documentation",
+        "process"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    },
+    {
+      "id": "software-engineering-020",
+      "chunk": "with greater confidence",
+      "meaning_cn": "更有信心地",
+      "collocations": [
+        "release with greater confidence",
+        "deploy with confidence",
+        "test with confidence"
+      ],
+      "sentence": "Automated testing enables teams to deploy with greater confidence.",
+      "sentence_cn": "自动化测试使团队能够更有信心地部署。",
+      "audio": "/audio/software-engineering/chunk-020.mp3",
+      "rewrite_prompt_cn": "自动化测试使团队能够更有信心地部署。",
+      "retelling_prompt": "How does automation increase deployment confidence?",
+      "tags": [
+        "testing",
+        "automation"
+      ],
+      "exam_tags": [
+        "IELTS",
+        "TOEFL"
+      ]
+    }
+  ]
+}

@@ -22,12 +22,16 @@
   </div>
 </div>
 
-<div class="ecn-card" style="opacity: 0.6;">
+<div class="ecn-card" style="cursor: pointer;" onclick="window.location.href='/themes/software-engineering.html'">
   <h3>Software Engineering</h3>
   <p class="lesson-title-cn">软件工程</p>
   <p style="font-size: 0.85rem; color: var(--vp-c-text-3); margin: 8px 0 0;">
-    🚧 即将上线
+    模块化、版本控制、CI/CD、测试与文档
   </p>
+  <div style="margin-top: 10px;">
+    <span class="ecn-tag ecn-tag-level">B1-B2</span>
+    <span class="ecn-tag ecn-tag-exam">Tech English</span>
+  </div>
 </div>
 
 <div class="ecn-card" style="opacity: 0.6;">
@@ -43,7 +47,7 @@
 ## 计划中的主题
 
 1. AI Coding Workflow ✅
-2. Software Engineering
-3. Project Management
+2. Software Engineering ✅
+3. Project Management ✅
 4. System Design
 5. AI & Automation
