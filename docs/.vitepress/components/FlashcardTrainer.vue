@@ -1,175 +1,127 @@
 <template>
-  <!-- 闪卡训练组件 -->
-  <div class="flashcard-app">
-    <!-- 模式选择 (only in internal mode) -->
-    <div v-if="!isExternalMode && (!started || favorites.length === 0)">
-      <h2>🃏 闪卡训练</h2>
-      <div v-if="favorites.length === 0" class="ecn-empty">
-        <div class="ecn-empty-icon">📭</div>
-        <p>没有收藏的词块</p>
-        <p style="font-size: 0.85rem; margin-top: 8px;">先去主题页面收藏词块，再来训练</p>
-        <a :href="withBase('/themes/')" class="ecn-btn ecn-btn-primary" style="margin-top: 16px;">去浏览主题</a>
+  <div class="max-w-2xl mx-auto">
+    <!-- 模式选择 -->
+    <div v-if="!started || cards.length === 0">
+      <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">🃏 闪卡训练</h2>
+      <div v-if="cards.length === 0" class="text-center py-16 text-gray-400">
+        <div class="text-4xl mb-4">📭</div>
+        <p>没有可训练的词块</p>
+        <p class="text-sm mt-2">先去文章页或词块库收藏词块</p>
       </div>
-
       <div v-else>
-        <p style="color: var(--vp-c-text-2); margin-bottom: 16px;">
-          共 {{ favorites.length }} 个收藏词块，选择训练模式开始：
-        </p>
-        <div v-if="weakCount > 0" class="weak-banner">
-          <span>⚠️ 有 {{ weakCount }} 个待加强词块</span>
-          <button class="ecn-btn ecn-btn-sm ecn-btn-danger" @click="startMode('weak')">
-            🔥 错题重练
-          </button>
-        </div>
-        <div class="mode-cards">
-          <button class="ecn-card mode-card" @click="startMode('en2cn')">
-            <div class="mode-icon">🔤</div>
-            <h3>英译中</h3>
-            <p>看英文词块，回忆中文含义</p>
-          </button>
-          <button class="ecn-card mode-card" @click="startMode('cn2en')">
-            <div class="mode-icon">🔤</div>
-            <h3>中译英</h3>
-            <p>看中文含义，回忆英文词块</p>
-          </button>
-          <button class="ecn-card mode-card" @click="startMode('fill')">
-            <div class="mode-icon">✏️</div>
-            <h3>句子填空</h3>
-            <p>补全例句中的词块</p>
-          </button>
-          <button class="ecn-card mode-card" @click="startMode('dictation')">
-            <div class="mode-icon">🎧</div>
-            <h3>音频听写</h3>
-            <p>听音频，写出完整句子</p>
+        <p class="text-gray-500 dark:text-gray-400 mb-6">共 {{ cards.length }} 个词块，选择训练模式：</p>
+        <div class="grid grid-cols-2 gap-3">
+          <button v-for="m in modes" :key="m.id" class="p-4 rounded-xl bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 shadow-sm hover:shadow-md hover:border-blue-200 dark:hover:border-blue-800 cursor-pointer transition-all text-left" @click="startMode(m.id)">
+            <div class="text-2xl mb-1">{{ m.icon }}</div>
+            <div class="font-semibold text-gray-800 dark:text-gray-100">{{ m.name }}</div>
+            <div class="text-xs text-gray-400 mt-0.5">{{ m.desc }}</div>
           </button>
         </div>
       </div>
     </div>
 
-    <!-- 训练进行中 -->
+    <!-- 训练中 -->
     <div v-else>
-      <!-- 顶部控制栏 -->
-      <div class="train-header">
-        <button class="ecn-btn ecn-btn-sm" @click="handleBack">← 返回</button>
-        <span class="mode-label">{{ modeLabel }}</span>
-        <span class="progress-text">{{ currentIndex + 1 }} / {{ cards.length }}</span>
+      <div class="flex items-center justify-between mb-3">
+        <button v-if="isExternalMode" class="text-sm text-gray-400 hover:text-gray-600 dark:hover:text-gray-200" @click="$emit('exit')">← 返回</button>
+        <button v-else class="text-sm text-gray-400 hover:text-gray-600 dark:hover:text-gray-200" @click="started = false">← 返回</button>
+        <span class="text-sm text-gray-400">{{ modeLabel }}</span>
+        <span class="text-sm text-gray-400">{{ currentIndex + 1 }} / {{ cards.length }}</span>
       </div>
 
-      <!-- 进度条 -->
-      <div class="ecn-progress">
-        <div class="ecn-progress-bar" :style="{ width: progressPercent + '%' }"></div>
+      <div class="h-1.5 bg-gray-100 dark:bg-gray-700 rounded-full mb-6">
+        <div class="h-full bg-blue-500 rounded-full transition-all" :style="{ width: progressPercent + '%' }"></div>
       </div>
 
-      <!-- 闪卡 -->
-      <div v-if="currentCard" class="flashcard-container">
-        <!-- 英译中模式 -->
+      <!-- Card display -->
+      <div v-if="currentCard">
+        <!-- en2cn -->
         <template v-if="mode === 'en2cn'">
-          <div class="ecn-flashcard" @click="showAnswer = !showAnswer">
-            <div class="ecn-flashcard-inner" :class="{ flipped: showAnswer }">
-              <div class="ecn-flashcard-front">
-                <div class="flash-label">英文词块</div>
-                <div class="flash-main">{{ currentCard.chunk.chunk }}</div>
-              </div>
-              <div class="ecn-flashcard-back">
-                <div class="flash-label">中文含义</div>
-                <div class="flash-main">{{ currentCard.chunk.meaning_cn }}</div>
-                <div class="flash-sub">{{ currentCard.chunk.sentence }}</div>
-              </div>
+          <div class="p-8 rounded-2xl bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 shadow-sm cursor-pointer text-center min-h-[200px] flex items-center justify-center" @click="showAnswer = !showAnswer">
+            <div v-if="!showAnswer">
+              <div class="text-xs text-gray-400 mb-2">英文词块</div>
+              <div class="text-2xl font-bold text-gray-900 dark:text-white">{{ currentCard.chunk }}</div>
+            </div>
+            <div v-else>
+              <div class="text-xs text-gray-400 mb-2">中文含义</div>
+              <div class="text-2xl font-bold text-blue-500 mb-2">{{ currentCard.meaning }}</div>
+              <div v-if="currentCard.example" class="text-sm text-gray-400">"{{ currentCard.example }}"</div>
             </div>
           </div>
         </template>
 
-        <!-- 中译英模式 -->
+        <!-- cn2en -->
         <template v-if="mode === 'cn2en'">
-          <div class="ecn-flashcard" @click="showAnswer = !showAnswer">
-            <div class="ecn-flashcard-inner" :class="{ flipped: showAnswer }">
-              <div class="ecn-flashcard-front">
-                <div class="flash-label">中文含义</div>
-                <div class="flash-main">{{ currentCard.chunk.meaning_cn }}</div>
-              </div>
-              <div class="ecn-flashcard-back">
-                <div class="flash-label">英文词块</div>
-                <div class="flash-main">{{ currentCard.chunk.chunk }}</div>
-                <div class="flash-sub" v-for="col in currentCard.chunk.collocations" :key="col">
-                  {{ col }}
-                </div>
-              </div>
+          <div class="p-8 rounded-2xl bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 shadow-sm cursor-pointer text-center min-h-[200px] flex items-center justify-center" @click="showAnswer = !showAnswer">
+            <div v-if="!showAnswer">
+              <div class="text-xs text-gray-400 mb-2">中文含义</div>
+              <div class="text-2xl font-bold text-gray-900 dark:text-white">{{ currentCard.meaning }}</div>
+            </div>
+            <div v-else>
+              <div class="text-xs text-gray-400 mb-2">英文词块</div>
+              <div class="text-2xl font-bold text-blue-500">{{ currentCard.chunk }}</div>
             </div>
           </div>
         </template>
 
-        <!-- 填空模式 -->
+        <!-- fill -->
         <template v-if="mode === 'fill'">
-          <div class="ecn-card fill-card">
-            <div class="flash-label">句子填空</div>
-            <p class="fill-sentence">
+          <div class="p-6 rounded-2xl bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 shadow-sm">
+            <div class="text-xs text-gray-400 mb-3">句子填空</div>
+            <p class="text-lg leading-relaxed text-gray-800 dark:text-gray-200">
               <template v-for="(part, i) in fillParts" :key="i">
                 <span>{{ part.text }}</span>
-                <span
-                  v-if="part.isBlank"
-                  class="ecn-blank"
-                  :class="{ revealed: showAnswer }"
-                >{{ currentCard.chunk.chunk }}</span>
+                <span v-if="part.isBlank" class="px-1 border-b-2 border-blue-400 text-blue-500 font-bold" :class="{ 'bg-blue-50 dark:bg-blue-900/30 rounded': showAnswer }">{{ showAnswer ? currentCard.chunk : '____' }}</span>
               </template>
             </p>
-            <div class="fill-sentence-cn">{{ currentCard.chunk.sentence_cn }}</div>
           </div>
         </template>
 
-        <!-- 听写模式 -->
+        <!-- dictation -->
         <template v-if="mode === 'dictation'">
-          <div class="ecn-card dictation-card">
-            <div class="flash-label">音频听写</div>
-            <AudioPlayer v-if="currentCard.chunk.audio" :audioSrc="currentCard.chunk.audio" />
-            <p v-else style="color: var(--vp-c-text-3); margin: 10px 0;">🔇 音频待生成</p>
-            <div class="dictation-input-area" v-if="!showAnswer">
-              <textarea
-                v-model="userInput"
-                class="dictation-textarea"
-                placeholder="听音频后输入你听到的句子..."
-                rows="3"
-                @keydown.enter.ctrl="showAnswer = true"
-              ></textarea>
-              <p class="dictation-hint">Ctrl+Enter 显示答案</p>
+          <div class="p-6 rounded-2xl bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 shadow-sm">
+            <div class="text-xs text-gray-400 mb-3">听写训练</div>
+            <div class="mb-4">
+              <TtsButton :text="currentCard.example || currentCard.chunk" class="text-lg" />
+              <span class="text-sm text-gray-400 ml-2">点击朗读</span>
             </div>
-            <div v-if="showAnswer" class="dictation-result">
-              <div class="dictation-correct">{{ currentCard.chunk.sentence }}</div>
-              <div class="dictation-user">你的输入：{{ userInput || '(未输入)' }}</div>
-              <div class="dictation-compare" :class="similarityClass">
-                相似度：{{ similarityScore }}%
-              </div>
+            <div v-if="!showAnswer">
+              <textarea v-model="userInput" class="w-full p-3 rounded-xl border border-gray-200 dark:border-gray-600 bg-gray-50 dark:bg-gray-700/50 text-gray-800 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-400 text-sm" placeholder="输入你听到的句子..." rows="3"></textarea>
+              <p class="text-xs text-gray-400 mt-1">点击下方按钮查看答案</p>
+            </div>
+            <div v-if="showAnswer" class="space-y-2">
+              <div class="p-3 rounded-lg bg-green-50 dark:bg-green-900/20 text-sm text-gray-700 dark:text-gray-300">✅ {{ currentCard.example || currentCard.chunk }}</div>
+              <div v-if="userInput" class="p-3 rounded-lg bg-gray-50 dark:bg-gray-700/50 text-sm text-gray-500">你的输入：{{ userInput }}</div>
             </div>
           </div>
         </template>
 
-        <!-- 答题控制 -->
-        <div v-if="showAnswer" class="answer-controls">
-          <button class="ecn-btn ecn-btn-danger" @click="mark(false)">😞 不熟</button>
-          <button class="ecn-btn ecn-btn-primary" @click="mark(true)">👍 记住了</button>
-        </div>
-        <div v-else class="show-answer-hint">
-          <button class="ecn-btn ecn-btn-primary" @click="showAnswer = true">
-            {{ mode === 'fill' ? '显示答案' : mode === 'dictation' ? '检查答案' : '翻转卡片' }}
-          </button>
+        <!-- Controls -->
+        <div class="flex justify-center gap-3 mt-6">
+          <template v-if="showAnswer">
+            <button class="px-6 py-2.5 rounded-xl bg-red-50 dark:bg-red-900/30 text-red-500 font-medium hover:bg-red-100 dark:hover:bg-red-900/50 transition-colors" @click="mark(false)">😞 不熟</button>
+            <button class="px-6 py-2.5 rounded-xl bg-blue-500 text-white font-medium hover:bg-blue-600 transition-colors" @click="mark(true)">👍 记住了</button>
+          </template>
+          <template v-else>
+            <button class="px-6 py-2.5 rounded-xl bg-blue-500 text-white font-medium hover:bg-blue-600 transition-colors" @click="showAnswer = true">
+              {{ mode === 'fill' ? '显示答案' : mode === 'dictation' ? '查看答案' : '翻转卡片' }}
+            </button>
+          </template>
         </div>
       </div>
 
-      <!-- 完成页 -->
-      <div v-if="!currentCard && finished" class="ecn-card finish-card">
-        <div class="finish-icon">🎉</div>
-        <h3>训练完成！</h3>
-        <div class="finish-stats">
-          <div class="stat">
-            <span class="stat-num known">{{ knownCount }}</span>
-            <span class="stat-label">记住</span>
-          </div>
-          <div class="stat">
-            <span class="stat-num unknown">{{ unknownCount }}</span>
-            <span class="stat-label">不熟</span>
-          </div>
+      <!-- Finished -->
+      <div v-if="!currentCard && finished" class="text-center py-12">
+        <div class="text-5xl mb-4">🎉</div>
+        <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-4">训练完成！</h3>
+        <div class="flex justify-center gap-8 mb-6">
+          <div><span class="text-3xl font-bold text-green-500">{{ knownCount }}</span><div class="text-xs text-gray-400">记住</div></div>
+          <div><span class="text-3xl font-bold text-red-400">{{ unknownCount }}</span><div class="text-xs text-gray-400">不熟</div></div>
         </div>
-        <button class="ecn-btn ecn-btn-primary" @click="restart">再来一轮</button>
-        <button class="ecn-btn" @click="started = false">返回选择</button>
+        <div class="flex justify-center gap-3">
+          <button class="px-4 py-2 rounded-xl bg-blue-500 text-white text-sm font-medium hover:bg-blue-600" @click="restart">再来一轮</button>
+          <button class="px-4 py-2 rounded-xl bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 text-sm font-medium hover:bg-gray-200 dark:hover:bg-gray-600" @click="started = false">返回选择</button>
+        </div>
       </div>
     </div>
   </div>
@@ -178,23 +130,25 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, watch } from 'vue'
 import { withBase } from 'vitepress'
-import { getFavorites, getWeakChunks } from '../data/types'
-import { getChunkById } from '../data/loader'
-import { updateReviewState } from '../data/types'
-import type { Chunk, Lesson } from '../data/types'
-import AudioPlayer from './AudioPlayer.vue'
+import TtsButton from './TtsButton.vue'
 
-type TrainMode = 'en2cn' | 'cn2en' | 'fill' | 'dictation' | 'weak'
-
-interface Card {
+export interface Card {
   id: string
-  chunk: string      // 英文词块
-  meaning: string    // 中文含义
-  example?: string   // 例句
+  chunk: string
+  meaning: string
+  example?: string
   tags?: string[]
 }
 
-// Props: allow external chunks injection from DeckBuilder
+type TrainMode = 'en2cn' | 'cn2en' | 'fill' | 'dictation'
+
+const modes = [
+  { id: 'en2cn' as TrainMode, icon: '🔤', name: '英译中', desc: '看英文词块，回忆中文含义' },
+  { id: 'cn2en' as TrainMode, icon: '🔤', name: '中译英', desc: '看中文含义，回忆英文词块' },
+  { id: 'fill' as TrainMode, icon: '✏️', name: '句子填空', desc: '补全例句中的词块' },
+  { id: 'dictation' as TrainMode, icon: '🎧', name: '听写', desc: '听朗读，写出句子' }
+]
+
 const props = withDefaults(defineProps<{
   chunks?: Card[]
   initialMode?: TrainMode
@@ -203,12 +157,9 @@ const props = withDefaults(defineProps<{
   initialMode: undefined
 })
 
-const emit = defineEmits<{
-  (e: 'exit'): void
-}>()
+const emit = defineEmits<{ (e: 'exit'): void }>()
 
 const isExternalMode = computed(() => !!props.chunks)
-const favorites = ref<Card[]>([])
 const mode = ref<TrainMode>('en2cn')
 const started = ref(false)
 const currentIndex = ref(0)
@@ -217,426 +168,123 @@ const knownCount = ref(0)
 const unknownCount = ref(0)
 const finished = ref(false)
 const userInput = ref('')
-const weakCount = ref(0)
 
-const modeLabels: Record<TrainMode, string> = {
-  en2cn: '英译中',
-  cn2en: '中译英',
-  fill: '句子填空',
-  dictation: '音频听写',
-  weak: '错题重练'
-}
-
-const modeLabel = computed(() => modeLabels[mode.value])
-
-const weakCards = computed(() => {
-  const ids = getWeakChunks()
-  const result: Card[] = []
-  for (const id of ids) {
-    const r = getChunkById(id)
-    if (r) result.push(r)
-  }
-  return result
-})
+// Internal cards (from favorites)
+const internalCards = ref<Card[]>([])
 
 const cards = computed(() => {
-  // External mode: use injected chunks
   if (isExternalMode.value && props.chunks) return props.chunks
-  // Internal mode: use favorites or weak
-  if (mode.value === 'weak') return weakCards.value
-  return favorites.value
+  return internalCards.value
 })
-const currentCard = computed(() => cards.value[currentIndex.value] || null)
+
+const currentCard = computed(() => {
+  if (finished.value) return null
+  return cards.value[currentIndex.value] || null
+})
 
 const progressPercent = computed(() => {
   if (cards.value.length === 0) return 0
-  return ((currentIndex.value + 1) / cards.value.length) * 100
+  return ((currentIndex.value + (showAnswer.value ? 1 : 0)) / cards.value.length) * 100
 })
 
-// 填空模式：将例句中的词块替换为空
+const modeLabel = computed(() => modes.find(m => m.id === mode.value)?.name || '')
+
 const fillParts = computed(() => {
-  if (!currentCard.value) return []
-  const sentence = currentCard.value.chunk.sentence
-  const chunk = currentCard.value.chunk.chunk
-  const escaped = chunk.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-  const regex = new RegExp(`(${escaped})`, 'gi')
-  const parts: { text: string; isBlank: boolean }[] = []
-  let lastIndex = 0
-  let match: RegExpExecArray | null
-  while ((match = regex.exec(sentence)) !== null) {
-    if (match.index > lastIndex) {
-      parts.push({ text: sentence.slice(lastIndex, match.index), isBlank: false })
-    }
-    parts.push({ text: match[1], isBlank: true })
-    lastIndex = regex.lastIndex
-  }
-  if (lastIndex < sentence.length) {
-    parts.push({ text: sentence.slice(lastIndex), isBlank: false })
-  }
-  return parts.length > 1 ? parts : [{ text: sentence, isBlank: false }]
+  if (!currentCard.value?.example || !currentCard.value.chunk) return [{ text: currentCard.value?.example || '', isBlank: false }]
+  const sentence = currentCard.value.example
+  const chunkLower = currentCard.value.chunk.toLowerCase()
+  const idx = sentence.toLowerCase().indexOf(chunkLower)
+  if (idx < 0) return [{ text: sentence, isBlank: false }]
+  return [
+    { text: sentence.slice(0, idx), isBlank: false },
+    { text: '', isBlank: true },
+    { text: sentence.slice(idx + currentCard.value.chunk.length), isBlank: false }
+  ]
 })
-
-function loadFavorites() {
-  const store = getFavorites()
-  const cards_: Card[] = []
-  for (const item of store.items) {
-    const result = getChunkById(item.id)
-    if (result) {
-      cards_.push(result)
-    }
-  }
-  favorites.value = cards_
-  weakCount.value = getWeakChunks().length
-}
-
-// Watch for external chunks changes
-watch(() => props.chunks, (newChunks) => {
-  if (newChunks && isExternalMode.value) {
-    started.value = false
-    currentIndex.value = 0
-    showAnswer.value = false
-    knownCount.value = 0
-    unknownCount.value = 0
-    finished.value = false
-    userInput.value = ''
-  }
-})
-
-// Auto-start when external mode is set
-watch(() => [props.chunks, props.initialMode], ([chunks, initMode]) => {
-  if (chunks && initMode && !started.value && isExternalMode.value) {
-    startMode(initMode)
-  }
-}, { immediate: true })
 
 function startMode(m: TrainMode) {
   mode.value = m
+  started.value = true
   currentIndex.value = 0
   showAnswer.value = false
   knownCount.value = 0
   unknownCount.value = 0
   finished.value = false
   userInput.value = ''
-  started.value = true
-  if (m === 'weak' && weakCards.value.length === 0) started.value = false
 }
 
 function mark(known: boolean) {
-  if (!currentCard.value) return
-  updateReviewState(currentCard.value.chunk.id, known)
-  if (known) {
-    knownCount.value++
-  } else {
-    unknownCount.value++
-  }
-  weakCount.value = getWeakChunks().length
-  nextCard()
-}
-
-function nextCard() {
+  if (known) knownCount.value++
+  else unknownCount.value++
   showAnswer.value = false
   userInput.value = ''
-  currentIndex.value++
-  if (currentIndex.value >= cards.value.length) {
+  if (currentIndex.value < cards.value.length - 1) {
+    currentIndex.value++
+  } else {
     finished.value = true
   }
 }
 
-function normalizeText(text: string): string {
-  return text.toLowerCase().replace(/[^a-z0-9\s]/g, '').replace(/\s+/g, ' ').trim()
+function restart() {
+  currentIndex.value = 0
+  showAnswer.value = false
+  knownCount.value = 0
+  unknownCount.value = 0
+  finished.value = false
+  userInput.value = ''
 }
-
-function computeSimilarity(a: string, b: string): number {
-  const na = normalizeText(a)
-  const nb = normalizeText(b)
-  if (na === nb) return 100
-  if (!na || !nb) return 0
-  const wordsA = na.split(' ')
-  const wordsB = nb.split(' ')
-  const setA = new Set(wordsA)
-  const setB = new Set(wordsB)
-  let matchCount = 0
-  for (const w of setA) {
-    if (setB.has(w)) matchCount++
-  }
-  const jaccard = matchCount / (setA.size + setB.size - matchCount)
-  return Math.round(jaccard * 100)
-}
-
-const similarityScore = computed(() => {
-  if (!currentCard.value || !showAnswer.value) return 0
-  return computeSimilarity(userInput.value, currentCard.value.chunk.sentence)
-})
-
-const similarityClass = computed(() => {
-  const s = similarityScore.value
-  if (s >= 80) return 'similarity-high'
-  if (s >= 50) return 'similarity-medium'
-  return 'similarity-low'
-})
 
 function handleBack() {
-  started.value = false
-  if (isExternalMode.value) {
-    emit('exit')
-  }
+  if (isExternalMode.value) emit('exit')
+  else started.value = false
 }
 
-function restart() {
-  startMode(mode.value)
-}
-
+// Load internal cards from v0.1 favorites
 onMounted(() => {
   if (!isExternalMode.value) {
-    loadFavorites()
+    loadInternalCards()
   }
 })
-</script>
 
-<style scoped>
-.flashcard-app {
-  max-width: 600px;
-  margin: 0 auto;
+function loadInternalCards() {
+  try {
+    // v0.2 favorites from localStorage
+    const raw = localStorage.getItem('ecn-favorites')
+    if (raw) {
+      const ids: string[] = JSON.parse(raw)
+      // Try to load from v0.1 loader
+      import('../data/loader').then(loader => {
+        const cards: Card[] = []
+        for (const id of ids) {
+          const found = loader.getChunkById(id)
+          if (found) {
+            cards.push({
+              id: found.chunk.id,
+              chunk: found.chunk.chunk,
+              meaning: found.chunk.meaning_cn || '',
+              example: found.chunk.sentence || '',
+              tags: [...(found.chunk.tags || []), ...(found.chunk.exam_tags || [])]
+            })
+          }
+        }
+        internalCards.value = cards
+      })
+    }
+  } catch { /* ignore */ }
 }
 
-.mode-cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-}
-
-@media (max-width: 640px) {
-  .mode-cards {
-    grid-template-columns: 1fr;
+// External mode auto-start
+watch(() => props.chunks, (newChunks) => {
+  if (newChunks && newChunks.length > 0) {
+    started.value = true
+    currentIndex.value = 0
+    finished.value = false
   }
-}
+}, { immediate: true })
 
-.mode-card {
-  text-align: center;
-  padding: 20px;
-  cursor: pointer;
-  border: none;
-  transition: all 0.2s;
-}
-
-.mode-card:hover {
-  transform: translateY(-2px);
-}
-
-.mode-icon {
-  font-size: 2rem;
-  margin-bottom: 8px;
-}
-
-.mode-card h3 {
-  font-size: 1rem;
-  font-weight: 600;
-  margin: 0 0 4px;
-}
-
-.mode-card p {
-  font-size: 0.8rem;
-  color: var(--vp-c-text-3);
-  margin: 0;
-}
-
-.weak-banner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 12px 16px;
-  background: rgba(220, 38, 38, 0.08);
-  border: 1px solid rgba(220, 38, 38, 0.2);
-  border-radius: 8px;
-  margin-bottom: 16px;
-  font-size: 0.9rem;
-  color: var(--vp-c-text-1);
-}
-
-.train-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 8px;
-}
-
-.mode-label {
-  font-weight: 600;
-  font-size: 0.95rem;
-}
-
-.progress-text {
-  font-size: 0.85rem;
-  color: var(--vp-c-text-3);
-}
-
-.flashcard-container {
-  margin-top: 24px;
-  text-align: center;
-}
-
-.flash-label {
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: var(--vp-c-text-3);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-bottom: 12px;
-}
-
-.flash-main {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--vp-c-text-1);
-  margin-bottom: 8px;
-}
-
-.flash-sub {
-  font-size: 0.9rem;
-  color: var(--vp-c-text-2);
-  margin: 4px 0;
-}
-
-.fill-card, .dictation-card {
-  padding: 32px;
-  text-align: center;
-}
-
-.fill-sentence {
-  font-size: 1.1rem;
-  color: var(--vp-c-text-1);
-  line-height: 1.8;
-  margin: 16px 0;
-}
-
-.fill-sentence-cn {
-  font-size: 0.85rem;
-  color: var(--vp-c-text-3);
-  margin-top: 12px;
-}
-
-.dictation-answer {
-  margin-top: 16px;
-  padding: 12px 16px;
-  background: var(--vp-c-brand-soft);
-  border-radius: 8px;
-  font-size: 1rem;
-  color: var(--vp-c-text-1);
-}
-
-.dictation-input-area {
-  margin-top: 16px;
-}
-
-.dictation-textarea {
-  width: 100%;
-  padding: 12px 16px;
-  border: 2px solid var(--vp-c-divider);
-  border-radius: 8px;
-  font-size: 1rem;
-  line-height: 1.6;
-  resize: vertical;
-  transition: border-color 0.2s;
-  box-sizing: border-box;
-}
-
-.dictation-textarea:focus {
-  outline: none;
-  border-color: var(--vp-c-brand);
-}
-
-.dictation-hint {
-  font-size: 0.75rem;
-  color: var(--vp-c-text-3);
-  margin-top: 6px;
-  text-align: right;
-}
-
-.dictation-result {
-  margin-top: 16px;
-  text-align: left;
-}
-
-.dictation-correct {
-  padding: 12px 16px;
-  background: var(--vp-c-brand-soft);
-  border-radius: 8px;
-  font-size: 1rem;
-  color: var(--vp-c-text-1);
-}
-
-.dictation-user {
-  padding: 8px 16px;
-  margin-top: 8px;
-  background: rgba(0,0,0,0.03);
-  border-radius: 8px;
-  font-size: 0.9rem;
-  color: var(--vp-c-text-2);
-}
-
-.dictation-compare {
-  margin-top: 8px;
-  font-weight: 600;
-  font-size: 0.95rem;
-}
-
-.similarity-high { color: #16a34a; }
-.similarity-medium { color: #d97706; }
-.similarity-low { color: #dc2626; }
-
-.answer-controls {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-  margin-top: 24px;
-}
-
-.show-answer-hint {
-  margin-top: 24px;
-}
-
-.finish-card {
-  text-align: center;
-  padding: 40px 24px;
-}
-
-.finish-icon {
-  font-size: 3rem;
-  margin-bottom: 12px;
-}
-
-.finish-card h3 {
-  font-size: 1.3rem;
-  margin: 0 0 20px;
-}
-
-.finish-stats {
-  display: flex;
-  justify-content: center;
-  gap: 32px;
-  margin-bottom: 24px;
-}
-
-.stat {
-  text-align: center;
-}
-
-.stat-num {
-  display: block;
-  font-size: 2rem;
-  font-weight: 700;
-}
-
-.stat-num.known {
-  color: #16a34a;
-}
-
-.stat-num.unknown {
-  color: #dc2626;
-}
-
-.stat-label {
-  font-size: 0.8rem;
-  color: var(--vp-c-text-3);
-}
-</style>
+watch(() => [props.chunks, props.initialMode], ([chunks, initMode]) => {
+  if (chunks && chunks.length > 0 && initMode) {
+    mode.value = initMode
+  }
+}, { immediate: true })
+</script>

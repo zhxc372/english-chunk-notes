@@ -33,7 +33,10 @@
 
     <!-- Chunk List -->
     <section v-if="chunkItems.length" class="mb-12">
-      <h2 class="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-4">📝 词块 <span class="text-sm font-normal text-gray-400">({{ chunkItems.length }})</span></h2>
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-lg font-semibold text-gray-800 dark:text-gray-200">📝 词块 <span class="text-sm font-normal text-gray-400">({{ chunkItems.length }})</span></h2>
+        <button v-if="chunkItems.length" class="px-4 py-2 rounded-xl bg-blue-500 text-white text-sm font-medium hover:bg-blue-600 transition-colors" @click="startFlashcards">🃏 闪卡训练</button>
+      </div>
       <div class="space-y-2">
         <div v-for="item in chunkItems" :key="item.chunkId" class="p-4 rounded-xl bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700">
           <div class="flex items-baseline gap-2 flex-wrap">
@@ -51,6 +54,11 @@
     </section>
 
     <SelectionLookup :articleId="articleId" />
+
+    <!-- Flashcard overlay -->
+    <div v-if="showFlashcards" class="fixed inset-0 bg-white dark:bg-gray-900 z-50 overflow-y-auto p-4 pt-8">
+      <FlashcardTrainer :chunks="flashcardData" initial-mode="en2cn" @exit="showFlashcards = false" />
+    </div>
   </div>
   <div v-else class="text-center py-20 text-gray-400">加载中...</div>
 </template>
@@ -62,6 +70,8 @@ import { getCategoryById } from '../composables/useCategories'
 import { loadArticleChunkItems } from '../composables/useArticleChunks'
 import TtsButton from './TtsButton.vue'
 import SelectionLookup from './SelectionLookup.vue'
+import FlashcardTrainer from './FlashcardTrainer.vue'
+import type { Card } from './FlashcardTrainer.vue'
 import type { Article, ArticleParagraph } from '../../../types/content'
 
 interface ChunkItem {
@@ -77,6 +87,21 @@ const props = defineProps<{ articleId: string }>()
 
 const article = ref<Article | null>(null)
 const chunkItems = ref<ChunkItem[]>([])
+const showFlashcards = ref(false)
+
+const flashcardData = computed<Card[]>(() => {
+  return chunkItems.value.map(item => ({
+    id: item.chunkId,
+    chunk: item.chunk?.canonical || item.surface,
+    meaning: item.chunk?.meaningZh || '',
+    example: item.sentence || '',
+    tags: []
+  }))
+})
+
+function startFlashcards() {
+  showFlashcards.value = true
+}
 
 const categoryName = computed(() => {
   if (!article.value) return ''
