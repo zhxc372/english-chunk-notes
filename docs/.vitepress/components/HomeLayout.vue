@@ -146,7 +146,7 @@ const randomLesson = ref<Lesson | null>(null)
 const dueLessons = ref<Lesson[]>([])
 
 function goToLesson(lessonId: string): void {
-  router.go(`/themes/${lessonId}`)
+  window.location.href = withBase(`/themes/${lessonId}.html`)
 }
 
 onMounted(() => {

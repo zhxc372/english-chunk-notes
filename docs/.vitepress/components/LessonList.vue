@@ -39,11 +39,12 @@
 
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import { useRouter } from 'vitepress'
+import { withBase } from 'vitepress'
 import { getAllLessons, getAllExamTags } from '../data/loader'
 import ExamTagFilter from './ExamTagFilter.vue'
 
-const router = useRouter()
+// router not needed, using withBase + location
+const router = undefined as any
 const lessons = getAllLessons()
 const allExamTags = getAllExamTags()
 const activeTag = ref('')
@@ -54,7 +55,7 @@ const filteredLessons = computed(() => {
 })
 
 function goToLesson(id: string) {
-  router.go(`/themes/${id}`)
+  window.location.href = withBase(`/themes/${id}.html`)
 }
 </script>
 
