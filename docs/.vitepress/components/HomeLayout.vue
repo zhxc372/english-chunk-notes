@@ -47,12 +47,12 @@
         <h3>主题学习</h3>
         <p>按主题阅读文章、学习词块</p>
       </a>
-      <a :href="withBase('/favorites.html')" class="shortcut-card ecn-card">
+      <a :href="withBase('/favorites/')" class="shortcut-card ecn-card">
         <div class="shortcut-icon">❤️</div>
         <h3>我的收藏</h3>
         <p>管理已收藏的词块</p>
       </a>
-      <a :href="withBase('/flashcards.html')" class="shortcut-card ecn-card">
+      <a :href="withBase('/flashcards/')" class="shortcut-card ecn-card">
         <div class="shortcut-icon">🃏</div>
         <h3>闪卡训练</h3>
         <p>英译中、中译英、填空、听写</p>
@@ -146,7 +146,7 @@ const randomLesson = ref<Lesson | null>(null)
 const dueLessons = ref<Lesson[]>([])
 
 function goToLesson(lessonId: string): void {
-  window.location.href = withBase(`/themes/${lessonId}.html`)
+  window.location.href = withBase(`/themes/${lessonId}/`)
 }
 
 onMounted(() => {

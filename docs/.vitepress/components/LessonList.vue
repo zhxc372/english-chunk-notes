@@ -55,7 +55,7 @@ const filteredLessons = computed(() => {
 })
 
 function goToLesson(id: string) {
-  window.location.href = withBase(`/themes/${id}.html`)
+  window.location.href = withBase(`/themes/${id}/`)
 }
 </script>
 
