@@ -1,14 +1,17 @@
 /**
  * browserTts.ts — Web Speech API TTS Provider
  * 纯浏览器端朗读，不依赖任何MP3或外部API
+ * 
+ * 关键设计：每个 TtsButton 独立管理自己的播放状态，
+ * 点击任何新按钮会自动取消之前的播放。
  */
 
-export type VoicePreference = 'auto' | 'female-like' | 'male-like' | string // string = voiceURI
+export type VoicePreference = 'auto' | 'female-like' | 'male-like' | string
 
 export interface TtsSettings {
-  rate: number       // 0.1 - 10, default 1
-  pitch: number      // 0 - 2, default 1
-  volume: number     // 0 - 1, default 1
+  rate: number
+  pitch: number
+  volume: number
   lang: 'en-US' | 'en-GB'
   voicePreference: VoicePreference
 }
@@ -23,7 +26,6 @@ const DEFAULT_SETTINGS: TtsSettings = {
   voicePreference: 'auto'
 }
 
-/** 从 localStorage 读取设置 */
 export function loadTtsSettings(): TtsSettings {
   try {
     const raw = localStorage.getItem(SETTINGS_KEY)
@@ -32,17 +34,14 @@ export function loadTtsSettings(): TtsSettings {
   return { ...DEFAULT_SETTINGS }
 }
 
-/** 保存设置到 localStorage */
 export function saveTtsSettings(settings: TtsSettings): void {
   localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings))
 }
 
-/** 获取可用英语声音列表 */
 export function getEnglishVoices(): SpeechSynthesisVoice[] {
   return speechSynthesis.getVoices().filter(v => v.lang.startsWith('en'))
 }
 
-/** 根据偏好选择声音 */
 function pickVoice(preference: VoicePreference, lang: string): SpeechSynthesisVoice | null {
   const voices = getEnglishVoices().filter(v => v.lang === lang)
   if (voices.length === 0) return null
@@ -50,7 +49,6 @@ function pickVoice(preference: VoicePreference, lang: string): SpeechSynthesisVo
   if (preference === 'auto') return voices[0] || null
 
   if (preference === 'female-like') {
-    // Heuristic: match known female voice names
     const female = voices.find(v =>
       /zira|samantha|karen|victoria|fiona|susan|kate|alice|hazel|sarah|linda|catherine/i.test(v.name)
     )
@@ -64,85 +62,97 @@ function pickVoice(preference: VoicePreference, lang: string): SpeechSynthesisVo
     return male || voices[0]
   }
 
-  // voiceURI
   const match = voices.find(v => v.voiceURI === preference)
   return match || voices[0]
 }
 
-/** 当前播放状态 */
+// ── TTS Context（每个按钮独立） ──────────────────────────
+
 export type TtsState = 'idle' | 'playing' | 'paused'
 
-let currentState: TtsState = 'idle'
-const listeners: ((state: TtsState) => void)[] = []
+let activeContext: TtsContext | null = null
 
-function setState(state: TtsState) {
-  currentState = state
-  listeners.forEach(fn => fn(state))
-}
+export class TtsContext {
+  state: TtsState = 'idle'
+  private listener: ((state: TtsState) => void) | null = null
+  private currentText: string = ''
+  private currentSettings: Partial<TtsSettings> = {}
 
-/** 监听播放状态变化 */
-export function onTtsStateChange(fn: (state: TtsState) => void): () => void {
-  listeners.push(fn)
-  return () => {
-    const idx = listeners.indexOf(fn)
-    if (idx >= 0) listeners.splice(idx, 1)
+  constructor() {}
+
+  onStateChange(fn: (state: TtsState) => void) {
+    this.listener = fn
   }
-}
 
-/** 获取当前状态 */
-export function getTtsState(): TtsState {
-  return currentState
-}
+  private setState(s: TtsState) {
+    this.state = s
+    this.listener?.(s)
+  }
 
-/** 朗读文本 */
-export function speak(text: string, settings?: Partial<TtsSettings>): void {
-  if (!window.speechSynthesis) return
+  /** 播放。会自动取消其他 context 的播放 */
+  speak(text: string, settings?: Partial<TtsSettings>) {
+    if (!window.speechSynthesis) return
 
-  // Stop any current speech
-  speechSynthesis.cancel()
+    // 取消其他 context
+    if (activeContext && activeContext !== this) {
+      activeContext.stop()
+    }
+    activeContext = this
 
-  const s = { ...loadTtsSettings(), ...settings }
-  const utterance = new SpeechSynthesisUtterance(text)
-  utterance.lang = s.lang
-  utterance.rate = s.rate
-  utterance.pitch = s.pitch
-  utterance.volume = s.volume
+    speechSynthesis.cancel()
+    this.currentText = text
+    this.currentSettings = settings || {}
 
-  const voice = pickVoice(s.voicePreference, s.lang)
-  if (voice) utterance.voice = voice
+    const s = { ...loadTtsSettings(), ...settings }
+    const utterance = new SpeechSynthesisUtterance(text)
+    utterance.lang = s.lang
+    utterance.rate = s.rate
+    utterance.pitch = s.pitch
+    utterance.volume = s.volume
 
-  utterance.onstart = () => setState('playing')
-  utterance.onend = () => setState('idle')
-  utterance.onerror = () => setState('idle')
-  utterance.onpause = () => setState('paused')
-  utterance.onresume = () => setState('playing')
+    const voice = pickVoice(s.voicePreference, s.lang)
+    if (voice) utterance.voice = voice
 
-  speechSynthesis.speak(utterance)
-}
+    utterance.onstart = () => this.setState('playing')
+    utterance.onend = () => { this.setState('idle'); if (activeContext === this) activeContext = null }
+    utterance.onerror = () => { this.setState('idle'); if (activeContext === this) activeContext = null }
+    utterance.onpause = () => this.setState('paused')
+    utterance.onresume = () => this.setState('playing')
 
-/** 暂停 */
-export function pause(): void {
-  speechSynthesis.pause()
-}
+    speechSynthesis.speak(utterance)
+  }
 
-/** 恢复 */
-export function resume(): void {
-  speechSynthesis.resume()
-}
+  pause() {
+    if (activeContext === this) speechSynthesis.pause()
+  }
 
-/** 停止 */
-export function stop(): void {
-  speechSynthesis.cancel()
-  setState('idle')
-}
+  resume() {
+    if (activeContext === this) speechSynthesis.resume()
+  }
 
-/** 切换播放/暂停 */
-export function toggle(text: string, settings?: Partial<TtsSettings>): void {
-  if (currentState === 'playing') {
-    pause()
-  } else if (currentState === 'paused') {
-    resume()
-  } else {
-    speak(text, settings)
+  stop() {
+    if (activeContext === this) {
+      speechSynthesis.cancel()
+      activeContext = null
+    }
+    this.setState('idle')
+  }
+
+  toggle(text: string, settings?: Partial<TtsSettings>) {
+    if (this.state === 'playing') {
+      this.pause()
+    } else if (this.state === 'paused') {
+      this.resume()
+    } else {
+      this.speak(text, settings)
+    }
+  }
+
+  destroy() {
+    if (activeContext === this) {
+      speechSynthesis.cancel()
+      activeContext = null
+    }
+    this.listener = null
   }
 }

@@ -12,7 +12,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
-import { toggle, speak, getTtsState, onTtsStateChange, stop, type TtsState } from '../utils/browserTts'
+import { TtsContext, type TtsState } from '../utils/browserTts'
 
 const props = withDefaults(defineProps<{
   text: string
@@ -21,14 +21,13 @@ const props = withDefaults(defineProps<{
   lang: 'en-US'
 })
 
+// 每个 TtsButton 实例有自己的 context
+const ctx = new TtsContext()
 const state = ref<TtsState>('idle')
-let unsubscribe: (() => void) | null = null
-
 const stateTitle = ref('朗读')
 
 onMounted(() => {
-  state.value = getTtsState()
-  unsubscribe = onTtsStateChange((s) => {
+  ctx.onStateChange((s) => {
     state.value = s
     if (s === 'idle') stateTitle.value = '朗读'
     else if (s === 'playing') stateTitle.value = '暂停'
@@ -37,14 +36,10 @@ onMounted(() => {
 })
 
 onUnmounted(() => {
-  unsubscribe?.()
+  ctx.destroy()
 })
 
 function handleClick() {
-  if (state.value === 'playing' || state.value === 'paused') {
-    toggle(props.text, { lang: props.lang })
-  } else {
-    speak(props.text, { lang: props.lang })
-  }
+  ctx.toggle(props.text, { lang: props.lang })
 }
 </script>

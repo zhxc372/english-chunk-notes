@@ -19,7 +19,6 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '分类', link: '/categories/' },
       { text: '词块库', link: '/chunks/' },
-      { text: '主题(v0.2)', link: '/themes/' },
       { text: '收藏', link: '/favorites' },
       { text: '闪卡', link: '/flashcards' }
     ],

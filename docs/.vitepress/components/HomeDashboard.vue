@@ -88,8 +88,7 @@ const methodSteps = [
 const quickLinks = [
   { icon: '📚', label: '词块库', url: '/chunks/' },
   { icon: '⭐', label: '收藏', url: '/favorites' },
-  { icon: '🃏', label: '闪卡', url: '/flashcards' },
-  { icon: '📖', label: '旧版主题', url: '/themes/' }
+  { icon: '🃏', label: '闪卡', url: '/flashcards' }
 ]
 
 function getArticleCount(categoryId: string): number {

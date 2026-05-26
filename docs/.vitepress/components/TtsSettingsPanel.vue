@@ -41,7 +41,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
-import { loadTtsSettings, saveTtsSettings, getEnglishVoices, type TtsSettings, type VoicePreference } from '../utils/browserTts'
+import { loadTtsSettings, saveTtsSettings, getEnglishVoices, type TtsSettings } from '../utils/browserTts'
 
 const settings = ref<TtsSettings>(loadTtsSettings())
 const voices = ref<SpeechSynthesisVoice[]>([])
