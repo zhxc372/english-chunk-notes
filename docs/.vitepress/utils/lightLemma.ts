@@ -37,12 +37,39 @@ export function lightLemma(word: string): string {
   
   // 2. -ing → 原形
   if (lower.endsWith('ing')) {
-    if (lower.length > 5 && lower[lower.length - 4] === lower[lower.length - 5]) {
-      // running → run
-      return lower.slice(0, -4)
+    const stem = lower.slice(0, -3) // remove 'ing'
+    
+    // 双写辅音结尾: running → run, swimming → swim
+    if (stem.length >= 2 && stem[stem.length - 1] === stem[stem.length - 2] &&
+        !'aeiou'.includes(stem[stem.length - 1])) {
+      return stem.slice(0, -1)
     }
-    // making → make
-    return lower.slice(0, -3) + 'e'
+    
+    // -eing: seeing → see, being → be, fleeing → flee
+    if (stem.endsWith('e')) {
+      return stem // see + ing = seeing, stem already has e
+    }
+    
+    // -ying: studying → study, carrying → carry
+    if (stem.endsWith('y') && stem.length >= 2) {
+      return stem
+    }
+    
+    // 一般情况: making → make
+    // 不需要补e的常见模式: speak→speaking, think→thinking, find→finding
+    // 规则: 如果 stem 恰好是一个有效原形（不在不规则表中），直接返回
+    // 否则补 e
+    // 更简单的规则: -ake/-ike/-oke/-one/-ine/-ose 结尾补 e，其他不补
+    const noEendings = ['ak','ik','ok','on','in','os','iz','us']
+    // -eak 结尾特殊: speak→speaking, break→breaking, wake→waking
+    const eakWords = ['speak','break','wake','freak','sneak','creak','steak','beak','weak','leak','peak','reak']
+    if (eakWords.some(w => stem === w || stem.endsWith(w))) return stem
+    
+    const needsE = /[aeiou][bcdgklmnprstv]$/
+    if (needsE.test(stem)) {
+      return stem + 'e'
+    }
+    return stem
   }
   
   // 3. -ed → 原形

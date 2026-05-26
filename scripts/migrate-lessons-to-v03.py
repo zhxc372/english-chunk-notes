@@ -103,6 +103,39 @@ def lesson_to_article(lesson: dict) -> dict:
         "paragraphs": paragraphs
     }
 
+def infer_chunk_type(text: str, collocations: list) -> str:
+    """根据词块文本和搭配推断类型"""
+    t = text.lower().strip()
+    words = t.split()
+    
+    # Idioms: 3+ words with figurative meaning
+    if len(words) >= 3 and any(idiom_marker in t for idiom_marker in ['the ', 'a ', 'up ', 'out ', 'off ', 'in ', 'on ']):
+        # Check if it's likely an idiom vs collocation
+        if any(w in t for w in ['the bottom line', 'the point is', 'in terms of', 'on the other hand']):
+            return 'sentence_pattern'
+    
+    # Verb phrases: starts with a verb
+    verb_starters = ['make', 'take', 'get', 'go', 'come', 'do', 'have', 'be', 'put', 'set',
+                     'keep', 'turn', 'bring', 'carry', 'figure', 'find', 'think', 'feel',
+                     'reach', 'draw', 'hold', 'lay', 'run', 'work', 'look', 'break',
+                     'pick', 'build', 'move', 'pull', 'push', 'cut', 'fall', 'stand',
+                     'track', 'plan', 'invest', 'bridge', 'solve', 'ask', 'gain']
+    if words and words[0] in verb_starters:
+        return 'verb_phrase'
+    
+    # Prep phrases: starts with a preposition
+    prep_starters = ['in', 'on', 'at', 'by', 'for', 'with', 'from', 'to', 'of', 'out', 'up', 'into', 'through']
+    if words and words[0] in prep_starters and len(words) >= 2:
+        return 'prep_phrase'
+    
+    # Adj phrases: contains 'of', "'s", or common adj patterns
+    if any(w.endswith('ing') or w.endswith('ed') or w.endswith('ive') or w.endswith('able') for w in words):
+        if words[0] not in verb_starters:
+            return 'adj_phrase'
+    
+    # Default
+    return 'collocation'
+
 def chunk_to_v03(chunk: dict, lesson_id: str) -> dict:
     """Convert v0.1 chunk to v0.3 chunk format."""
     text = chunk["chunk"]
@@ -129,7 +162,7 @@ def chunk_to_v03(chunk: dict, lesson_id: str) -> dict:
         "canonical": text,
         "normalizedCanonical": normalize_canonical(text),
         "meaningZh": chunk.get("meaning_cn", ""),
-        "type": "collocation",  # Default, can be refined
+        "type": infer_chunk_type(text, collocations),
         "level": LEVEL_MAP.get("B1-B2", "B2"),
         "tags": list(set(
             chunk.get("tags", []) + chunk.get("exam_tags", [])

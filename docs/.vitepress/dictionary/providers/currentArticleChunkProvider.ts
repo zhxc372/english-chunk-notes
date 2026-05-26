@@ -7,16 +7,19 @@ import { loadArticleChunks } from '../../composables/useArticleChunks'
 import { getChunkIndexItem } from '../../composables/useChunks'
 import { normalize } from '../../utils/normalizeText'
 
-// 缓存当前文章的occurrences
-let cachedArticleId = ''
-let cachedOccurrences: ArticleChunkOccurrence[] = []
+// 组件级缓存，避免SPA全局残留
+const cacheMap = new Map<string, ArticleChunkOccurrence[]>()
 
 async function getOccurrences(articleId: string): Promise<ArticleChunkOccurrence[]> {
-  if (articleId !== cachedArticleId) {
-    cachedOccurrences = await loadArticleChunks(articleId)
-    cachedArticleId = articleId
+  if (cacheMap.has(articleId)) return cacheMap.get(articleId)!
+  const occs = await loadArticleChunks(articleId)
+  cacheMap.set(articleId, occs)
+  // 只缓存最近3篇文章
+  if (cacheMap.size > 3) {
+    const firstKey = cacheMap.keys().next().value!
+    cacheMap.delete(firstKey)
   }
-  return cachedOccurrences
+  return occs
 }
 
 export const currentArticleChunkProvider: DictionaryProvider = {

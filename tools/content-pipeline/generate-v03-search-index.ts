@@ -119,7 +119,7 @@ for (const [id, a] of articles) {
     id: `article-${id}`,
     type: 'article',
     title: a.title,
-    text: bodyText.slice(0, 500),
+    text: bodyText,
     zh: [a.titleZh, a.summaryZh, bodyZh].filter(Boolean).join(' '),
     categoryId: a.categoryId,
     tags: a.tags,

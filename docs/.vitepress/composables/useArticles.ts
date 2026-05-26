@@ -30,7 +30,8 @@ export function getArticleIndexItem(articleId: string): ArticleIndexItem | undef
  * 使用Vite的glob import实现按需加载
  */
 const articleModules = import.meta.glob<{ default: Article }>(
-  '../../../data/articles/**/*.json'
+  '../../../data/articles/**/*.json',
+  { eager: false }
 )
 
 export async function loadArticle(articleId: string): Promise<Article | null> {

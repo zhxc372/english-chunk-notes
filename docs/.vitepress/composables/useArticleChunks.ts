@@ -5,9 +5,10 @@
 import type { ArticleChunks, ArticleChunkOccurrence, Chunk, ChunkIndexItem } from '../../../../types/content'
 import { getChunkIndexItem } from './useChunks'
 
-// 动态加载 article-chunks
+// 动态懒加载 article-chunks
 const acModules = import.meta.glob<{ default: ArticleChunks }>(
-  '../../../data/article-chunks/**/*.json'
+  '../../../data/article-chunks/**/*.json',
+  { eager: false }
 )
 
 /** 按articleId动态加载occurrences */

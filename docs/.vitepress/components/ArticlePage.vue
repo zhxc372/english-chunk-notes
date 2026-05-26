@@ -103,7 +103,10 @@ function highlightParagraph(para: ArticleParagraph): string {
   paraChunks.sort((a, b) => b.surface.length - a.surface.length)
   for (const c of paraChunks) {
     const escaped = escapeHtml(c.surface)
-    html = html.replace(escaped, `<span class="chunk-highlight" title="${escapeHtml(c.chunk?.meaningZh || '')}">${escaped}</span>`)
+    const title = escapeHtml(c.chunk?.meaningZh || '')
+    const replacement = `<span class="chunk-highlight" title="${title}">${escaped}</span>`
+    // Use replaceAll to highlight ALL occurrences
+    html = html.replaceAll(escaped, replacement)
   }
   return html
 }

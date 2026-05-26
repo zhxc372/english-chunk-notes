@@ -105,11 +105,18 @@ function goToChunk(chunkId: string) {
 
 onMounted(() => {
   document.addEventListener('mouseup', handleMouseUp)
+  document.addEventListener('touchend', handleTouchEnd)
 })
 
 onUnmounted(() => {
   document.removeEventListener('mouseup', handleMouseUp)
+  document.removeEventListener('touchend', handleTouchEnd)
 })
+
+function handleTouchEnd(e: TouchEvent) {
+  // 移动端：延迟等 selection 稳定
+  setTimeout(() => handleMouseUp(e as any), 300)
+}
 </script>
 
 <style scoped>

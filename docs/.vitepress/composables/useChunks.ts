@@ -50,7 +50,8 @@ export function getChunksByTag(tag: string): ChunkIndexItem[] {
 
 // 动态加载完整chunk数据（从shards）
 const chunkModules = import.meta.glob<{ default: Chunk }>(
-  '../../../data/chunks/shards/*.json'
+  '../../../data/chunks/shards/*.json',
+  { eager: false }
 )
 
 export async function loadChunk(chunkId: string): Promise<Chunk | null> {

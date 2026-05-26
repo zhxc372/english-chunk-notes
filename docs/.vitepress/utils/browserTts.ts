@@ -50,17 +50,16 @@ function pickVoice(preference: VoicePreference, lang: string): SpeechSynthesisVo
   if (preference === 'auto') return voices[0] || null
 
   if (preference === 'female-like') {
-    // Heuristic: match common female voice name patterns
+    // Heuristic: match known female voice names
     const female = voices.find(v =>
-      /female|woman|zira|samantha|karen|victoria|fiona|susan|kate|alice/i.test(v.name)
+      /zira|samantha|karen|victoria|fiona|susan|kate|alice|hazel|sarah|linda|catherine/i.test(v.name)
     )
     return female || voices[0]
   }
 
   if (preference === 'male-like') {
     const male = voices.find(v =>
-      /male|man|david|daniel|james|tom|alex|george|richard|mark/i.test(v.name) &&
-      !/female/i.test(v.name)
+      /david|daniel|james|george|richard|mark|thomas|paul|steven|microsoft david/i.test(v.name)
     )
     return male || voices[0]
   }
