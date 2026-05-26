@@ -20,6 +20,8 @@ import ArticlePage from '../components/ArticlePage.vue'
 import ChunkLibrary from '../components/ChunkLibrary.vue'
 import ChunkDetail from '../components/ChunkDetail.vue'
 import SelectionLookup from '../components/SelectionLookup.vue'
+import HomeDashboard from '../components/HomeDashboard.vue'
+import CategoryPage from '../components/CategoryPage.vue'
 
 const theme: Theme = {
   extends: DefaultTheme,
@@ -41,6 +43,8 @@ const theme: Theme = {
     app.component('ChunkLibrary', ChunkLibrary)
     app.component('ChunkDetail', ChunkDetail)
     app.component('SelectionLookup', SelectionLookup)
+    app.component('HomeDashboard', HomeDashboard)
+    app.component('CategoryPage', CategoryPage)
   }
 }
 
