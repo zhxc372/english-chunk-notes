@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ai-tech",
+    "name": "AI & Technology",
+    "nameZh": "AI 与科技",
+    "description": "Articles about AI, software, chips, automation and digital tools.",
+    "order": 1,
+    "tags": ["AI", "technology", "software"]
+  },
+  {
+    "id": "business-economy",
+    "name": "Business & Economy",
+    "nameZh": "商业与经济",
+    "description": "Markets, companies, trade and economic trends.",
+    "order": 2,
+    "tags": ["business", "economy", "finance"]
+  },
+  {
+    "id": "world-society",
+    "name": "World & Society",
+    "nameZh": "世界与社会",
+    "description": "Global news, social issues, politics and culture.",
+    "order": 3,
+    "tags": ["world", "society", "politics"]
+  },
+  {
+    "id": "science-health",
+    "name": "Science & Health",
+    "nameZh": "科学与健康",
+    "description": "Scientific discoveries, health tips and medical breakthroughs.",
+    "order": 4,
+    "tags": ["science", "health", "medicine"]
+  },
+  {
+    "id": "education-exams",
+    "name": "Education & Exams",
+    "nameZh": "教育与考试",
+    "description": "IELTS, TOEFL, CET preparation and learning strategies.",
+    "order": 5,
+    "tags": ["education", "IELTS", "TOEFL", "CET"]
+  },
+  {
+    "id": "culture-lifestyle",
+    "name": "Culture & Lifestyle",
+    "nameZh": "文化与生活",
+    "description": "Food, travel, sports and daily life.",
+    "order": 6,
+    "tags": ["culture", "lifestyle", "travel"]
+  },
+  {
+    "id": "software-engineering",
+    "name": "Software Engineering",
+    "nameZh": "软件工程",
+    "description": "Coding, architecture, DevOps and engineering practices.",
+    "order": 7,
+    "tags": ["coding", "architecture", "DevOps"]
+  }
+]

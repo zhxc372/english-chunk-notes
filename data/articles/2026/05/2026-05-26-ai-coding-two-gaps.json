@@ -1,0 +1,37 @@
+{
+  "id": "2026-05-26-ai-coding-two-gaps",
+  "categoryId": "ai-tech",
+  "title": "Two Gaps Between Developers and AI",
+  "titleZh": "开发者与 AI 之间的两个差距",
+  "summaryZh": "本文讨论 AI 编程时代中，任务定义和代码验证为什么变得更重要。",
+  "level": "B2",
+  "sourceType": "generated",
+  "sourceUrl": "",
+  "publishedAt": "2026-05-26",
+  "updatedAt": "2026-05-26",
+  "order": 1,
+  "tags": ["AI", "Coding", "Software Engineering"],
+  "examTags": ["IELTS", "TOEFL", "Tech English"],
+  "paragraphs": [
+    {
+      "id": "p1",
+      "text": "Many people are anxious about whether AI will replace programmers. The real question is not whether AI can write code, but whether developers can clearly define what needs to be built.",
+      "zh": "很多人担心 AI 是否会取代程序员。真正的问题不是 AI 能不能写代码，而是开发者能不能清楚地定义需要构建什么。"
+    },
+    {
+      "id": "p2",
+      "text": "The first gap is the specification gap. In the past, developers could start coding with vague requirements and figure things out along the way. With AI, you need to make a decision about exactly what you want before the AI generates anything.",
+      "zh": "第一个差距是需求定义差距。过去开发者可以用模糊的需求开始编码，边做边想。有了 AI，你需要在 AI 生成任何东西之前就明确做出决定。"
+    },
+    {
+      "id": "p3",
+      "text": "The second gap is the verification gap. When AI writes code, someone still needs to review it. Making decisions about code quality, security and performance requires deep expertise.",
+      "zh": "第二个差距是验证差距。当 AI 写代码时，仍然需要有人来审查。对代码质量、安全性和性能做出判断需要深厚的专业知识。"
+    },
+    {
+      "id": "p4",
+      "text": "The bottom line is that AI amplifies the skills you already have. If you can think clearly and communicate precisely, AI becomes a powerful tool. If not, it just helps you make mistakes faster.",
+      "zh": "底线是 AI 放大了你已有的技能。如果你能清晰思考并精确沟通，AI 就成了强大的工具。否则，它只会帮你更快地犯错。"
+    }
+  ]
+}

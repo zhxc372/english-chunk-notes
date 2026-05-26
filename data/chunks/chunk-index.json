@@ -1,0 +1,82 @@
+[
+  {
+    "id": "chunk-make-a-decision",
+    "canonical": "make a decision",
+    "normalizedCanonical": "make decision",
+    "meaningZh": "做决定",
+    "type": "verb_phrase",
+    "level": "B1",
+    "tags": ["decision", "business", "daily"],
+    "surfaceForms": [
+      "make a decision",
+      "makes a decision",
+      "made a decision",
+      "making a decision",
+      "make decisions",
+      "making decisions",
+      "made decisions"
+    ],
+    "aliases": [
+      "reach a decision",
+      "come to a decision"
+    ],
+    "relatedChunkIds": ["chunk-decide-on-something"],
+    "coreExamples": [
+      {
+        "text": "We need to make a decision soon.",
+        "zh": "我们需要尽快做决定。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-the-bottom-line",
+    "canonical": "the bottom line",
+    "normalizedCanonical": "bottom line",
+    "meaningZh": "归根结底；底线",
+    "type": "noun_phrase",
+    "level": "B2",
+    "tags": ["business", "opinion", "summary"],
+    "surfaceForms": [
+      "the bottom line",
+      "bottom line"
+    ],
+    "aliases": [
+      "at the end of the day",
+      "when all is said and done"
+    ],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "The bottom line is that we need more time.",
+        "zh": "归根结底是我们需要更多时间。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-figure-out",
+    "canonical": "figure out",
+    "normalizedCanonical": "figure out",
+    "meaningZh": "弄清楚；想出",
+    "type": "verb_phrase",
+    "level": "B1",
+    "tags": ["thinking", "problem-solving", "daily"],
+    "surfaceForms": [
+      "figure out",
+      "figures out",
+      "figured out",
+      "figuring out",
+      "figure things out"
+    ],
+    "aliases": [
+      "work out",
+      "sort out"
+    ],
+    "relatedChunkIds": ["chunk-find-out"],
+    "coreExamples": [
+      {
+        "text": "I can't figure out how to solve this problem.",
+        "zh": "我想不出怎么解决这个问题。"
+      }
+    ]
+  }
+]

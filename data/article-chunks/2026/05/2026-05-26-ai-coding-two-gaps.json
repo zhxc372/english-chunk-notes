@@ -1,0 +1,48 @@
+{
+  "articleId": "2026-05-26-ai-coding-two-gaps",
+  "occurrences": [
+    {
+      "articleId": "2026-05-26-ai-coding-two-gaps",
+      "chunkId": "chunk-make-a-decision",
+      "paragraphId": "p2",
+      "order": 1,
+      "surface": "make a decision",
+      "sentence": "With AI, you need to make a decision about exactly what you want before the AI generates anything.",
+      "sentenceZh": "有了 AI，你需要在 AI 生成任何东西之前就明确做出决定。",
+      "startOffset": 145,
+      "endOffset": 161,
+      "matchType": "exact",
+      "confidence": 1.0,
+      "importance": 5
+    },
+    {
+      "articleId": "2026-05-26-ai-coding-two-gaps",
+      "chunkId": "chunk-the-bottom-line",
+      "paragraphId": "p4",
+      "order": 2,
+      "surface": "The bottom line",
+      "sentence": "The bottom line is that AI amplifies the skills you already have.",
+      "sentenceZh": "底线是 AI 放大了你已有的技能。",
+      "startOffset": 0,
+      "endOffset": 16,
+      "localMeaningZh": "这里指总结来看、归根结底的意思。",
+      "matchType": "exact",
+      "confidence": 1.0,
+      "importance": 4
+    },
+    {
+      "articleId": "2026-05-26-ai-coding-two-gaps",
+      "chunkId": "chunk-figure-out",
+      "paragraphId": "p2",
+      "order": 3,
+      "surface": "figure things out",
+      "sentence": "developers could start coding with vague requirements and figure things out along the way.",
+      "sentenceZh": "开发者可以用模糊的需求开始编码，边做边想。",
+      "startOffset": 82,
+      "endOffset": 100,
+      "matchType": "surface_form",
+      "confidence": 0.9,
+      "importance": 3
+    }
+  ]
+}
