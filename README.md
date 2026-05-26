@@ -7,16 +7,28 @@
 - **23 个主题**（18 通用英语 + 5 技术英语）
 - **460 个词块**（每主题 20 个）
 - **483 个 MP3 音频**（23 主题朗读 + 460 词块例句）
-- 覆盖雅思 / 托福 18 大高频话题
+- 覆盖雅思 / 托福 / CET4 / CET6 18 大高频话题
 
 ## 功能
+
+### v0.2 新增
+
+- 🆕 Deck Builder — 5种来源构建闪卡组（收藏/课程/标签/错题/到期复习）
+- 🆕 4种训练模式 — 英译中、中译英、句子填空、音频听写
+- 🆕 词块搜索 — 搜词块、中文含义，tag组合筛选
+- 🆕 导出 JSON / Anki TSV / CSV（支持按tag/level过滤）
+- 🆕 内容管道 — AI自动抓取文章生成词块（GitHub Actions + GitHub Models）
+- 🆕 来源归因 — 每个lesson显示内容来源
+- 🆕 发布流程 — drafts → review → published
+
+### v0.1 已有
 
 - 主题文章阅读 + 音频播放
 - 词块卡片翻页浏览
 - 收藏夹（localStorage 持久化）
 - 闪卡训练
 - 听写训练
-- 多格式导出（Anki CSV、JSON、TXT）
+- VitePress 内置全文搜索
 
 ## 本地部署
 
@@ -50,21 +62,58 @@ npm run preview
 
 构建产物在 `docs/.vitepress/dist/`，可部署到任意静态托管。
 
+## CLI 工具
+
+```bash
+# 验证 lesson 数据格式
+npm run validate:lessons
+
+# 从URL抓取文章生成lesson（需GitHub Models API）
+npm run ingest:url -- <url>
+
+# 每日自动抓取（GitHub Actions触发）
+npm run ingest:daily
+
+# 发布 draft lesson
+npm run publish:lesson -- data/lessons/drafts/example.json
+
+# 导出闪卡
+npm run export:anki -- --format json --output export.json
+npm run export:anki -- --format tsv --output anki-deck.tsv --tag IELTS
+npm run export:anki -- --format csv --output anki-deck.csv --level B2
+```
+
 ## 项目结构
 
 ```
-├── data/lessons/          # 主题 JSON 数据（23 个主题文件）
-├── public/audio/          # MP3 音频（Git LFS 管理）
-├── docs/                  # VitePress 站点源码
-│   ├── .vitepress/        # VitePress 配置和 Vue 组件
-│   ├── themes/            # 主题页面
-│   ├── favorites.md       # 收藏夹页
-│   ├── flashcards.md      # 闪卡训练页
-│   └── index.md           # 首页
-├── scripts/               # 数据校验脚本
-├── tests/                 # 测试
-├── constitution.md        # 项目宪法
-└── agent.md               # AI Agent 执行规范
+├── config/sources.yaml           # v0.2 内容来源注册表
+├── data/lessons/                 # 主题 JSON 数据
+│   ├── *.json                    # v0.1 published lessons（23个）
+│   └── drafts/                   # v0.2 AI生成的草稿
+├── docs/                         # VitePress 站点源码
+│   ├── .vitepress/
+│   │   ├── components/           # Vue 组件
+│   │   ├── data/                 # loader + types + search-index
+│   │   └── theme/                # 主题配置
+│   ├── themes/                   # 主题页面
+│   ├── favorites.md              # 收藏夹页
+│   └── flashcards.md             # 闪卡训练页（Deck Builder入口）
+├── tools/content-pipeline/       # v0.2 内容管道
+│   ├── ingest-url.ts             # URL抓取
+│   ├── ingest-daily.ts           # 每日自动抓取
+│   ├── validate-lesson.ts        # schema校验
+│   ├── publish-lesson.ts         # 发布流程
+│   ├── export-anki.ts            # 多格式导出
+│   ├── generate-search-index.ts  # 搜索索引生成
+│   ├── prompts/                  # AI prompt模板
+│   └── schemas/                  # JSON schema（v0.2）
+├── .github/workflows/            # GitHub Actions
+│   ├── deploy.yml                # 部署到GitHub Pages
+│   ├── ingest-daily.yml          # 每日自动抓取
+│   └── ingest-url.yml            # URL手动抓取
+├── scripts/                      # 数据校验脚本
+├── constitution.md               # 项目宪法
+└── agent.md                      # AI Agent 执行规范
 ```
 
 ## 主题列表
@@ -103,8 +152,10 @@ npm run preview
 - [VitePress](https://vitepress.dev/) + Vue 3 + TypeScript
 - JSON 数据驱动，无数据库
 - localStorage 存储收藏和闪卡进度
+- VitePress 内置 minisearch 全文搜索
+- GitHub Actions + GitHub Models（内容管道）
 - 静态 MP3 音频文件
 
 ## License
 
-Private — All rights reserved.
+MIT
