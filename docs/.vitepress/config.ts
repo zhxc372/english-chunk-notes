@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/english-chunk-notes/',
   title: 'English Chunk Notes',
   description: '考试英语 + 技术英语双轨主题词块学习站',
   lang: 'zh-CN',
