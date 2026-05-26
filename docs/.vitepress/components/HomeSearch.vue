@@ -32,7 +32,7 @@ const inputRef = ref<HTMLInputElement>()
 const query = ref(props.modelValue)
 
 const placeholder = computed(() => {
-  return '搜索主题、词块、中文解释...'
+  return '搜索词块、中文含义...'
 })
 
 function onInput() {

@@ -9,7 +9,7 @@
       </p>
     </div>
 
-    <!-- 搜索框 -->
+    <!-- 词块搜索 -->
     <HomeSearch @search="onSearch" @clear="onClearSearch" />
 
     <!-- Tag 筛选 -->
@@ -20,12 +20,34 @@
       @clear="clearTags"
     />
 
-    <!-- 搜索结果 -->
-    <SearchResultList
-      v-if="searchQuery || hasActiveTags"
-      :results="filteredLessons"
-      :query="searchQuery"
-    />
+    <!-- 搜索/筛选结果 -->
+    <div v-if="searchQuery || hasActiveTags" class="search-results">
+      <p v-if="filteredLessons.length" class="results-count">
+        找到 {{ filteredLessons.length }} 个主题
+        <span v-if="searchQuery"> — "{{ searchQuery }}"</span>
+      </p>
+      <div v-else class="no-results">
+        <p>没有找到相关主题</p>
+        <p class="no-results-hint">试试其他关键词或清除筛选条件</p>
+      </div>
+      <div class="results-grid">
+        <div
+          v-for="entry in filteredLessons"
+          :key="entry.lessonId"
+          class="ecn-card result-card"
+          @click="goToEntry(entry.route)"
+        >
+          <div class="card-title">{{ entry.title }}</div>
+          <div v-if="entry.titleCn" class="card-title-cn">{{ entry.titleCn }}</div>
+          <div v-if="entry.summaryZh" class="card-summary">{{ entry.summaryZh.slice(0, 80) }}{{ entry.summaryZh.length > 80 ? '...' : '' }}</div>
+          <div class="card-tags">
+            <span class="ecn-tag ecn-tag-level">{{ entry.level }}</span>
+            <span v-for="tag in (entry.topicTags || []).slice(0, 2)" :key="'t'+tag" class="ecn-tag ecn-tag-topic">{{ tag }}</span>
+            <span v-for="tag in (entry.examTags || []).slice(0, 2)" :key="'e'+tag" class="ecn-tag ecn-tag-exam">{{ tag }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- 默认首页内容（无搜索/筛选时显示） -->
     <template v-else>
@@ -107,7 +129,22 @@
       <!-- 全部主题列表 -->
       <div class="home-section">
         <h2>📚 全部主题</h2>
-        <LessonGrid :lessons="publishedLessons" />
+        <div class="results-grid">
+          <div
+            v-for="lesson in publishedLessons"
+            :key="lesson.lesson_id"
+            class="ecn-card result-card"
+            @click="goToLesson(lesson.lesson_id)"
+          >
+            <div class="card-title">{{ lesson.title }}</div>
+            <div class="card-title-cn">{{ lesson.title_cn }}</div>
+            <div class="card-tags">
+              <span class="ecn-tag ecn-tag-level">{{ lesson.level }}</span>
+              <span v-for="tag in (lesson.exam_tags || []).slice(0, 3)" :key="tag" class="ecn-tag ecn-tag-exam">{{ tag }}</span>
+              <span class="chunk-count">📚 {{ lesson.chunks?.length || 0 }} 词块</span>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- 考试标签入口 -->
@@ -166,8 +203,6 @@ import { getProgressStats, getDueForReview } from '../data/types'
 import type { Lesson } from '../data/types'
 import HomeSearch from './HomeSearch.vue'
 import TagFilterBar from './TagFilterBar.vue'
-import LessonGrid from './LessonGrid.vue'
-import SearchResultList from './SearchResultList.vue'
 import searchIndex from '../data/search-index.json'
 
 interface TagItem {
@@ -281,6 +316,10 @@ function toggleTag(tag: TagItem) {
 
 function clearTags() {
   activeTags.value = []
+}
+
+function goToEntry(route: string): void {
+  window.location.href = withBase(route)
 }
 
 function goToLesson(lessonId: string): void {
