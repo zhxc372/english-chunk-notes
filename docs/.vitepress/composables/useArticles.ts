@@ -3,10 +3,10 @@
  * 首页只加载 article-index（轻量），文章页按需加载完整article
  */
 
-import type { Article, ArticleIndexItem } from '../../../types/content'
+import type { Article, ArticleIndexItem } from '../../../../types/content'
 
 // 静态导入 article-index（轻量，只有标题/摘要/标签）
-import articleIndexData from '../../../../data/indexes/article-index.json'
+import articleIndexData from '../../../data/indexes/article-index.json'
 
 const articleIndex = articleIndexData as ArticleIndexItem[]
 
@@ -30,7 +30,7 @@ export function getArticleIndexItem(articleId: string): ArticleIndexItem | undef
  * 使用Vite的glob import实现按需加载
  */
 const articleModules = import.meta.glob<{ default: Article }>(
-  '../../../../data/articles/**/*.json'
+  '../../../data/articles/**/*.json'
 )
 
 export async function loadArticle(articleId: string): Promise<Article | null> {

@@ -2,12 +2,12 @@
  * useArticleChunks.ts — v0.3 Article-Chunk 关联数据加载
  */
 
-import type { ArticleChunks, ArticleChunkOccurrence, Chunk, ChunkIndexItem } from '../../../types/content'
+import type { ArticleChunks, ArticleChunkOccurrence, Chunk, ChunkIndexItem } from '../../../../types/content'
 import { getChunkIndexItem } from './useChunks'
 
 // 动态加载 article-chunks
 const acModules = import.meta.glob<{ default: ArticleChunks }>(
-  '../../../../data/article-chunks/**/*.json'
+  '../../../data/article-chunks/**/*.json'
 )
 
 /** 按articleId动态加载occurrences */

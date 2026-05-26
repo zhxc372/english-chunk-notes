@@ -16,6 +16,7 @@ import HomeSearch from '../components/HomeSearch.vue'
 import TagFilterBar from '../components/TagFilterBar.vue'
 import TtsButton from '../components/TtsButton.vue'
 import TtsSettingsPanel from '../components/TtsSettingsPanel.vue'
+import ArticlePage from '../components/ArticlePage.vue'
 
 const theme: Theme = {
   extends: DefaultTheme,
@@ -33,6 +34,7 @@ const theme: Theme = {
     app.component('TagFilterBar', TagFilterBar)
     app.component('TtsButton', TtsButton)
     app.component('TtsSettingsPanel', TtsSettingsPanel)
+    app.component('ArticlePage', ArticlePage)
   }
 }
 

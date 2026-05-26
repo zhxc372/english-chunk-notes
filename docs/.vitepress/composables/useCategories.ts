@@ -2,8 +2,8 @@
  * categories.ts — v0.3 Category 数据
  */
 
-import type { Category } from '../../../types/content'
-import categoriesData from '../../../../data/categories.json'
+import type { Category } from '../../../../types/content'
+import categoriesData from '../../../data/categories.json'
 
 const categories = categoriesData as Category[]
 

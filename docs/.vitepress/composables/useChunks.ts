@@ -3,10 +3,10 @@
  * 支持按chunkId获取、按normalized lookup查询
  */
 
-import type { Chunk, ChunkIndexItem } from '../../../types/content'
+import type { Chunk, ChunkIndexItem } from '../../../../types/content'
 
 // 静态导入 chunk-index（全局词块索引）
-import chunkIndexData from '../../../../data/chunks/chunk-index.json'
+import chunkIndexData from '../../../data/chunks/chunk-index.json'
 
 const chunkIndex = chunkIndexData as ChunkIndexItem[]
 
@@ -50,7 +50,7 @@ export function getChunksByTag(tag: string): ChunkIndexItem[] {
 
 // 动态加载完整chunk数据（从shards）
 const chunkModules = import.meta.glob<{ default: Chunk }>(
-  '../../../../data/chunks/shards/*.json'
+  '../../../data/chunks/shards/*.json'
 )
 
 export async function loadChunk(chunkId: string): Promise<Chunk | null> {
