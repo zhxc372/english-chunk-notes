@@ -1,73 +1,116 @@
-# English Chunk Notes Starter
+# English Chunk Notes
 
-这是一个 **考试英语 + 技术英语双轨主题词块站** 的启动文档包。
+考试英语 + 技术英语双轨主题词块学习站。从主题文章中抽取词块，变成听力、闪卡、听写和写作训练。
 
-核心定位：
+## 数据规模
 
-> 用主题文章生成听力材料，从文章中抽取主题词块，再把词块变成收藏、闪卡、复述和写作训练。
+- **23 个主题**（18 通用英语 + 5 技术英语）
+- **460 个词块**（每主题 20 个）
+- **483 个 MP3 音频**（23 主题朗读 + 460 词块例句）
+- 覆盖雅思 / 托福 18 大高频话题
 
-第一版不做复杂平台，只做一个轻量的在线文档型学习站：
+## 功能
 
-- 文章 → 听力
-- 主题词块 → 收藏
-- 收藏 → 闪卡
-- 词块 → 中译英 / 听写 / 复述 / 写作套用
-- 考试标签 → IELTS / TOEFL / PETS / CET / TOEIC / Tech English
+- 主题文章阅读 + 音频播放
+- 词块卡片翻页浏览
+- 收藏夹（localStorage 持久化）
+- 闪卡训练
+- 听写训练
+- 多格式导出（Anki CSV、JSON、TXT）
 
-## 推荐技术栈
+## 本地部署
 
-```text
-VitePress + Vue 组件 + JSON 数据 + localStorage + 静态 MP3
+### 前置条件
+
+- Node.js >= 18
+- npm >= 9
+
+### 克隆
+
+```bash
+# 安装 Git LFS（如未安装）
+# macOS: brew install git-lfs
+# Ubuntu: apt install git-lfs
+# Windows: 下载 https://git-lfs.github.com/
+
+git lfs install
+git clone https://github.com/zhxc372/english-chunk-notes.git
+cd english-chunk-notes
 ```
 
-## 第一版边界
+### 启动
 
-保留：
-
-- 主题页面
-- 文章与音频播放
-- 词块卡片
-- 收藏
-- 闪卡
-- 考试标签
-- 技术英语入口
-
-禁止：
-
-- 登录系统
-- 数据库
-- 云端同步
-- 在线 AI 调用
-- 自动评分
-- 复杂考试题库
-- 商业化功能
-
-## 重要文件
-
-```text
-constitution.md          项目宪法，所有实现必须先读
-agent.md                 给 AI coding agent 的执行规范
-docs/PRD.md              产品需求文档
-docs/architecture.md     技术架构
-docs/data-schema.md      Lesson / Chunk 数据结构
-docs/content-pipeline.md 内容生产流水线
-docs/tasks.md            MVP 阶段任务拆解
-docs/prompts/            AI 生成与审核 prompt
-docs/examples/           示例 lesson 文档
-data/lessons/            示例 JSON 数据
-scripts/                 音频生成与数据校验脚本说明
+```bash
+npm install
+npm run dev
 ```
 
-## 第一批建议主题
+浏览器打开 `http://localhost:5173` 即可使用。
 
-1. AI Coding Workflow
-2. Education & Learning
-3. Work & Career
+### 构建
 
-每个主题先做：
+```bash
+npm run build
+npm run preview
+```
 
-- 1 篇 150-250 词文章
-- 20 个主题词块
-- 20 条词块听力句
-- 5 个复述题
-- 1 个可套作文段落
+构建产物在 `docs/.vitepress/dist/`，可部署到任意静态托管。
+
+## 项目结构
+
+```
+├── data/lessons/          # 主题 JSON 数据（23 个主题文件）
+├── public/audio/          # MP3 音频（Git LFS 管理）
+├── docs/                  # VitePress 站点源码
+│   ├── .vitepress/        # VitePress 配置和 Vue 组件
+│   ├── themes/            # 主题页面
+│   ├── favorites.md       # 收藏夹页
+│   ├── flashcards.md      # 闪卡训练页
+│   └── index.md           # 首页
+├── scripts/               # 数据校验脚本
+├── tests/                 # 测试
+├── constitution.md        # 项目宪法
+└── agent.md               # AI Agent 执行规范
+```
+
+## 主题列表
+
+### 通用英语（18）
+
+1. Education & Learning
+2. Work & Career
+3. Health & Wellbeing
+4. Environment & Climate
+5. Technology & Society
+6. Family & Children
+7. Crime & Punishment
+8. Media & Advertising
+9. Globalization & Trade
+10. Housing & Architecture
+11. Culture & Tourism
+12. Social Problems
+13. Language & Communication
+14. Transport & Urbanization
+15. Food & Diet
+16. Sport & Leisure
+17. Animal Rights
+18. Government & Politics
+
+### 技术英语（5）
+
+19. AI Coding Workflow
+20. AI & Automation
+21. System Design
+22. Software Engineering
+23. Project Management
+
+## 技术栈
+
+- [VitePress](https://vitepress.dev/) + Vue 3 + TypeScript
+- JSON 数据驱动，无数据库
+- localStorage 存储收藏和闪卡进度
+- Git LFS 管理 MP3 音频文件
+
+## License
+
+Private — All rights reserved.
