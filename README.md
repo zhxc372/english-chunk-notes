@@ -28,12 +28,6 @@
 ### 克隆
 
 ```bash
-# 安装 Git LFS（如未安装）
-# macOS: brew install git-lfs
-# Ubuntu: apt install git-lfs
-# Windows: 下载 https://git-lfs.github.com/
-
-git lfs install
 git clone https://github.com/zhxc372/english-chunk-notes.git
 cd english-chunk-notes
 ```
@@ -109,7 +103,7 @@ npm run preview
 - [VitePress](https://vitepress.dev/) + Vue 3 + TypeScript
 - JSON 数据驱动，无数据库
 - localStorage 存储收藏和闪卡进度
-- Git LFS 管理 MP3 音频文件
+- 静态 MP3 音频文件
 
 ## License
 
