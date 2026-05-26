@@ -10,7 +10,7 @@
 
 <div class="ecn-grid ecn-grid-2">
 
-<div class="ecn-card" style="cursor: pointer;" onclick="window.location.href='/themes/ai-coding-workflow.html'">
+<div class="ecn-card" style="cursor: pointer;" onclick="window.location.href=document.basePath+'themes/ai-coding-workflow/'">
   <h3>AI Coding Workflow</h3>
   <p class="lesson-title-cn">AI 编程工作流</p>
   <p style="font-size: 0.85rem; color: var(--vp-c-text-3); margin: 8px 0 0;">
@@ -22,7 +22,7 @@
   </div>
 </div>
 
-<div class="ecn-card" style="cursor: pointer;" onclick="window.location.href='/themes/software-engineering.html'">
+<div class="ecn-card" style="cursor: pointer;" onclick="window.location.href=document.basePath+'themes/software-engineering/'">
   <h3>Software Engineering</h3>
   <p class="lesson-title-cn">软件工程</p>
   <p style="font-size: 0.85rem; color: var(--vp-c-text-3); margin: 8px 0 0;">
@@ -34,7 +34,7 @@
   </div>
 </div>
 
-<div class="ecn-card" style="cursor: pointer;" onclick="window.location.href='/themes/project-management.html'">
+<div class="ecn-card" style="cursor: pointer;" onclick="window.location.href=document.basePath+'themes/project-management/'">
   <h3>Project Management</h3>
   <p class="lesson-title-cn">项目管理</p>
   <p style="font-size: 0.85rem; color: var(--vp-c-text-3); margin: 8px 0 0;">
@@ -46,7 +46,7 @@
   </div>
 </div>
 
-<div class="ecn-card" style="cursor: pointer;" onclick="window.location.href='/themes/system-design.html'">
+<div class="ecn-card" style="cursor: pointer;" onclick="window.location.href=document.basePath+'themes/system-design/'">
   <h3>System Design</h3>
   <p class="lesson-title-cn">系统设计基础</p>
   <p style="font-size: 0.85rem; color: var(--vp-c-text-3); margin: 8px 0 0;">
@@ -58,7 +58,7 @@
   </div>
 </div>
 
-<div class="ecn-card" style="cursor: pointer;" onclick="window.location.href='/themes/ai-automation.html'">
+<div class="ecn-card" style="cursor: pointer;" onclick="window.location.href=document.basePath+'themes/ai-automation/'">
   <h3>AI & Automation</h3>
   <p class="lesson-title-cn">AI与自动化</p>
   <p style="font-size: 0.85rem; color: var(--vp-c-text-3); margin: 8px 0 0;">

@@ -7,7 +7,8 @@ export default defineConfig({
   description: '考试英语 + 技术英语双轨主题词块学习站',
   lang: 'zh-CN',
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }]
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+    ['script', {}, "document.basePath='/english-chunk-notes/';"]
   ],
   themeConfig: {
     nav: [
