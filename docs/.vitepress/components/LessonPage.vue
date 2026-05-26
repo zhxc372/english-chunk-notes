@@ -119,12 +119,13 @@
   <div v-else class="ecn-empty">
     <div class="ecn-empty-icon">📄</div>
     <p>未找到该主题内容</p>
-    <a href="/themes/" class="ecn-btn ecn-btn-primary" style="margin-top: 16px;">返回主题列表</a>
+    <a :href="withBase('/themes/')" class="ecn-btn ecn-btn-primary" style="margin-top: 16px;">返回主题列表</a>
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref, computed } from 'vue'
+import { withBase } from 'vitepress'
 import { getLessonById } from '../data/loader'
 import ChunkCard from './ChunkCard.vue'
 import AudioPlayer from './AudioPlayer.vue'

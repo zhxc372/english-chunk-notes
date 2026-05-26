@@ -8,7 +8,7 @@
         <div class="ecn-empty-icon">📭</div>
         <p>没有收藏的词块</p>
         <p style="font-size: 0.85rem; margin-top: 8px;">先去主题页面收藏词块，再来训练</p>
-        <a href="/themes/" class="ecn-btn ecn-btn-primary" style="margin-top: 16px;">去浏览主题</a>
+        <a :href="withBase('/themes/')" class="ecn-btn ecn-btn-primary" style="margin-top: 16px;">去浏览主题</a>
       </div>
 
       <div v-else>
@@ -177,6 +177,7 @@
 
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
+import { withBase } from 'vitepress'
 import { getFavorites, getWeakChunks } from '../data/types'
 import { getChunkById } from '../data/loader'
 import { updateReviewState } from '../data/types'

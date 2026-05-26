@@ -25,13 +25,14 @@
       <div class="ecn-empty-icon">💔</div>
       <p>还没有收藏任何词块</p>
       <p style="font-size: 0.85rem; margin-top: 8px;">在主题页面中点击 ❤️ 收藏词块</p>
-      <a href="/themes/" class="ecn-btn ecn-btn-primary" style="margin-top: 16px;">去浏览主题</a>
+      <a :href="withBase('/themes/')" class="ecn-btn ecn-btn-primary" style="margin-top: 16px;">去浏览主题</a>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
+import { withBase } from 'vitepress'
 import { getFavorites } from '../data/types'
 import { getChunkById } from '../data/loader'
 import type { Chunk, Lesson } from '../data/types'

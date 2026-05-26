@@ -42,27 +42,27 @@
         <h3>随机开始</h3>
         <p>{{ randomLesson.title_cn }}</p>
       </button>
-      <a href="/themes/" class="shortcut-card ecn-card">
+      <a :href="withBase('/themes/')" class="shortcut-card ecn-card">
         <div class="shortcut-icon">📚</div>
         <h3>主题学习</h3>
         <p>按主题阅读文章、学习词块</p>
       </a>
-      <a href="/favorites.html" class="shortcut-card ecn-card">
+      <a :href="withBase('/favorites.html')" class="shortcut-card ecn-card">
         <div class="shortcut-icon">❤️</div>
         <h3>我的收藏</h3>
         <p>管理已收藏的词块</p>
       </a>
-      <a href="/flashcards.html" class="shortcut-card ecn-card">
+      <a :href="withBase('/flashcards.html')" class="shortcut-card ecn-card">
         <div class="shortcut-icon">🃏</div>
         <h3>闪卡训练</h3>
         <p>英译中、中译英、填空、听写</p>
       </a>
-      <a href="/tech-english" class="shortcut-card ecn-card">
+      <a :href="withBase('/tech-english')" class="shortcut-card ecn-card">
         <div class="shortcut-icon">💻</div>
         <h3>技术英语</h3>
         <p>AI、软件工程、系统设计</p>
       </a>
-      <a href="/general-english" class="shortcut-card ecn-card">
+      <a :href="withBase('/general-english')" class="shortcut-card ecn-card">
         <div class="shortcut-icon">🌍</div>
         <h3>通用英语</h3>
         <p>雅思、托福常考话题</p>
@@ -134,7 +134,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
-import { useRouter } from 'vitepress'
+import { useRouter, withBase } from 'vitepress'
 import { getAllExamTags, getAllLessons } from '../data/loader'
 import { getProgressStats, getDueForReview } from '../data/types'
 import type { Lesson } from '../data/types'
