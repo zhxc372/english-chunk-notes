@@ -1,12 +1,11 @@
 <template>
   <button
-    class="tts-btn"
+    class="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors text-sm"
     :title="stateTitle"
-    :aria-label="stateTitle"
     @click.stop="handleClick"
   >
     <span v-if="state === 'idle'">🔊</span>
-    <span v-else-if="state === 'playing'" class="tts-pulse">⏸️</span>
+    <span v-else-if="state === 'playing'" class="animate-pulse">⏸️</span>
     <span v-else>▶️</span>
   </button>
 </template>
@@ -49,32 +48,3 @@ function handleClick() {
   }
 }
 </script>
-
-<style scoped>
-.tts-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-  border: none;
-  background: var(--vp-c-bg-soft);
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background 0.2s;
-}
-
-.tts-btn:hover {
-  background: var(--vp-c-bg-mute);
-}
-
-.tts-pulse {
-  animation: pulse 1s ease-in-out infinite;
-}
-
-@keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.5; }
-}
-</style>

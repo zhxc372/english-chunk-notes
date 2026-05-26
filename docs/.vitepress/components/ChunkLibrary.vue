@@ -1,54 +1,50 @@
 <template>
-  <div class="chunk-library">
-    <h2>📚 全局词块库 ({{ chunks.length }})</h2>
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-6">📚 全局词块库 <span class="text-base font-normal text-gray-400">({{ chunks.length }})</span></h2>
 
     <!-- Search -->
-    <div class="search-box">
-      <input v-model="query" type="text" placeholder="搜索词块或中文含义..." class="search-input" />
+    <div class="mb-4">
+      <input v-model="query" type="text" placeholder="搜索词块或中文含义..." class="w-full px-4 py-2.5 rounded-xl border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent text-sm transition-shadow" />
     </div>
 
-    <!-- Filter by type -->
-    <div class="filter-bar">
+    <!-- Filter -->
+    <div class="flex flex-wrap gap-2 mb-6">
       <button
         v-for="t in types"
         :key="t"
-        :class="['filter-btn', { active: activeType === t }]"
+        :class="['px-3 py-1 rounded-full text-xs font-medium border transition-colors', activeType === t ? 'bg-blue-500 text-white border-blue-500' : 'bg-white dark:bg-gray-800 text-gray-500 border-gray-200 dark:border-gray-600 hover:border-blue-300']"
         @click="activeType = activeType === t ? '' : t"
       >
         {{ t.replace('_', ' ') }}
       </button>
     </div>
 
-    <!-- List -->
-    <div v-if="filteredChunks.length" class="chunk-grid">
+    <!-- Grid -->
+    <div v-if="filteredChunks.length" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
       <div
         v-for="chunk in filteredChunks"
         :key="chunk.id"
-        class="ecn-card chunk-card"
+        class="p-4 rounded-xl bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 shadow-sm hover:shadow-md cursor-pointer transition-all"
         @click="selectedChunk = chunk"
       >
-        <div class="chunk-canonical">{{ chunk.canonical }}</div>
-        <div class="chunk-meaning">{{ chunk.meaningZh }}</div>
-        <div class="chunk-tags">
-          <span class="ecn-tag ecn-tag-type">{{ chunk.type.replace('_', ' ') }}</span>
-          <span v-if="chunk.level" class="ecn-tag ecn-tag-level">{{ chunk.level }}</span>
+        <div class="font-semibold text-gray-800 dark:text-gray-100 mb-1">{{ chunk.canonical }}</div>
+        <div class="text-sm text-gray-500 dark:text-gray-400 mb-2">{{ chunk.meaningZh }}</div>
+        <div class="flex gap-1.5">
+          <span class="px-2 py-0.5 rounded-full bg-blue-50 dark:bg-blue-900/30 text-blue-500 text-xs capitalize">{{ chunk.type.replace('_', ' ') }}</span>
+          <span v-if="chunk.level" class="px-2 py-0.5 rounded-full bg-gray-50 dark:bg-gray-700 text-gray-500 text-xs">{{ chunk.level }}</span>
         </div>
       </div>
     </div>
-    <div v-else class="empty">没有匹配的词块</div>
+    <div v-else class="text-center py-16 text-gray-400">没有匹配的词块</div>
 
     <!-- Detail Modal -->
-    <ChunkDetail
-      v-if="selectedChunk"
-      :chunk="selectedChunk"
-      @close="selectedChunk = null"
-    />
+    <ChunkDetail v-if="selectedChunk" :chunk="selectedChunk" @close="selectedChunk = null" />
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import { getChunkIndex, searchChunks } from '../composables/useChunks'
+import { getChunkIndex } from '../composables/useChunks'
 import ChunkDetail from './ChunkDetail.vue'
 import type { ChunkIndexItem } from '../../../types/content'
 
@@ -79,98 +75,3 @@ const filteredChunks = computed(() => {
   return result
 })
 </script>
-
-<style scoped>
-.chunk-library h2 {
-  margin-bottom: 16px;
-}
-
-.search-box {
-  margin-bottom: 12px;
-}
-
-.search-input {
-  width: 100%;
-  padding: 8px 12px;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 6px;
-  background: var(--vp-c-bg-soft);
-  color: var(--vp-c-text-1);
-  font-size: 0.9rem;
-}
-
-.search-input:focus {
-  outline: none;
-  border-color: var(--vp-c-brand);
-}
-
-.filter-bar {
-  display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
-  margin-bottom: 16px;
-}
-
-.filter-btn {
-  padding: 3px 10px;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 12px;
-  background: var(--vp-c-bg);
-  color: var(--vp-c-text-2);
-  font-size: 0.75rem;
-  cursor: pointer;
-  text-transform: capitalize;
-}
-
-.filter-btn.active {
-  background: var(--vp-c-brand-soft);
-  color: var(--vp-c-brand);
-  border-color: var(--vp-c-brand);
-}
-
-.chunk-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 10px;
-}
-
-.chunk-card {
-  cursor: pointer;
-  padding: 14px;
-  transition: transform 0.2s;
-}
-
-.chunk-card:hover {
-  transform: translateY(-2px);
-}
-
-.chunk-canonical {
-  font-weight: 600;
-  color: var(--vp-c-text-1);
-  margin-bottom: 4px;
-}
-
-.chunk-meaning {
-  font-size: 0.85rem;
-  color: var(--vp-c-text-2);
-  margin-bottom: 8px;
-}
-
-.chunk-tags {
-  display: flex;
-  gap: 4px;
-  flex-wrap: wrap;
-}
-
-.ecn-tag-type {
-  background: rgba(59, 130, 246, 0.1);
-  color: #3b82f6;
-  text-transform: capitalize;
-}
-
-.empty {
-  text-align: center;
-  padding: 40px;
-  color: var(--vp-c-text-3);
-}
-</style>

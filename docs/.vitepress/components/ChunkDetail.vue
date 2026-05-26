@@ -1,44 +1,35 @@
 <template>
-  <div class="chunk-detail-overlay" @click.self="$emit('close')">
-    <div class="chunk-detail ecn-card">
-      <button class="close-btn" @click="$emit('close')">✕</button>
+  <div class="fixed inset-0 bg-black/40 flex items-center justify-center z-50 p-4" @click.self="$emit('close')">
+    <div class="relative bg-white dark:bg-gray-800 rounded-2xl shadow-xl max-w-lg w-full max-h-[80vh] overflow-y-auto p-6">
+      <button class="absolute top-4 right-4 text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 text-lg" @click="$emit('close')">✕</button>
 
-      <h3 class="canonical">{{ chunk.canonical }}</h3>
-      <p class="meaning">{{ chunk.meaningZh }}</p>
+      <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-1">{{ chunk.canonical }}</h3>
+      <p class="text-base text-gray-500 dark:text-gray-400 mb-4">{{ chunk.meaningZh }}</p>
 
-      <div class="detail-section">
-        <span class="label">类型</span>
-        <span class="ecn-tag">{{ chunk.type.replace('_', ' ') }}</span>
-        <span v-if="chunk.level" class="ecn-tag">{{ chunk.level }}</span>
-      </div>
-
-      <div v-if="chunk.surfaceForms?.length" class="detail-section">
-        <span class="label">变形形式</span>
-        <div class="form-list">
-          <code v-for="f in chunk.surfaceForms" :key="f" class="form-item">{{ f }}</code>
+      <div v-if="chunk.surfaceForms?.length" class="mb-4">
+        <div class="text-xs font-semibold text-gray-400 uppercase tracking-wide mb-2">变形形式</div>
+        <div class="flex flex-wrap gap-1.5">
+          <code v-for="f in chunk.surfaceForms" :key="f" class="px-2 py-0.5 bg-gray-100 dark:bg-gray-700 rounded text-xs text-gray-600 dark:text-gray-300">{{ f }}</code>
         </div>
       </div>
 
-      <div v-if="chunk.aliases?.length" class="detail-section">
-        <span class="label">近义表达</span>
-        <div class="form-list">
-          <code v-for="a in chunk.aliases" :key="a" class="form-item">{{ a }}</code>
+      <div v-if="chunk.aliases?.length" class="mb-4">
+        <div class="text-xs font-semibold text-gray-400 uppercase tracking-wide mb-2">近义表达</div>
+        <div class="flex flex-wrap gap-1.5">
+          <code v-for="a in chunk.aliases" :key="a" class="px-2 py-0.5 bg-gray-100 dark:bg-gray-700 rounded text-xs text-gray-600 dark:text-gray-300">{{ a }}</code>
         </div>
       </div>
 
-      <div v-if="chunk.coreExamples?.length" class="detail-section">
-        <span class="label">例句</span>
-        <div v-for="(ex, i) in chunk.coreExamples" :key="i" class="example">
-          <p class="example-en">{{ ex.text }} <TtsButton :text="ex.text" /></p>
-          <p v-if="ex.zh" class="example-zh">{{ ex.zh }}</p>
+      <div v-if="chunk.coreExamples?.length" class="mb-4">
+        <div class="text-xs font-semibold text-gray-400 uppercase tracking-wide mb-2">例句</div>
+        <div v-for="(ex, i) in chunk.coreExamples" :key="i" class="pl-3 border-l-2 border-gray-200 dark:border-gray-600 mb-2">
+          <p class="text-sm text-gray-700 dark:text-gray-200 flex items-center gap-2">{{ ex.text }} <TtsButton :text="ex.text" /></p>
+          <p v-if="ex.zh" class="text-xs text-gray-400 mt-0.5">{{ ex.zh }}</p>
         </div>
       </div>
 
-      <div v-if="chunk.tags?.length" class="detail-section">
-        <span class="label">标签</span>
-        <div class="tag-list">
-          <span v-for="t in chunk.tags" :key="t" class="ecn-tag">{{ t }}</span>
-        </div>
+      <div v-if="chunk.tags?.length" class="flex flex-wrap gap-1.5">
+        <span v-for="t in chunk.tags" :key="t" class="px-2 py-0.5 rounded-full bg-gray-100 dark:bg-gray-700 text-xs text-gray-500">{{ t }}</span>
       </div>
     </div>
   </div>
@@ -51,104 +42,3 @@ import type { ChunkIndexItem } from '../../../types/content'
 defineProps<{ chunk: ChunkIndexItem }>()
 defineEmits<{ close: [] }>()
 </script>
-
-<style scoped>
-.chunk-detail-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 100;
-  padding: 20px;
-}
-
-.chunk-detail {
-  position: relative;
-  max-width: 600px;
-  width: 100%;
-  max-height: 80vh;
-  overflow-y: auto;
-  padding: 24px;
-}
-
-.close-btn {
-  position: absolute;
-  top: 12px;
-  right: 12px;
-  background: none;
-  border: none;
-  font-size: 1.2rem;
-  color: var(--vp-c-text-3);
-  cursor: pointer;
-}
-
-.canonical {
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: var(--vp-c-text-1);
-  margin: 0 0 4px;
-}
-
-.meaning {
-  font-size: 1.05rem;
-  color: var(--vp-c-text-2);
-  margin: 0 0 16px;
-}
-
-.detail-section {
-  margin-bottom: 14px;
-}
-
-.label {
-  display: block;
-  font-size: 0.82rem;
-  color: var(--vp-c-text-3);
-  margin-bottom: 6px;
-  font-weight: 600;
-}
-
-.form-list {
-  display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
-}
-
-.form-item {
-  padding: 2px 8px;
-  background: var(--vp-c-bg-soft);
-  border-radius: 4px;
-  font-size: 0.82rem;
-  color: var(--vp-c-text-2);
-}
-
-.example {
-  margin-bottom: 8px;
-  padding-left: 12px;
-  border-left: 2px solid var(--vp-c-divider);
-}
-
-.example-en {
-  font-size: 0.9rem;
-  color: var(--vp-c-text-1);
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.example-zh {
-  font-size: 0.82rem;
-  color: var(--vp-c-text-3);
-  margin-top: 2px;
-}
-
-.tag-list {
-  display: flex;
-  gap: 4px;
-  flex-wrap: wrap;
-}
-</style>

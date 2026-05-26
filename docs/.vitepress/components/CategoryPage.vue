@@ -1,25 +1,28 @@
 <template>
-  <div class="category-page">
-    <h1>📂 文章分类</h1>
-    <div v-for="cat in categories" :key="cat.id" :id="cat.id" class="category-section">
-      <h2>{{ cat.nameZh }} <span class="cat-en">{{ cat.name }}</span></h2>
-      <p v-if="cat.description" class="cat-desc">{{ cat.description }}</p>
-      <div class="article-grid">
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-2xl font-bold text-gray-900 dark:text-white mb-8">📂 文章分类</h1>
+    <div v-for="cat in categories" :key="cat.id" :id="cat.id" class="mb-10 scroll-mt-16">
+      <h2 class="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-1">
+        {{ cat.nameZh }}
+        <span class="text-sm font-normal text-gray-400 ml-1">{{ cat.name }}</span>
+      </h2>
+      <p v-if="cat.description" class="text-sm text-gray-400 mb-3">{{ cat.description }}</p>
+      <div class="grid sm:grid-cols-2 gap-3">
         <div
           v-for="a in getArticlesByCategory(cat.id)"
           :key="a.id"
-          class="ecn-card article-card"
+          class="group p-4 rounded-xl bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 shadow-sm hover:shadow-md hover:border-blue-200 dark:hover:border-blue-800 cursor-pointer transition-all"
           @click="router.go(withBase(a.url))"
         >
-          <div class="article-title">{{ a.title }}</div>
-          <div v-if="a.titleZh" class="article-title-zh">{{ a.titleZh }}</div>
-          <div class="article-meta">
-            <span class="ecn-tag">{{ a.level }}</span>
+          <div class="font-semibold text-gray-800 dark:text-gray-100 group-hover:text-blue-500 transition-colors">{{ a.title }}</div>
+          <div v-if="a.titleZh" class="text-sm text-gray-400 mt-1">{{ a.titleZh }}</div>
+          <div class="flex gap-2 mt-2 text-xs text-gray-400">
+            <span class="px-2 py-0.5 rounded-full bg-blue-50 dark:bg-blue-900/30 text-blue-500 font-medium">{{ a.level }}</span>
             <span v-if="a.chunkCount">📚 {{ a.chunkCount }}</span>
             <span>{{ a.publishedAt }}</span>
           </div>
         </div>
-        <div v-if="!getArticlesByCategory(cat.id).length" class="empty">暂无文章</div>
+        <div v-if="!getArticlesByCategory(cat.id).length" class="text-sm text-gray-400 col-span-2">暂无文章</div>
       </div>
     </div>
   </div>
@@ -34,68 +37,3 @@ import { getArticlesByCategory } from '../composables/useArticles'
 const router = useRouter()
 const categories = getCategories()
 </script>
-
-<style scoped>
-.category-page {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.category-section {
-  margin-bottom: 32px;
-  scroll-margin-top: 60px;
-}
-
-.cat-en {
-  font-size: 0.85rem;
-  font-weight: 400;
-  color: var(--vp-c-text-3);
-}
-
-.cat-desc {
-  font-size: 0.85rem;
-  color: var(--vp-c-text-3);
-  margin-bottom: 12px;
-}
-
-.article-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 10px;
-}
-
-.article-card {
-  cursor: pointer;
-  padding: 14px;
-  transition: transform 0.2s;
-}
-
-.article-card:hover {
-  transform: translateY(-1px);
-}
-
-.article-title {
-  font-weight: 600;
-  color: var(--vp-c-text-1);
-}
-
-.article-title-zh {
-  font-size: 0.82rem;
-  color: var(--vp-c-text-2);
-  margin-top: 2px;
-}
-
-.article-meta {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  margin-top: 6px;
-  font-size: 0.78rem;
-  color: var(--vp-c-text-3);
-}
-
-.empty {
-  color: var(--vp-c-text-3);
-  font-size: 0.85rem;
-}
-</style>

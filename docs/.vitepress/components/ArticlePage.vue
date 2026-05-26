@@ -1,57 +1,58 @@
 <template>
-  <div class="article-page" v-if="article">
+  <div class="max-w-3xl mx-auto" v-if="article">
     <!-- Header -->
-    <div class="article-header">
-      <div class="article-badges">
-        <span class="ecn-tag ecn-tag-level">{{ article.level }}</span>
-        <span class="ecn-tag ecn-tag-category">{{ categoryName }}</span>
-        <span v-for="tag in article.examTags?.slice(0, 3)" :key="tag" class="ecn-tag ecn-tag-exam">{{ tag }}</span>
+    <div class="mb-8">
+      <div class="flex flex-wrap gap-2 mb-3">
+        <span class="px-2.5 py-0.5 rounded-full bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 text-xs font-medium">{{ article.level }}</span>
+        <span class="px-2.5 py-0.5 rounded-full bg-gray-50 dark:bg-gray-700 text-gray-600 dark:text-gray-300 text-xs font-medium">{{ categoryName }}</span>
+        <span v-for="tag in article.examTags?.slice(0, 3)" :key="tag" class="px-2.5 py-0.5 rounded-full bg-amber-50 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400 text-xs font-medium">{{ tag }}</span>
       </div>
-      <h1 class="article-title">{{ article.title }}</h1>
-      <p v-if="article.titleZh" class="article-title-zh">{{ article.titleZh }}</p>
-      <p v-if="article.summaryZh" class="article-summary">{{ article.summaryZh }}</p>
+      <h1 class="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white leading-tight">{{ article.title }}</h1>
+      <p v-if="article.titleZh" class="text-lg text-gray-500 dark:text-gray-400 mt-1">{{ article.titleZh }}</p>
+      <p v-if="article.summaryZh" class="text-sm text-gray-400 dark:text-gray-500 mt-2">{{ article.summaryZh }}</p>
     </div>
 
     <!-- Paragraphs -->
-    <section class="article-body">
-      <div class="article-toolbar">
-        <h2>📖 正文</h2>
+    <section class="mb-12">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-lg font-semibold text-gray-800 dark:text-gray-200">📖 正文</h2>
         <TtsButton :text="fullText" />
       </div>
-      <div
-        v-for="para in article.paragraphs"
-        :key="para.id"
-        class="article-paragraph"
-      >
-        <p class="para-en" v-html="highlightParagraph(para)"></p>
-        <p v-if="para.zh" class="para-zh">{{ para.zh }}</p>
-        <TtsButton :text="para.text" class="para-tts" />
+      <div class="space-y-4">
+        <div
+          v-for="para in article.paragraphs"
+          :key="para.id"
+          class="relative pl-4 py-3 pr-12 rounded-lg bg-gray-50 dark:bg-gray-800/50 border-l-3 border-blue-400"
+        >
+          <p class="text-base leading-relaxed text-gray-800 dark:text-gray-200" v-html="highlightParagraph(para)"></p>
+          <p v-if="para.zh" class="text-sm text-gray-400 dark:text-gray-500 mt-1 leading-relaxed">{{ para.zh }}</p>
+          <TtsButton :text="para.text" class="absolute top-2 right-2" />
+        </div>
       </div>
     </section>
 
     <!-- Chunk List -->
-    <section v-if="chunkItems.length" class="article-chunks">
-      <h2>📝 词块 ({{ chunkItems.length }})</h2>
-      <div class="chunk-list">
-        <div v-for="item in chunkItems" :key="item.chunkId" class="chunk-item ecn-card">
-          <div class="chunk-main">
-            <span class="chunk-canonical">{{ item.chunk?.canonical || item.chunkId }}</span>
-            <span v-if="item.surface !== item.chunk?.canonical" class="chunk-surface">→ 原文: {{ item.surface }}</span>
-            <span class="chunk-meaning">{{ item.chunk?.meaningZh || '' }}</span>
+    <section v-if="chunkItems.length" class="mb-12">
+      <h2 class="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-4">📝 词块 <span class="text-sm font-normal text-gray-400">({{ chunkItems.length }})</span></h2>
+      <div class="space-y-2">
+        <div v-for="item in chunkItems" :key="item.chunkId" class="p-4 rounded-xl bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700">
+          <div class="flex items-baseline gap-2 flex-wrap">
+            <span class="font-semibold text-gray-800 dark:text-gray-100">{{ item.chunk?.canonical || item.chunkId }}</span>
+            <span v-if="item.surface !== item.chunk?.canonical" class="text-xs text-gray-400 italic">→ {{ item.surface }}</span>
+            <span class="text-sm text-gray-500 dark:text-gray-400">{{ item.chunk?.meaningZh }}</span>
           </div>
-          <p v-if="item.sentence" class="chunk-sentence">"{{ item.sentence }}"</p>
-          <div class="chunk-meta">
-            <span class="ecn-tag" :class="'match-' + item.matchType">{{ item.matchType }}</span>
+          <p v-if="item.sentence" class="text-sm text-gray-400 mt-1 pl-3 border-l-2 border-gray-200 dark:border-gray-600">"{{ item.sentence }}"</p>
+          <div class="flex items-center gap-2 mt-2">
+            <span class="text-xs px-1.5 py-0.5 rounded" :class="matchClass(item.matchType)">{{ item.matchType }}</span>
             <TtsButton :text="item.chunk?.canonical || item.surface" />
           </div>
         </div>
       </div>
     </section>
 
-    <div v-if="loading && !article" class="loading">加载中...</div>
+    <SelectionLookup :articleId="articleId" />
   </div>
-  <div v-if="!article && !loading" class="loading">文章不存在</div>
-  <SelectionLookup :articleId="articleId" />
+  <div v-else class="text-center py-20 text-gray-400">加载中...</div>
 </template>
 
 <script setup lang="ts">
@@ -76,7 +77,6 @@ const props = defineProps<{ articleId: string }>()
 
 const article = ref<Article | null>(null)
 const chunkItems = ref<ChunkItem[]>([])
-const loading = ref(true)
 
 const categoryName = computed(() => {
   if (!article.value) return ''
@@ -92,20 +92,26 @@ const fullText = computed(() => {
 onMounted(async () => {
   article.value = await loadArticle(props.articleId)
   chunkItems.value = await loadArticleChunkItems(props.articleId)
-  loading.value = false
 })
+
+function matchClass(type: string) {
+  const map: Record<string, string> = {
+    exact: 'bg-emerald-50 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400',
+    surface_form: 'bg-amber-50 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400',
+    alias: 'bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400',
+    manual: 'bg-purple-50 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400'
+  }
+  return map[type] || 'bg-gray-50 dark:bg-gray-700 text-gray-500'
+}
 
 function highlightParagraph(para: ArticleParagraph): string {
   let html = escapeHtml(para.text)
-  // Highlight occurrences in this paragraph
   const paraChunks = chunkItems.value.filter(c => c.sentence && para.text.includes(c.surface))
-  // Sort by surface length descending to avoid partial matches
   paraChunks.sort((a, b) => b.surface.length - a.surface.length)
   for (const c of paraChunks) {
     const escaped = escapeHtml(c.surface)
     const title = escapeHtml(c.chunk?.meaningZh || '')
-    const replacement = `<span class="chunk-highlight" title="${title}">${escaped}</span>`
-    // Use replaceAll to highlight ALL occurrences
+    const replacement = `<span class="bg-blue-100/60 dark:bg-blue-800/30 border-b-2 border-blue-400 dark:border-blue-500 px-0.5 rounded cursor-help" title="${title}">${escaped}</span>`
     html = html.replaceAll(escaped, replacement)
   }
   return html
@@ -115,153 +121,3 @@ function escapeHtml(text: string): string {
   return text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 }
 </script>
-
-<style scoped>
-.article-page {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.article-header {
-  margin-bottom: 32px;
-}
-
-.article-badges {
-  display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
-  margin-bottom: 12px;
-}
-
-.article-title {
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: var(--vp-c-text-1);
-  margin: 0 0 4px;
-}
-
-.article-title-zh {
-  font-size: 1.1rem;
-  color: var(--vp-c-text-2);
-  margin: 0 0 8px;
-}
-
-.article-summary {
-  font-size: 0.9rem;
-  color: var(--vp-c-text-3);
-}
-
-.article-body {
-  margin-bottom: 40px;
-}
-
-.article-toolbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 16px;
-}
-
-.article-toolbar h2 {
-  margin: 0;
-}
-
-.article-paragraph {
-  position: relative;
-  padding: 12px 16px;
-  margin-bottom: 12px;
-  background: var(--vp-c-bg-soft);
-  border-radius: 8px;
-  border-left: 3px solid var(--vp-c-brand);
-}
-
-.para-en {
-  font-size: 1rem;
-  line-height: 1.8;
-  color: var(--vp-c-text-1);
-  margin: 0 0 6px;
-}
-
-.para-zh {
-  font-size: 0.85rem;
-  color: var(--vp-c-text-3);
-  margin: 0 0 4px;
-  line-height: 1.6;
-}
-
-.para-tts {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-}
-
-:deep(.chunk-highlight) {
-  background: rgba(59, 130, 246, 0.15);
-  border-bottom: 2px solid rgba(59, 130, 246, 0.5);
-  padding: 0 2px;
-  border-radius: 2px;
-  cursor: help;
-}
-
-.article-chunks h2 {
-  margin-bottom: 16px;
-}
-
-.chunk-list {
-  display: grid;
-  gap: 8px;
-}
-
-.chunk-item {
-  padding: 12px 16px;
-}
-
-.chunk-main {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-  flex-wrap: wrap;
-}
-
-.chunk-canonical {
-  font-weight: 600;
-  color: var(--vp-c-text-1);
-}
-
-.chunk-surface {
-  font-size: 0.82rem;
-  color: var(--vp-c-text-3);
-  font-style: italic;
-}
-
-.chunk-meaning {
-  font-size: 0.9rem;
-  color: var(--vp-c-text-2);
-}
-
-.chunk-sentence {
-  font-size: 0.85rem;
-  color: var(--vp-c-text-2);
-  margin: 6px 0;
-  padding-left: 12px;
-  border-left: 2px solid var(--vp-c-divider);
-}
-
-.chunk-meta {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-top: 6px;
-}
-
-.match-exact { background: rgba(34, 197, 94, 0.1); color: #16a34a; }
-.match-surface_form { background: rgba(234, 179, 8, 0.1); color: #ca8a04; }
-.match-alias { background: rgba(59, 130, 246, 0.1); color: #3b82f6; }
-.match-manual { background: rgba(168, 85, 247, 0.1); color: #a855f7; }
-
-.loading {
-  text-align: center;
-  padding: 40px;
-  color: var(--vp-c-text-3);
-}
-</style>

@@ -125,18 +125,14 @@ function handleTouchEnd(e: TouchEvent) {
   max-width: 360px;
   background: var(--vp-c-bg);
   border: 1px solid var(--vp-c-divider);
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  padding: 14px;
   font-size: 0.85rem;
 }
 
 .lookup-loading {
   color: var(--vp-c-text-3);
-}
-
-.lookup-result {
-  
 }
 
 .lookup-header {

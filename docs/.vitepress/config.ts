@@ -1,6 +1,10 @@
 import { defineConfig } from 'vitepress'
+import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
+  vite: {
+    plugins: [tailwindcss()]
+  },
   base: '/english-chunk-notes/',
   cleanUrls: true,
   title: 'English Chunk Notes',
