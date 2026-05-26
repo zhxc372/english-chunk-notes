@@ -97,16 +97,21 @@
         </template>
 
         <!-- Controls -->
-        <div class="flex justify-center gap-3 mt-6">
+        <div class="flex justify-center items-center gap-3 mt-6">
+          <!-- Navigation -->
+          <button v-if="currentIndex > 0" class="px-3 py-2 rounded-xl bg-gray-100 dark:bg-gray-700 text-gray-500 text-sm hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors" @click="prevCard" :disabled="currentIndex === 0">← 上一张</button>
+          
           <template v-if="showAnswer">
-            <button class="px-6 py-2.5 rounded-xl bg-red-50 dark:bg-red-900/30 text-red-500 font-medium hover:bg-red-100 dark:hover:bg-red-900/50 transition-colors" @click="mark(false)">😞 不熟</button>
-            <button class="px-6 py-2.5 rounded-xl bg-blue-500 text-white font-medium hover:bg-blue-600 transition-colors" @click="mark(true)">👍 记住了</button>
+            <button class="px-5 py-2.5 rounded-xl bg-red-50 dark:bg-red-900/30 text-red-500 font-medium hover:bg-red-100 dark:hover:bg-red-900/50 transition-colors" @click="mark(false)">😞 不熟</button>
+            <button class="px-5 py-2.5 rounded-xl bg-blue-500 text-white font-medium hover:bg-blue-600 transition-colors" @click="mark(true)">👍 记住了</button>
           </template>
           <template v-else>
-            <button class="px-6 py-2.5 rounded-xl bg-blue-500 text-white font-medium hover:bg-blue-600 transition-colors" @click="showAnswer = true">
+            <button class="px-5 py-2.5 rounded-xl bg-blue-500 text-white font-medium hover:bg-blue-600 transition-colors" @click="showAnswer = true">
               {{ mode === 'fill' ? '显示答案' : mode === 'dictation' ? '查看答案' : '翻转卡片' }}
             </button>
           </template>
+
+          <button v-if="currentIndex < cards.length - 1 && showAnswer" class="px-3 py-2 rounded-xl bg-gray-100 dark:bg-gray-700 text-gray-500 text-sm hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors" @click="nextCard">下一张 →</button>
         </div>
       </div>
 
@@ -222,6 +227,22 @@ function mark(known: boolean) {
     currentIndex.value++
   } else {
     finished.value = true
+  }
+}
+
+function prevCard() {
+  if (currentIndex.value > 0) {
+    currentIndex.value--
+    showAnswer.value = false
+    userInput.value = ''
+  }
+}
+
+function nextCard() {
+  if (currentIndex.value < cards.value.length - 1) {
+    currentIndex.value++
+    showAnswer.value = false
+    userInput.value = ''
   }
 }
 

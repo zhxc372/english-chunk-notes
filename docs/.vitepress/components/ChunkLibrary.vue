@@ -49,15 +49,12 @@
     <ChunkDetail v-if="selectedChunk" :chunk="selectedChunk" @close="selectedChunk = null" />
 
     <!-- Flashcard trigger -->
-    <div v-if="flashcardDeck.length" class="fixed bottom-4 right-4 z-40">
-      <button class="px-5 py-3 rounded-xl bg-blue-500 text-white font-medium shadow-lg hover:bg-blue-600 transition-colors" @click="showFlashcards = true">
-        🃏 闪卡 ({{ flashcardDeck.length }})
-      </button>
-    </div>
-
-    <!-- Flashcard overlay -->
-    <div v-if="showFlashcards" class="fixed inset-0 bg-white dark:bg-gray-900 z-50 overflow-y-auto p-4 pt-8">
-      <FlashcardTrainer :chunks="flashcardDeck" initial-mode="en2cn" @exit="showFlashcards = false" />
+    <div v-if="flashcardDeck.length" class="mt-6 p-6 rounded-2xl bg-gray-50 dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700">
+      <FlashcardTrainer v-if="showFlashcards" :chunks="flashcardDeck" initial-mode="en2cn" @exit="showFlashcards = false" />
+      <div v-else class="flex items-center justify-between">
+        <span class="text-gray-600 dark:text-gray-300">已选 {{ flashcardDeck.length }} 张闪卡</span>
+        <button class="px-4 py-2 rounded-xl bg-blue-500 text-white text-sm font-medium hover:bg-blue-600 transition-colors" @click="showFlashcards = true">🃏 开始训练</button>
+      </div>
     </div>
   </div>
 </template>

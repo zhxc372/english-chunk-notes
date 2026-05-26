@@ -51,14 +51,14 @@
           </div>
         </div>
       </div>
+
+      <!-- Inline Flashcard Trainer -->
+      <div v-if="showFlashcards" class="mt-6 p-6 rounded-2xl bg-gray-50 dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700">
+        <FlashcardTrainer :chunks="flashcardData" initial-mode="en2cn" @exit="showFlashcards = false" />
+      </div>
     </section>
 
     <SelectionLookup :articleId="articleId" />
-
-    <!-- Flashcard overlay -->
-    <div v-if="showFlashcards" class="fixed inset-0 bg-white dark:bg-gray-900 z-50 overflow-y-auto p-4 pt-8">
-      <FlashcardTrainer :chunks="flashcardData" initial-mode="en2cn" @exit="showFlashcards = false" />
-    </div>
   </div>
   <div v-else class="text-center py-20 text-gray-400">加载中...</div>
 </template>
