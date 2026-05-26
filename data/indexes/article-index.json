@@ -1,0 +1,89 @@
+[
+  {
+    "id": "2026-05-26-ai-coding-two-gaps",
+    "categoryId": "ai-tech",
+    "title": "Two Gaps Between Developers and AI",
+    "titleZh": "开发者与 AI 之间的两个差距",
+    "summaryZh": "本文讨论 AI 编程时代中，任务定义和代码验证为什么变得更重要。",
+    "level": "B2",
+    "publishedAt": "2026-05-26",
+    "tags": [
+      "AI",
+      "Coding",
+      "Software Engineering"
+    ],
+    "examTags": [
+      "IELTS",
+      "TOEFL",
+      "Tech English"
+    ],
+    "chunkCount": 3,
+    "url": "/articles/2026-05-26-ai-coding-two-gaps/"
+  },
+  {
+    "id": "2026-05-26-education-learning",
+    "categoryId": "education-exams",
+    "title": "Education & Learning",
+    "titleZh": "教育与学习",
+    "summaryZh": "教育与学习 — education, technology, growth",
+    "level": "B2",
+    "publishedAt": "2026-05-26",
+    "tags": [
+      "education",
+      "technology",
+      "growth"
+    ],
+    "examTags": [
+      "IELTS",
+      "TOEFL",
+      "CET4",
+      "CET6"
+    ],
+    "chunkCount": 20,
+    "url": "/articles/2026-05-26-education-learning/"
+  },
+  {
+    "id": "2026-05-26-environment-climate",
+    "categoryId": "science-health",
+    "title": "Environment & Climate",
+    "titleZh": "环境与气候",
+    "summaryZh": "环境与气候 — environment, climate, sustainability",
+    "level": "B2",
+    "publishedAt": "2026-05-26",
+    "tags": [
+      "environment",
+      "climate",
+      "sustainability"
+    ],
+    "examTags": [
+      "IELTS",
+      "TOEFL",
+      "CET6",
+      "Postgraduate English"
+    ],
+    "chunkCount": 20,
+    "url": "/articles/2026-05-26-environment-climate/"
+  },
+  {
+    "id": "2026-05-26-software-engineering",
+    "categoryId": "software-engineering",
+    "title": "Software Engineering",
+    "titleZh": "软件工程",
+    "summaryZh": "软件工程 — software, engineering, development",
+    "level": "B2",
+    "publishedAt": "2026-05-26",
+    "tags": [
+      "software",
+      "engineering",
+      "development"
+    ],
+    "examTags": [
+      "IELTS",
+      "TOEFL",
+      "CET6",
+      "Tech English"
+    ],
+    "chunkCount": 20,
+    "url": "/articles/2026-05-26-software-engineering/"
+  }
+]
