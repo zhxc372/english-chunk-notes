@@ -1,0 +1,1054 @@
+[
+  {
+    "id": "article-2026-05-26-ai-coding-two-gaps",
+    "type": "article",
+    "title": "Two Gaps Between Developers and AI",
+    "text": "Many people are anxious about whether AI will replace programmers. The real question is not whether AI can write code, but whether developers can clearly define what needs to be built. The first gap is the specification gap. In the past, developers could start coding with vague requirements and figure things out along the way. With AI, you need to make a decision about exactly what you want before the AI generates anything. The second gap is the verification gap. When AI writes code, someone sti",
+    "zh": "开发者与 AI 之间的两个差距 本文讨论 AI 编程时代中，任务定义和代码验证为什么变得更重要。 很多人担心 AI 是否会取代程序员。真正的问题不是 AI 能不能写代码，而是开发者能不能清楚地定义需要构建什么。 第一个差距是需求定义差距。过去开发者可以用模糊的需求开始编码，边做边想。有了 AI，你需要在 AI 生成任何东西之前就明确做出决定。 第二个差距是验证差距。当 AI 写代码时，仍然需要有人来审查。对代码质量、安全性和性能做出判断需要深厚的专业知识。 底线是 AI 放大了你已有的技能。如果你能清晰思考并精确沟通，AI 就成了强大的工具。否则，它只会帮你更快地犯错。",
+    "categoryId": "ai-tech",
+    "tags": [
+      "AI",
+      "Coding",
+      "Software Engineering"
+    ],
+    "examTags": [
+      "IELTS",
+      "TOEFL",
+      "Tech English"
+    ],
+    "url": "/articles/2026-05-26-ai-coding-two-gaps/"
+  },
+  {
+    "id": "article-2026-05-26-education-learning",
+    "type": "article",
+    "title": "Education & Learning",
+    "text": "Technology is changing how students learn in classrooms around the world. Many schools now use artificial intelligence tools to help teachers plan lessons and track student progress. However, not everyone agrees that more technology means better education. A recent report from Beijing Normal University suggests that science education should focus on building critical thinking, not just memorizing facts. The report argues that students need to learn how to ask questions and solve real-world probl",
+    "zh": "教育与学习 教育与学习 — education, technology, growth 科技正在改变世界各地课堂中学生学习的方式。现在许多学校使用人工智能工具帮助教师备课和跟踪学生学习进度。然而，并非所有人都认为更多科技意味着更好的教育。 北京师范大学最近的一份报告建议，科学教育应注重培养批判性思维，而不仅仅是记忆事实。报告认为，学生需要学会如何提出问题和解决现实问题，而不是简单地遵循指令。 在上海，年轻学生已经走在前列。一些青少年发现了新的昆虫物种，另一些则在开发帮助老年人的智能设备。这些项目表明，动手实践可能比传统教科书更有力量。 现在的挑战是教师培训。许多科学教师对新要求感到准备不足。学校需要投资专业发展，以便教师能够引导学生在不断变化的环境中前行。",
+    "categoryId": "education-exams",
+    "tags": [
+      "education",
+      "technology",
+      "growth"
+    ],
+    "examTags": [
+      "IELTS",
+      "TOEFL",
+      "CET4",
+      "CET6"
+    ],
+    "url": "/articles/2026-05-26-education-learning/"
+  },
+  {
+    "id": "article-2026-05-26-environment-climate",
+    "type": "article",
+    "title": "Environment & Climate",
+    "text": "Climate change is one of the most pressing challenges of our time. Rising global temperatures have led to more frequent extreme weather events, including hurricanes, droughts, and floods. The burning of fossil fuels such as coal, oil, and natural gas is the primary driver of greenhouse gas emissions, which trap heat in the atmosphere and accelerate global warming. Deforestation further exacerbates the problem by reducing the planet's ability to absorb carbon dioxide. In response, many countries ",
+    "zh": "环境与气候 环境与气候 — environment, climate, sustainability 气候变化是我们这个时代最紧迫的挑战之一。全球气温上升导致了更频繁的极端天气事件，包括飓风、干旱和洪水。煤炭、石油和天然气等化石燃料的燃烧是温室气体排放的主要驱动因素，温室气体在大气中困住热量并加速全球变暖。 森林砍伐进一步加剧了这一问题，降低了地球吸收二氧化碳的能力。作为回应，许多国家已承诺通过风能和太阳能等可再生能源来减少碳足迹。向低碳经济转型需要大量投资清洁技术和基础设施。 个人行动，如减少废物、节约能源和支持可持续实践，也发挥着至关重要的作用。循环经济的概念正在获得关注，即材料被重复使用和回收而不是被丢弃，这是最大限度减少环境影响的一种方式。生物多样性丧失是另一个关键问题，因为物种灭绝破坏生态系统并威胁粮食安全。 国际合作对于应对这些全球挑战至关重要，因为没有任何一个国家能够单独解决这些问题。",
+    "categoryId": "science-health",
+    "tags": [
+      "environment",
+      "climate",
+      "sustainability"
+    ],
+    "examTags": [
+      "IELTS",
+      "TOEFL",
+      "CET6",
+      "Postgraduate English"
+    ],
+    "url": "/articles/2026-05-26-environment-climate/"
+  },
+  {
+    "id": "article-2026-05-26-software-engineering",
+    "type": "article",
+    "title": "Software Engineering",
+    "text": "Software engineering is the discipline of designing, building, and maintaining reliable software systems. Unlike simple coding, it involves careful planning, systematic testing, and ongoing maintenance. One of the core principles is separation of concerns: breaking a complex system into smaller, manageable modules. Each module should have a single, well-defined responsibility. This approach makes the code easier to test, debug, and extend over time. Version control systems like Git allow teams t",
+    "zh": "软件工程 软件工程 — software, engineering, development 软件工程是设计、构建和维护可靠软件系统的学科。与简单编码不同，它涉及仔细的规划、系统化的测试和持续的维护。其核心原则之一是关注点分离：将复杂系统拆分为更小、可管理的模块。 每个模块应该有单一的、明确的职责。这种方法使代码更容易测试、调试和扩展。像Git这样的版本控制系统允许团队跟踪更改、在同一个代码库上协作，并在出错时回滚到之前的版本。 代码审查作为质量关卡，由有经验的开发者在合并新代码之前进行检查。自动化测试，包括单元测试和集成测试，确保更改不会引入意外的bug。文档是另一个关键但常被忽视的方面。 编写良好的文档帮助新团队成员理解系统，减少入职时间。在现代软件工程中，持续集成和持续部署自动化了构建、测试和发布软件的过程，使团队能够更快、更有信心地交付更新。",
+    "categoryId": "software-engineering",
+    "tags": [
+      "software",
+      "engineering",
+      "development"
+    ],
+    "examTags": [
+      "IELTS",
+      "TOEFL",
+      "CET6",
+      "Tech English"
+    ],
+    "url": "/articles/2026-05-26-software-engineering/"
+  },
+  {
+    "id": "chunk-chunk-make-a-decision",
+    "type": "chunk",
+    "title": "make a decision",
+    "text": "make a decision make a decision makes a decision made a decision making a decision make decisions making decisions made decisions reach a decision come to a decision We need to make a decision soon.",
+    "zh": "做决定 我们需要尽快做决定。",
+    "chunkId": "chunk-make-a-decision",
+    "tags": [
+      "decision",
+      "business",
+      "daily"
+    ],
+    "url": "/chunks/#chunk-make-a-decision"
+  },
+  {
+    "id": "chunk-chunk-the-bottom-line",
+    "type": "chunk",
+    "title": "the bottom line",
+    "text": "the bottom line the bottom line bottom line at the end of the day when all is said and done The bottom line is that we need more time.",
+    "zh": "归根结底；底线 归根结底是我们需要更多时间。",
+    "chunkId": "chunk-the-bottom-line",
+    "tags": [
+      "business",
+      "opinion",
+      "summary"
+    ],
+    "url": "/chunks/#chunk-the-bottom-line"
+  },
+  {
+    "id": "chunk-chunk-figure-out",
+    "type": "chunk",
+    "title": "figure out",
+    "text": "figure out figure out figures out figured out figuring out figure things out work out sort out I can't figure out how to solve this problem.",
+    "zh": "弄清楚；想出 我想不出怎么解决这个问题。",
+    "chunkId": "chunk-figure-out",
+    "tags": [
+      "thinking",
+      "problem-solving",
+      "daily"
+    ],
+    "url": "/chunks/#chunk-figure-out"
+  },
+  {
+    "id": "chunk-chunk-track-student-progress",
+    "type": "chunk",
+    "title": "track student progress",
+    "text": "track student progress track student progress monitor student progress assess student progress Many schools now use digital tools to track student progress more effectively.",
+    "zh": "跟踪学生学习进度 现在许多学校使用数字工具来更有效地跟踪学生学习进度。",
+    "chunkId": "chunk-track-student-progress",
+    "tags": [
+      "IELTS",
+      "TOEFL",
+      "CET6",
+      "education",
+      "technology"
+    ],
+    "url": "/chunks/#chunk-track-student-progress"
+  },
+  {
+    "id": "chunk-chunk-critical-thinking",
+    "type": "chunk",
+    "title": "critical thinking",
+    "text": "critical thinking critical thinking develop critical thinking promote critical thinking critical thinking skills The report suggests that science education should focus on building critical thinking skills.",
+    "zh": "批判性思维 报告建议科学教育应注重培养批判性思维能力。",
+    "chunkId": "chunk-critical-thinking",
+    "tags": [
+      "CET4",
+      "IELTS",
+      "TOEFL",
+      "education",
+      "CET6",
+      "thinking"
+    ],
+    "url": "/chunks/#chunk-critical-thinking"
+  },
+  {
+    "id": "chunk-chunk-hands-on-experience",
+    "type": "chunk",
+    "title": "hands-on experience",
+    "text": "hands-on experience hands-on experience gain hands-on experience hands-on learning provide hands-on experience Hands-on experience can be more powerful than traditional textbooks.",
+    "zh": "动手实践；亲身经验 动手实践可能比传统教科书更有力量。",
+    "chunkId": "chunk-hands-on-experience",
+    "tags": [
+      "CET4",
+      "IELTS",
+      "TOEFL",
+      "education",
+      "learning"
+    ],
+    "url": "/chunks/#chunk-hands-on-experience"
+  },
+  {
+    "id": "chunk-chunk-real-world-problems",
+    "type": "chunk",
+    "title": "real-world problems",
+    "text": "real-world problems real-world problems solve real-world problems tackle real-world problems real-world applications Students need to learn how to solve real-world problems rather than follow instructions.",
+    "zh": "现实问题；实际问题 学生需要学会如何解决现实问题，而不是遵循指令。",
+    "chunkId": "chunk-real-world-problems",
+    "tags": [
+      "practice",
+      "IELTS",
+      "TOEFL",
+      "CET6",
+      "education"
+    ],
+    "url": "/chunks/#chunk-real-world-problems"
+  },
+  {
+    "id": "chunk-chunk-professional-development",
+    "type": "chunk",
+    "title": "professional development",
+    "text": "professional development professional development invest in professional development professional development programs continuous professional development Schools need to invest in professional development so that teachers can adapt to changes.",
+    "zh": "专业发展；职业培训 学校需要投资专业发展，以便教师能够适应变化。",
+    "chunkId": "chunk-professional-development",
+    "tags": [
+      "IELTS",
+      "TOEFL",
+      "education",
+      "CET6",
+      "career"
+    ],
+    "url": "/chunks/#chunk-professional-development"
+  },
+  {
+    "id": "chunk-chunk-changing-landscape",
+    "type": "chunk",
+    "title": "changing landscape",
+    "text": "changing landscape changing landscape a changing landscape navigate the changing landscape rapidly changing landscape Teachers need to guide students through a rapidly changing landscape of technology.",
+    "zh": "不断变化的格局 教师需要引导学生在快速变化的科技格局中前行。",
+    "chunkId": "chunk-changing-landscape",
+    "tags": [
+      "TOEFL",
+      "education",
+      "technology",
+      "IELTS"
+    ],
+    "url": "/chunks/#chunk-changing-landscape"
+  },
+  {
+    "id": "chunk-chunk-lead-the-way",
+    "type": "chunk",
+    "title": "lead the way",
+    "text": "lead the way lead the way lead the way in students lead the way lead the way forward Young students in Shanghai are already leading the way in science innovation.",
+    "zh": "走在前列；引领方向 上海的年轻学生已经在科学创新方面走在前列。",
+    "chunkId": "chunk-lead-the-way",
+    "tags": [
+      "TOEFL",
+      "education",
+      "innovation",
+      "IELTS"
+    ],
+    "url": "/chunks/#chunk-lead-the-way"
+  },
+  {
+    "id": "chunk-chunk-memorizing-facts",
+    "type": "chunk",
+    "title": "memorizing facts",
+    "text": "memorizing facts memorizing facts focus on memorizing facts instead of memorizing facts beyond memorizing facts Education should go beyond memorizing facts and focus on understanding.",
+    "zh": "记忆事实；死记硬背 教育应该超越死记硬背，注重理解。",
+    "chunkId": "chunk-memorizing-facts",
+    "tags": [
+      "CET4",
+      "IELTS",
+      "TOEFL",
+      "education",
+      "learning"
+    ],
+    "url": "/chunks/#chunk-memorizing-facts"
+  },
+  {
+    "id": "chunk-chunk-traditional-textbooks",
+    "type": "chunk",
+    "title": "traditional textbooks",
+    "text": "traditional textbooks traditional textbooks replace traditional textbooks rely on traditional textbooks beyond traditional textbooks Many educators argue that learning should not rely solely on traditional textbooks.",
+    "zh": "传统教科书 许多教育工作者认为学习不应仅仅依赖传统教科书。",
+    "chunkId": "chunk-traditional-textbooks",
+    "tags": [
+      "learning",
+      "CET4",
+      "education",
+      "IELTS"
+    ],
+    "url": "/chunks/#chunk-traditional-textbooks"
+  },
+  {
+    "id": "chunk-chunk-feel-unprepared",
+    "type": "chunk",
+    "title": "feel unprepared",
+    "text": "feel unprepared feel unprepared feel unprepared for teachers feel unprepared leave graduates unprepared Many science teachers feel unprepared for the new demands of technology in education.",
+    "zh": "感到准备不足 许多科学教师对教育科技的新要求感到准备不足。",
+    "chunkId": "chunk-feel-unprepared",
+    "tags": [
+      "TOEFL",
+      "workplace",
+      "education",
+      "IELTS"
+    ],
+    "url": "/chunks/#chunk-feel-unprepared"
+  },
+  {
+    "id": "chunk-chunk-plan-lessons",
+    "type": "chunk",
+    "title": "plan lessons",
+    "text": "plan lessons plan lessons plan lessons effectively help teachers plan lessons lesson planning AI tools can help teachers plan lessons more efficiently and personalize content.",
+    "zh": "备课；计划课程 AI工具可以帮助教师更高效地备课和个性化内容。",
+    "chunkId": "chunk-plan-lessons",
+    "tags": [
+      "TOEFL",
+      "CET6",
+      "education",
+      "technology"
+    ],
+    "url": "/chunks/#chunk-plan-lessons"
+  },
+  {
+    "id": "chunk-chunk-invest-in",
+    "type": "chunk",
+    "title": "invest in",
+    "text": "invest in invest in invest in education invest in professional development invest in technology Governments should invest more in education to prepare students for the future.",
+    "zh": "投资于；投入资源 政府应该更多地投资教育，为学生未来做准备。",
+    "chunkId": "chunk-invest-in",
+    "tags": [
+      "CET4",
+      "IELTS",
+      "TOEFL",
+      "education",
+      "CET6",
+      "society"
+    ],
+    "url": "/chunks/#chunk-invest-in"
+  },
+  {
+    "id": "chunk-chunk-rather-than",
+    "type": "chunk",
+    "title": "rather than",
+    "text": "rather than rather than x rather than y focus on a rather than b choose to do x rather than y Students need to understand concepts rather than simply memorize formulas.",
+    "zh": "而不是 学生需要理解概念，而不是简单地记忆公式。",
+    "chunkId": "chunk-rather-than",
+    "tags": [
+      "CET4",
+      "IELTS",
+      "TOEFL",
+      "CET6",
+      "contrast",
+      "grammar"
+    ],
+    "url": "/chunks/#chunk-rather-than"
+  },
+  {
+    "id": "chunk-chunk-smart-devices",
+    "type": "chunk",
+    "title": "smart devices",
+    "text": "smart devices smart devices develop smart devices smart devices for education connected smart devices Students are developing smart devices to help elderly people live more independently.",
+    "zh": "智能设备 学生们正在开发智能设备帮助老年人更独立地生活。",
+    "chunkId": "chunk-smart-devices",
+    "tags": [
+      "TOEFL",
+      "society",
+      "technology",
+      "IELTS"
+    ],
+    "url": "/chunks/#chunk-smart-devices"
+  },
+  {
+    "id": "chunk-chunk-follow-instructions",
+    "type": "chunk",
+    "title": "follow instructions",
+    "text": "follow instructions follow instructions simply follow instructions fail to follow instructions learn to follow instructions Modern education should encourage creativity, not just train students to follow instructions.",
+    "zh": "遵循指令；按指示做 现代教育应该鼓励创造力，而不是仅仅训练学生遵循指令。",
+    "chunkId": "chunk-follow-instructions",
+    "tags": [
+      "TOEFL",
+      "education",
+      "thinking",
+      "IELTS"
+    ],
+    "url": "/chunks/#chunk-follow-instructions"
+  },
+  {
+    "id": "chunk-chunk-classroom-around-the-world",
+    "type": "chunk",
+    "title": "classroom around the world",
+    "text": "classroom around the world classroom around the world classrooms around the world across classrooms worldwide in classrooms globally Technology is transforming classrooms around the world in similar ways.",
+    "zh": "世界各地的课堂 科技正在以类似的方式改变世界各地的课堂。",
+    "chunkId": "chunk-classroom-around-the-world",
+    "tags": [
+      "TOEFL",
+      "global",
+      "education",
+      "IELTS"
+    ],
+    "url": "/chunks/#chunk-classroom-around-the-world"
+  },
+  {
+    "id": "chunk-chunk-not-everyone-agrees",
+    "type": "chunk",
+    "title": "not everyone agrees",
+    "text": "not everyone agrees not everyone agrees not everyone agrees that not everyone agrees on not everyone agrees with Not everyone agrees that more technology in classrooms leads to better learning outcomes.",
+    "zh": "并非所有人都同意 并非所有人都认为课堂中更多科技会导致更好的学习效果。",
+    "chunkId": "chunk-not-everyone-agrees",
+    "tags": [
+      "CET4",
+      "expression",
+      "IELTS",
+      "TOEFL",
+      "opinion"
+    ],
+    "url": "/chunks/#chunk-not-everyone-agrees"
+  },
+  {
+    "id": "chunk-chunk-bridge-the-gap",
+    "type": "chunk",
+    "title": "bridge the gap",
+    "text": "bridge the gap bridge the gap bridge the gap between bridge the education gap efforts to bridge the gap Online learning platforms can help bridge the gap between rich and poor schools.",
+    "zh": "缩小差距；弥合鸿沟 在线学习平台可以帮助缩小贫富学校之间的差距。",
+    "chunkId": "chunk-bridge-the-gap",
+    "tags": [
+      "IELTS",
+      "TOEFL",
+      "CET6",
+      "education",
+      "society"
+    ],
+    "url": "/chunks/#chunk-bridge-the-gap"
+  },
+  {
+    "id": "chunk-chunk-adapt-to-changes",
+    "type": "chunk",
+    "title": "adapt to changes",
+    "text": "adapt to changes adapt to changes help students adapt to adapt to a changing environment Both teachers and students must adapt to changes brought by new technology.",
+    "zh": "适应变化 教师和学生都必须适应新科技带来的变化。",
+    "chunkId": "chunk-adapt-to-changes",
+    "tags": [
+      "CET4",
+      "IELTS",
+      "TOEFL",
+      "education",
+      "adaptation"
+    ],
+    "url": "/chunks/#chunk-adapt-to-changes"
+  },
+  {
+    "id": "chunk-chunk-inquiry-based-learning",
+    "type": "chunk",
+    "title": "inquiry-based learning",
+    "text": "inquiry-based learning inquiry-based learning inquiry-based learning approach promote inquiry-based learning shift to inquiry-based learning Inquiry-based learning encourages students to ask questions and explore solutions independently.",
+    "zh": "探究式学习 探究式学习鼓励学生独立提出问题和探索解决方案。",
+    "chunkId": "chunk-inquiry-based-learning",
+    "tags": [
+      "IELTS",
+      "TOEFL",
+      "education",
+      "CET6",
+      "methodology"
+    ],
+    "url": "/chunks/#chunk-inquiry-based-learning"
+  },
+  {
+    "id": "chunk-chunk-separation-of-concerns",
+    "type": "chunk",
+    "title": "separation of concerns",
+    "text": "separation of concerns separation of concerns apply separation of concerns principle of separation Separation of concerns means breaking a complex system into smaller, focused modules.",
+    "zh": "关注点分离 关注点分离意味着将复杂系统拆分为更小、聚焦的模块。",
+    "chunkId": "chunk-separation-of-concerns",
+    "tags": [
+      "IELTS",
+      "TOEFL",
+      "design",
+      "Tech English",
+      "architecture"
+    ],
+    "url": "/chunks/#chunk-separation-of-concerns"
+  },
+  {
+    "id": "chunk-chunk-well-defined-responsibility",
+    "type": "chunk",
+    "title": "well-defined responsibility",
+    "text": "well-defined responsibility well-defined responsibility a well-defined responsibility single responsibility clearly defined roles Each module should have a single, well-defined responsibility.",
+    "zh": "明确的职责 每个模块应该有单一的、明确的职责。",
+    "chunkId": "chunk-well-defined-responsibility",
+    "tags": [
+      "TOEFL",
+      "design",
+      "IELTS",
+      "architecture"
+    ],
+    "url": "/chunks/#chunk-well-defined-responsibility"
+  },
+  {
+    "id": "chunk-chunk-version-control",
+    "type": "chunk",
+    "title": "version control",
+    "text": "version control version control version control system use version control version control history Version control systems allow teams to track changes and collaborate effectively.",
+    "zh": "版本控制 版本控制系统允许团队跟踪更改并有效协作。",
+    "chunkId": "chunk-version-control",
+    "tags": [
+      "tools",
+      "IELTS",
+      "collaboration",
+      "TOEFL",
+      "Tech English"
+    ],
+    "url": "/chunks/#chunk-version-control"
+  },
+  {
+    "id": "chunk-chunk-codebase",
+    "type": "chunk",
+    "title": "codebase",
+    "text": "codebase codebase the same codebase large codebase maintain a codebase Multiple developers can work on the same codebase simultaneously.",
+    "zh": "代码库 多个开发者可以同时处理同一个代码库。",
+    "chunkId": "chunk-codebase",
+    "tags": [
+      "tools",
+      "Tech English",
+      "IELTS",
+      "collaboration"
+    ],
+    "url": "/chunks/#chunk-codebase"
+  },
+  {
+    "id": "chunk-chunk-revert-to-a-previous-version",
+    "type": "chunk",
+    "title": "revert to a previous version",
+    "text": "revert to a previous version revert to a previous version revert the changes version rollback When something goes wrong, teams can revert to a previous version.",
+    "zh": "回滚到之前的版本 当出问题时，团队可以回滚到之前的版本。",
+    "chunkId": "chunk-revert-to-a-previous-version",
+    "tags": [
+      "risk",
+      "tools",
+      "Tech English",
+      "IELTS"
+    ],
+    "url": "/chunks/#chunk-revert-to-a-previous-version"
+  },
+  {
+    "id": "chunk-chunk-quality-gate",
+    "type": "chunk",
+    "title": "quality gate",
+    "text": "quality gate quality gate serve as a quality gate pass the quality gate quality gate process Code reviews serve as a quality gate before new code is merged.",
+    "zh": "质量关卡 代码审查在新代码合并前作为质量关卡。",
+    "chunkId": "chunk-quality-gate",
+    "tags": [
+      "TOEFL",
+      "quality",
+      "process",
+      "IELTS"
+    ],
+    "url": "/chunks/#chunk-quality-gate"
+  },
+  {
+    "id": "chunk-chunk-unit-tests",
+    "type": "chunk",
+    "title": "unit tests",
+    "text": "unit tests unit tests write unit tests unit test coverage run unit tests Unit tests verify that individual components work correctly in isolation.",
+    "zh": "单元测试 单元测试验证各个组件在隔离状态下正确工作。",
+    "chunkId": "chunk-unit-tests",
+    "tags": [
+      "testing",
+      "IELTS",
+      "TOEFL",
+      "quality",
+      "Tech English"
+    ],
+    "url": "/chunks/#chunk-unit-tests"
+  },
+  {
+    "id": "chunk-chunk-integration-tests",
+    "type": "chunk",
+    "title": "integration tests",
+    "text": "integration tests integration tests integration test suite run integration tests integration testing Integration tests check that different modules work together correctly.",
+    "zh": "集成测试 集成测试检查不同模块是否能正确协同工作。",
+    "chunkId": "chunk-integration-tests",
+    "tags": [
+      "testing",
+      "IELTS",
+      "TOEFL",
+      "quality",
+      "Tech English"
+    ],
+    "url": "/chunks/#chunk-integration-tests"
+  },
+  {
+    "id": "chunk-chunk-unexpected-bugs",
+    "type": "chunk",
+    "title": "unexpected bugs",
+    "text": "unexpected bugs unexpected bugs introduce unexpected bugs catch unexpected bugs prevent unexpected bugs Automated testing ensures that changes do not introduce unexpected bugs.",
+    "zh": "意外的bug 自动化测试确保更改不会引入意外的bug。",
+    "chunkId": "chunk-unexpected-bugs",
+    "tags": [
+      "testing",
+      "TOEFL",
+      "quality",
+      "IELTS"
+    ],
+    "url": "/chunks/#chunk-unexpected-bugs"
+  },
+  {
+    "id": "chunk-chunk-well-written-documentation",
+    "type": "chunk",
+    "title": "well-written documentation",
+    "text": "well-written documentation well-written documentation maintain documentation documentation practices Well-written documentation helps new team members understand the system.",
+    "zh": "编写良好的文档 编写良好的文档帮助新团队成员理解系统。",
+    "chunkId": "chunk-well-written-documentation",
+    "tags": [
+      "TOEFL",
+      "documentation",
+      "IELTS",
+      "teamwork"
+    ],
+    "url": "/chunks/#chunk-well-written-documentation"
+  },
+  {
+    "id": "chunk-chunk-onboarding",
+    "type": "chunk",
+    "title": "onboarding",
+    "text": "onboarding onboarding onboarding process speed up onboarding onboarding new members Good documentation reduces the time spent on onboarding new developers.",
+    "zh": "入职培训 良好的文档减少了新开发者入职培训的时间。",
+    "chunkId": "chunk-onboarding",
+    "tags": [
+      "TOEFL",
+      "teamwork",
+      "process",
+      "IELTS"
+    ],
+    "url": "/chunks/#chunk-onboarding"
+  },
+  {
+    "id": "chunk-chunk-continuous-integration",
+    "type": "chunk",
+    "title": "continuous integration",
+    "text": "continuous integration continuous integration continuous integration pipeline set up continuous integration ci/cd practices Continuous integration automates the process of building and testing software.",
+    "zh": "持续集成 持续集成自动化了软件构建和测试的过程。",
+    "chunkId": "chunk-continuous-integration",
+    "tags": [
+      "workflow",
+      "IELTS",
+      "TOEFL",
+      "Tech English",
+      "automation"
+    ],
+    "url": "/chunks/#chunk-continuous-integration"
+  },
+  {
+    "id": "chunk-chunk-continuous-deployment",
+    "type": "chunk",
+    "title": "continuous deployment",
+    "text": "continuous deployment continuous deployment continuous deployment pipeline enable continuous deployment ci/cd pipeline Continuous deployment enables teams to release updates faster and with confidence.",
+    "zh": "持续部署 持续部署使团队能够更有信心地更快发布更新。",
+    "chunkId": "chunk-continuous-deployment",
+    "tags": [
+      "IELTS",
+      "TOEFL",
+      "deployment",
+      "Tech English",
+      "automation"
+    ],
+    "url": "/chunks/#chunk-continuous-deployment"
+  },
+  {
+    "id": "chunk-chunk-deliver-updates",
+    "type": "chunk",
+    "title": "deliver updates",
+    "text": "deliver updates deliver updates deliver updates faster deliver reliable updates update delivery cycle CI/CD pipelines help teams deliver updates faster and more reliably.",
+    "zh": "交付更新 CI/CD流水线帮助团队更快、更可靠地交付更新。",
+    "chunkId": "chunk-deliver-updates",
+    "tags": [
+      "IELTS",
+      "TOEFL",
+      "deployment",
+      "Tech English",
+      "automation"
+    ],
+    "url": "/chunks/#chunk-deliver-updates"
+  },
+  {
+    "id": "chunk-chunk-debug",
+    "type": "chunk",
+    "title": "debug",
+    "text": "debug debug debug the code debugging process easier to debug Modular code is easier to debug and maintain.",
+    "zh": "调试 模块化代码更容易调试和维护。",
+    "chunkId": "chunk-debug",
+    "tags": [
+      "quality",
+      "Tech English",
+      "IELTS",
+      "development"
+    ],
+    "url": "/chunks/#chunk-debug"
+  },
+  {
+    "id": "chunk-chunk-extend-over-time",
+    "type": "chunk",
+    "title": "extend over time",
+    "text": "extend over time extend over time extend the system over time code that extends easily scalable over time Good architecture allows the system to extend over time without major rewrites.",
+    "zh": "随时间扩展 良好的架构允许系统随时间扩展而无需大规模重写。",
+    "chunkId": "chunk-extend-over-time",
+    "tags": [
+      "TOEFL",
+      "design",
+      "IELTS",
+      "architecture"
+    ],
+    "url": "/chunks/#chunk-extend-over-time"
+  },
+  {
+    "id": "chunk-chunk-manageable-modules",
+    "type": "chunk",
+    "title": "manageable modules",
+    "text": "manageable modules manageable modules break into manageable modules manageable module size module management Complex systems should be broken into manageable modules.",
+    "zh": "可管理的模块 复杂系统应该被拆分为可管理的模块。",
+    "chunkId": "chunk-manageable-modules",
+    "tags": [
+      "TOEFL",
+      "design",
+      "IELTS",
+      "architecture"
+    ],
+    "url": "/chunks/#chunk-manageable-modules"
+  },
+  {
+    "id": "chunk-chunk-ongoing-maintenance",
+    "type": "chunk",
+    "title": "ongoing maintenance",
+    "text": "ongoing maintenance ongoing maintenance require ongoing maintenance ongoing maintenance costs maintenance overhead Software requires ongoing maintenance to remain secure and functional.",
+    "zh": "持续维护 软件需要持续维护以保持安全和功能正常。",
+    "chunkId": "chunk-ongoing-maintenance",
+    "tags": [
+      "TOEFL",
+      "quality",
+      "process",
+      "IELTS"
+    ],
+    "url": "/chunks/#chunk-ongoing-maintenance"
+  },
+  {
+    "id": "chunk-chunk-often-overlooked",
+    "type": "chunk",
+    "title": "often overlooked",
+    "text": "often overlooked often overlooked an often overlooked aspect often overlooked but critical easily overlooked Documentation is a critical but often overlooked aspect of software engineering.",
+    "zh": "常被忽视 文档是软件工程中关键但常被忽视的方面。",
+    "chunkId": "chunk-often-overlooked",
+    "tags": [
+      "TOEFL",
+      "documentation",
+      "process",
+      "IELTS"
+    ],
+    "url": "/chunks/#chunk-often-overlooked"
+  },
+  {
+    "id": "chunk-chunk-with-greater-confidence",
+    "type": "chunk",
+    "title": "with greater confidence",
+    "text": "with greater confidence with greater confidence release with greater confidence deploy with confidence test with confidence Automated testing enables teams to deploy with greater confidence.",
+    "zh": "更有信心地 自动化测试使团队能够更有信心地部署。",
+    "chunkId": "chunk-with-greater-confidence",
+    "tags": [
+      "testing",
+      "TOEFL",
+      "automation",
+      "IELTS"
+    ],
+    "url": "/chunks/#chunk-with-greater-confidence"
+  },
+  {
+    "id": "chunk-chunk-pressing-challenges",
+    "type": "chunk",
+    "title": "pressing challenges",
+    "text": "pressing challenges pressing challenges one of the most pressing challenges face pressing challenges address pressing challenges Climate change is one of the most pressing challenges of our time.",
+    "zh": "紧迫的挑战 气候变化是我们这个时代最紧迫的挑战之一。",
+    "chunkId": "chunk-pressing-challenges",
+    "tags": [
+      "TOEFL",
+      "global",
+      "environment",
+      "IELTS"
+    ],
+    "url": "/chunks/#chunk-pressing-challenges"
+  },
+  {
+    "id": "chunk-chunk-extreme-weather-events",
+    "type": "chunk",
+    "title": "extreme weather events",
+    "text": "extreme weather events extreme weather events more frequent extreme weather events extreme weather events such as increase in extreme weather events Rising global temperatures have led to more frequent extreme weather events.",
+    "zh": "极端天气事件 全球气温上升导致了更频繁的极端天气事件。",
+    "chunkId": "chunk-extreme-weather-events",
+    "tags": [
+      "climate",
+      "weather",
+      "TOEFL",
+      "IELTS"
+    ],
+    "url": "/chunks/#chunk-extreme-weather-events"
+  },
+  {
+    "id": "chunk-chunk-fossil-fuels",
+    "type": "chunk",
+    "title": "fossil fuels",
+    "text": "fossil fuels fossil fuels burning fossil fuels dependence on fossil fuels phase out fossil fuels The burning of fossil fuels is the primary driver of greenhouse gas emissions.",
+    "zh": "化石燃料 化石燃料的燃烧是温室气体排放的主要驱动因素。",
+    "chunkId": "chunk-fossil-fuels",
+    "tags": [
+      "energy",
+      "IELTS",
+      "TOEFL",
+      "CET6",
+      "pollution"
+    ],
+    "url": "/chunks/#chunk-fossil-fuels"
+  },
+  {
+    "id": "chunk-chunk-greenhouse-gas-emissions",
+    "type": "chunk",
+    "title": "greenhouse gas emissions",
+    "text": "greenhouse gas emissions greenhouse gas emissions reduce greenhouse gas emissions greenhouse gas emissions from rising greenhouse gas emissions Greenhouse gas emissions trap heat in the atmosphere and accelerate global warming.",
+    "zh": "温室气体排放 温室气体排放在大气中困住热量并加速全球变暖。",
+    "chunkId": "chunk-greenhouse-gas-emissions",
+    "tags": [
+      "climate",
+      "IELTS",
+      "TOEFL",
+      "CET6",
+      "pollution"
+    ],
+    "url": "/chunks/#chunk-greenhouse-gas-emissions"
+  },
+  {
+    "id": "chunk-chunk-global-warming",
+    "type": "chunk",
+    "title": "global warming",
+    "text": "global warming global warming accelerate global warming the impact of global warming combat global warming The accumulation of greenhouse gases accelerates global warming at an alarming rate.",
+    "zh": "全球变暖 温室气体的积累以惊人的速度加速全球变暖。",
+    "chunkId": "chunk-global-warming",
+    "tags": [
+      "climate",
+      "CET4",
+      "IELTS",
+      "TOEFL",
+      "environment"
+    ],
+    "url": "/chunks/#chunk-global-warming"
+  },
+  {
+    "id": "chunk-chunk-deforestation",
+    "type": "chunk",
+    "title": "deforestation",
+    "text": "deforestation deforestation deforestation exacerbates prevent deforestation tropical deforestation Deforestation reduces the planet's ability to absorb carbon dioxide.",
+    "zh": "森林砍伐 森林砍伐降低了地球吸收二氧化碳的能力。",
+    "chunkId": "chunk-deforestation",
+    "tags": [
+      "TOEFL",
+      "ecology",
+      "environment",
+      "IELTS"
+    ],
+    "url": "/chunks/#chunk-deforestation"
+  },
+  {
+    "id": "chunk-chunk-carbon-footprint",
+    "type": "chunk",
+    "title": "carbon footprint",
+    "text": "carbon footprint carbon footprint reduce carbon footprint carbon footprint of lower carbon footprint Many countries have committed to reducing their carbon footprint.",
+    "zh": "碳足迹 许多国家已承诺减少碳足迹。",
+    "chunkId": "chunk-carbon-footprint",
+    "tags": [
+      "TOEFL",
+      "sustainability",
+      "environment",
+      "IELTS"
+    ],
+    "url": "/chunks/#chunk-carbon-footprint"
+  },
+  {
+    "id": "chunk-chunk-renewable-energy",
+    "type": "chunk",
+    "title": "renewable energy",
+    "text": "renewable energy renewable energy transition to renewable energy renewable energy sources invest in renewable energy Wind and solar power are key renewable energy sources for a sustainable future.",
+    "zh": "可再生能源 风能和太阳能是可持续未来的关键可再生能源。",
+    "chunkId": "chunk-renewable-energy",
+    "tags": [
+      "energy",
+      "sustainability",
+      "IELTS",
+      "TOEFL",
+      "CET6"
+    ],
+    "url": "/chunks/#chunk-renewable-energy"
+  },
+  {
+    "id": "chunk-chunk-low-carbon-economy",
+    "type": "chunk",
+    "title": "low-carbon economy",
+    "text": "low-carbon economy low-carbon economy transition to a low-carbon economy low-carbon economy development achieve a low-carbon economy The transition to a low-carbon economy requires significant investment.",
+    "zh": "低碳经济 向低碳经济转型需要大量投资。",
+    "chunkId": "chunk-low-carbon-economy",
+    "tags": [
+      "sustainability",
+      "IELTS",
+      "TOEFL",
+      "Postgraduate English",
+      "economy"
+    ],
+    "url": "/chunks/#chunk-low-carbon-economy"
+  },
+  {
+    "id": "chunk-chunk-clean-technology",
+    "type": "chunk",
+    "title": "clean technology",
+    "text": "clean technology clean technology investment in clean technology clean technology solutions develop clean technology Significant investment in clean technology is essential for sustainable development.",
+    "zh": "清洁技术 大量投资清洁技术对可持续发展至关重要。",
+    "chunkId": "chunk-clean-technology",
+    "tags": [
+      "TOEFL",
+      "environment",
+      "technology",
+      "IELTS"
+    ],
+    "url": "/chunks/#chunk-clean-technology"
+  },
+  {
+    "id": "chunk-chunk-sustainable-practices",
+    "type": "chunk",
+    "title": "sustainable practices",
+    "text": "sustainable practices sustainable practices adopt sustainable practices promote sustainable practices sustainable agricultural practices Supporting sustainable practices also plays a crucial role in protecting the environment.",
+    "zh": "可持续实践 支持可持续实践在保护环境方面也发挥着至关重要的作用。",
+    "chunkId": "chunk-sustainable-practices",
+    "tags": [
+      "TOEFL",
+      "sustainability",
+      "environment",
+      "IELTS"
+    ],
+    "url": "/chunks/#chunk-sustainable-practices"
+  },
+  {
+    "id": "chunk-chunk-circular-economy",
+    "type": "chunk",
+    "title": "circular economy",
+    "text": "circular economy circular economy concept of a circular economy transition to a circular economy circular economy model The concept of a circular economy is gaining traction as a way to minimize waste.",
+    "zh": "循环经济 循环经济的概念正在获得关注，作为最大限度减少废物的一种方式。",
+    "chunkId": "chunk-circular-economy",
+    "tags": [
+      "sustainability",
+      "IELTS",
+      "TOEFL",
+      "Postgraduate English",
+      "economy"
+    ],
+    "url": "/chunks/#chunk-circular-economy"
+  },
+  {
+    "id": "chunk-chunk-biodiversity-loss",
+    "type": "chunk",
+    "title": "biodiversity loss",
+    "text": "biodiversity loss biodiversity loss the rate of biodiversity loss combat biodiversity loss biodiversity loss threatens Biodiversity loss is a critical concern as species extinction disrupts ecosystems.",
+    "zh": "生物多样性丧失 生物多样性丧失是一个关键问题，因为物种灭绝破坏生态系统。",
+    "chunkId": "chunk-biodiversity-loss",
+    "tags": [
+      "TOEFL",
+      "environment",
+      "ecology",
+      "IELTS"
+    ],
+    "url": "/chunks/#chunk-biodiversity-loss"
+  },
+  {
+    "id": "chunk-chunk-species-extinction",
+    "type": "chunk",
+    "title": "species extinction",
+    "text": "species extinction species extinction prevent species extinction rate of species extinction species extinction threatens Species extinction disrupts food chains and threatens food security.",
+    "zh": "物种灭绝 物种灭绝破坏食物链并威胁粮食安全。",
+    "chunkId": "chunk-species-extinction",
+    "tags": [
+      "TOEFL",
+      "environment",
+      "ecology",
+      "IELTS"
+    ],
+    "url": "/chunks/#chunk-species-extinction"
+  },
+  {
+    "id": "chunk-chunk-food-security",
+    "type": "chunk",
+    "title": "food security",
+    "text": "food security food security threaten food security ensure food security global food security Climate change poses a serious threat to global food security.",
+    "zh": "粮食安全 气候变化对全球粮食安全构成严重威胁。",
+    "chunkId": "chunk-food-security",
+    "tags": [
+      "IELTS",
+      "TOEFL",
+      "environment",
+      "Postgraduate English",
+      "society"
+    ],
+    "url": "/chunks/#chunk-food-security"
+  },
+  {
+    "id": "chunk-chunk-international-cooperation",
+    "type": "chunk",
+    "title": "international cooperation",
+    "text": "international cooperation international cooperation require international cooperation strengthen international cooperation through international cooperation International cooperation is essential to address global environmental challenges.",
+    "zh": "国际合作 国际合作对于应对全球环境挑战至关重要。",
+    "chunkId": "chunk-international-cooperation",
+    "tags": [
+      "IELTS",
+      "TOEFL",
+      "global",
+      "Postgraduate English",
+      "diplomacy"
+    ],
+    "url": "/chunks/#chunk-international-cooperation"
+  },
+  {
+    "id": "chunk-chunk-carbon-dioxide",
+    "type": "chunk",
+    "title": "carbon dioxide",
+    "text": "carbon dioxide carbon dioxide absorb carbon dioxide carbon dioxide levels emit carbon dioxide Forests absorb carbon dioxide and release oxygen through photosynthesis.",
+    "zh": "二氧化碳 森林通过光合作用吸收二氧化碳并释放氧气。",
+    "chunkId": "chunk-carbon-dioxide",
+    "tags": [
+      "science",
+      "CET4",
+      "IELTS",
+      "TOEFL",
+      "environment"
+    ],
+    "url": "/chunks/#chunk-carbon-dioxide"
+  },
+  {
+    "id": "chunk-chunk-ecosystems",
+    "type": "chunk",
+    "title": "ecosystems",
+    "text": "ecosystems ecosystems disrupt ecosystems protect ecosystems marine ecosystems Pollution and habitat destruction disrupt ecosystems and threaten countless species.",
+    "zh": "生态系统 污染和栖息地破坏破坏生态系统并威胁无数物种。",
+    "chunkId": "chunk-ecosystems",
+    "tags": [
+      "TOEFL",
+      "environment",
+      "ecology",
+      "IELTS"
+    ],
+    "url": "/chunks/#chunk-ecosystems"
+  },
+  {
+    "id": "chunk-chunk-conserve-energy",
+    "type": "chunk",
+    "title": "conserve energy",
+    "text": "conserve energy conserve energy conserve energy at home efforts to conserve energy conserve energy and reduce waste Simple actions like turning off lights can help conserve energy.",
+    "zh": "节约能源 关灯等简单的行动有助于节约能源。",
+    "chunkId": "chunk-conserve-energy",
+    "tags": [
+      "daily life",
+      "sustainability",
+      "CET4",
+      "IELTS"
+    ],
+    "url": "/chunks/#chunk-conserve-energy"
+  },
+  {
+    "id": "chunk-chunk-environmental-impact",
+    "type": "chunk",
+    "title": "environmental impact",
+    "text": "environmental impact environmental impact minimize environmental impact reduce environmental impact assess environmental impact The circular economy model aims to minimize environmental impact.",
+    "zh": "环境影响 循环经济模式旨在最大限度减少环境影响。",
+    "chunkId": "chunk-environmental-impact",
+    "tags": [
+      "TOEFL",
+      "sustainability",
+      "environment",
+      "IELTS"
+    ],
+    "url": "/chunks/#chunk-environmental-impact"
+  }
+]
