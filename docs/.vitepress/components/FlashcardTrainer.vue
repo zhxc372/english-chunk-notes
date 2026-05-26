@@ -187,8 +187,11 @@ import AudioPlayer from './AudioPlayer.vue'
 type TrainMode = 'en2cn' | 'cn2en' | 'fill' | 'dictation' | 'weak'
 
 interface Card {
-  chunk: Chunk
-  lesson: Lesson
+  id: string
+  chunk: string      // 英文词块
+  meaning: string    // 中文含义
+  example?: string   // 例句
+  tags?: string[]
 }
 
 // Props: allow external chunks injection from DeckBuilder
