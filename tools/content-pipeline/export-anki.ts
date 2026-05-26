@@ -85,9 +85,16 @@ function loadLessons(): ExportCard[] {
           const tags: string[] = []
           if (data.level) tags.push(data.level.toLowerCase())
           if (c.difficulty) tags.push(c.difficulty.toLowerCase())
-          if (data.examTags) tags.push(...data.examTags.map((t: string) => t.toLowerCase()))
-          if (c.tags) tags.push(...c.tags.map((t: string) => t.toLowerCase()))
-          if (data.topicTags) tags.push(...data.topicTags.map((t: string) => t.toLowerCase()))
+          // v0.1: exam_tags / tags; v0.2: examTags / topicTags / useCaseTags
+          const lessonExamTags = data.examTags || data.exam_tags || []
+          const chunkExamTags = c.examTags || c.exam_tags || []
+          const topicTags = data.topicTags || []
+          const chunkTopicTags = c.tags || []
+          tags.push(...lessonExamTags.map((t: string) => t.toLowerCase()))
+          tags.push(...chunkExamTags.map((t: string) => t.toLowerCase()))
+          tags.push(...topicTags.map((t: string) => t.toLowerCase()))
+          tags.push(...chunkTopicTags.map((t: string) => t.toLowerCase()))
+          if (data.useCaseTags) tags.push(...data.useCaseTags.map((t: string) => t.toLowerCase()))
           
           // Deduplicate tags
           const uniqueTags = [...new Set(tags)]
@@ -133,10 +140,10 @@ function filterCards(cards: ExportCard[], opts: Record<string, string | boolean>
     result = result.filter(c => c.tags.some(t => t.includes(tag)))
   }
   
-  // Filter by level
+  // Filter by level (fuzzy match: 'B2' matches 'b1-b2')
   if (opts.level) {
-    const level = (opts.level as string).toUpperCase()
-    result = result.filter(c => c.tags.some(t => t === level.toLowerCase()))
+    const level = (opts.level as string).toLowerCase()
+    result = result.filter(c => c.tags.some(t => t.includes(level) || level.includes(t)))
   }
   
   return result
