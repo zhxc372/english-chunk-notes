@@ -197,7 +197,7 @@
 
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
-import { withBase } from 'vitepress'
+import { withBase, useRouter } from 'vitepress'
 import { getAllExamTags, getAllLessons } from '../data/loader'
 import { getProgressStats, getDueForReview } from '../data/types'
 import type { Lesson } from '../data/types'
@@ -318,12 +318,14 @@ function clearTags() {
   activeTags.value = []
 }
 
+const router = useRouter()
+
 function goToEntry(route: string): void {
-  window.location.href = withBase(route)
+  router.go(withBase(route))
 }
 
 function goToLesson(lessonId: string): void {
-  window.location.href = withBase(`/themes/${lessonId}/`)
+  router.go(withBase(`/themes/${lessonId}/`))
 }
 
 onMounted(() => {
