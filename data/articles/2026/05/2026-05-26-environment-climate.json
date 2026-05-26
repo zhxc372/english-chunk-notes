@@ -1,0 +1,46 @@
+{
+  "id": "2026-05-26-environment-climate",
+  "categoryId": "science-health",
+  "title": "Environment & Climate",
+  "titleZh": "环境与气候",
+  "summaryZh": "环境与气候 — environment, climate, sustainability",
+  "level": "B2",
+  "sourceType": "imported",
+  "sourceUrl": "",
+  "publishedAt": "2026-05-26",
+  "updatedAt": "2026-05-26",
+  "order": 1,
+  "tags": [
+    "environment",
+    "climate",
+    "sustainability"
+  ],
+  "examTags": [
+    "IELTS",
+    "TOEFL",
+    "CET6",
+    "Postgraduate English"
+  ],
+  "paragraphs": [
+    {
+      "id": "p1",
+      "text": "Climate change is one of the most pressing challenges of our time. Rising global temperatures have led to more frequent extreme weather events, including hurricanes, droughts, and floods. The burning of fossil fuels such as coal, oil, and natural gas is the primary driver of greenhouse gas emissions, which trap heat in the atmosphere and accelerate global warming.",
+      "zh": "气候变化是我们这个时代最紧迫的挑战之一。全球气温上升导致了更频繁的极端天气事件，包括飓风、干旱和洪水。煤炭、石油和天然气等化石燃料的燃烧是温室气体排放的主要驱动因素，温室气体在大气中困住热量并加速全球变暖。"
+    },
+    {
+      "id": "p2",
+      "text": "Deforestation further exacerbates the problem by reducing the planet's ability to absorb carbon dioxide. In response, many countries have committed to reducing their carbon footprint through renewable energy sources like wind and solar power. The transition to a low-carbon economy requires significant investment in clean technology and infrastructure.",
+      "zh": "森林砍伐进一步加剧了这一问题，降低了地球吸收二氧化碳的能力。作为回应，许多国家已承诺通过风能和太阳能等可再生能源来减少碳足迹。向低碳经济转型需要大量投资清洁技术和基础设施。"
+    },
+    {
+      "id": "p3",
+      "text": "Individual actions, such as reducing waste, conserving energy, and supporting sustainable practices, also play a crucial role. The concept of a circular economy, where materials are reused and recycled rather than discarded, is gaining traction as a way to minimize environmental impact. Biodiversity loss is another critical concern, as species extinction disrupts ecosystems and threatens food security.",
+      "zh": "个人行动，如减少废物、节约能源和支持可持续实践，也发挥着至关重要的作用。循环经济的概念正在获得关注，即材料被重复使用和回收而不是被丢弃，这是最大限度减少环境影响的一种方式。生物多样性丧失是另一个关键问题，因为物种灭绝破坏生态系统并威胁粮食安全。"
+    },
+    {
+      "id": "p4",
+      "text": "International cooperation is essential to address these global challenges, as no single country can solve them alone.",
+      "zh": "国际合作对于应对这些全球挑战至关重要，因为没有任何一个国家能够单独解决这些问题。"
+    }
+  ]
+}

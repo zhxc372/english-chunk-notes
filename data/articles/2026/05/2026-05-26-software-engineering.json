@@ -1,0 +1,46 @@
+{
+  "id": "2026-05-26-software-engineering",
+  "categoryId": "software-engineering",
+  "title": "Software Engineering",
+  "titleZh": "软件工程",
+  "summaryZh": "软件工程 — software, engineering, development",
+  "level": "B2",
+  "sourceType": "imported",
+  "sourceUrl": "",
+  "publishedAt": "2026-05-26",
+  "updatedAt": "2026-05-26",
+  "order": 1,
+  "tags": [
+    "software",
+    "engineering",
+    "development"
+  ],
+  "examTags": [
+    "IELTS",
+    "TOEFL",
+    "CET6",
+    "Tech English"
+  ],
+  "paragraphs": [
+    {
+      "id": "p1",
+      "text": "Software engineering is the discipline of designing, building, and maintaining reliable software systems. Unlike simple coding, it involves careful planning, systematic testing, and ongoing maintenance. One of the core principles is separation of concerns: breaking a complex system into smaller, manageable modules.",
+      "zh": "软件工程是设计、构建和维护可靠软件系统的学科。与简单编码不同，它涉及仔细的规划、系统化的测试和持续的维护。其核心原则之一是关注点分离：将复杂系统拆分为更小、可管理的模块。"
+    },
+    {
+      "id": "p2",
+      "text": "Each module should have a single, well-defined responsibility. This approach makes the code easier to test, debug, and extend over time. Version control systems like Git allow teams to track changes, collaborate on the same codebase, and revert to previous versions when something goes wrong.",
+      "zh": "每个模块应该有单一的、明确的职责。这种方法使代码更容易测试、调试和扩展。像Git这样的版本控制系统允许团队跟踪更改、在同一个代码库上协作，并在出错时回滚到之前的版本。"
+    },
+    {
+      "id": "p3",
+      "text": "Code reviews serve as a quality gate where experienced developers examine new code before it is merged. Automated testing, including unit tests and integration tests, ensures that changes do not introduce unexpected bugs. Documentation is another critical but often overlooked aspect.",
+      "zh": "代码审查作为质量关卡，由有经验的开发者在合并新代码之前进行检查。自动化测试，包括单元测试和集成测试，确保更改不会引入意外的bug。文档是另一个关键但常被忽视的方面。"
+    },
+    {
+      "id": "p4",
+      "text": "Well-written documentation helps new team members understand the system and reduces the time spent on onboarding. In modern software engineering, continuous integration and continuous deployment (CI/CD) automate the process of building, testing, and releasing software, enabling teams to deliver updates faster and with greater confidence.",
+      "zh": "编写良好的文档帮助新团队成员理解系统，减少入职时间。在现代软件工程中，持续集成和持续部署自动化了构建、测试和发布软件的过程，使团队能够更快、更有信心地交付更新。"
+    }
+  ]
+}

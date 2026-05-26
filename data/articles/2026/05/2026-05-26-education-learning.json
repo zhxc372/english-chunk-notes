@@ -1,0 +1,46 @@
+{
+  "id": "2026-05-26-education-learning",
+  "categoryId": "education-exams",
+  "title": "Education & Learning",
+  "titleZh": "教育与学习",
+  "summaryZh": "教育与学习 — education, technology, growth",
+  "level": "B2",
+  "sourceType": "imported",
+  "sourceUrl": "",
+  "publishedAt": "2026-05-26",
+  "updatedAt": "2026-05-26",
+  "order": 1,
+  "tags": [
+    "education",
+    "technology",
+    "growth"
+  ],
+  "examTags": [
+    "IELTS",
+    "TOEFL",
+    "CET4",
+    "CET6"
+  ],
+  "paragraphs": [
+    {
+      "id": "p1",
+      "text": "Technology is changing how students learn in classrooms around the world. Many schools now use artificial intelligence tools to help teachers plan lessons and track student progress. However, not everyone agrees that more technology means better education.",
+      "zh": "科技正在改变世界各地课堂中学生学习的方式。现在许多学校使用人工智能工具帮助教师备课和跟踪学生学习进度。然而，并非所有人都认为更多科技意味着更好的教育。"
+    },
+    {
+      "id": "p2",
+      "text": "A recent report from Beijing Normal University suggests that science education should focus on building critical thinking, not just memorizing facts. The report argues that students need to learn how to ask questions and solve real-world problems, rather than simply following instructions.",
+      "zh": "北京师范大学最近的一份报告建议，科学教育应注重培养批判性思维，而不仅仅是记忆事实。报告认为，学生需要学会如何提出问题和解决现实问题，而不是简单地遵循指令。"
+    },
+    {
+      "id": "p3",
+      "text": "In Shanghai, young students are already leading the way. Some teenagers have discovered new insect species, while others are developing smart devices to help elderly people. These projects show that hands-on experience can be more powerful than traditional textbooks.",
+      "zh": "在上海，年轻学生已经走在前列。一些青少年发现了新的昆虫物种，另一些则在开发帮助老年人的智能设备。这些项目表明，动手实践可能比传统教科书更有力量。"
+    },
+    {
+      "id": "p4",
+      "text": "The challenge now is teacher training. Many science teachers feel unprepared for the new demands. Schools need to invest in professional development so that teachers can guide students through this changing landscape.",
+      "zh": "现在的挑战是教师培训。许多科学教师对新要求感到准备不足。学校需要投资专业发展，以便教师能够引导学生在不断变化的环境中前行。"
+    }
+  ]
+}

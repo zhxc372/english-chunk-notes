@@ -6,7 +6,11 @@
     "meaningZh": "做决定",
     "type": "verb_phrase",
     "level": "B1",
-    "tags": ["decision", "business", "daily"],
+    "tags": [
+      "decision",
+      "business",
+      "daily"
+    ],
     "surfaceForms": [
       "make a decision",
       "makes a decision",
@@ -20,7 +24,9 @@
       "reach a decision",
       "come to a decision"
     ],
-    "relatedChunkIds": ["chunk-decide-on-something"],
+    "relatedChunkIds": [
+      "chunk-decide-on-something"
+    ],
     "coreExamples": [
       {
         "text": "We need to make a decision soon.",
@@ -35,7 +41,11 @@
     "meaningZh": "归根结底；底线",
     "type": "noun_phrase",
     "level": "B2",
-    "tags": ["business", "opinion", "summary"],
+    "tags": [
+      "business",
+      "opinion",
+      "summary"
+    ],
     "surfaceForms": [
       "the bottom line",
       "bottom line"
@@ -59,7 +69,11 @@
     "meaningZh": "弄清楚；想出",
     "type": "verb_phrase",
     "level": "B1",
-    "tags": ["thinking", "problem-solving", "daily"],
+    "tags": [
+      "thinking",
+      "problem-solving",
+      "daily"
+    ],
     "surfaceForms": [
       "figure out",
       "figures out",
@@ -71,11 +85,1719 @@
       "work out",
       "sort out"
     ],
-    "relatedChunkIds": ["chunk-find-out"],
+    "relatedChunkIds": [
+      "chunk-find-out"
+    ],
     "coreExamples": [
       {
         "text": "I can't figure out how to solve this problem.",
         "zh": "我想不出怎么解决这个问题。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-track-student-progress",
+    "canonical": "track student progress",
+    "normalizedCanonical": "track student progress",
+    "meaningZh": "跟踪学生学习进度",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "IELTS",
+      "TOEFL",
+      "CET6",
+      "education",
+      "technology"
+    ],
+    "surfaceForms": [
+      "track student progress",
+      "monitor student progress",
+      "assess student progress"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Many schools now use digital tools to track student progress more effectively.",
+        "zh": "现在许多学校使用数字工具来更有效地跟踪学生学习进度。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-critical-thinking",
+    "canonical": "critical thinking",
+    "normalizedCanonical": "critical thinking",
+    "meaningZh": "批判性思维",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "CET4",
+      "IELTS",
+      "TOEFL",
+      "education",
+      "CET6",
+      "thinking"
+    ],
+    "surfaceForms": [
+      "critical thinking",
+      "develop critical thinking",
+      "promote critical thinking",
+      "critical thinking skills"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "The report suggests that science education should focus on building critical thinking skills.",
+        "zh": "报告建议科学教育应注重培养批判性思维能力。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-hands-on-experience",
+    "canonical": "hands-on experience",
+    "normalizedCanonical": "hands-on experience",
+    "meaningZh": "动手实践；亲身经验",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "CET4",
+      "IELTS",
+      "TOEFL",
+      "education",
+      "learning"
+    ],
+    "surfaceForms": [
+      "hands-on experience",
+      "gain hands-on experience",
+      "hands-on learning",
+      "provide hands-on experience"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Hands-on experience can be more powerful than traditional textbooks.",
+        "zh": "动手实践可能比传统教科书更有力量。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-real-world-problems",
+    "canonical": "real-world problems",
+    "normalizedCanonical": "real-world problems",
+    "meaningZh": "现实问题；实际问题",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "practice",
+      "IELTS",
+      "TOEFL",
+      "CET6",
+      "education"
+    ],
+    "surfaceForms": [
+      "real-world problems",
+      "solve real-world problems",
+      "tackle real-world problems",
+      "real-world applications"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Students need to learn how to solve real-world problems rather than follow instructions.",
+        "zh": "学生需要学会如何解决现实问题，而不是遵循指令。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-professional-development",
+    "canonical": "professional development",
+    "normalizedCanonical": "professional development",
+    "meaningZh": "专业发展；职业培训",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "IELTS",
+      "TOEFL",
+      "education",
+      "CET6",
+      "career"
+    ],
+    "surfaceForms": [
+      "professional development",
+      "invest in professional development",
+      "professional development programs",
+      "continuous professional development"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Schools need to invest in professional development so that teachers can adapt to changes.",
+        "zh": "学校需要投资专业发展，以便教师能够适应变化。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-changing-landscape",
+    "canonical": "changing landscape",
+    "normalizedCanonical": "changing landscape",
+    "meaningZh": "不断变化的格局",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "TOEFL",
+      "education",
+      "technology",
+      "IELTS"
+    ],
+    "surfaceForms": [
+      "changing landscape",
+      "a changing landscape",
+      "navigate the changing landscape",
+      "rapidly changing landscape"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Teachers need to guide students through a rapidly changing landscape of technology.",
+        "zh": "教师需要引导学生在快速变化的科技格局中前行。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-lead-the-way",
+    "canonical": "lead the way",
+    "normalizedCanonical": "lead the way",
+    "meaningZh": "走在前列；引领方向",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "TOEFL",
+      "education",
+      "innovation",
+      "IELTS"
+    ],
+    "surfaceForms": [
+      "lead the way",
+      "lead the way in",
+      "students lead the way",
+      "lead the way forward"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Young students in Shanghai are already leading the way in science innovation.",
+        "zh": "上海的年轻学生已经在科学创新方面走在前列。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-memorizing-facts",
+    "canonical": "memorizing facts",
+    "normalizedCanonical": "memorizing facts",
+    "meaningZh": "记忆事实；死记硬背",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "CET4",
+      "IELTS",
+      "TOEFL",
+      "education",
+      "learning"
+    ],
+    "surfaceForms": [
+      "memorizing facts",
+      "focus on memorizing facts",
+      "instead of memorizing facts",
+      "beyond memorizing facts"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Education should go beyond memorizing facts and focus on understanding.",
+        "zh": "教育应该超越死记硬背，注重理解。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-traditional-textbooks",
+    "canonical": "traditional textbooks",
+    "normalizedCanonical": "traditional textbooks",
+    "meaningZh": "传统教科书",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "learning",
+      "CET4",
+      "education",
+      "IELTS"
+    ],
+    "surfaceForms": [
+      "traditional textbooks",
+      "replace traditional textbooks",
+      "rely on traditional textbooks",
+      "beyond traditional textbooks"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Many educators argue that learning should not rely solely on traditional textbooks.",
+        "zh": "许多教育工作者认为学习不应仅仅依赖传统教科书。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-feel-unprepared",
+    "canonical": "feel unprepared",
+    "normalizedCanonical": "feel unprepared",
+    "meaningZh": "感到准备不足",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "TOEFL",
+      "workplace",
+      "education",
+      "IELTS"
+    ],
+    "surfaceForms": [
+      "feel unprepared",
+      "feel unprepared for",
+      "teachers feel unprepared",
+      "leave graduates unprepared"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Many science teachers feel unprepared for the new demands of technology in education.",
+        "zh": "许多科学教师对教育科技的新要求感到准备不足。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-plan-lessons",
+    "canonical": "plan lessons",
+    "normalizedCanonical": "plan lessons",
+    "meaningZh": "备课；计划课程",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "TOEFL",
+      "CET6",
+      "education",
+      "technology"
+    ],
+    "surfaceForms": [
+      "plan lessons",
+      "plan lessons effectively",
+      "help teachers plan lessons",
+      "lesson planning"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "AI tools can help teachers plan lessons more efficiently and personalize content.",
+        "zh": "AI工具可以帮助教师更高效地备课和个性化内容。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-invest-in",
+    "canonical": "invest in",
+    "normalizedCanonical": "invest in",
+    "meaningZh": "投资于；投入资源",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "CET4",
+      "IELTS",
+      "TOEFL",
+      "education",
+      "CET6",
+      "society"
+    ],
+    "surfaceForms": [
+      "invest in",
+      "invest in education",
+      "invest in professional development",
+      "invest in technology"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Governments should invest more in education to prepare students for the future.",
+        "zh": "政府应该更多地投资教育，为学生未来做准备。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-rather-than",
+    "canonical": "rather than",
+    "normalizedCanonical": "rather than",
+    "meaningZh": "而不是",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "CET4",
+      "IELTS",
+      "TOEFL",
+      "CET6",
+      "contrast",
+      "grammar"
+    ],
+    "surfaceForms": [
+      "rather than",
+      "x rather than y",
+      "focus on a rather than b",
+      "choose to do x rather than y"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Students need to understand concepts rather than simply memorize formulas.",
+        "zh": "学生需要理解概念，而不是简单地记忆公式。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-smart-devices",
+    "canonical": "smart devices",
+    "normalizedCanonical": "smart devices",
+    "meaningZh": "智能设备",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "TOEFL",
+      "society",
+      "technology",
+      "IELTS"
+    ],
+    "surfaceForms": [
+      "smart devices",
+      "develop smart devices",
+      "smart devices for education",
+      "connected smart devices"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Students are developing smart devices to help elderly people live more independently.",
+        "zh": "学生们正在开发智能设备帮助老年人更独立地生活。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-follow-instructions",
+    "canonical": "follow instructions",
+    "normalizedCanonical": "follow instructions",
+    "meaningZh": "遵循指令；按指示做",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "TOEFL",
+      "education",
+      "thinking",
+      "IELTS"
+    ],
+    "surfaceForms": [
+      "follow instructions",
+      "simply follow instructions",
+      "fail to follow instructions",
+      "learn to follow instructions"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Modern education should encourage creativity, not just train students to follow instructions.",
+        "zh": "现代教育应该鼓励创造力，而不是仅仅训练学生遵循指令。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-classroom-around-the-world",
+    "canonical": "classroom around the world",
+    "normalizedCanonical": "classroom around the world",
+    "meaningZh": "世界各地的课堂",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "TOEFL",
+      "global",
+      "education",
+      "IELTS"
+    ],
+    "surfaceForms": [
+      "classroom around the world",
+      "classrooms around the world",
+      "across classrooms worldwide",
+      "in classrooms globally"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Technology is transforming classrooms around the world in similar ways.",
+        "zh": "科技正在以类似的方式改变世界各地的课堂。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-not-everyone-agrees",
+    "canonical": "not everyone agrees",
+    "normalizedCanonical": "not everyone agrees",
+    "meaningZh": "并非所有人都同意",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "CET4",
+      "expression",
+      "IELTS",
+      "TOEFL",
+      "opinion"
+    ],
+    "surfaceForms": [
+      "not everyone agrees",
+      "not everyone agrees that",
+      "not everyone agrees on",
+      "not everyone agrees with"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Not everyone agrees that more technology in classrooms leads to better learning outcomes.",
+        "zh": "并非所有人都认为课堂中更多科技会导致更好的学习效果。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-bridge-the-gap",
+    "canonical": "bridge the gap",
+    "normalizedCanonical": "bridge the gap",
+    "meaningZh": "缩小差距；弥合鸿沟",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "IELTS",
+      "TOEFL",
+      "CET6",
+      "education",
+      "society"
+    ],
+    "surfaceForms": [
+      "bridge the gap",
+      "bridge the gap between",
+      "bridge the education gap",
+      "efforts to bridge the gap"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Online learning platforms can help bridge the gap between rich and poor schools.",
+        "zh": "在线学习平台可以帮助缩小贫富学校之间的差距。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-adapt-to-changes",
+    "canonical": "adapt to changes",
+    "normalizedCanonical": "adapt to changes",
+    "meaningZh": "适应变化",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "CET4",
+      "IELTS",
+      "TOEFL",
+      "education",
+      "adaptation"
+    ],
+    "surfaceForms": [
+      "adapt to changes",
+      "help students adapt to",
+      "adapt to a changing environment"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Both teachers and students must adapt to changes brought by new technology.",
+        "zh": "教师和学生都必须适应新科技带来的变化。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-inquiry-based-learning",
+    "canonical": "inquiry-based learning",
+    "normalizedCanonical": "inquiry-based learning",
+    "meaningZh": "探究式学习",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "IELTS",
+      "TOEFL",
+      "education",
+      "CET6",
+      "methodology"
+    ],
+    "surfaceForms": [
+      "inquiry-based learning",
+      "inquiry-based learning approach",
+      "promote inquiry-based learning",
+      "shift to inquiry-based learning"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Inquiry-based learning encourages students to ask questions and explore solutions independently.",
+        "zh": "探究式学习鼓励学生独立提出问题和探索解决方案。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-separation-of-concerns",
+    "canonical": "separation of concerns",
+    "normalizedCanonical": "separation of concerns",
+    "meaningZh": "关注点分离",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "IELTS",
+      "TOEFL",
+      "design",
+      "Tech English",
+      "architecture"
+    ],
+    "surfaceForms": [
+      "separation of concerns",
+      "apply separation of concerns",
+      "principle of separation"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Separation of concerns means breaking a complex system into smaller, focused modules.",
+        "zh": "关注点分离意味着将复杂系统拆分为更小、聚焦的模块。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-well-defined-responsibility",
+    "canonical": "well-defined responsibility",
+    "normalizedCanonical": "well-defined responsibility",
+    "meaningZh": "明确的职责",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "TOEFL",
+      "design",
+      "IELTS",
+      "architecture"
+    ],
+    "surfaceForms": [
+      "well-defined responsibility",
+      "a well-defined responsibility",
+      "single responsibility",
+      "clearly defined roles"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Each module should have a single, well-defined responsibility.",
+        "zh": "每个模块应该有单一的、明确的职责。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-version-control",
+    "canonical": "version control",
+    "normalizedCanonical": "version control",
+    "meaningZh": "版本控制",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "tools",
+      "IELTS",
+      "collaboration",
+      "TOEFL",
+      "Tech English"
+    ],
+    "surfaceForms": [
+      "version control",
+      "version control system",
+      "use version control",
+      "version control history"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Version control systems allow teams to track changes and collaborate effectively.",
+        "zh": "版本控制系统允许团队跟踪更改并有效协作。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-codebase",
+    "canonical": "codebase",
+    "normalizedCanonical": "codebase",
+    "meaningZh": "代码库",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "tools",
+      "Tech English",
+      "IELTS",
+      "collaboration"
+    ],
+    "surfaceForms": [
+      "codebase",
+      "the same codebase",
+      "large codebase",
+      "maintain a codebase"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Multiple developers can work on the same codebase simultaneously.",
+        "zh": "多个开发者可以同时处理同一个代码库。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-revert-to-a-previous-version",
+    "canonical": "revert to a previous version",
+    "normalizedCanonical": "revert to a previous version",
+    "meaningZh": "回滚到之前的版本",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "risk",
+      "tools",
+      "Tech English",
+      "IELTS"
+    ],
+    "surfaceForms": [
+      "revert to a previous version",
+      "revert the changes",
+      "version rollback"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "When something goes wrong, teams can revert to a previous version.",
+        "zh": "当出问题时，团队可以回滚到之前的版本。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-quality-gate",
+    "canonical": "quality gate",
+    "normalizedCanonical": "quality gate",
+    "meaningZh": "质量关卡",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "TOEFL",
+      "quality",
+      "process",
+      "IELTS"
+    ],
+    "surfaceForms": [
+      "quality gate",
+      "serve as a quality gate",
+      "pass the quality gate",
+      "quality gate process"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Code reviews serve as a quality gate before new code is merged.",
+        "zh": "代码审查在新代码合并前作为质量关卡。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-unit-tests",
+    "canonical": "unit tests",
+    "normalizedCanonical": "unit tests",
+    "meaningZh": "单元测试",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "testing",
+      "IELTS",
+      "TOEFL",
+      "quality",
+      "Tech English"
+    ],
+    "surfaceForms": [
+      "unit tests",
+      "write unit tests",
+      "unit test coverage",
+      "run unit tests"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Unit tests verify that individual components work correctly in isolation.",
+        "zh": "单元测试验证各个组件在隔离状态下正确工作。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-integration-tests",
+    "canonical": "integration tests",
+    "normalizedCanonical": "integration tests",
+    "meaningZh": "集成测试",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "testing",
+      "IELTS",
+      "TOEFL",
+      "quality",
+      "Tech English"
+    ],
+    "surfaceForms": [
+      "integration tests",
+      "integration test suite",
+      "run integration tests",
+      "integration testing"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Integration tests check that different modules work together correctly.",
+        "zh": "集成测试检查不同模块是否能正确协同工作。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-unexpected-bugs",
+    "canonical": "unexpected bugs",
+    "normalizedCanonical": "unexpected bugs",
+    "meaningZh": "意外的bug",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "testing",
+      "TOEFL",
+      "quality",
+      "IELTS"
+    ],
+    "surfaceForms": [
+      "unexpected bugs",
+      "introduce unexpected bugs",
+      "catch unexpected bugs",
+      "prevent unexpected bugs"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Automated testing ensures that changes do not introduce unexpected bugs.",
+        "zh": "自动化测试确保更改不会引入意外的bug。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-well-written-documentation",
+    "canonical": "well-written documentation",
+    "normalizedCanonical": "well-written documentation",
+    "meaningZh": "编写良好的文档",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "TOEFL",
+      "documentation",
+      "IELTS",
+      "teamwork"
+    ],
+    "surfaceForms": [
+      "well-written documentation",
+      "maintain documentation",
+      "documentation practices"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Well-written documentation helps new team members understand the system.",
+        "zh": "编写良好的文档帮助新团队成员理解系统。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-onboarding",
+    "canonical": "onboarding",
+    "normalizedCanonical": "onboarding",
+    "meaningZh": "入职培训",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "TOEFL",
+      "teamwork",
+      "process",
+      "IELTS"
+    ],
+    "surfaceForms": [
+      "onboarding",
+      "onboarding process",
+      "speed up onboarding",
+      "onboarding new members"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Good documentation reduces the time spent on onboarding new developers.",
+        "zh": "良好的文档减少了新开发者入职培训的时间。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-continuous-integration",
+    "canonical": "continuous integration",
+    "normalizedCanonical": "continuous integration",
+    "meaningZh": "持续集成",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "workflow",
+      "IELTS",
+      "TOEFL",
+      "Tech English",
+      "automation"
+    ],
+    "surfaceForms": [
+      "continuous integration",
+      "continuous integration pipeline",
+      "set up continuous integration",
+      "ci/cd practices"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Continuous integration automates the process of building and testing software.",
+        "zh": "持续集成自动化了软件构建和测试的过程。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-continuous-deployment",
+    "canonical": "continuous deployment",
+    "normalizedCanonical": "continuous deployment",
+    "meaningZh": "持续部署",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "IELTS",
+      "TOEFL",
+      "deployment",
+      "Tech English",
+      "automation"
+    ],
+    "surfaceForms": [
+      "continuous deployment",
+      "continuous deployment pipeline",
+      "enable continuous deployment",
+      "ci/cd pipeline"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Continuous deployment enables teams to release updates faster and with confidence.",
+        "zh": "持续部署使团队能够更有信心地更快发布更新。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-deliver-updates",
+    "canonical": "deliver updates",
+    "normalizedCanonical": "deliver updates",
+    "meaningZh": "交付更新",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "IELTS",
+      "TOEFL",
+      "deployment",
+      "Tech English",
+      "automation"
+    ],
+    "surfaceForms": [
+      "deliver updates",
+      "deliver updates faster",
+      "deliver reliable updates",
+      "update delivery cycle"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "CI/CD pipelines help teams deliver updates faster and more reliably.",
+        "zh": "CI/CD流水线帮助团队更快、更可靠地交付更新。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-debug",
+    "canonical": "debug",
+    "normalizedCanonical": "debug",
+    "meaningZh": "调试",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "quality",
+      "Tech English",
+      "IELTS",
+      "development"
+    ],
+    "surfaceForms": [
+      "debug",
+      "debug the code",
+      "debugging process",
+      "easier to debug"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Modular code is easier to debug and maintain.",
+        "zh": "模块化代码更容易调试和维护。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-extend-over-time",
+    "canonical": "extend over time",
+    "normalizedCanonical": "extend over time",
+    "meaningZh": "随时间扩展",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "TOEFL",
+      "design",
+      "IELTS",
+      "architecture"
+    ],
+    "surfaceForms": [
+      "extend over time",
+      "extend the system over time",
+      "code that extends easily",
+      "scalable over time"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Good architecture allows the system to extend over time without major rewrites.",
+        "zh": "良好的架构允许系统随时间扩展而无需大规模重写。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-manageable-modules",
+    "canonical": "manageable modules",
+    "normalizedCanonical": "manageable modules",
+    "meaningZh": "可管理的模块",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "TOEFL",
+      "design",
+      "IELTS",
+      "architecture"
+    ],
+    "surfaceForms": [
+      "manageable modules",
+      "break into manageable modules",
+      "manageable module size",
+      "module management"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Complex systems should be broken into manageable modules.",
+        "zh": "复杂系统应该被拆分为可管理的模块。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-ongoing-maintenance",
+    "canonical": "ongoing maintenance",
+    "normalizedCanonical": "ongoing maintenance",
+    "meaningZh": "持续维护",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "TOEFL",
+      "quality",
+      "process",
+      "IELTS"
+    ],
+    "surfaceForms": [
+      "ongoing maintenance",
+      "require ongoing maintenance",
+      "ongoing maintenance costs",
+      "maintenance overhead"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Software requires ongoing maintenance to remain secure and functional.",
+        "zh": "软件需要持续维护以保持安全和功能正常。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-often-overlooked",
+    "canonical": "often overlooked",
+    "normalizedCanonical": "often overlooked",
+    "meaningZh": "常被忽视",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "TOEFL",
+      "documentation",
+      "process",
+      "IELTS"
+    ],
+    "surfaceForms": [
+      "often overlooked",
+      "an often overlooked aspect",
+      "often overlooked but critical",
+      "easily overlooked"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Documentation is a critical but often overlooked aspect of software engineering.",
+        "zh": "文档是软件工程中关键但常被忽视的方面。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-with-greater-confidence",
+    "canonical": "with greater confidence",
+    "normalizedCanonical": "with greater confidence",
+    "meaningZh": "更有信心地",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "testing",
+      "TOEFL",
+      "automation",
+      "IELTS"
+    ],
+    "surfaceForms": [
+      "with greater confidence",
+      "release with greater confidence",
+      "deploy with confidence",
+      "test with confidence"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Automated testing enables teams to deploy with greater confidence.",
+        "zh": "自动化测试使团队能够更有信心地部署。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-pressing-challenges",
+    "canonical": "pressing challenges",
+    "normalizedCanonical": "pressing challenges",
+    "meaningZh": "紧迫的挑战",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "TOEFL",
+      "global",
+      "environment",
+      "IELTS"
+    ],
+    "surfaceForms": [
+      "pressing challenges",
+      "one of the most pressing challenges",
+      "face pressing challenges",
+      "address pressing challenges"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Climate change is one of the most pressing challenges of our time.",
+        "zh": "气候变化是我们这个时代最紧迫的挑战之一。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-extreme-weather-events",
+    "canonical": "extreme weather events",
+    "normalizedCanonical": "extreme weather events",
+    "meaningZh": "极端天气事件",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "climate",
+      "weather",
+      "TOEFL",
+      "IELTS"
+    ],
+    "surfaceForms": [
+      "extreme weather events",
+      "more frequent extreme weather events",
+      "extreme weather events such as",
+      "increase in extreme weather events"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Rising global temperatures have led to more frequent extreme weather events.",
+        "zh": "全球气温上升导致了更频繁的极端天气事件。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-fossil-fuels",
+    "canonical": "fossil fuels",
+    "normalizedCanonical": "fossil fuels",
+    "meaningZh": "化石燃料",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "energy",
+      "IELTS",
+      "TOEFL",
+      "CET6",
+      "pollution"
+    ],
+    "surfaceForms": [
+      "fossil fuels",
+      "burning fossil fuels",
+      "dependence on fossil fuels",
+      "phase out fossil fuels"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "The burning of fossil fuels is the primary driver of greenhouse gas emissions.",
+        "zh": "化石燃料的燃烧是温室气体排放的主要驱动因素。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-greenhouse-gas-emissions",
+    "canonical": "greenhouse gas emissions",
+    "normalizedCanonical": "greenhouse gas emissions",
+    "meaningZh": "温室气体排放",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "climate",
+      "IELTS",
+      "TOEFL",
+      "CET6",
+      "pollution"
+    ],
+    "surfaceForms": [
+      "greenhouse gas emissions",
+      "reduce greenhouse gas emissions",
+      "greenhouse gas emissions from",
+      "rising greenhouse gas emissions"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Greenhouse gas emissions trap heat in the atmosphere and accelerate global warming.",
+        "zh": "温室气体排放在大气中困住热量并加速全球变暖。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-global-warming",
+    "canonical": "global warming",
+    "normalizedCanonical": "global warming",
+    "meaningZh": "全球变暖",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "climate",
+      "CET4",
+      "IELTS",
+      "TOEFL",
+      "environment"
+    ],
+    "surfaceForms": [
+      "global warming",
+      "accelerate global warming",
+      "the impact of global warming",
+      "combat global warming"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "The accumulation of greenhouse gases accelerates global warming at an alarming rate.",
+        "zh": "温室气体的积累以惊人的速度加速全球变暖。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-deforestation",
+    "canonical": "deforestation",
+    "normalizedCanonical": "deforestation",
+    "meaningZh": "森林砍伐",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "TOEFL",
+      "ecology",
+      "environment",
+      "IELTS"
+    ],
+    "surfaceForms": [
+      "deforestation",
+      "deforestation exacerbates",
+      "prevent deforestation",
+      "tropical deforestation"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Deforestation reduces the planet's ability to absorb carbon dioxide.",
+        "zh": "森林砍伐降低了地球吸收二氧化碳的能力。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-carbon-footprint",
+    "canonical": "carbon footprint",
+    "normalizedCanonical": "carbon footprint",
+    "meaningZh": "碳足迹",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "TOEFL",
+      "sustainability",
+      "environment",
+      "IELTS"
+    ],
+    "surfaceForms": [
+      "carbon footprint",
+      "reduce carbon footprint",
+      "carbon footprint of",
+      "lower carbon footprint"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Many countries have committed to reducing their carbon footprint.",
+        "zh": "许多国家已承诺减少碳足迹。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-renewable-energy",
+    "canonical": "renewable energy",
+    "normalizedCanonical": "renewable energy",
+    "meaningZh": "可再生能源",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "energy",
+      "sustainability",
+      "IELTS",
+      "TOEFL",
+      "CET6"
+    ],
+    "surfaceForms": [
+      "renewable energy",
+      "transition to renewable energy",
+      "renewable energy sources",
+      "invest in renewable energy"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Wind and solar power are key renewable energy sources for a sustainable future.",
+        "zh": "风能和太阳能是可持续未来的关键可再生能源。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-low-carbon-economy",
+    "canonical": "low-carbon economy",
+    "normalizedCanonical": "low-carbon economy",
+    "meaningZh": "低碳经济",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "sustainability",
+      "IELTS",
+      "TOEFL",
+      "Postgraduate English",
+      "economy"
+    ],
+    "surfaceForms": [
+      "low-carbon economy",
+      "transition to a low-carbon economy",
+      "low-carbon economy development",
+      "achieve a low-carbon economy"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "The transition to a low-carbon economy requires significant investment.",
+        "zh": "向低碳经济转型需要大量投资。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-clean-technology",
+    "canonical": "clean technology",
+    "normalizedCanonical": "clean technology",
+    "meaningZh": "清洁技术",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "TOEFL",
+      "environment",
+      "technology",
+      "IELTS"
+    ],
+    "surfaceForms": [
+      "clean technology",
+      "investment in clean technology",
+      "clean technology solutions",
+      "develop clean technology"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Significant investment in clean technology is essential for sustainable development.",
+        "zh": "大量投资清洁技术对可持续发展至关重要。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-sustainable-practices",
+    "canonical": "sustainable practices",
+    "normalizedCanonical": "sustainable practices",
+    "meaningZh": "可持续实践",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "TOEFL",
+      "sustainability",
+      "environment",
+      "IELTS"
+    ],
+    "surfaceForms": [
+      "sustainable practices",
+      "adopt sustainable practices",
+      "promote sustainable practices",
+      "sustainable agricultural practices"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Supporting sustainable practices also plays a crucial role in protecting the environment.",
+        "zh": "支持可持续实践在保护环境方面也发挥着至关重要的作用。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-circular-economy",
+    "canonical": "circular economy",
+    "normalizedCanonical": "circular economy",
+    "meaningZh": "循环经济",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "sustainability",
+      "IELTS",
+      "TOEFL",
+      "Postgraduate English",
+      "economy"
+    ],
+    "surfaceForms": [
+      "circular economy",
+      "concept of a circular economy",
+      "transition to a circular economy",
+      "circular economy model"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "The concept of a circular economy is gaining traction as a way to minimize waste.",
+        "zh": "循环经济的概念正在获得关注，作为最大限度减少废物的一种方式。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-biodiversity-loss",
+    "canonical": "biodiversity loss",
+    "normalizedCanonical": "biodiversity loss",
+    "meaningZh": "生物多样性丧失",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "TOEFL",
+      "environment",
+      "ecology",
+      "IELTS"
+    ],
+    "surfaceForms": [
+      "biodiversity loss",
+      "the rate of biodiversity loss",
+      "combat biodiversity loss",
+      "biodiversity loss threatens"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Biodiversity loss is a critical concern as species extinction disrupts ecosystems.",
+        "zh": "生物多样性丧失是一个关键问题，因为物种灭绝破坏生态系统。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-species-extinction",
+    "canonical": "species extinction",
+    "normalizedCanonical": "species extinction",
+    "meaningZh": "物种灭绝",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "TOEFL",
+      "environment",
+      "ecology",
+      "IELTS"
+    ],
+    "surfaceForms": [
+      "species extinction",
+      "prevent species extinction",
+      "rate of species extinction",
+      "species extinction threatens"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Species extinction disrupts food chains and threatens food security.",
+        "zh": "物种灭绝破坏食物链并威胁粮食安全。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-food-security",
+    "canonical": "food security",
+    "normalizedCanonical": "food security",
+    "meaningZh": "粮食安全",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "IELTS",
+      "TOEFL",
+      "environment",
+      "Postgraduate English",
+      "society"
+    ],
+    "surfaceForms": [
+      "food security",
+      "threaten food security",
+      "ensure food security",
+      "global food security"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Climate change poses a serious threat to global food security.",
+        "zh": "气候变化对全球粮食安全构成严重威胁。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-international-cooperation",
+    "canonical": "international cooperation",
+    "normalizedCanonical": "international cooperation",
+    "meaningZh": "国际合作",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "IELTS",
+      "TOEFL",
+      "global",
+      "Postgraduate English",
+      "diplomacy"
+    ],
+    "surfaceForms": [
+      "international cooperation",
+      "require international cooperation",
+      "strengthen international cooperation",
+      "through international cooperation"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "International cooperation is essential to address global environmental challenges.",
+        "zh": "国际合作对于应对全球环境挑战至关重要。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-carbon-dioxide",
+    "canonical": "carbon dioxide",
+    "normalizedCanonical": "carbon dioxide",
+    "meaningZh": "二氧化碳",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "science",
+      "CET4",
+      "IELTS",
+      "TOEFL",
+      "environment"
+    ],
+    "surfaceForms": [
+      "carbon dioxide",
+      "absorb carbon dioxide",
+      "carbon dioxide levels",
+      "emit carbon dioxide"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Forests absorb carbon dioxide and release oxygen through photosynthesis.",
+        "zh": "森林通过光合作用吸收二氧化碳并释放氧气。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-ecosystems",
+    "canonical": "ecosystems",
+    "normalizedCanonical": "ecosystems",
+    "meaningZh": "生态系统",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "TOEFL",
+      "environment",
+      "ecology",
+      "IELTS"
+    ],
+    "surfaceForms": [
+      "ecosystems",
+      "disrupt ecosystems",
+      "protect ecosystems",
+      "marine ecosystems"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Pollution and habitat destruction disrupt ecosystems and threaten countless species.",
+        "zh": "污染和栖息地破坏破坏生态系统并威胁无数物种。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-conserve-energy",
+    "canonical": "conserve energy",
+    "normalizedCanonical": "conserve energy",
+    "meaningZh": "节约能源",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "daily life",
+      "sustainability",
+      "CET4",
+      "IELTS"
+    ],
+    "surfaceForms": [
+      "conserve energy",
+      "conserve energy at home",
+      "efforts to conserve energy",
+      "conserve energy and reduce waste"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "Simple actions like turning off lights can help conserve energy.",
+        "zh": "关灯等简单的行动有助于节约能源。"
+      }
+    ]
+  },
+  {
+    "id": "chunk-environmental-impact",
+    "canonical": "environmental impact",
+    "normalizedCanonical": "environmental impact",
+    "meaningZh": "环境影响",
+    "type": "collocation",
+    "level": "B2",
+    "tags": [
+      "TOEFL",
+      "sustainability",
+      "environment",
+      "IELTS"
+    ],
+    "surfaceForms": [
+      "environmental impact",
+      "minimize environmental impact",
+      "reduce environmental impact",
+      "assess environmental impact"
+    ],
+    "aliases": [],
+    "relatedChunkIds": [],
+    "coreExamples": [
+      {
+        "text": "The circular economy model aims to minimize environmental impact.",
+        "zh": "循环经济模式旨在最大限度减少环境影响。"
       }
     ]
   }
