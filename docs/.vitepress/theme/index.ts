@@ -19,6 +19,7 @@ import TtsSettingsPanel from '../components/TtsSettingsPanel.vue'
 import ArticlePage from '../components/ArticlePage.vue'
 import ChunkLibrary from '../components/ChunkLibrary.vue'
 import ChunkDetail from '../components/ChunkDetail.vue'
+import SelectionLookup from '../components/SelectionLookup.vue'
 
 const theme: Theme = {
   extends: DefaultTheme,
@@ -39,6 +40,7 @@ const theme: Theme = {
     app.component('ArticlePage', ArticlePage)
     app.component('ChunkLibrary', ChunkLibrary)
     app.component('ChunkDetail', ChunkDetail)
+    app.component('SelectionLookup', SelectionLookup)
   }
 }
 

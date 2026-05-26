@@ -48,9 +48,10 @@
       </div>
     </section>
 
-    <div v-else-if="loading" class="loading">加载词块中...</div>
+    <div v-if="loading && !article" class="loading">加载中...</div>
   </div>
-  <div v-else class="loading">加载文章中...</div>
+  <div v-if="!article && !loading" class="loading">文章不存在</div>
+  <SelectionLookup :articleId="articleId" />
 </template>
 
 <script setup lang="ts">
@@ -59,6 +60,7 @@ import { loadArticle } from '../composables/useArticles'
 import { getCategoryById } from '../composables/useCategories'
 import { loadArticleChunkItems } from '../composables/useArticleChunks'
 import TtsButton from './TtsButton.vue'
+import SelectionLookup from './SelectionLookup.vue'
 import type { Article, ArticleParagraph } from '../../../types/content'
 
 interface ChunkItem {
