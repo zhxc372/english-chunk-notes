@@ -12,6 +12,10 @@ import ExamTagFilter from '../components/ExamTagFilter.vue'
 import FavoritesPage from '../components/FavoritesPage.vue'
 import LessonPage from '../components/LessonPage.vue'
 import HomeLayout from '../components/HomeLayout.vue'
+import HomeSearch from '../components/HomeSearch.vue'
+import TagFilterBar from '../components/TagFilterBar.vue'
+import LessonGrid from '../components/LessonGrid.vue'
+import SearchResultList from '../components/SearchResultList.vue'
 
 const theme: Theme = {
   extends: DefaultTheme,
@@ -25,6 +29,10 @@ const theme: Theme = {
     app.component('FavoritesPage', FavoritesPage)
     app.component('LessonPage', LessonPage)
     app.component('HomeLayout', HomeLayout)
+    app.component('HomeSearch', HomeSearch)
+    app.component('TagFilterBar', TagFilterBar)
+    app.component('LessonGrid', LessonGrid)
+    app.component('SearchResultList', SearchResultList)
   }
 }
 

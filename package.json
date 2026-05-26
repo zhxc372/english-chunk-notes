@@ -5,7 +5,7 @@
   "description": "考试英语 + 技术英语双轨主题词块学习站",
   "scripts": {
     "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
+    "build": "npm run build:index "build": "vitepress build docs""build": "vitepress build docs" vitepress build docs",
     "build:index": "tsx tools/content-pipeline/generate-search-index.ts",
     "preview": "vitepress preview docs",
     "validate": "python scripts/validate_lesson_json.py",
