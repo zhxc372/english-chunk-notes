@@ -1,8 +1,8 @@
 <template>
   <!-- 闪卡训练组件 -->
   <div class="flashcard-app">
-    <!-- 模式选择 -->
-    <div v-if="!started || favorites.length === 0">
+    <!-- 模式选择 (only in internal mode) -->
+    <div v-if="!isExternalMode && (!started || favorites.length === 0)">
       <h2>🃏 闪卡训练</h2>
       <div v-if="favorites.length === 0" class="ecn-empty">
         <div class="ecn-empty-icon">📭</div>
@@ -50,7 +50,7 @@
     <div v-else>
       <!-- 顶部控制栏 -->
       <div class="train-header">
-        <button class="ecn-btn ecn-btn-sm" @click="started = false">← 返回</button>
+        <button class="ecn-btn ecn-btn-sm" @click="handleBack">← 返回</button>
         <span class="mode-label">{{ modeLabel }}</span>
         <span class="progress-text">{{ currentIndex + 1 }} / {{ cards.length }}</span>
       </div>
@@ -176,7 +176,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, watch } from 'vue'
 import { withBase } from 'vitepress'
 import { getFavorites, getWeakChunks } from '../data/types'
 import { getChunkById } from '../data/loader'
@@ -191,6 +191,20 @@ interface Card {
   lesson: Lesson
 }
 
+// Props: allow external chunks injection from DeckBuilder
+const props = withDefaults(defineProps<{
+  chunks?: Card[]
+  initialMode?: TrainMode
+}>(), {
+  chunks: undefined,
+  initialMode: undefined
+})
+
+const emit = defineEmits<{
+  (e: 'exit'): void
+}>()
+
+const isExternalMode = computed(() => !!props.chunks)
 const favorites = ref<Card[]>([])
 const mode = ref<TrainMode>('en2cn')
 const started = ref(false)
@@ -223,6 +237,9 @@ const weakCards = computed(() => {
 })
 
 const cards = computed(() => {
+  // External mode: use injected chunks
+  if (isExternalMode.value && props.chunks) return props.chunks
+  // Internal mode: use favorites or weak
   if (mode.value === 'weak') return weakCards.value
   return favorites.value
 })
@@ -268,6 +285,26 @@ function loadFavorites() {
   favorites.value = cards_
   weakCount.value = getWeakChunks().length
 }
+
+// Watch for external chunks changes
+watch(() => props.chunks, (newChunks) => {
+  if (newChunks && isExternalMode.value) {
+    started.value = false
+    currentIndex.value = 0
+    showAnswer.value = false
+    knownCount.value = 0
+    unknownCount.value = 0
+    finished.value = false
+    userInput.value = ''
+  }
+})
+
+// Auto-start when external mode is set
+watch(() => [props.chunks, props.initialMode], ([chunks, initMode]) => {
+  if (chunks && initMode && !started.value && isExternalMode.value) {
+    startMode(initMode)
+  }
+}, { immediate: true })
 
 function startMode(m: TrainMode) {
   mode.value = m
@@ -335,11 +372,22 @@ const similarityClass = computed(() => {
   return 'similarity-low'
 })
 
+function handleBack() {
+  started.value = false
+  if (isExternalMode.value) {
+    emit('exit')
+  }
+}
+
 function restart() {
   startMode(mode.value)
 }
 
-onMounted(loadFavorites)
+onMounted(() => {
+  if (!isExternalMode.value) {
+    loadFavorites()
+  }
+})
 </script>
 
 <style scoped>
