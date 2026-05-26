@@ -1,0 +1,6 @@
+#separator:Tab
+#html:true
+#deck:English Chunk Notes
+#notetype:Basic
+#tags column:7
+#columns:Front	Back	Example	Cloze	Source	Audio	Tags

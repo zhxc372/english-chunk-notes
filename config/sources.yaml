@@ -1,0 +1,172 @@
+version: 1
+daily:
+  enabled: true
+  maxArticlesPerDay: 3
+  minPublicDomainArticles: 2
+  maxSummaryOnlyArticles: 1
+  defaultTimezone: Asia/Shanghai
+  outputDir: data/lessons/drafts
+  historyFile: data/ingest/history.json
+
+policies:
+  full_text_allowed:
+    storeOriginalText: true
+    storeAudio: true
+    requireAttribution: true
+  summary_chunks_only:
+    storeOriginalText: false
+    storeAudio: false
+    requireAttribution: true
+  metadata_only:
+    storeOriginalText: false
+    storeAudio: false
+    requireAttribution: true
+    aiAnalyze: false
+
+sources:
+  - id: voa_learning_english_science
+    name: VOA Learning English - Science & Technology
+    enabled: true
+    type: listing_page
+    url: https://learningenglish.voanews.com/z/1579
+    usagePolicy: full_text_allowed
+    licenseNote: VOA Learning English content produced exclusively by VOA is public domain with credit; skip AP/Reuters/AFP third-party items.
+    attribution: Source: VOA Learning English
+    levelRange: [B1, B2]
+    topicTags: [science, technology, environment, health]
+    examTags: [IELTS, TOEFL, TechEnglish]
+    useCaseTags: [listening, retelling, writing]
+    quotaWeight: 5
+    selectors:
+      articleLinks: "a[href*='/a/']"
+      title: "h1"
+      body: "article, .wsw"
+      publishedAt: "time"
+
+  - id: voa_learning_english_as_it_is
+    name: VOA Learning English - As It Is
+    enabled: true
+    type: listing_page
+    url: https://learningenglish.voanews.com/z/3521
+    usagePolicy: full_text_allowed
+    licenseNote: Prefer VOA-produced stories. Skip agency-copyrighted media or text.
+    attribution: Source: VOA Learning English
+    levelRange: [B1, B2]
+    topicTags: [society, culture, work, education]
+    examTags: [IELTS, TOEFL]
+    useCaseTags: [listening, speaking, retelling]
+    quotaWeight: 4
+    selectors:
+      articleLinks: "a[href*='/a/']"
+      title: "h1"
+      body: "article, .wsw"
+      publishedAt: "time"
+
+  - id: voa_learning_english_health_lifestyle
+    name: VOA Learning English - Health & Lifestyle
+    enabled: true
+    type: listing_page
+    url: https://learningenglish.voanews.com/z/955
+    usagePolicy: full_text_allowed
+    licenseNote: Prefer VOA-produced stories. Skip agency-copyrighted media or text.
+    attribution: Source: VOA Learning English
+    levelRange: [B1, B2]
+    topicTags: [health, lifestyle, society]
+    examTags: [IELTS, TOEFL]
+    useCaseTags: [speaking, writing, listening]
+    quotaWeight: 4
+    selectors:
+      articleLinks: "a[href*='/a/']"
+      title: "h1"
+      body: "article, .wsw"
+      publishedAt: "time"
+
+  - id: voa_learning_english_words_stories
+    name: VOA Learning English - Words and Their Stories
+    enabled: true
+    type: listing_page
+    url: https://learningenglish.voanews.com/z/987
+    usagePolicy: full_text_allowed
+    licenseNote: Good source for idioms and spoken chunks.
+    attribution: Source: VOA Learning English
+    levelRange: [B1, C1]
+    topicTags: [language-learning, culture]
+    examTags: [TOEFL, IELTS]
+    useCaseTags: [speaking, writing, daily-expression]
+    quotaWeight: 3
+    selectors:
+      articleLinks: "a[href*='/a/']"
+      title: "h1"
+      body: "article, .wsw"
+      publishedAt: "time"
+
+  - id: github_blog
+    name: GitHub Blog
+    enabled: true
+    type: listing_page
+    url: https://github.blog/
+    usagePolicy: summary_chunks_only
+    licenseNote: Do not store full article. Store source metadata, short summary, teaching rewrite and extracted chunks only.
+    attribution: Source: GitHub Blog
+    levelRange: [B2, C1]
+    topicTags: [software-engineering, ai, productivity, technology]
+    examTags: [TechEnglish, TOEFL]
+    useCaseTags: [technical-writing, writing, argument]
+    quotaWeight: 2
+    selectors:
+      articleLinks: "a[href]"
+      title: "h1"
+      body: "article"
+      publishedAt: "time"
+
+  - id: mit_news_ai
+    name: MIT News - AI
+    enabled: true
+    type: listing_page
+    url: https://news.mit.edu/topic/artificial-intelligence2
+    usagePolicy: summary_chunks_only
+    licenseNote: MIT News has republishing conditions; avoid storing full article unless explicit permission is satisfied.
+    attribution: Source: MIT News
+    levelRange: [B2, C1]
+    topicTags: [ai, science, technology, education]
+    examTags: [TOEFL, TechEnglish, IELTS]
+    useCaseTags: [technical-writing, writing, retelling]
+    quotaWeight: 1
+    selectors:
+      articleLinks: "a[href]"
+      title: "h1"
+      body: "article"
+      publishedAt: "time"
+
+  - id: nasa_news
+    name: NASA News
+    enabled: false
+    type: listing_page
+    url: https://www.nasa.gov/news/
+    usagePolicy: summary_chunks_only
+    licenseNote: NASA media has special branding restrictions; enable only after confirming exact content policy for text/media.
+    attribution: Source: NASA
+    levelRange: [B2, C1]
+    topicTags: [science, technology, environment]
+    examTags: [TOEFL, TechEnglish, IELTS]
+    useCaseTags: [technical-writing, retelling]
+    quotaWeight: 1
+    selectors:
+      articleLinks: "a[href]"
+      title: "h1"
+      body: "article"
+      publishedAt: "time"
+
+  - id: manual_inbox
+    name: Manual URL Inbox
+    enabled: true
+    type: manual
+    url: ""
+    usagePolicy: summary_chunks_only
+    licenseNote: Default policy for manually submitted URLs. Override only after checking license.
+    attribution: Manual source
+    levelRange: [B1, C1]
+    topicTags: []
+    examTags: []
+    useCaseTags: []
+    quotaWeight: 0

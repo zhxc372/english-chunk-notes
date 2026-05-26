@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-chunk-notes.local/schemas/flashcard-export.v0.2.json",
+  "title": "Flashcard Export v0.2",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "exportedAt",
+    "deck"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "flashcards.v0.2"
+    },
+    "exportedAt": {
+      "type": "string"
+    },
+    "deck": {
+      "type": "object",
+      "required": [
+        "name",
+        "cards"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        },
+        "cards": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "front",
+              "back",
+              "tags"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "front": {
+                "type": "string"
+              },
+              "back": {
+                "type": "string"
+              },
+              "example": {
+                "type": "string"
+              },
+              "cloze": {
+                "type": "string"
+              },
+              "source": {
+                "type": "string"
+              },
+              "audio": {
+                "type": "string"
+              },
+              "tags": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
