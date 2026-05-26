@@ -28,6 +28,109 @@
   --card-padding: 20px;
 }
 
+/* 暗色主题 */
+html.dark {
+  --vp-c-brand-1: #60a5fa;
+  --vp-c-brand-2: #93c5fd;
+  --vp-c-brand-3: #bfdbfe;
+  --vp-c-brand-soft: rgba(96, 165, 250, 0.16);
+
+  --vp-bg: #0f172a;
+  --vp-bg-alt: #1e293b;
+  --vp-bg-soft: #334155;
+
+  --vp-c-text-1: #e2e8f0;
+  --vp-c-text-2: #94a3b8;
+  --vp-c-text-3: #64748b;
+
+  --vp-c-border: #334155;
+  --vp-c-divider: #334155;
+
+  --card-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2);
+  --card-shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+html.dark .ecn-tag-exam {
+  background: rgba(59, 130, 246, 0.2);
+  color: #93c5fd;
+}
+
+html.dark .ecn-tag-theme {
+  background: rgba(148, 163, 184, 0.15);
+  color: #94a3b8;
+}
+
+html.dark .ecn-tag-level {
+  background: rgba(34, 197, 94, 0.15);
+  color: #86efac;
+}
+
+html.dark .ecn-btn {
+  background: var(--vp-bg-alt);
+  border-color: var(--vp-c-border);
+  color: var(--vp-c-text-1);
+}
+
+html.dark .ecn-btn:hover {
+  background: var(--vp-bg-soft);
+}
+
+html.dark .ecn-fav-btn {
+  background: var(--vp-bg-alt);
+  border-color: var(--vp-c-border);
+}
+
+html.dark .ecn-fav-btn:hover {
+  border-color: #f87171;
+  background: rgba(248, 113, 113, 0.1);
+}
+
+html.dark .ecn-fav-btn.active {
+  border-color: #f87171;
+  background: rgba(248, 113, 113, 0.15);
+  color: #fca5a5;
+}
+
+html.dark .ecn-audio {
+  background: var(--vp-bg-soft);
+}
+
+html.dark .ecn-article {
+  background: var(--vp-bg-alt);
+}
+
+html.dark .ecn-flashcard-front {
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  border-color: #334155;
+}
+
+html.dark .ecn-flashcard-back {
+  background: linear-gradient(135deg, #14532d, #0f172a);
+  border-color: #166534;
+}
+
+html.dark .ecn-blank {
+  border-color: var(--vp-c-brand-2);
+  background: rgba(96, 165, 250, 0.1);
+}
+
+html.dark .ecn-blank.revealed {
+  color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+}
+
+html.dark .model-para {
+  background: var(--vp-bg-alt);
+}
+
+html.dark .retelling-card {
+  background: var(--vp-bg);
+}
+
+html.dark .retelling-hint p {
+  background: var(--vp-bg-soft);
+}
+
 /* 全局字体 */
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans SC', sans-serif;
