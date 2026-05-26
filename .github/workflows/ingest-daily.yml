@@ -1,0 +1,54 @@
+name: Ingest Daily Articles
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Max articles to ingest"
+        required: false
+        default: "3"
+        type: string
+  schedule:
+    - cron: "10 9 * * *"
+      timezone: "Asia/Shanghai"
+
+permissions:
+  contents: write
+  models: read
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+
+    env:
+      AI_PROVIDER: github-models
+      AI_MODEL: ${{ vars.AI_MODEL || 'openai/gpt-4o-mini' }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      DAILY_LIMIT: ${{ inputs.limit || '3' }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Ingest daily articles
+        run: npm run ingest:daily -- --limit "$DAILY_LIMIT"
+
+      - name: Validate lessons
+        run: npm run validate:lessons
+
+      - name: Commit draft lessons
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/lessons/drafts data/ingest || true
+          git commit -m "chore: ingest daily article drafts" || echo "No changes"
+          git push

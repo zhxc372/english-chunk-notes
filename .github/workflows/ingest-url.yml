@@ -1,0 +1,61 @@
+name: Ingest Single Article URL
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "Article URL"
+        required: true
+        type: string
+      topic:
+        description: "Optional topic tag"
+        required: false
+        type: string
+      usagePolicy:
+        description: "full_text_allowed | summary_chunks_only | metadata_only"
+        required: false
+        default: "summary_chunks_only"
+        type: string
+
+permissions:
+  contents: write
+  models: read
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+
+    env:
+      AI_PROVIDER: github-models
+      AI_MODEL: ${{ vars.AI_MODEL || 'openai/gpt-4o-mini' }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Ingest URL
+        run: |
+          npm run ingest:url -- "${{ inputs.url }}" \
+            --topic "${{ inputs.topic }}" \
+            --usage-policy "${{ inputs.usagePolicy }}"
+
+      - name: Validate lessons
+        run: npm run validate:lessons
+
+      - name: Commit draft lesson
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/lessons/drafts data/ingest || true
+          git commit -m "chore: ingest article draft" || echo "No changes"
+          git push
