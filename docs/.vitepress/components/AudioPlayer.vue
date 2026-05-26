@@ -6,7 +6,7 @@
     </span>
     <template v-else>
       <span>🎧</span>
-      <audio controls preload="none" :src="audioSrc">
+      <audio controls preload="none" :src="resolvedSrc">
         浏览器不支持音频播放
       </audio>
     </template>
@@ -14,7 +14,12 @@
 </template>
 
 <script setup lang="ts">
-defineProps<{
+import { computed } from 'vue'
+import { withBase } from 'vitepress'
+
+const props = defineProps<{
   audioSrc: string
 }>()
+
+const resolvedSrc = computed(() => withBase(props.audioSrc))
 </script>
