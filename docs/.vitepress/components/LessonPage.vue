@@ -113,6 +113,37 @@
         </details>
       </div>
     </section>
+
+    <!-- 来源归属 (v0.2) -->
+    <section class="lesson-section" v-if="lesson.source">
+      <h2>📋 来源信息</h2>
+      <div class="source-attribution">
+        <div v-if="lesson.source.name" class="source-row">
+          <span class="source-label">来源</span>
+          <span>{{ lesson.source.name }}</span>
+        </div>
+        <div v-if="lesson.source.url" class="source-row">
+          <span class="source-label">原文</span>
+          <a :href="lesson.source.url" target="_blank" rel="noopener">{{ lesson.source.url }}</a>
+        </div>
+        <div v-if="lesson.source.author" class="source-row">
+          <span class="source-label">作者</span>
+          <span>{{ lesson.source.author }}</span>
+        </div>
+        <div v-if="lesson.source.publishedAt" class="source-row">
+          <span class="source-label">发布日期</span>
+          <span>{{ lesson.source.publishedAt }}</span>
+        </div>
+        <div v-if="lesson.source.license" class="source-row">
+          <span class="source-label">许可</span>
+          <span>{{ lesson.source.license }}</span>
+        </div>
+        <div v-if="lesson.source.attribution" class="source-row">
+          <span class="source-label">署名</span>
+          <span>{{ lesson.source.attribution }}</span>
+        </div>
+      </div>
+    </section>
   </div>
 
   <!-- 找不到 lesson -->
@@ -340,5 +371,39 @@ function flipNext() {
   padding: 1px 4px;
   border-radius: 3px;
   font-weight: 600;
+}
+
+.source-attribution {
+  padding: 16px;
+  background: var(--vp-c-bg-soft);
+  border-radius: 8px;
+  border: 1px solid var(--vp-c-divider);
+}
+
+.source-row {
+  display: flex;
+  gap: 12px;
+  padding: 6px 0;
+  font-size: 0.88rem;
+}
+
+.source-row:not(:last-child) {
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.source-label {
+  color: var(--vp-c-text-3);
+  min-width: 60px;
+  flex-shrink: 0;
+}
+
+.source-row a {
+  color: var(--vp-c-brand);
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.source-row a:hover {
+  text-decoration: underline;
 }
 </style>
